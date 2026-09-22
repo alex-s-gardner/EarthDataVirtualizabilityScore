@@ -23,26 +23,30 @@ here is ruled out on what the file is rather than on what the catalog calls it.
 | A | GPM/DPR+GMI | GPM_3IMERGDF | L3 | NetCDF | NASA/GSFC/SED/ESD/TISL/GESDISC | us-west-2 | partial | yes | yes | yes | 1×3600×900 | 2.622 | 10135 | 0.303 | yes | no blocker |
 | A | GPM/DPR+GMI | GPM_3IMERGHH | L3 | HDF5 | NASA/GSFC/SED/ESD/TISL/GESDISC | us-west-2 | partial | yes | yes | yes | 1×145×1800 | 0.052 | 486480 | 3.851 | yes | no blocker |
 | A | GRACE | TELLUS_GRAC_L3_JPL_RL06_LND_v04 | L3 | netCDF-4 | NASA/JPL/PODAAC | us-west-2 | yes | yes | yes | yes | 1×180×360 | 0.518 | 163 | 0.0 | yes | no blocker |
-| A | NLDAS (model) | NLDAS_FORA0125_H | L4 | NetCDF | NASA/GSFC/SED/ESD/TISL/GESDISC | us-west-2 | yes | yes | yes | yes | 1×224×464 | 0.092 | 418248 | 0.738 | yes | no blocker |
+| A | NLDAS (model) | NLDAS_FORA0125_H | L4 | NetCDF | NASA/GSFC/SED/ESD/TISL/GESDISC | us-west-2 | yes | yes | yes | yes | 1×224×464 | 0.092 | 418259 | 0.738 | yes | no blocker |
 | A | multi-sensor (OSTIA) | OSTIA-UKMO-L4-GLOB-REP-v2.0 | L4 | netCDF-4 | NASA/JPL/PODAAC | us-west-2 | yes | yes | yes | yes | 1×1200×2400 | 1.229 | 15340 | 0.245 | yes | no blocker |
 | B | CERES | CERES_EBAF-TOA | L4 | netCDF-3 | NASA/LARC/SD/ASDC | us-west-2 | — | yes | yes | yes | 1×180×360 | 0.259 | 2 | 0.002 | no | P-md: not measured (parser bypasses the instrumented reader) |
 | B | Daymet (model) | Daymet_Daily_V4R1_2129 | L4 | netCDF-4 | ORNL_DAAC | us-west-2 | partial | yes | yes | yes | 1×231×364 | 0.026 | 1176 | 0.012 | yes | P-sz: tmin: median stored chunk 0.026 MB in 365 chunks — latency-bound |
 | B | ICESat-2/ATLAS | ATL15 | L3 | netCDF-4 | NASA NSIDC DAAC | us-west-2 | no | — | — | yes | 44×112×132 | 0.963 | 80 | 0.008 | no | H2: no data array appears in two opened granules; H3: no data array appears in two opened granules; G: coordinates read for one granule only, so no cross-granule comparison — measured delta_h/x/delta_h/y/tile_stats/x/tile_stats/y on 1 granules; step 10000.0; P-md: median 29 blocks in 21 runs, 3% leading |
-| B | ISS/ECOSTRESS | ECO_L2T_LSTE | L2 | COG | LP DAAC | us-west-2 | yes | yes | yes | no | 512×512 | 0.002 | 3934770 | 7.611 | no | T: file declares no dimension names; P-sz: band: median stored chunk 0.002 MB in 16 chunks — latency-bound |
+| B | ISS/ECOSTRESS | ECO_L2T_LSTE | L2 | COG | LP DAAC | us-west-2 | yes | yes | yes | no | 512×512 | 0.002 | 3934771 | 7.611 | no | T: file declares no dimension names; P-sz: band: median stored chunk 0.002 MB in 16 chunks — latency-bound |
 | B | ISS/EMIT | EMITL1BRAD | L1B | netCDF-4 | LP DAAC | us-west-2 | partial | no | — | no | 1280×1242×11 | 69.949 | 8923 | 0.971 | yes | H2: chunk shape differs for smaller variables (2 of 4 variables — location/glt_x: [1890, 2062] vs [1890, 2070] vs [952, 1101] vs [951, 1105]); obs is stable, so a cube over it is available; T: no time dimension |
 | B | ISS/EMIT | EMITL2ARFL | L2A | netCDF-4 | LP DAAC | us-west-2 | partial | no | — | no | 1280×1242×285 | 1812.326 | 8755 | 16.43 | yes | H2: chunk shape differs for smaller variables (2 of 8 variables — location/glt_x: [1890, 2062] vs [1890, 2070] vs [952, 1101] vs [951, 1105]); reflectance is stable, so a cube over it is available; T: no time dimension |
 | B | ISS/GEDI | GEDI02_A | L2A | HDF5 | LP DAAC | us-west-2 | no | no | — | partial | 596×13 | 0.0 | 96864 | 3.096 | no | H2: no data array appears in two opened granules; H3: no data array appears in two opened granules; T: time variable "beam0000/delta_time" but no time dimension; P-md: median 128 blocks in 22 runs, 7% leading; P-sz: BEAM0010/rh: median stored chunk 0.0 MB in 128 chunks — latency-bound |
 | B | Landsat 8-9/OLI | HLSL30 | L3 | COG | LP DAAC | us-west-2 | yes | partial | yes | no | 256×256 | 0.057 | 16032812 | 313.955 | no | G: 2 projections across 2 tile origins (EPSG:32659, ProjectionGeoKey:16059) — one grid per tile, each internally on a 30 m lattice; T: file declares no dimension names |
+| B | NISAR/L-SAR | NISAR_L2_GCOV_PROVISIONAL_V1 | L2 | CSV+HDF5+KML+PDF+PNG+XML+YAML | ASF | us-west-2 | partial | yes | yes | partial | 512×512 | 0.526 | 120156 | 849.191 | no | T: time variable "science/lsar/gcov/metadata/attitude/time" but no time dimension |
+| B | NISAR/L-SAR | NISAR_L2_GSLC_PROVISIONAL_V1 | L2 | CSV+HDF5+KML+PDF+PNG+XML+YAML | ASF | us-west-2 | partial | yes | yes | partial | 512×512 | 1.003 | 119395 | 2655.13 | no | T: time variable "science/lsar/gslc/metadata/attitude/time" but no time dimension |
+| B | NISAR/L-SAR | NISAR_L2_GUNW_PROVISIONAL_V1 | L2 | CSV+HDF5+KML+PDF+PNG+XML+YAML | ASF | us-west-2 | partial | yes | yes | partial | 512×512 | 0.009 | 66606 | 89.816 | no | T: time variable "science/lsar/gunw/metadata/attitude/reference/time" but no time dimension; P-sz: science/LSAR/GUNW/grids/frequencyA/wrappedInterferogram/HH/wrappedInterferogram: median stored chunk 0.009 MB in 1056 chunks — latency-bound |
+| B | NISAR/L-SAR | NISAR_L3_SME2_PROVISIONAL_V1 | L3 | HDF5+XML+YAML | ASF | us-west-2 | yes | yes | yes | no | 512×512 | 0.007 | 76624 | 8.436 | no | T: no time dimension; P-sz: science/LSAR/SME2/grids/algorithmCandidates/DSG/algorithmParameterBeta: median stored chunk 0.007 MB in 16 chunks — latency-bound |
 | B | PACE/OCI | PACE_OCI_L3M_BGC | L3 | netCDF-4 | NASA/GSFC/SED/ESD/GCDC/OB.DAAC | us-west-2 | partial | yes | yes | no | 16×1024 | 0.003 | 2000 | 0.082 | no | T: no time dimension; P-sz: carbon_phyto: median stored chunk 0.003 MB in 2430 chunks — latency-bound |
 | B | SMAP/L-band radiometer | SMAP_JPL_L3_SSS_CAP_MONTHLY_V5 | L3 | netCDF-4 | NASA/JPL/PODAAC | us-west-2 | partial | yes | yes | partial | 720×1440 | 1.115 | 135 | 0.001 | yes | T: "time" is a time coordinate, but no data array is laid out on it, so a time axis has to be added when the store is built |
 | B | SMAP/L-band radiometer | SPL3SMP | L3 | HDF5 | NASA NSIDC DAAC | us-west-2 | partial | — | — | partial | 1×964×3 | 0.001 | 4108 | 0.13 | yes | G: no projection attribute or spatial coordinate array reached the probe, so the grid is unmeasured, not absent; T: time variable "soil_moisture_retrieval_data_am/tb_time_seconds" but no time dimension; P-sz: Soil_Moisture_Retrieval_Data_AM/landcover_class_fraction: median stored chunk 0.001 MB in 406 chunks — latency-bound |
 | B | SMAP/L-band radiometer | SPL4SMGP | L4 | HDF5 | NASA NSIDC DAAC | us-west-2 | no | yes | yes | partial | 1624×3856 | 1.455 | 33528 | 4.968 | yes | T: time variable "time" but no time dimension; P-md: median 32 blocks in 28 runs, 9% leading |
 | B | SWOT/KaRIn | SWOT_L2_HR_Raster_2.0 | L2 | netCDF-4 | NASA/JPL/PODAAC | us-west-2 | no | yes | yes | partial | 518×518 | 0.281 | 1556453 | 78.075 | no | T: time variable "illumination_time" but no time dimension; P-md: median 32 blocks in 16 runs, 3% leading |
-| B | Sentinel-1/C-SAR (OPERA) | OPERA_L2_RTC-S1_V1 | L2 | GeoTIFF+HDF5+XML | ASF | us-west-2 | yes | yes | yes | no | 512×512 | 0.044 | 74656563 | 508.176 | no | T: file declares no dimension names; P-sz: band: median stored chunk 0.044 MB in 28 chunks — latency-bound |
-| B | Sentinel-1/C-SAR (OPERA) | OPERA_L3_DSWX-HLS_V1 | L3 | COG | NASA/JPL/PODAAC | us-west-2 | yes | yes | yes | no | 512×512 | 0.001 | 20930706 | 3.054 | no | T: file declares no dimension names; P-sz: band: median stored chunk 0.001 MB in 64 chunks — latency-bound |
+| B | Sentinel-1/C-SAR (OPERA) | OPERA_L2_RTC-S1_V1 | L2 | GeoTIFF+HDF5+XML | ASF | us-west-2 | yes | yes | yes | no | 512×512 | 0.044 | 74657047 | 508.18 | no | T: file declares no dimension names; P-sz: band: median stored chunk 0.044 MB in 28 chunks — latency-bound |
+| B | Sentinel-1/C-SAR (OPERA) | OPERA_L3_DSWX-HLS_V1 | L3 | COG | NASA/JPL/PODAAC | us-west-2 | yes | yes | yes | no | 512×512 | 0.001 | 20930812 | 3.054 | no | T: file declares no dimension names; P-sz: band: median stored chunk 0.001 MB in 64 chunks — latency-bound |
 | B | Sentinel-2/MSI | HLSS30 | L3 | COG | LP DAAC | us-west-2 | yes | yes | yes | no | 256×256 | 0.001 | 21959038 | 7.627 | no | T: file declares no dimension names; P-sz: band: median stored chunk 0.001 MB in 225 chunks — latency-bound |
 | B | Suomi-NPP/VIIRS | VNP02MOD | L1B | netCDF-4 | NASA/GSFC/SED/ESD/HBSL/BISB/LAADS | us-west-2 | no | no | — | partial | 16×3200 | 0.041 | 1267247 | 86.525 | no | H2: chunk shape differs for smaller variables (2 of 42 variables — number_of_lines: [3248] vs [3232]); observation_data/M13 is stable, so a cube over it is available; T: time variable "scan_line_attributes/ev_mid_time" but no time dimension; P-md: median 36 blocks in 17 runs, 8% leading; P-sz: observation_data/M13: median stored chunk 0.041 MB in 202 chunks — latency-bound |
-| B | TEMPO | TEMPO_NO2_L3 | L3 | netCDF-4 | NASA/LARC/SD/ASDC | us-west-2 | no | yes | yes | yes | 1×738×1938 | 1.068 | 17073 | 12.661 | yes | P-md: median 50 blocks in 46 runs, 4% leading |
+| B | TEMPO | TEMPO_NO2_L3 | L3 | netCDF-4 | NASA/LARC/SD/ASDC | us-west-2 | no | yes | yes | yes | 1×738×1938 | 1.068 | 17074 | 12.662 | yes | P-md: median 50 blocks in 46 runs, 4% leading |
 | B | Terra+Aqua/MODIS | MCD43A3 | L3 | HDF-EOS2 | LP DAAC | us-west-2 | — | — | — | no | 100×2400 | 0.218 | 2981668 | 291.993 | no | P-md: not measured (parser bypasses the instrumented reader); G: no projection attribute or spatial coordinate array reached the probe, so the grid is unmeasured, not absent; T: no time dimension |
 | B | Terra/MODIS | MOD021KM | L1B | NetCDF-4 | NASA/GSFC/SED/ESD/HBSL/BISB/LAADS | us-west-2 | partial | no | — | no | 6×2030×1354 | 17.82 | 2757014 | 164.393 | no | T: no time dimension |
 | B | Terra/MODIS | MOD10A1 | L3 | HDF-EOS2 | NASA NSIDC DAAC | us-west-2 | — | — | — | no | 2400×2400 | — | 2927249 | 21.037 | no | H2: one chunk shape per variable across 7 variables in 4 granules, but each granule is one chunk spanning its whole array, which pins the cube's chunk shape to these exact dimensions, and the grid went unmeasured, so whether every granule carries these dimensions is unestablished rather than observed; P-sz: NDSI: no stored chunk length the format could produce, so the parser did not record one; P-md: not measured (parser bypasses the instrumented reader); G: no projection attribute or spatial coordinate array reached the probe, so the grid is unmeasured, not absent; T: no time dimension |
@@ -53,17 +57,19 @@ here is ruled out on what the file is rather than on what the catalog calls it.
 | D | Aqua/MODIS | MODISA_L3m_CHL | L3 | netCDF-4 | NASA/GSFC/SED/ESD/GCDC/OB.DAAC | us-west-2 | partial | yes | no | no | 44×87 | 0.0 | 27028 | 0.288 | no | H2: chunk shape differs across granules (1 of 2 variables — chlor_a: [44, 87] vs [16, 1024]) |
 | D | Aura/OMI | OMDOAO3 | L2 | netCDF-4 | NASA/GSFC/SED/ESD/TISL/GESDISC | us-west-2 | yes | no | no | yes | 1×1644×60 | 0.229 | 113357 | 1.107 | yes | H2: chunk shape differs across granules (52 of 57 variables — PRODUCT/SUPPORT_DATA/DETAILED_RESULTS/air_mass_factor: [1, 1644, 60] vs [1, 1643, 60] vs [1, 1494, 60]) |
 | D | CERES | CERES_EBAF | L4 | netCDF-4 | NASA/LARC/SD/ASDC | us-west-2 | no | yes | no | yes | 104×60×120 | 1.432 | 3 | 0.006 | yes | H2: chunk shape differs across granules (123 of 248 variables — cldarea_total_daynight_mon: [104, 60, 120] vs [105, 60, 120]) |
-| D | GPM/DPR | GPM_2ADPR | L2 | NetCDF | NASA/GSFC/SED/ESD/TISL/GESDISC | us-west-2 | no | no | no | no | 15×49×176×2 | 0.448 | 70433 | 26.893 | yes | H3: interior partial chunk on concatenation (274 of 274 variables) — FS/PRE/zFactorMeasured dim 1: size 7925 not a multiple of chunk 15 |
+| D | GPM/DPR | GPM_2ADPR | L2 | NetCDF | NASA/GSFC/SED/ESD/TISL/GESDISC | us-west-2 | no | no | no | no | 15×49×176×2 | 0.448 | 70448 | 26.899 | yes | H3: interior partial chunk on concatenation (274 of 274 variables) — FS/PRE/zFactorMeasured dim 1: size 7925 not a multiple of chunk 15 |
 | D | ICESat-2/ATLAS | ATL03 | L2A | HDF5 | NASA NSIDC DAAC | us-west-2 | yes | no | no | yes | 100000 | 0.458 | 583529 | 413.627 | yes | H3: interior partial chunk on concatenation (560 of 1007 variables) — gt3r/heights/lat_ph dim 1: size 6227159 not a multiple of chunk 100000 |
 | D | ICESat-2/ATLAS | ATL06 | L3 | HDF5 | NASA NSIDC DAAC | us-west-2 | yes | — | no | yes | 10000×748 | 0.339 | 438157 | 18.378 | yes | H3: interior partial chunk on concatenation (488 of 551 variables) — gt3l/residual_histogram/count dim 1: size 491 not a multiple of chunk 10000 |
 | D | ISS/GEDI | GEDI02_B | L2B | HDF5 | LP DAAC | us-west-2 | partial | no | no | partial | 14200 | 0.006 | 96872 | 5.306 | no | H3: interior partial chunk on concatenation (112 of 1664 variables) — BEAM1000/rx_processing/pgap_theta_z_a10 dim 1: size 45160 not a multiple of chunk 14200 |
 | D | MetOp-A/ASCAT | ASCATA-L2-Coastal | L2 | netCDF-4 | NASA/JPL/PODAAC | us-west-2 | yes | no | no | partial | 3251×82 | 0.17 | 57983 | 0.158 | yes | H2: chunk shape differs across granules (9 of 9 variables — bs_distance: [3251, 82] vs [3258, 82] vs [3264, 82]) |
+| D | NISAR/L-SAR | NISAR_L1_RSLC_PROVISIONAL_V1 | L1 | CSV+HDF5+KML+PDF+PNG+XML+YAML | ASF | us-west-2 | yes | no | no | partial | 512×512 | 0.989 | 121710 | 3169.88 | no | H3: granule extents differ on two or more axes (6 of 11 variables), so the granules are different regions rather than slices of one array — science/LSAR/RSLC/swaths/frequencyA/HH: 36480×52783 vs 53200×52968 vs 54720×52970 vs 54720×52967 |
 | D | PACE/OCI | PACE_OCI_L2_AOP | L2 | netCDF-4 | NASA/GSFC/SED/ESD/GCDC/OB.DAAC | us-west-2 | no | no | no | partial | 32×256×40 | 0.05 | 120491 | 28.902 | no | H3: interior partial chunk on concatenation (20 of 31 variables) — geophysical_data/Rrs dim 1: size 1709 not a multiple of chunk 32 |
 | D | SMAP/L-band radiometer | SPL2SMP_E | L2 | HDF5 | NASA NSIDC DAAC | us-west-2 | partial | no | no | partial | 269166 | 1.283 | 120087 | 3.197 | no | H2: chunk shape differs across granules (92 of 92 variables — Soil_Moisture_Retrieval_Data/tb_time_seconds: [269166] vs [268969] vs [267218] vs [268835]) |
+| D | SWOT/KaRIn | SWOT_L2_HR_PIXC_2.0 | L2 | netCDF-4 | NASA/JPL/PODAAC | us-west-2 | partial | no | no | partial | 402169 | 0.006 | 2996378 | 105.709 | yes | H2: chunk shape differs across granules (83 of 83 variables — pixel_cloud/illumination_time: [402169] vs [410854] vs [384517] vs [386222]) |
 | D | SWOT/KaRIn | SWOT_L2_LR_SSH_2.0 | L2 | netCDF-4 | NASA/JPL/PODAAC | us-west-2 | partial | no | no | partial | 9865×69 | 0.924 | 90959 | 0.911 | yes | H2: chunk shape differs across granules (23 of 23 variables — geoid: [9865, 69] vs [9866, 69]) |
 | D | Suomi-NPP/VIIRS | VIIRSN_L3m_CHL | L3 | netCDF-4 | NASA/GSFC/SED/ESD/GCDC/OB.DAAC | us-west-2 | partial | yes | no | no | 44×87 | 0.001 | 13910 | 0.238 | no | H2: chunk shape differs across granules (1 of 2 variables — chlor_a: [44, 87] vs [16, 1024]) |
-| D | TEMPO | TEMPO_NO2_L2 | L2 | netCDF-4 | NASA/LARC/SD/ASDC | us-west-2 | no | no | no | partial | 123×128×72 | 0.237 | 123080 | 17.317 | yes | H2: chunk shape differs across granules (40 of 41 variables — support_data/gas_profile: [123, 128, 72] vs [128, 128, 72]) |
-| F | Aqua/AIRS | AIRS2RET | L2 | HDF-EOS | NASA/GSFC/SED/ESD/TISL/GESDISC | us-west-2 | — | — | — | — | — | — | 2072651 | — | yes | H0: parser refused all 4 granules opened: HDF4 backend cannot read the HDF-EOS2 vgroup holding the data-block references |
+| D | TEMPO | TEMPO_NO2_L2 | L2 | netCDF-4 | NASA/LARC/SD/ASDC | us-west-2 | no | no | no | partial | 123×128×72 | 0.237 | 123089 | 17.318 | yes | H2: chunk shape differs across granules (40 of 41 variables — support_data/gas_profile: [123, 128, 72] vs [128, 128, 72]) |
+| F | Aqua/AIRS | AIRS2RET | L2 | HDF-EOS | NASA/GSFC/SED/ESD/TISL/GESDISC | us-west-2 | — | — | — | — | — | — | 2072654 | — | yes | H0: parser refused all 4 granules opened: HDF4 backend cannot read the HDF-EOS2 vgroup holding the data-block references |
 | F | Aqua/MODIS | MYD04_L2 | L2 | HDF-EOS | NASA/GSFC/SED/ESD/HBSL/BISB/LAADS | us-west-2 | — | — | — | — | — | — | 1365731 | — | no | H0: parser refused all 4 granules opened: HDF4 backend derived a dimension-name list of the wrong length for the array's rank |
 | F | Aqua/MODIS+CERES | CER_SSF1deg-Day_Aqua-MODIS | L3 | HDF4 | NASA/LARC/SD/ASDC | us-west-2 | — | — | — | — | — | — | 278 | — | no | H0: parser refused all 3 granules opened: HDF4 backend failed decoding a vgroup name as UTF-8 |
 | F | CALIPSO/CALIOP | CAL_LID_L1-Standard-V4-51 | L1B | HDF4 | NASA/LARC/SD/ASDC | us-west-2 | — | — | — | — | — | — | 162326 | — | no | H0: parser refused all 4 granules opened: HDF4 backend failed decoding a vgroup name as UTF-8 |
@@ -125,7 +131,7 @@ No collection in this set graded C.
 
 ## How each column was measured
 
-**Sampling.** 222 granules across 58 collections (2 collections at 1, 2 collections at 2, 54 collections at 4). 8 of those were not opened: a collection is abandoned after its first granule exhausts the probe budget, since granules written by one producer share a chunk index layout. Granules are chosen adversarially rather than at random: the
+**Sampling.** 246 granules across 64 collections (2 collections at 1, 2 collections at 2, 60 collections at 4). 8 of those were not opened: a collection is abandoned after its first granule exhausts the probe budget, since granules written by one producer share a chunk index layout. Granules are chosen adversarially rather than at random: the
 two earliest in the record and the two latest, which is what exposes a producer changing chunk
 shape or CF attributes mid-mission. The sample spans both orbit directions for MIL2TCST, which is where a shared projection with a different chunk origin can appear.
 
@@ -290,7 +296,7 @@ file per band or per polarization, stage 2 takes the asset the most granules off
 partition is the granule itself, stage 2 restricts the CMR query with a
 `readable_granule_name` pattern before drawing the ends of the record, so the early-and-late
 contrast is taken within the narrowed series rather than across the whole collection.
-24 collections are narrowed this way. Their grades describe a cube over one value of
+30 collections are narrowed this way. Their grades describe a cube over one value of
 the partition across the full time record — for a tiled product, a cube per tile, which is the
 only cube its grid admits.
 
@@ -300,6 +306,10 @@ only cube its grid admits.
 | B | ATL15 | region A1, monthly, 10 km | 1 |
 | B | ECO_L2T_LSTE | MGRS tile 41SPS | 4 |
 | B | HLSL30 | MGRS tile T59WNT | 4 |
+| B | NISAR_L2_GCOV_PROVISIONAL_V1 | track 004 ascending, frame 018, DHDH polarization | 4 |
+| B | NISAR_L2_GSLC_PROVISIONAL_V1 | track 004 ascending, frame 018, DHDH polarization | 4 |
+| B | NISAR_L2_GUNW_PROVISIONAL_V1 | track 036 ascending, frame 163, across cycle pairs | 4 |
+| B | NISAR_L3_SME2_PROVISIONAL_V1 | track 004 ascending, frame 018, DHDH polarization | 4 |
 | B | PACE_OCI_L3M_BGC | daily composite at 4 km | 4 |
 | B | SWOT_L2_HR_Raster_2.0 | 100 m raster, UTM zone 10T, pass 013, scene 114F — a calibration-orbit scene, so the sample covers 2023 alone | 4 |
 | B | OPERA_L2_RTC-S1_V1 | track 063, burst 133239, subswath IW1 | 4 |
@@ -311,7 +321,9 @@ only cube its grid admits.
 | B | MOD13Q1 | sinusoidal tile h08v05 | 4 |
 | B | NSIDC-0776 | RGI region 03A | 4 |
 | D | MODISA_L3m_CHL | daily composite at 4 km | 4 |
+| D | NISAR_L1_RSLC_PROVISIONAL_V1 | track 004 ascending, frame 018, DHDH polarization | 4 |
 | D | SPL2SMP_E | ascending half-orbits | 4 |
+| D | SWOT_L2_HR_PIXC_2.0 | pass 166, tile 299L | 4 |
 | D | SWOT_L2_LR_SSH_2.0 | the Basic product file | 4 |
 | D | VIIRSN_L3m_CHL | daily composite at 4 km | 4 |
 | D | TEMPO_NO2_L2 | mirror step G01 of each scan | 4 |
@@ -333,18 +345,22 @@ against the pattern before the sample is drawn.
 
 The remaining differences are counted by a mechanical check: it takes the tokens of each sampled
 granule's filename, collapses the timestamps, and reports whatever tokens the granules do not have
-in common. 10 collections still differ, and each difference is one the sample keeps on
+in common. 14 collections still differ, and each difference is one the sample keeps on
 purpose — a counter that is the time step, or a change the archive really contains and a cube
 really has to span.
 
 | Grade | Product | Granules differ in | Kept because |
 |---|---|---|---|
 | B | GEDI02_A | O01753, O37238, T01683, T09057 | the orbit and track numbers index position along the record, not a partition |
+| B | NISAR_L2_GCOV_PROVISIONAL_V1 | F, N, P | the mode and frame-coverage flags differ between acquisitions of one frame, which the fixed frame grid absorbs; the frame itself is pinned |
+| B | NISAR_L2_GSLC_PROVISIONAL_V1 | F, N, P | the mode and frame-coverage flags differ between acquisitions of one frame, which the fixed frame grid absorbs; the frame itself is pinned |
+| B | NISAR_L3_SME2_PROVISIONAL_V1 | F, N, P | the mode and frame-coverage flags differ between acquisitions of one frame, which the fixed frame grid absorbs; the frame itself is pinned |
 | B | SPL4SMGP | Vv8010, Vv8011 | the two processing versions are both part of the record, and whether a cube spans a version change is the question rather than a nuisance to remove |
 | B | OPERA_L2_RTC-S1_V1 | S1A, S1C | a burst is imaged by whichever Sentinel-1 satellite is overhead, so the platform changes within one cube by construction |
 | B | OPERA_L3_DSWX-HLS_V1 | S2A, S2B | the product fuses Sentinel-2 and Landsat, so the platform changes within one cube by construction |
 | B | TEMPO_NO2_L3 | S001, S002, S003, S004 | the scan number is the time step; every scan is the same CONUS grid |
 | D | GEDI02_B | O01753, O37238, T01683, T09057 | the orbit and track numbers index position along the record, not a partition |
+| D | NISAR_L1_RSLC_PROVISIONAL_V1 | F, N, P | the mode and frame-coverage flags differ between acquisitions of one frame, which the fixed frame grid absorbs; the frame itself is pinned |
 | D | SWOT_L2_LR_SSH_2.0 | PGC0, PIC2 | the two processing versions are both part of the record; the product file is pinned |
 | D | TEMPO_NO2_L2 | S001G01, S002G01, S003G01, S004G01 | the scan number is the time step; the mirror step within a scan is pinned |
 | F | CAL_LID_L1-Standard-V4-51 | #ZD, #ZN | day and night granules are both part of the record |
@@ -353,7 +369,7 @@ really has to span.
 
 ## Coverage
 
-58 collections, 222 granules opened or attempted.
+64 collections, 246 granules opened or attempted.
 
 Collections where not every sampled granule opened:
 

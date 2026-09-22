@@ -3,7 +3,7 @@
 Ranks NASA Earthdata collections by whether their archives can be served as lazy Zarr datacubes
 **without duplicating bytes**.
 
-**[results/report.md](results/report.md)** is the output: 58 collections graded A–F, each with the
+**[results/report.md](results/report.md)** is the output: 64 collections graded A–F, each with the
 criterion that decided it and the measurement behind it. **[results/verification.md](results/verification.md)**
 tests the grades by building real virtual stores over the archive.
 

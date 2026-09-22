@@ -95,6 +95,26 @@ const PARTITIONS = Dict(
 
     # One file per 1° tile of a single-epoch DEM.
     "SRTMGL1" => Partition("N00E013*", "the 1° tile at 0°N 13°E"),
+
+    # A NISAR frame repeats on its track each cycle, and the polarization is an acquisition mode
+    # rather than a time step, so a frame in one mode is the series that stacks.
+    "NISAR_L1_RSLC_PROVISIONAL_V1" =>
+        Partition("*_004_A_018_4005_DHDH_*", "track 004 ascending, frame 018, DHDH polarization"),
+    "NISAR_L2_GSLC_PROVISIONAL_V1" =>
+        Partition("*_004_A_018_4005_DHDH_*", "track 004 ascending, frame 018, DHDH polarization"),
+    "NISAR_L2_GCOV_PROVISIONAL_V1" =>
+        Partition("*_004_A_018_4005_DHDH_*", "track 004 ascending, frame 018, DHDH polarization"),
+    "NISAR_L3_SME2_PROVISIONAL_V1" =>
+        Partition("*_004_A_018_4005_DHDH_*", "track 004 ascending, frame 018, DHDH polarization"),
+
+    # An interferogram names the cycle pair it was formed from, so the stack is one frame across
+    # pairs rather than one pair across time.
+    "NISAR_L2_GUNW_PROVISIONAL_V1" =>
+        Partition("*_036_A_163_*", "track 036 ascending, frame 163, across cycle pairs"),
+
+    # A SWOT pixel-cloud tile is one side of one pass, which is what repeats each cycle.
+    "SWOT_L2_HR_PIXC_2.0" =>
+        Partition("SWOT_L2_HR_PIXC_*_166_299L_*", "pass 166, tile 299L"),
 )
 
 """
@@ -128,6 +148,17 @@ const DIFFERENCES_KEPT = Dict(
         "the product fuses Sentinel-2 and Landsat, so the platform changes within one cube by " *
         "construction",
 )
+
+# A NISAR granule name ends in flags for acquisition mode and for whether the frame was fully or
+# partly covered. They vary between acquisitions of one frame and the arrays do not: a frame is a
+# fixed geographic tile, so every cycle yields the same grid at the same chunking whatever the flags
+# say. Keeping them in the sample is what demonstrates that.
+for _nisar in ("NISAR_L1_RSLC_PROVISIONAL_V1", "NISAR_L2_GSLC_PROVISIONAL_V1",
+               "NISAR_L2_GCOV_PROVISIONAL_V1", "NISAR_L3_SME2_PROVISIONAL_V1")
+    DIFFERENCES_KEPT[_nisar] =
+        "the mode and frame-coverage flags differ between acquisitions of one frame, which the " *
+        "fixed frame grid absorbs; the frame itself is pinned"
+end
 
 """
     partition_for(short_name) -> Union{Partition,Nothing}

@@ -106,6 +106,18 @@ const CANDIDATES = [
     # ASF and ORNL
     Candidate("Sentinel-1/C-SAR (OPERA)", "OPERA_L2_RTC-S1_V1")
     Candidate("Daymet (model)", "Daymet_Daily_V4R1_2129")
+
+    # NISAR — a mission whose products were specified for cloud access from the start, so its
+    # layouts are the interesting comparison against archives that predate object storage.
+    Candidate("NISAR/L-SAR", "NISAR_L1_RSLC_PROVISIONAL_V1")
+    Candidate("NISAR/L-SAR", "NISAR_L2_GSLC_PROVISIONAL_V1")
+    Candidate("NISAR/L-SAR", "NISAR_L2_GCOV_PROVISIONAL_V1")
+    Candidate("NISAR/L-SAR", "NISAR_L2_GUNW_PROVISIONAL_V1")
+    Candidate("NISAR/L-SAR", "NISAR_L3_SME2_PROVISIONAL_V1")
+
+    # SWOT's pixel cloud is per-pixel water returns rather than a raster, which is a geometry none
+    # of the other SWOT products here exercises.
+    Candidate("SWOT/KaRIn", "SWOT_L2_HR_PIXC_2.0")
 ]
 
 """
