@@ -9,6 +9,14 @@ using CSV, DataFrames, Dates, Statistics
 const RESULTS = joinpath(@__DIR__, "..", "results")
 
 """
+    shown_grade(g) -> String
+
+A grade as the report displays it. `A` carries a star: an archive that virtualizes as it stands is
+the outcome the criteria ask a producer for, and the table is where a reader looks for it.
+"""
+shown_grade(g) = g == "A" ? "A ⭐" : String(g)
+
+"""
     md_table(df, cols; headers) -> String
 
 A GitHub-flavored Markdown table of `cols` from `df`.
@@ -101,58 +109,90 @@ function build_report()
     path = joinpath(RESULTS, "virtualizability.csv")
     isfile(path) || error("$path missing; run scripts/04_score.jl first")
     df = CSV.read(path, DataFrame)
+    # Every Grade column renders `grade_shown`; `grade` stays the bare letter the sort and the
+    # empty-grade check read.
+    df.grade_shown = map(shown_grade, df.grade)
 
     io = IOBuffer()
     println(io, "# EarthDataVirtualizabilityScore\n")
     println(io, """
-    $(nrow(df)) NASA Earthdata collections ranked by whether their archives can be served as lazy Zarr
-    datacubes **without duplicating bytes**. Every verdict is measured by opening granule files, not
-    read from the catalog.
+    $(nrow(df)) NASA Earthdata collections graded on whether their archives can be read as lazy, cloud-native
+    datacubes **without duplicating a single byte**. Every grade is measured by opening granule files,
+    not read from the catalog.
 
-    ## Purpose
+    ## Why virtualization matters
 
-    Cloud storage changed how data is read. Block storage exposed files on a disk; object storage puts
-    each object — data, its metadata, and an identifier — in a flat space with no folders. It scales
-    massively and cheaply, but it is latency-bound: the number of get-requests, not the bandwidth,
-    usually sets how fast a read completes.
+    Most Earth observation data still reaches an analyst as files. You search a catalog, resolve the
+    query to a list of granules, download them or ask a service to subset them, and reassemble them
+    locally into the array you wanted in the first place. Every one of those steps needs a server, and
+    the server sets the limit: it meters throughput, it goes down, and it stands between the user and
+    bytes that already sit in a cloud object store.
 
-    Formats built for that paradigm — [Zarr](https://zarr-specs.readthedocs.io/en/latest/v3/core/index.html),
+    Virtualization removes the steps without moving the data. Formats built for object storage —
+    [Zarr](https://zarr-specs.readthedocs.io/en/latest/v3/core/index.html) and the tools that write
+    virtual stores over files that already exist,
     [VirtualiZarr](https://github.com/zarr-developers/VirtualiZarr),
-    [kerchunk](https://github.com/fsspec/kerchunk), [Icechunk](https://github.com/earth-mover/icechunk) —
-    abstract files away, mapping chunks into dimensioned arrays that tools like Xarray and Zarrs.jl
-    read lazily. A virtual store does this without copying anything: it maps each Zarr chunk key to a
-    `(url, offset, length)` triple in the original granule and fetches it with an HTTP range request.
+    [kerchunk](https://github.com/fsspec/kerchunk),
+    [Icechunk](https://github.com/earth-mover/icechunk) — present an archive as one dimensioned array,
+    indexed by longitude, latitude, time, and band. A virtual store holds no data at all: it maps each
+    chunk of that array to a `(url, offset, length)` triple inside an original granule and fetches it
+    with one HTTP range request. Nothing is copied and nothing is rewritten. The files stay exactly as
+    they are, and a client — Xarray, Zarrs.jl, anything that speaks Zarr — opens the whole archive as
+    a single lazy array.
 
-    The roadblock is the raw data. For an archive to be virtualizable as it stands it needs
-    consolidated metadata, one grid, and chunks that align in space. Meet all three and a lazy datacube
-    over the whole archive costs nothing but the manifest. Satellite data usually fails the third: a
-    product can be perfectly grid-aligned and still not chunk-aligned, because the image edges move
-    with every pass — a swath whose length varies by orbit puts a partial chunk in the middle of the
-    concatenated array, and ascending and descending passes can share a grid exactly while sharing no
-    chunk origin. This ranking measures which of NASA's major archives clear that bar.
+    For whoever uses the data, that changes four things:
+
+    - **The file disappears.** No granule lists, no filename conventions, no mosaicking. A query is a
+      slice: this box, these dates, this variable.
+    - **Reads are lazy and dimensioned.** A 30-year time series at one point costs a handful of range
+      requests, not a download of 30 years of global grids.
+    - **No server in the middle.** The client reads the object store directly, so access scales with
+      the object store rather than with a service's capacity, and there is no service to fund or
+      operate.
+    - **One manifest, not a second copy.** A chunk manifest holds tens of bytes per chunk of data it
+      describes, so virtualizing an archive costs the manifest and nothing else.
+
+    None of this is available by default, because virtualizability is decided at write time. A virtual
+    store can only describe an array the bytes already form: one chunk shape per variable, granules
+    that tile one grid, chunk boundaries that line up when granules are stacked, time declared as a
+    dimension. Those requirements are not demanding, and no amount of catalog metadata can supply them
+    afterward — a chunk shape, a grid origin, and a fill value are chosen once, inside a production
+    system, and they decide whether every future user of the product needs a server or none.
+
+    The requirement missed most often is chunk alignment, which is not the same as grid alignment: a
+    product can sit perfectly on a common grid and still not be chunk-aligned, because the image edges
+    move with every pass. A swath whose length varies by orbit puts a partial chunk in the middle of
+    the concatenated array, and ascending and descending passes can share a grid exactly while sharing
+    no chunk origin.
+
+    This benchmark measures which of NASA's major archives clear that bar as they stand, and names the
+    byte-level property that stops the rest.
 
     ## Method
 
-    Whether an archive can be presented as a lazy datacube is a property of how its granules were
-    written, not of the catalog. CMR publishes no chunk shapes, and its gridded-resolution field is
-    absent for most of these collections, so the deciding columns cannot come from metadata.
+    Virtualizability is a property of how an archive's granules were written, not of its catalog
+    record. CMR publishes no chunk shapes, and its gridded-resolution field is absent for most of these
+    collections, so the deciding columns cannot come from metadata.
 
     Every column below except format, DAAC, region, granule count, and level is therefore measured by
     opening granule files with VirtualiZarr's own parsers, which are what a real virtual store is built
-    from — and a parser's refusal is itself an answer, since the exception names the feature that stops
-    a chunk manifest being written. Even the two collections whose CMR format field names a container no
-    VirtualiZarr parser reads — `ASCII` and `HGT` — are checked against the granule's own first bytes
-    before that field is acted on, so a format ruled out here is ruled out on what the file is rather
-    than on what the catalog calls it.
+    from — and a parser's refusal is itself a measurement, since the exception names the feature that
+    stops a chunk manifest being written. The two collections whose CMR format field names a container
+    no VirtualiZarr parser reads — `ASCII` and `HGT` — are checked against the granule's own first
+    bytes before that field is acted on, so a format ruled out here is ruled out on what the file is
+    rather than on what the catalog calls it.
 
     Each collection is sampled at both ends of its record, narrowed first to one series of granules a
-    single cube would actually hold. Each criterion below states what it requires and what evidence
-    settles it; `results/virtualizability.csv` carries every verdict with its evidence in its own
-    column, and `results/probe/` holds the per-granule measurements all of them derive from.
+    single cube would actually hold. Nine criteria are then evaluated per collection, each reduced to a
+    verdict with the evidence that settled it. The grade follows the order a user hits them in: no
+    parser reads the format, then bytes that would have to be rewritten, then a risk that reads without
+    error and returns wrong values, then what a read costs. Each criterion below states what it requires
+    and what evidence settles it; `results/virtualizability.csv` carries every verdict with its evidence
+    in its own column, and `results/probe/` holds the per-granule measurements all of them derive from.
 
     ## Ranking\n""")
     println(io, md_table(df,
-        [:grade, :sensor, :short_name, :level, :format, :daac, :s3_region,
+        [:grade_shown, :sensor, :short_name, :level, :format, :daac, :s3_region,
          :consolidated_md, :grid_aligned, :chunk_aligned, :time_dim,
          :chunk_shape, :chunk_mb, :n_granules, :volume_tb, :dmrpp, :blocker];
         headers = ["Grade", "Sensor", "Product", "Level", "Format", "DAAC", "S3 region",
@@ -161,7 +201,7 @@ function build_report()
 
     println(io, "\n## Grades\n")
     println(io, """
-    - **A** — virtualizable as is: parses, one chunk shape for every variable across granules, no
+    - **A ⭐** — virtualizable as is: parses, one chunk shape for every variable across granules, no
       interior partial chunk, one grid, a shared time dimension, and metadata locality and chunk size
       both measured and adequate.
     - **B** — virtualizable but inefficient or partial: some variables carry a different chunk shape
@@ -177,14 +217,14 @@ function build_report()
     - **F** — the layout could not be read: no parser accepts the data, a parser refused every granule
       it opened and named the feature that stopped it, or a parser accepted every granule and returned
       a store holding no arrays, which yields no chunk manifest.
-
-    A `B` lists every reason the collection fell short of `A`, not the first one found: most of these
-    rows fall short on more than one criterion, and which of them a reader cares about depends on what
-    they intend to build.
     - **U** — not measured. Every sampled granule exhausted the probe's wall-clock budget, which
       bounds reads over authenticated HTTPS from outside `us-west-2` where each request pays an
       Earthdata Login redirect. That is a limit of this measurement path, not a property of the
       archive, so these collections are unranked rather than ranked last.
+
+    A `B` lists every reason the collection fell short of `A`, not the first one found: most of these
+    rows fall short on more than one criterion, and which of them a reader cares about depends on what
+    they intend to build.
     """)
     empty_grades = [g for g in ["A", "B", "C", "D", "F", "U"] if !(g in df.grade)]
     isempty(empty_grades) ||
@@ -192,6 +232,39 @@ function build_report()
 
     println(io, "\n## Criteria\n")
     println(io, CRITERIA)
+
+    println(io, "\n## Writing an archive that virtualizes\n")
+    println(io, """
+    Every grade in the table follows from decisions made when the granules were written, and each one
+    has a cheap alternative that a virtual store can describe:
+
+    - **Use one chunk shape per variable for the life of the product** (H2). A processing version that
+      rechunks splits the archive into two cubes that cannot be read as one, and the change is
+      invisible until someone tries to stack across it.
+    - **Make the granule length a multiple of the chunk length** on the axis granules stack on, or pad
+      every granule to a fixed extent (H3). Variable-length swaths fail this by construction; where the
+      producer also stores the whole array as one chunk, the varying length becomes a varying chunk
+      shape and the collection fails H2 instead.
+    - **Put every granule on one grid** — one CRS, one pixel size, one lattice (G). Origins may differ
+      by a whole number of cells, which is the same grid at a different extent, but not by a fraction
+      of one. A product that changes projection per tile yields a cube per tile rather than one cube
+      over the archive.
+    - **Declare time as a dimension the data arrays are laid out on** (T), rather than a coordinate
+      variable no data array uses, so a cube reads its time axis instead of manufacturing one.
+    - **Keep `scale_factor`, `add_offset`, and `_FillValue` identical across granules** (S1). A
+      disagreement is dropped silently and the first granule's encoding is applied to every chunk, so
+      the cube reads without error and returns wrong values.
+    - **Write the chunk index contiguously**, near the front of the file (P-md), so a reader reaches all
+      of it in one range request instead of one per scattered region.
+    - **Size chunks for a latency-bound read** (P-sz): a few MB of stored bytes each, and few enough of
+      them that a full read is tens of requests rather than thousands.
+    - **Write a container a chunk manifest can describe** (H0, H1): HDF5, netCDF-4, COG, or Zarr
+      itself. A numeric variable's `_FillValue` has to be a number, and each axis takes one dimension
+      scale.
+
+    An archive that meets these is a datacube over its whole record at the cost of a manifest, without
+    changing a byte of what it already distributes.
+    """)
 
     println(io, "\n## How each column was measured\n")
     println(io, """
@@ -318,29 +391,24 @@ function build_report()
     VirtualiZarr 2.7.3 ships no TIFF parser, so GeoTIFF tile offsets and byte counts are read
     directly from `TileOffsets` and `TileByteCounts`.
 
-    **Tool defects separated from data properties.** A grade should describe the archive, so one
-    VirtualiZarr defect is corrected before probing: `_extract_attrs` compares a converted attribute
-    against `"DIMENSION_SCALE"` without checking it is still a scalar, which raises `ValueError` on
-    any granule carrying an attribute of two or more fixed-length strings and aborts the whole file.
-    The probe installs a corrected version, in `scripts/vz_shims.py`. Without it, ICESat-2 ATL03
-    reads as unparseable when its
-    layout is in fact readable.
+    **Tool defects separated from data properties.** A grade describes the archive, so one VirtualiZarr
+    defect is corrected before probing: `_extract_attrs` compares a converted attribute against
+    `"DIMENSION_SCALE"` without checking it is still a scalar, which raises `ValueError` on any granule
+    carrying an attribute of two or more fixed-length strings and aborts the whole file. The probe
+    installs a corrected version, in `scripts/vz_shims.py`, through which ICESat-2 `ATL03` reads.
 
-    The remaining failures are left in place because no correction is available that does not risk a
-    wrong answer. The HDF4 path, which VirtualiZarr delegates to kerchunk, reads some of NASA's
-    HDF-EOS2 holdings and not others: of the eleven HDF4-container collections sampled, four yield
-    arrays on every granule, six raise on every granule in three distinct ways, and one —
-    `MIL2TCST` — returns a store holding no arrays at all on every granule, which is a failure the
-    call's own return value does not report. A parser that reports success and produces no chunk
-    manifest is graded as a failure to read the layout, since nothing downstream can be built from an
-    empty store. `MOD09GA` and `AIRS2RET` fail at
-    `hdf4.py:213`, where `_descend_vg` indexes the parsed `SD` tag's `data` field unconditionally;
-    that field holds the data-block references, so skipping the vgroup would produce arrays declaring
-    dimensions but no chunks. `MOD35_L2` and `MYD04_L2` fail because the backend derives a
-    dimension-name list whose length does not match the array's rank. The two ASDC HDF4 products fail
-    decoding a vgroup name as UTF-8. So HDF-EOS2 is not uniformly unreadable — readability varies by
-    producer, which means a grade here has to be measured per collection rather than inferred from
-    the format field.
+    The HDF4 path, which VirtualiZarr delegates to kerchunk, reads some of NASA's HDF-EOS2 holdings and
+    not others: of the eleven HDF4-container collections sampled, four yield arrays on every granule,
+    six raise on every granule in three distinct ways, and one — `MIL2TCST` — returns a store holding no
+    arrays at all on every granule, which is a failure the call's own return value does not report. A
+    parser that reports success and produces no chunk manifest is graded as a failure to read the
+    layout, since nothing downstream can be built from an empty store. `MOD09GA` and `AIRS2RET` fail at
+    `hdf4.py:213`, where `_descend_vg` indexes the parsed `SD` tag's `data` field unconditionally, and
+    that field holds the data-block references. `MOD35_L2` and `MYD04_L2` fail because the backend
+    derives a dimension-name list whose length does not match the array's rank. The two ASDC HDF4
+    products fail decoding a vgroup name as UTF-8. HDF-EOS2 is therefore not uniformly unreadable —
+    readability varies by producer, which is why a grade here is measured per collection rather than
+    inferred from the format field.
 
     Two refusals are properties of the files themselves. A granule that attaches more than one
     dimension scale to a single axis is refused because a Zarr array names each axis once, which is
@@ -368,7 +436,7 @@ function build_report()
     only cube its grid admits.
     """)
     if nrow(pinned) > 0
-        println(io, md_table(pinned, [:grade, :short_name, :pinned_to, :n_sampled];
+        println(io, md_table(pinned, [:grade_shown, :short_name, :pinned_to, :n_sampled];
                              headers = ["Grade", "Product", "Narrowed to", "Granules"]))
         println(io, """
 
@@ -390,7 +458,7 @@ function build_report()
     really has to span.
     """)
     if nrow(mixed) > 0
-        println(io, md_table(mixed, [:grade, :short_name, :sample_differs, :difference_kept_because];
+        println(io, md_table(mixed, [:grade_shown, :short_name, :sample_differs, :difference_kept_because];
                              headers = ["Grade", "Product", "Granules differ in", "Kept because"]))
     end
 
@@ -479,7 +547,7 @@ function build_report()
     Counterexamples are especially useful. A `D` or `F` rests on a granule pair that disagree or a
     refusal that names a feature, so it is hard to overturn without showing the measurement wrong. An
     `A` or `B` only says no blocker appeared in the granules sampled, so a granule this sample missed
-    that breaks one is a real finding — two collections here have moved between grades on exactly that.
+    that breaks one changes the grade.
     """)
 
     out = joinpath(dirname(RESULTS), "README.md")
