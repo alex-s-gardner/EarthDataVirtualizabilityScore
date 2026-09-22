@@ -3,7 +3,7 @@ Evaluation of the virtualizability criteria against the stage 3 probe artifacts.
 
 Each criterion reduces the per-granule measurements for one collection to a verdict plus the
 evidence that produced it, so every cell of the final table can be traced to a measured number.
-Criterion IDs match the table in `results/report.md`.
+Criterion IDs match the criteria table in `README.md`.
 """
 
 using Statistics

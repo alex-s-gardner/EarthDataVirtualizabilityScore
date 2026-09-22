@@ -1,7 +1,7 @@
 """
 Stage 5: render the ranked table and its method notes.
 
-Reads `results/virtualizability.csv` and writes `results/report.md`. Runs offline.
+Reads `results/virtualizability.csv` and writes `README.md`, which is the report. Runs offline.
 """
 
 using CSV, DataFrames, Dates, Statistics
@@ -103,24 +103,54 @@ function build_report()
     df = CSV.read(path, DataFrame)
 
     io = IOBuffer()
-    println(io, "# NASA datasets ranked by virtualizability\n")
+    println(io, "# EarthDataVirtualizabilityScore\n")
     println(io, """
-    Whether an existing archive can be presented as a lazy Zarr datacube *without duplicating bytes*
-    is a property of how the granules were written, not of the catalog. A virtual store maps each
-    Zarr chunk key to a `(url, offset, length)` triple in the original file and fetches it with an
-    HTTP range request, so it works only when the archival chunking already matches the cube's
-    chunking.
+    $(nrow(df)) NASA Earthdata collections ranked by whether their archives can be served as lazy Zarr
+    datacubes **without duplicating bytes**. Every verdict is measured by opening granule files, not
+    read from the catalog.
 
-    Every column below except format, DAAC, region, granule count, and level was measured by opening
-    granule files with VirtualiZarr's own parsers, which are what a real virtual store is built from.
-    CMR does not publish chunk shapes, and its gridded-resolution field is absent for most of these
-    collections, so the three deciding columns cannot come from metadata. Even the two collections
-    whose CMR format field names a container no VirtualiZarr parser reads — `ASCII` and `HGT` — are
-    checked against the granule's own first bytes before that field is acted on, so a format ruled out
-    here is ruled out on what the file is rather than on what the catalog calls it.
-    """)
+    ## Purpose
 
-    println(io, "## Ranking\n")
+    Cloud storage changed how data is read. Block storage exposed files on a disk; object storage puts
+    each object — data, its metadata, and an identifier — in a flat space with no folders. It scales
+    massively and cheaply, but it is latency-bound: the number of get-requests, not the bandwidth,
+    usually sets how fast a read completes.
+
+    Formats built for that paradigm — [Zarr](https://zarr-specs.readthedocs.io/en/latest/v3/core/index.html),
+    [VirtualiZarr](https://github.com/zarr-developers/VirtualiZarr),
+    [kerchunk](https://github.com/fsspec/kerchunk), [Icechunk](https://github.com/earth-mover/icechunk) —
+    abstract files away, mapping chunks into dimensioned arrays that tools like Xarray and Zarrs.jl
+    read lazily. A virtual store does this without copying anything: it maps each Zarr chunk key to a
+    `(url, offset, length)` triple in the original granule and fetches it with an HTTP range request.
+
+    The roadblock is the raw data. For an archive to be virtualizable as it stands it needs
+    consolidated metadata, one grid, and chunks that align in space. Meet all three and a lazy datacube
+    over the whole archive costs nothing but the manifest. Satellite data usually fails the third: a
+    product can be perfectly grid-aligned and still not chunk-aligned, because the image edges move
+    with every pass — a swath whose length varies by orbit puts a partial chunk in the middle of the
+    concatenated array, and ascending and descending passes can share a grid exactly while sharing no
+    chunk origin. This ranking measures which of NASA's major archives clear that bar.
+
+    ## Method
+
+    Whether an archive can be presented as a lazy datacube is a property of how its granules were
+    written, not of the catalog. CMR publishes no chunk shapes, and its gridded-resolution field is
+    absent for most of these collections, so the deciding columns cannot come from metadata.
+
+    Every column below except format, DAAC, region, granule count, and level is therefore measured by
+    opening granule files with VirtualiZarr's own parsers, which are what a real virtual store is built
+    from — and a parser's refusal is itself an answer, since the exception names the feature that stops
+    a chunk manifest being written. Even the two collections whose CMR format field names a container no
+    VirtualiZarr parser reads — `ASCII` and `HGT` — are checked against the granule's own first bytes
+    before that field is acted on, so a format ruled out here is ruled out on what the file is rather
+    than on what the catalog calls it.
+
+    Each collection is sampled at both ends of its record, narrowed first to one series of granules a
+    single cube would actually hold. Each criterion below states what it requires and what evidence
+    settles it; `results/virtualizability.csv` carries every verdict with its evidence in its own
+    column, and `results/probe/` holds the per-granule measurements all of them derive from.
+
+    ## Ranking\n""")
     println(io, md_table(df,
         [:grade, :sensor, :short_name, :level, :format, :daac, :s3_region,
          :consolidated_md, :grid_aligned, :chunk_aligned, :time_dim,
@@ -292,7 +322,8 @@ function build_report()
     VirtualiZarr defect is corrected before probing: `_extract_attrs` compares a converted attribute
     against `"DIMENSION_SCALE"` without checking it is still a scalar, which raises `ValueError` on
     any granule carrying an attribute of two or more fixed-length strings and aborts the whole file.
-    The probe installs a corrected version. Without it, ICESat-2 ATL03 reads as unparseable when its
+    The probe installs a corrected version, in `scripts/vz_shims.py`. Without it, ICESat-2 ATL03
+    reads as unparseable when its
     layout is in fact readable.
 
     The remaining failures are left in place because no correction is available that does not risk a
@@ -393,11 +424,52 @@ function build_report()
         a pair of granules that agree on the shape of every variable they share, so that differing
         chunk shape is the only difference left and the refusal can only be about it.
         """)
+        println(io, "[`results/verification.md`](results/verification.md) holds what each check " *
+                    "actually read and returned.\n")
     end
 
-    out = joinpath(RESULTS, "report.md")
+    println(io, "\n## Deploy\n")
+    println(io, """
+    Stages 1 to 3 and the verification read NASA's protected buckets, which reject direct S3 from
+    outside `us-west-2`, so access is over authenticated HTTPS carrying an Earthdata Login bearer
+    token. You need [Earthdata Login](https://urs.earthdata.nasa.gov/) credentials in `~/.netrc`. No
+    credential is stored in this repository.
+
+    ```sh
+    julia --project=. -e 'import Pkg; Pkg.instantiate()'
+    python -m venv .venv && .venv/bin/pip install -r requirements.txt
+    ```
+
+    `requirements.txt` pins the Python side at the versions these results were produced with. On the
+    Julia side, `EarthData` resolves from a public fork pinned to a commit rather than from the
+    registry, because the registered release does not export `data_urls`, `granule_size`, or the UMM
+    schema modules that stages 1 and 2 use.
+
+    | Stage | Network | What it does |
+    |---|---|---|
+    | `julia --project=. scripts/01_inventory.jl` | yes | resolves each dataset to a cloud-hosted CMR collection |
+    | `julia --project=. scripts/02_sample.jl` | yes | draws granules from both ends of the record, narrowed to one comparable series |
+    | `.venv/bin/python scripts/03_probe.py` | yes | opens every sampled granule and records its layout |
+    | `julia --project=. scripts/04_score.jl` | no | reduces the measurements to a verdict per criterion and a grade |
+    | `julia --project=. scripts/05_report.jl` | no | regenerates this file |
+    | `.venv/bin/python scripts/verify_endtoend.py` | yes | builds virtual stores and checks the grades against them |
+
+    Stage 3 takes hours: every request pays an Earthdata Login redirect. Stages 2 and 3 accept a list
+    of collection short names to redo only those, merging into the existing sample and artifacts, which
+    is how a single collection is re-measured without repeating the run.
+
+    Because `results/probe/` is committed, stages 4 and 5 reproduce this file offline from a clone —
+    no credentials and no network. Adding a collection means adding a `Candidate` to `src/datasets.jl`,
+    and a collection partitioned by anything other than time also needs an entry in
+    `src/partitions.jl`.
+
+    This file is generated by stage 5 from `results/virtualizability.csv`. Edit the stage, not the
+    file.
+    """)
+
+    out = joinpath(dirname(RESULTS), "README.md")
     write(out, String(take!(io)))
-    println("results/report.md written ($(nrow(df)) rows)")
+    println("README.md written ($(nrow(df)) rows)")
 end
 
 build_report()
