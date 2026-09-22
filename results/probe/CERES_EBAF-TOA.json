@@ -1,0 +1,3757 @@
+{
+ "version": "Edition4.2.1",
+ "level": "L4",
+ "sensor": "CERES",
+ "format": "netCDF-3",
+ "daac": "NASA/LARC/SD/ASDC",
+ "short_name": "CERES_EBAF-TOA",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "CERES_EBAF-TOA_Edition4.2.1_200003-202605.nc",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CERES_EBAF-TOA_Edition4.2.1/CERES_EBAF-TOA_Edition4.2.1_200003-202605.nc",
+   "orbit": "",
+   "declared_format": "netCDF-3",
+   "file_bytes": 934979008,
+   "dmrpp": false,
+   "container": "netcdf3",
+   "vars": [
+    {
+     "name": "lon",
+     "shape": [
+      360
+     ],
+     "chunks": [
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1440,
+     "chunk_bytes_max": 1440,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      180
+     ],
+     "chunks": [
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ctime",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">i4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "months of a climatology year"
+     },
+     "grid": {}
+    },
+    {
+     "name": "climatology_bounds",
+     "shape": [
+      12,
+      2
+     ],
+     "chunks": [
+      12,
+      2
+     ],
+     "dtype": ">i4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "sc"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 96,
+     "chunk_bytes_max": 96,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "toa_sw_all_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_lw_all_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_net_all_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_sw_clr_c_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_lw_clr_c_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_net_clr_c_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "solar_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldarea_total_daynight_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldpress_total_daynight_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldtemp_total_daynight_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldtau_total_day_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_sw_all_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_lw_all_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_net_all_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_sw_clr_c_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_lw_clr_c_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_net_clr_c_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zsolar_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldarea_total_daynight_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldpress_total_daynight_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldtemp_total_daynight_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldtau_total_day_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_sw_all_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_lw_all_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_net_all_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_sw_clr_c_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_lw_clr_c_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_net_clr_c_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gsolar_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldarea_total_daynight_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldpress_total_daynight_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldtemp_total_daynight_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldtau_total_day_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "time",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">i4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "days since 2000-03-01 00:00:00"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_sw_all_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_lw_all_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_net_all_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_sw_clr_c_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_lw_clr_c_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_net_clr_c_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "solar_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldarea_total_daynight_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldpress_total_daynight_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldtemp_total_daynight_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldtau_total_day_mon",
+     "shape": [
+      315,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_sw_all_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_lw_all_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_net_all_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_sw_clr_c_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_lw_clr_c_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_net_clr_c_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zsolar_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldarea_total_daynight_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldpress_total_daynight_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldtemp_total_daynight_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldtau_total_day_mon",
+     "shape": [
+      315,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_sw_all_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_lw_all_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_net_all_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_sw_clr_c_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_lw_clr_c_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_net_clr_c_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gsolar_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldarea_total_daynight_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldpress_total_daynight_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldtemp_total_daynight_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldtau_total_day_mon",
+     "shape": [
+      315
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 315,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "lon": {
+     "n": 360,
+     "first": 0.5,
+     "step": 1.0,
+     "last": 359.5
+    },
+    "lat": {
+     "n": 180,
+     "first": -89.5,
+     "step": 1.0,
+     "last": 89.5
+    },
+    "time": {
+     "n": 315,
+     "first": 14.0,
+     "step": 31.0,
+     "last": 9571.0
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 14.9
+  },
+  {
+   "granule_ur": "CERES_EBAF-TOA_Edition4.2.1_200003-202606.nc",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CERES_EBAF-TOA_Edition4.2.1/CERES_EBAF-TOA_Edition4.2.1_200003-202606.nc",
+   "orbit": "",
+   "declared_format": "netCDF-3",
+   "file_bytes": 937838176,
+   "dmrpp": false,
+   "container": "netcdf3",
+   "vars": [
+    {
+     "name": "lon",
+     "shape": [
+      360
+     ],
+     "chunks": [
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1440,
+     "chunk_bytes_max": 1440,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      180
+     ],
+     "chunks": [
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ctime",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">i4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "months of a climatology year"
+     },
+     "grid": {}
+    },
+    {
+     "name": "climatology_bounds",
+     "shape": [
+      12,
+      2
+     ],
+     "chunks": [
+      12,
+      2
+     ],
+     "dtype": ">i4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "sc"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 96,
+     "chunk_bytes_max": 96,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "toa_sw_all_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_lw_all_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_net_all_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_sw_clr_c_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_lw_clr_c_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_net_clr_c_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "solar_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldarea_total_daynight_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldpress_total_daynight_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldtemp_total_daynight_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldtau_total_day_clim",
+     "shape": [
+      12,
+      180,
+      360
+     ],
+     "chunks": [
+      12,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3110400,
+     "chunk_bytes_max": 3110400,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_sw_all_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_lw_all_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_net_all_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_sw_clr_c_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_lw_clr_c_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_net_clr_c_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zsolar_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldarea_total_daynight_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldpress_total_daynight_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldtemp_total_daynight_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldtau_total_day_clim",
+     "shape": [
+      12,
+      180
+     ],
+     "chunks": [
+      12,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime",
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8640,
+     "chunk_bytes_max": 8640,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_sw_all_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_lw_all_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_net_all_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_sw_clr_c_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_lw_clr_c_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_net_clr_c_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gsolar_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldarea_total_daynight_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldpress_total_daynight_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldtemp_total_daynight_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldtau_total_day_clim",
+     "shape": [
+      12
+     ],
+     "chunks": [
+      12
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "ctime"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48,
+     "chunk_bytes_max": 48,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "time",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">i4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "days since 2000-03-01 00:00:00"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_sw_all_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_lw_all_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_net_all_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_sw_clr_c_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_lw_clr_c_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "toa_net_clr_c_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "solar_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldarea_total_daynight_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldpress_total_daynight_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldtemp_total_daynight_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "cldtau_total_day_mon",
+     "shape": [
+      316,
+      180,
+      360
+     ],
+     "chunks": [
+      1,
+      180,
+      360
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 259200,
+     "chunk_bytes_max": 259200,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_sw_all_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_lw_all_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_net_all_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_sw_clr_c_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_lw_clr_c_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ztoa_net_clr_c_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zsolar_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldarea_total_daynight_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldpress_total_daynight_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldtemp_total_daynight_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "zcldtau_total_day_mon",
+     "shape": [
+      316,
+      180
+     ],
+     "chunks": [
+      1,
+      180
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "lat"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 720,
+     "chunk_bytes_max": 720,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_sw_all_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_lw_all_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_net_all_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_sw_clr_c_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_lw_clr_c_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gtoa_net_clr_c_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gsolar_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "W m-2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldarea_total_daynight_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldpress_total_daynight_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldtemp_total_daynight_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "gcldtau_total_day_mon",
+     "shape": [
+      316
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 316,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "dimensionless"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "lon": {
+     "n": 360,
+     "first": 0.5,
+     "step": 1.0,
+     "last": 359.5
+    },
+    "lat": {
+     "n": 180,
+     "first": -89.5,
+     "step": 1.0,
+     "last": 89.5
+    },
+    "time": {
+     "n": 316,
+     "first": 14.0,
+     "step": 31.0,
+     "last": 9602.0
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 17.5
+  }
+ ]
+}

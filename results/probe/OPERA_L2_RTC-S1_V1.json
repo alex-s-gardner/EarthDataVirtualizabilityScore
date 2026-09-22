@@ -1,0 +1,625 @@
+{
+ "version": "1",
+ "level": "L2",
+ "sensor": "Sentinel-1/C-SAR (OPERA)",
+ "format": "GeoTIFF+HDF5+XML",
+ "daac": "ASF",
+ "short_name": "OPERA_L2_RTC-S1_V1",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20160414T000512Z_20250927T035512Z_S1A_30_v1.0",
+   "url": "https://cumulus.asf.earthdatacloud.nasa.gov/OPERA/OPERA_L2_RTC-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20160414T000512Z_20250927T035512Z_S1A_30_v1.0/OPERA_L2_RTC-S1_T063-133239-IW1_20160414T000512Z_20250927T035512Z_S1A_30_v1.0_VV.tif",
+   "orbit": "",
+   "declared_format": "GeoTIFF+HDF5+XML",
+   "file_bytes": 6777795,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      1616,
+      3301
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 28,
+     "chunk_bytes_median": 42124,
+     "chunk_bytes_max": 839544,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      404,
+      826
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 2,
+     "chunk_bytes_median": 194991,
+     "chunk_bytes_max": 250074,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      101,
+      207
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 27581,
+     "chunk_bytes_max": 27581,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      26,
+      52
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 3580,
+     "chunk_bytes_max": 3580,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      13,
+      26
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1960,
+     "chunk_bytes_max": 1960,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     224760.0,
+     1354350.0,
+     0.0
+    ],
+    "pixel_scale": [
+     30.0,
+     30.0,
+     0.0
+    ],
+    "crs": "EPSG:32616",
+    "photometric": "1",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 0.16666666666666666
+   },
+   "seconds": 6.0
+  },
+  {
+   "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20160601T000514Z_20250928T024515Z_S1A_30_v1.0",
+   "url": "https://cumulus.asf.earthdatacloud.nasa.gov/OPERA/OPERA_L2_RTC-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20160601T000514Z_20250928T024515Z_S1A_30_v1.0/OPERA_L2_RTC-S1_T063-133239-IW1_20160601T000514Z_20250928T024515Z_S1A_30_v1.0_VV.tif",
+   "orbit": "",
+   "declared_format": "GeoTIFF+HDF5+XML",
+   "file_bytes": 6786203,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      1616,
+      3301
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 28,
+     "chunk_bytes_median": 43579,
+     "chunk_bytes_max": 842868,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      404,
+      826
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 2,
+     "chunk_bytes_median": 193203,
+     "chunk_bytes_max": 244687,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      101,
+      207
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 26786,
+     "chunk_bytes_max": 26786,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      26,
+      52
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 3479,
+     "chunk_bytes_max": 3479,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      13,
+      26
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1927,
+     "chunk_bytes_max": 1927,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     224760.0,
+     1354350.0,
+     0.0
+    ],
+    "pixel_scale": [
+     30.0,
+     30.0,
+     0.0
+    ],
+    "crs": "EPSG:32616",
+    "photometric": "1",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 0.16666666666666666
+   },
+   "seconds": 5.6
+  },
+  {
+   "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20260716T000445Z_20260811T182630Z_S1C_30_v1.0",
+   "url": "https://cumulus.asf.earthdatacloud.nasa.gov/OPERA/OPERA_L2_RTC-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20260716T000445Z_20260811T182630Z_S1C_30_v1.0/OPERA_L2_RTC-S1_T063-133239-IW1_20260716T000445Z_20260811T182630Z_S1C_30_v1.0_VV.tif",
+   "orbit": "",
+   "declared_format": "GeoTIFF+HDF5+XML",
+   "file_bytes": 6827509,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      1616,
+      3301
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 28,
+     "chunk_bytes_median": 46979,
+     "chunk_bytes_max": 847935,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      404,
+      826
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 2,
+     "chunk_bytes_median": 198031,
+     "chunk_bytes_max": 250277,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      101,
+      207
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 27510,
+     "chunk_bytes_max": 27510,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      26,
+      52
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 3510,
+     "chunk_bytes_max": 3510,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      13,
+      26
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1940,
+     "chunk_bytes_max": 1940,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     224760.0,
+     1354350.0,
+     0.0
+    ],
+    "pixel_scale": [
+     30.0,
+     30.0,
+     0.0
+    ],
+    "crs": "EPSG:32616",
+    "photometric": "1",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 0.16666666666666666
+   },
+   "seconds": 4.7
+  },
+  {
+   "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20260821T000447Z_20260821T210612Z_S1C_30_v1.0",
+   "url": "https://cumulus.asf.earthdatacloud.nasa.gov/OPERA/OPERA_L2_RTC-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20260821T000447Z_20260821T210612Z_S1C_30_v1.0/OPERA_L2_RTC-S1_T063-133239-IW1_20260821T000447Z_20260821T210612Z_S1C_30_v1.0_VV.tif",
+   "orbit": "",
+   "declared_format": "GeoTIFF+HDF5+XML",
+   "file_bytes": 6853030,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      1616,
+      3301
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 28,
+     "chunk_bytes_median": 44743,
+     "chunk_bytes_max": 857285,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      404,
+      826
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 2,
+     "chunk_bytes_median": 199202,
+     "chunk_bytes_max": 250209,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      101,
+      207
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 27174,
+     "chunk_bytes_max": 27174,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      26,
+      52
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 3522,
+     "chunk_bytes_max": 3522,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      13,
+      26
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1961,
+     "chunk_bytes_max": 1961,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     224760.0,
+     1354350.0,
+     0.0
+    ],
+    "pixel_scale": [
+     30.0,
+     30.0,
+     0.0
+    ],
+    "crs": "EPSG:32616",
+    "photometric": "1",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 0.16666666666666666
+   },
+   "seconds": 4.7
+  }
+ ]
+}

@@ -1,0 +1,4505 @@
+{
+ "version": "2",
+ "level": "L1B",
+ "sensor": "Suomi-NPP/VIIRS",
+ "format": "netCDF-4",
+ "daac": "NASA/GSFC/SED/ESD/HBSL/BISB/LAADS",
+ "short_name": "VNP02MOD",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "LAADS:5736961132",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP02MOD/VNP02MOD.A2012019.0000.002.2020318151901.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 65793558,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "number_of_scans",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      203
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "number_of_lines",
+     "shape": [
+      3248
+     ],
+     "chunks": [
+      3248
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "number_of_lines"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "number_of_pixels",
+     "shape": [
+      3200
+     ],
+     "chunks": [
+      3200
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "number_of_pixels"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "number_of_LUT_values",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "number_of_M13_LUT_values",
+     "shape": [
+      327681
+     ],
+     "chunks": [
+      327681
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "number_of_M13_LUT_values"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_start_time",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_end_time",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/ev_mid_time",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_state_flags",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 9,
+     "chunk_bytes_max": 9,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_quality_flags",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 9,
+     "chunk_bytes_max": 9,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 9971,
+     "chunk_bytes_max": 10854,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 7866,
+     "chunk_bytes_max": 7950,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 7617,
+     "chunk_bytes_max": 8541,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 6806,
+     "chunk_bytes_max": 7244,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 7003,
+     "chunk_bytes_max": 7798,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 6223,
+     "chunk_bytes_max": 6929,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 161,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 161,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 108,
+     "chunk_bytes_max": 108,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 56698,
+     "chunk_bytes_max": 59572,
+     "cf": {
+      "scale_factor": 7.630442269146442e-05,
+      "add_offset": 0.000834405014757067,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 714,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 50513,
+     "chunk_bytes_max": 50513,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 43501,
+     "chunk_bytes_max": 45759,
+     "cf": {
+      "scale_factor": 0.0016174810007214546,
+      "add_offset": 0.0010805600322782993,
+      "_FillValue": 327680,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 565,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_brightness_temperature_lut",
+     "shape": [
+      327681
+     ],
+     "chunks": [
+      327681
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_M13_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 127868,
+     "chunk_bytes_max": 127868,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 69915,
+     "chunk_bytes_max": 71117,
+     "cf": {
+      "scale_factor": 0.00035100034438073635,
+      "add_offset": 0.002197470050305128,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 258,
+     "chunk_bytes_max": 771,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 56200,
+     "chunk_bytes_max": 56200,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 52146,
+     "chunk_bytes_max": 53743,
+     "cf": {
+      "scale_factor": 0.00036626122891902924,
+      "add_offset": 0.004836199805140495,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 1837,
+     "chunk_bytes_max": 3718,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 57494,
+     "chunk_bytes_max": 57494,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 50707,
+     "chunk_bytes_max": 52334,
+     "cf": {
+      "scale_factor": 0.0003204785753041506,
+      "add_offset": 0.0039056800305843353,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 836,
+     "chunk_bytes_max": 2232,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 57781,
+     "chunk_bytes_max": 57781,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 35,
+    "n_fetches": 35,
+    "leading_fraction": 0.08571428571428572,
+    "contiguous_runs": 17,
+    "span_fraction": 1.0161290322580645
+   },
+   "seconds": 50.4
+  },
+  {
+   "granule_ur": "LAADS:5736957097",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP02MOD/VNP02MOD.A2012019.0006.002.2020318151429.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 64978442,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "number_of_scans",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      202
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "number_of_lines",
+     "shape": [
+      3232
+     ],
+     "chunks": [
+      3232
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "number_of_lines"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "number_of_pixels",
+     "shape": [
+      3200
+     ],
+     "chunks": [
+      3200
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "number_of_pixels"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "number_of_LUT_values",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 3128,
+     "chunk_bytes_median": 6076121064581853184,
+     "chunk_bytes_max": 18446744073709551615,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "number_of_M13_LUT_values",
+     "shape": [
+      327681
+     ],
+     "chunks": [
+      327681
+     ],
+     "dtype": ">f4",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "number_of_M13_LUT_values"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_start_time",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_end_time",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/ev_mid_time",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_state_flags",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 9,
+     "chunk_bytes_max": 9,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_quality_flags",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 9,
+     "chunk_bytes_max": 9,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 10008,
+     "chunk_bytes_max": 10849,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 7877,
+     "chunk_bytes_max": 7961,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 7694,
+     "chunk_bytes_max": 8447,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 6796,
+     "chunk_bytes_max": 7374,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 6845,
+     "chunk_bytes_max": 7808,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 6258,
+     "chunk_bytes_max": 7026,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 161,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 161,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 108,
+     "chunk_bytes_max": 108,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 53932,
+     "chunk_bytes_max": 58694,
+     "cf": {
+      "scale_factor": 7.630442269146442e-05,
+      "add_offset": 0.000834405014757067,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 656,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 50513,
+     "chunk_bytes_max": 50513,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 40237,
+     "chunk_bytes_max": 44143,
+     "cf": {
+      "scale_factor": 0.0016174810007214546,
+      "add_offset": 0.0010805600322782993,
+      "_FillValue": 327680,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 407,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_brightness_temperature_lut",
+     "shape": [
+      327681
+     ],
+     "chunks": [
+      327681
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_M13_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 127868,
+     "chunk_bytes_max": 127868,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 69684,
+     "chunk_bytes_max": 71185,
+     "cf": {
+      "scale_factor": 0.00035100034438073635,
+      "add_offset": 0.002197470050305128,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 251,
+     "chunk_bytes_max": 775,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 56200,
+     "chunk_bytes_max": 56200,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 53056,
+     "chunk_bytes_max": 55287,
+     "cf": {
+      "scale_factor": 0.00036626122891902924,
+      "add_offset": 0.004836199805140495,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 1223,
+     "chunk_bytes_max": 3655,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 57494,
+     "chunk_bytes_max": 57494,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 50790,
+     "chunk_bytes_max": 53232,
+     "cf": {
+      "scale_factor": 0.0003204785753041506,
+      "add_offset": 0.0039056800305843353,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 520,
+     "chunk_bytes_max": 1724,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 57781,
+     "chunk_bytes_max": 57781,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 34,
+    "n_fetches": 34,
+    "leading_fraction": 0.08823529411764706,
+    "contiguous_runs": 17,
+    "span_fraction": 1.0163934426229508
+   },
+   "seconds": 54.1
+  },
+  {
+   "granule_ur": "LAADS:10045231193",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP02MOD/VNP02MOD.A2026261.1136.002.2026261180641.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 71442931,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "scan_line_attributes/scan_start_time",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_end_time",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/ev_mid_time",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_state_flags",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 9,
+     "chunk_bytes_max": 9,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_quality_flags",
+     "shape": [
+      202
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 9,
+     "chunk_bytes_max": 9,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 11926,
+     "chunk_bytes_max": 12751,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 7866,
+     "chunk_bytes_max": 7941,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 6589,
+     "chunk_bytes_max": 7173,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 6081,
+     "chunk_bytes_max": 6531,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 6378,
+     "chunk_bytes_max": 7330,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 6164,
+     "chunk_bytes_max": 6750,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 6918,
+     "chunk_bytes_max": 7645,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 6210,
+     "chunk_bytes_max": 6822,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 54603,
+     "chunk_bytes_max": 61271,
+     "cf": {
+      "scale_factor": 7.630442269146442e-05,
+      "add_offset": 0.000834405014757067,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 1527,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 50513,
+     "chunk_bytes_max": 50513,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 40689,
+     "chunk_bytes_max": 46886,
+     "cf": {
+      "scale_factor": 0.0016174810007214546,
+      "add_offset": 0.0010805600322782993,
+      "_FillValue": 327680,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 553,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_brightness_temperature_lut",
+     "shape": [
+      327681
+     ],
+     "chunks": [
+      327681
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_M13_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 127868,
+     "chunk_bytes_max": 127868,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 66471,
+     "chunk_bytes_max": 72049,
+     "cf": {
+      "scale_factor": 0.00035100034438073635,
+      "add_offset": 0.002197470050305128,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 161,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 56200,
+     "chunk_bytes_max": 56200,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 65565,
+     "chunk_bytes_max": 71566,
+     "cf": {
+      "scale_factor": 0.00036626122891902924,
+      "add_offset": 0.004836199805140495,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 161,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 57494,
+     "chunk_bytes_max": 57494,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 64762,
+     "chunk_bytes_max": 71187,
+     "cf": {
+      "scale_factor": 0.0003204785753041506,
+      "add_offset": 0.0039056800305843353,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_quality_flags",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 161,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 57781,
+     "chunk_bytes_max": 57781,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_uncert_index",
+     "shape": [
+      3232,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 202,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 38,
+    "n_fetches": 38,
+    "leading_fraction": 0.07894736842105263,
+    "contiguous_runs": 17,
+    "span_fraction": 1.0147058823529411
+   },
+   "seconds": 50.1
+  },
+  {
+   "granule_ur": "LAADS:10045230620",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP02MOD/VNP02MOD.A2026261.1142.002.2026261180626.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 70762107,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "scan_line_attributes/scan_start_time",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_end_time",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/ev_mid_time",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 17,
+     "cf": {
+      "_FillValue": "MzMzMzM/j8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_state_flags",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 9,
+     "chunk_bytes_max": 9,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "scan_line_attributes/scan_quality_flags",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_scans"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 9,
+     "chunk_bytes_max": 9,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 11912,
+     "chunk_bytes_max": 12929,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 7864,
+     "chunk_bytes_max": 7964,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M07_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 6628,
+     "chunk_bytes_max": 7515,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 6158,
+     "chunk_bytes_max": 6733,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M08_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 6435,
+     "chunk_bytes_max": 7380,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 6064,
+     "chunk_bytes_max": 6826,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M10_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 6967,
+     "chunk_bytes_max": 7615,
+     "cf": {
+      "scale_factor": 1.9991757653770037e-05,
+      "add_offset": 0.0,
+      "_FillValue": 65535
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 6179,
+     "chunk_bytes_max": 6822,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M11_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 56405,
+     "chunk_bytes_max": 62203,
+     "cf": {
+      "scale_factor": 7.630442269146442e-05,
+      "add_offset": 0.000834405014757067,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 318,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 50513,
+     "chunk_bytes_max": 50513,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M12_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 41053,
+     "chunk_bytes_max": 47665,
+     "cf": {
+      "scale_factor": 0.0016174810007214546,
+      "add_offset": 0.0010805600322782993,
+      "_FillValue": 327680,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 188,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_brightness_temperature_lut",
+     "shape": [
+      327681
+     ],
+     "chunks": [
+      327681
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_M13_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 127868,
+     "chunk_bytes_max": 127868,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M13_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 64681,
+     "chunk_bytes_max": 69565,
+     "cf": {
+      "scale_factor": 0.00035100034438073635,
+      "add_offset": 0.002197470050305128,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 161,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 56200,
+     "chunk_bytes_max": 56200,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M14_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 63101,
+     "chunk_bytes_max": 68361,
+     "cf": {
+      "scale_factor": 0.00036626122891902924,
+      "add_offset": 0.004836199805140495,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 161,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 57494,
+     "chunk_bytes_max": 57494,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M15_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 61981,
+     "chunk_bytes_max": 67872,
+     "cf": {
+      "scale_factor": 0.0003204785753041506,
+      "add_offset": 0.0039056800305843353,
+      "_FillValue": 65535,
+      "units": "Watts/meter^2/steradian/micrometer"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_quality_flags",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 161,
+     "chunk_bytes_max": 161,
+     "cf": {
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_brightness_temperature_lut",
+     "shape": [
+      65536
+     ],
+     "chunks": [
+      65536
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_LUT_values"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 57781,
+     "chunk_bytes_max": 57781,
+     "cf": {
+      "_FillValue": "AAAAQDM/j8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "observation_data/M16_uncert_index",
+     "shape": [
+      3248,
+      3200
+     ],
+     "chunks": [
+      16,
+      3200
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "number_of_lines",
+      "number_of_pixels"
+     ],
+     "n_chunks": 203,
+     "chunk_bytes_median": 72,
+     "chunk_bytes_max": 72,
+     "cf": {
+      "scale_factor": 0.006138000171631575,
+      "_FillValue": -1,
+      "units": "percent"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 36,
+    "n_fetches": 36,
+    "leading_fraction": 0.08333333333333333,
+    "contiguous_runs": 19,
+    "span_fraction": 1.0149253731343284
+   },
+   "seconds": 49.5
+  }
+ ]
+}

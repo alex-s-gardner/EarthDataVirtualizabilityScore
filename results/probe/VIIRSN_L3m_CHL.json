@@ -1,0 +1,529 @@
+{
+ "version": "2022.0",
+ "level": "L3",
+ "sensor": "Suomi-NPP/VIIRS",
+ "format": "netCDF-4",
+ "daac": "NASA/GSFC/SED/ESD/GCDC/OB.DAAC",
+ "short_name": "VIIRSN_L3m_CHL",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "VIIRSN_L3m_CHL_SNPP_VIIRS.20120102.L3m.DAY.CHL.chlor_a.4km.nc_2022.0",
+   "url": "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/SNPP_VIIRS.20120102.L3m.DAY.CHL.chlor_a.4km.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 5703784,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "chlor_a",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      44,
+      87
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 9900,
+     "chunk_bytes_median": 44,
+     "chunk_bytes_max": 11740,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      4320
+     ],
+     "chunks": [
+      4320
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 17280,
+     "chunk_bytes_max": 17280,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      8640
+     ],
+     "chunks": [
+      8640
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 34560,
+     "chunk_bytes_max": 34560,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "palette",
+     "shape": [
+      3,
+      256
+     ],
+     "chunks": [
+      3,
+      256
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "rgb",
+      "eightbitcolor"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 768,
+     "chunk_bytes_max": 768,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "lat": {
+     "n": 4320,
+     "first": 89.97916412353516,
+     "step": -0.04166412353515625,
+     "last": -89.97917175292969
+    },
+    "lon": {
+     "n": 8640,
+     "first": -179.9791717529297,
+     "step": 0.0416717529296875,
+     "last": 179.9791717529297
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 6,
+    "n_fetches": 6,
+    "leading_fraction": 0.16666666666666666,
+    "contiguous_runs": 1,
+    "span_fraction": 1.2
+   },
+   "seconds": 17.6
+  },
+  {
+   "granule_ur": "VIIRSN_L3m_CHL_SNPP_VIIRS.20120103.L3m.DAY.CHL.chlor_a.4km.nc_2022.0",
+   "url": "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/SNPP_VIIRS.20120103.L3m.DAY.CHL.chlor_a.4km.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 16037861,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "chlor_a",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      44,
+      87
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 9900,
+     "chunk_bytes_median": 44,
+     "chunk_bytes_max": 12216,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      4320
+     ],
+     "chunks": [
+      4320
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 17280,
+     "chunk_bytes_max": 17280,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      8640
+     ],
+     "chunks": [
+      8640
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 34560,
+     "chunk_bytes_max": 34560,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "palette",
+     "shape": [
+      3,
+      256
+     ],
+     "chunks": [
+      3,
+      256
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "rgb",
+      "eightbitcolor"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 768,
+     "chunk_bytes_max": 768,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 16,
+    "n_fetches": 16,
+    "leading_fraction": 0.0625,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0666666666666667
+   },
+   "seconds": 21.9
+  },
+  {
+   "granule_ur": "SNPP_VIIRS.20260730.L3m.DAY.CHL.chlor_a.4km.nc",
+   "url": "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/SNPP_VIIRS.20260730.L3m.DAY.CHL.chlor_a.4km.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 18170522,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "chlor_a",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 2696,
+     "chunk_bytes_max": 40157,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      4320
+     ],
+     "chunks": [
+      4320
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 17280,
+     "chunk_bytes_max": 17280,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      8640
+     ],
+     "chunks": [
+      8640
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 34560,
+     "chunk_bytes_max": 34560,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "palette",
+     "shape": [
+      3,
+      256
+     ],
+     "chunks": [
+      3,
+      256
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "rgb",
+      "eightbitcolor"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 768,
+     "chunk_bytes_max": 768,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 17,
+    "n_fetches": 17,
+    "leading_fraction": 0.058823529411764705,
+    "contiguous_runs": 2,
+    "span_fraction": 1.0588235294117647
+   },
+   "seconds": 21.1
+  },
+  {
+   "granule_ur": "SNPP_VIIRS.20260731.L3m.DAY.CHL.chlor_a.4km.nc",
+   "url": "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/SNPP_VIIRS.20260731.L3m.DAY.CHL.chlor_a.4km.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 18252892,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "chlor_a",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 2713,
+     "chunk_bytes_max": 40150,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      4320
+     ],
+     "chunks": [
+      4320
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 17280,
+     "chunk_bytes_max": 17280,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      8640
+     ],
+     "chunks": [
+      8640
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 34560,
+     "chunk_bytes_max": 34560,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "palette",
+     "shape": [
+      3,
+      256
+     ],
+     "chunks": [
+      3,
+      256
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "rgb",
+      "eightbitcolor"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 768,
+     "chunk_bytes_max": 768,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "lat": {
+     "n": 4320,
+     "first": 89.97916412353516,
+     "step": -0.04166412353515625,
+     "last": -89.97917175292969
+    },
+    "lon": {
+     "n": 8640,
+     "first": -179.9791717529297,
+     "step": 0.0416717529296875,
+     "last": 179.9791717529297
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 17,
+    "n_fetches": 17,
+    "leading_fraction": 0.058823529411764705,
+    "contiguous_runs": 2,
+    "span_fraction": 1.0588235294117647
+   },
+   "seconds": 29.5
+  }
+ ]
+}

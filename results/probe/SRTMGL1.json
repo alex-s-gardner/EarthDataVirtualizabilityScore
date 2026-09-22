@@ -1,0 +1,27 @@
+{
+ "version": "003",
+ "level": "L3",
+ "sensor": "Shuttle/SRTM",
+ "format": "HGT",
+ "daac": "LP DAAC",
+ "short_name": "SRTMGL1",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "N00E013.SRTMGL1.hgt",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/SRTMGL1.003/N00E013.SRTMGL1.hgt/N00E013.SRTMGL1.hgt.zip",
+   "orbit": "",
+   "declared_format": "HGT",
+   "file_bytes": 10144863,
+   "dmrpp": false,
+   "container": "unknown",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "no VirtualiZarr parser reads HGT",
+   "traceback_tail": "ead_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 417, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads HGT\n",
+   "seconds": 3.2
+  }
+ ]
+}

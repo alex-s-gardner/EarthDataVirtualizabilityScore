@@ -1,0 +1,1505 @@
+{
+ "version": "2",
+ "level": "L3",
+ "sensor": "multi-sensor (ITS_LIVE)",
+ "format": "netCDF-4",
+ "daac": "NASA NSIDC DAAC",
+ "short_name": "NSIDC-0776",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "NSIDC-0776_RGI03A_1984_V02.0.nc",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/MEASURES/NSIDC-0776/2/1984/01/01/NSIDC-0776_RGI03A_1984_V02.0.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 9346344,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "x",
+     "shape": [
+      8334
+     ],
+     "chunks": [
+      8334
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 66672,
+     "chunk_bytes_max": 66672,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "y",
+     "shape": [
+      6667
+     ],
+     "chunks": [
+      6667
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 53336,
+     "chunk_bytes_max": 53336,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "mapping",
+     "shape": [],
+     "chunks": [],
+     "dtype": "StringDType()",
+     "codecs": [
+      "VLenUTF8Codec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {},
+     "grid": {
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",SOUTH],AXIS[\"Northing\",SOUTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",SOUTH],AXIS[\"Northing\",SOUTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "-1200007.5 120.0 0 -599992.5 0 -120.0",
+      "grid_mapping_name": "polar_stereographic",
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "false_easting": 0.0,
+      "false_northing": 0.0,
+      "semi_major_axis": 6378137.0,
+      "inverse_flattening": 298.257223563
+     }
+    },
+    {
+     "name": "landice",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 9833,
+     "chunk_bytes_max": 35265,
+     "cf": {},
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "floatingice",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 9833,
+     "chunk_bytes_max": 9833,
+     "cf": {},
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "count",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 39295,
+     "chunk_bytes_max": 82980,
+     "cf": {
+      "units": "count",
+      "missing_value": 0
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vx",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 39299,
+     "chunk_bytes_max": 528774,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vy",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 39299,
+     "chunk_bytes_max": 524979,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "v",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 39299,
+     "chunk_bytes_max": 514267,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "v_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 19659,
+     "chunk_bytes_max": 131510,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vx_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 19659,
+     "chunk_bytes_max": 101239,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vy_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 19659,
+     "chunk_bytes_max": 100926,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "x": {
+     "n": 8334,
+     "first": -1199947.5,
+     "step": 120.0,
+     "last": -199987.5
+    },
+    "y": {
+     "n": 6667,
+     "first": -600052.5,
+     "step": -120.0,
+     "last": -1399972.5
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 7,
+    "n_fetches": 7,
+    "leading_fraction": 0.14285714285714285,
+    "contiguous_runs": 3,
+    "span_fraction": 1.125
+   },
+   "seconds": 22.8
+  },
+  {
+   "granule_ur": "NSIDC-0776_RGI03A_1985_V02.0.nc",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/MEASURES/NSIDC-0776/2/1985/01/01/NSIDC-0776_RGI03A_1985_V02.0.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 16021294,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "x",
+     "shape": [
+      8334
+     ],
+     "chunks": [
+      8334
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 66672,
+     "chunk_bytes_max": 66672,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "y",
+     "shape": [
+      6667
+     ],
+     "chunks": [
+      6667
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 53336,
+     "chunk_bytes_max": 53336,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "mapping",
+     "shape": [],
+     "chunks": [],
+     "dtype": "StringDType()",
+     "codecs": [
+      "VLenUTF8Codec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {},
+     "grid": {
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",SOUTH],AXIS[\"Northing\",SOUTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",SOUTH],AXIS[\"Northing\",SOUTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "-1200007.5 120.0 0 -599992.5 0 -120.0",
+      "grid_mapping_name": "polar_stereographic",
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "false_easting": 0.0,
+      "false_northing": 0.0,
+      "semi_major_axis": 6378137.0,
+      "inverse_flattening": 298.257223563
+     }
+    },
+    {
+     "name": "landice",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 9833,
+     "chunk_bytes_max": 35265,
+     "cf": {},
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "floatingice",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 9833,
+     "chunk_bytes_max": 9833,
+     "cf": {},
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "count",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 39295,
+     "chunk_bytes_max": 142768,
+     "cf": {
+      "units": "count",
+      "missing_value": 0
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vx",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 39299,
+     "chunk_bytes_max": 894315,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vy",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 39299,
+     "chunk_bytes_max": 889655,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "v",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 39299,
+     "chunk_bytes_max": 860493,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "v_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 19659,
+     "chunk_bytes_max": 213162,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vx_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 19659,
+     "chunk_bytes_max": 146611,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vy_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 19659,
+     "chunk_bytes_max": 149357,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 8,
+    "n_fetches": 8,
+    "leading_fraction": 0.125,
+    "contiguous_runs": 5,
+    "span_fraction": 1.0666666666666667
+   },
+   "seconds": 16.2
+  },
+  {
+   "granule_ur": "NSIDC-0776_RGI03A_2021_V02.0.nc",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/MEASURES/NSIDC-0776/2/2021/01/01/NSIDC-0776_RGI03A_2021_V02.0.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 223555183,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "x",
+     "shape": [
+      8334
+     ],
+     "chunks": [
+      8334
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 66672,
+     "chunk_bytes_max": 66672,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "y",
+     "shape": [
+      6667
+     ],
+     "chunks": [
+      6667
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 53336,
+     "chunk_bytes_max": 53336,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "mapping",
+     "shape": [],
+     "chunks": [],
+     "dtype": "StringDType()",
+     "codecs": [
+      "VLenUTF8Codec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {},
+     "grid": {
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",SOUTH],AXIS[\"Northing\",SOUTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",SOUTH],AXIS[\"Northing\",SOUTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "-1200007.5 120.0 0 -599992.5 0 -120.0",
+      "grid_mapping_name": "polar_stereographic",
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "false_easting": 0.0,
+      "false_northing": 0.0,
+      "semi_major_axis": 6378137.0,
+      "inverse_flattening": 298.257223563
+     }
+    },
+    {
+     "name": "landice",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 16980,
+     "chunk_bytes_max": 84807,
+     "cf": {},
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "floatingice",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 9833,
+     "chunk_bytes_max": 9833,
+     "cf": {},
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "count",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 409135,
+     "chunk_bytes_max": 2994863,
+     "cf": {
+      "units": "count",
+      "missing_value": 0
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vx",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 1005649,
+     "chunk_bytes_max": 6882451,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vy",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 1010200,
+     "chunk_bytes_max": 6898822,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "v",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 965216,
+     "chunk_bytes_max": 6645336,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "v_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 61846,
+     "chunk_bytes_max": 299664,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vx_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 56257,
+     "chunk_bytes_max": 195621,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vy_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 54261,
+     "chunk_bytes_max": 183629,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 6,
+    "n_fetches": 6,
+    "leading_fraction": 0.16666666666666666,
+    "contiguous_runs": 5,
+    "span_fraction": 1.0046948356807512
+   },
+   "seconds": 12.5
+  },
+  {
+   "granule_ur": "NSIDC-0776_RGI03A_2022_V02.0.nc",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/MEASURES/NSIDC-0776/2/2022/01/01/NSIDC-0776_RGI03A_2022_V02.0.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 224490614,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "x",
+     "shape": [
+      8334
+     ],
+     "chunks": [
+      8334
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 66672,
+     "chunk_bytes_max": 66672,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "y",
+     "shape": [
+      6667
+     ],
+     "chunks": [
+      6667
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 53336,
+     "chunk_bytes_max": 53336,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "mapping",
+     "shape": [],
+     "chunks": [],
+     "dtype": "StringDType()",
+     "codecs": [
+      "VLenUTF8Codec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {},
+     "grid": {
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",SOUTH],AXIS[\"Northing\",SOUTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",SOUTH],AXIS[\"Northing\",SOUTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "-1200007.5 120.0 0 -599992.5 0 -120.0",
+      "grid_mapping_name": "polar_stereographic",
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "false_easting": 0.0,
+      "false_northing": 0.0,
+      "semi_major_axis": 6378137.0,
+      "inverse_flattening": 298.257223563
+     }
+    },
+    {
+     "name": "landice",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 16980,
+     "chunk_bytes_max": 84807,
+     "cf": {},
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "floatingice",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 9833,
+     "chunk_bytes_max": 9833,
+     "cf": {},
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "count",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 410431,
+     "chunk_bytes_max": 2964334,
+     "cf": {
+      "units": "count",
+      "missing_value": 0
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vx",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 1008189,
+     "chunk_bytes_max": 6877318,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vy",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 1015951,
+     "chunk_bytes_max": 6926789,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "v",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 964787,
+     "chunk_bytes_max": 6648464,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "meter/year"
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "v_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 66852,
+     "chunk_bytes_max": 348187,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vx_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 61146,
+     "chunk_bytes_max": 259796,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    },
+    {
+     "name": "vy_error",
+     "shape": [
+      6667,
+      8334
+     ],
+     "chunks": [
+      1500,
+      1500
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 30,
+     "chunk_bytes_median": 57116,
+     "chunk_bytes_max": 235217,
+     "cf": {
+      "units": "meter/year",
+      "missing_value": 32767
+     },
+     "grid": {
+      "grid_mapping": "mapping"
+     }
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "x": {
+     "n": 8334,
+     "first": -1199947.5,
+     "step": 120.0,
+     "last": -199987.5
+    },
+    "y": {
+     "n": 6667,
+     "first": -600052.5,
+     "step": -120.0,
+     "last": -1399972.5
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 6,
+    "n_fetches": 6,
+    "leading_fraction": 0.16666666666666666,
+    "contiguous_runs": 6,
+    "span_fraction": 1.0046728971962617
+   },
+   "seconds": 19.0
+  }
+ ]
+}

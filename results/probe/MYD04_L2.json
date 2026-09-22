@@ -1,0 +1,73 @@
+{
+ "version": "6.1",
+ "level": "L2",
+ "sensor": "Aqua/MODIS",
+ "format": "HDF-EOS",
+ "daac": "NASA/GSFC/SED/ESD/HBSL/BISB/LAADS",
+ "short_name": "MYD04_L2",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "LAADS:2949173450",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD04_L2/MYD04_L2.A2002185.0045.061.2018003214507.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS",
+   "file_bytes": 1256120,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
+   "traceback_tail": "ization/.venv/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
+   "seconds": 4.6
+  },
+  {
+   "granule_ur": "LAADS:2949179258",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD04_L2/MYD04_L2.A2002185.0050.061.2018003214835.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS",
+   "file_bytes": 4899937,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
+   "traceback_tail": "ization/.venv/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
+   "seconds": 5.0
+  },
+  {
+   "granule_ur": "LAADS:10045160227",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD04_L2/MYD04_L2.A2026261.0550.061.2026261163603.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS",
+   "file_bytes": 4181443,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
+   "traceback_tail": "ization/.venv/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
+   "seconds": 4.4
+  },
+  {
+   "granule_ur": "LAADS:10045156897",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD04_L2/MYD04_L2.A2026261.0555.061.2026261162848.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS",
+   "file_bytes": 2380350,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
+   "traceback_tail": "ization/.venv/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
+   "seconds": 4.3
+  }
+ ]
+}

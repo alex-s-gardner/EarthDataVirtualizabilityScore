@@ -1,0 +1,72 @@
+{
+ "version": "Edition4A",
+ "level": "L3",
+ "sensor": "Aqua/MODIS+CERES",
+ "format": "HDF4",
+ "daac": "NASA/LARC/SD/ASDC",
+ "short_name": "CER_SSF1deg-Day_Aqua-MODIS",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.200207",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CER_SSF1deg-Day_Aqua-MODIS_Edition4A/2002.07/CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.200207",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 768661847,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "UnicodeDecodeError",
+   "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
+   "traceback_tail": "n3.14/site-packages/kerchunk/hdf4.py\", line 371, in _dec_version\n    \"string:\": _null_str(self.f.read(info[\"length\"] - 10).decode()),\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte\n",
+   "seconds": 45.1
+  },
+  {
+   "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.200208",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CER_SSF1deg-Day_Aqua-MODIS_Edition4A/2002.08/CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.200208",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 747759959,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "UnicodeDecodeError",
+   "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
+   "traceback_tail": "n3.14/site-packages/kerchunk/hdf4.py\", line 371, in _dec_version\n    \"string:\": _null_str(self.f.read(info[\"length\"] - 10).decode()),\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte\n",
+   "seconds": 44.6
+  },
+  {
+   "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_407407.202301",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CER_SSF1deg-Day_Aqua-MODIS_Edition4A/2023.01/CER_SSF1deg-Day_Aqua-MODIS_Edition4A_407407.202301",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 896649569,
+   "dmrpp": false,
+   "container": "hdf4",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "granule is 897 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
+   "traceback_tail": "\", line 426, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 897 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "seconds": 3.0
+  },
+  {
+   "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_407407.202302",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CER_SSF1deg-Day_Aqua-MODIS_Edition4A/2023.02/CER_SSF1deg-Day_Aqua-MODIS_Edition4A_407407.202302",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 818137429,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "UnicodeDecodeError",
+   "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
+   "traceback_tail": "n3.14/site-packages/kerchunk/hdf4.py\", line 371, in _dec_version\n    \"string:\": _null_str(self.f.read(info[\"length\"] - 10).decode()),\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte\n",
+   "seconds": 48.4
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "version": "7.0",
+ "level": "L2",
+ "sensor": "Aqua/AIRS",
+ "format": "HDF-EOS",
+ "daac": "NASA/GSFC/SED/ESD/TISL/GESDISC",
+ "short_name": "AIRS2RET",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "AIRS2RET.7.0:AIRS.2002.08.30.225.L2.RetStd_IR.v7.0.1.0.G20140141111.hdf",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/Aqua_AIRS_Level2/AIRS2RET.7.0/2002/242/AIRS.2002.08.30.225.L2.RetStd_IR.v7.0.1.0.G20140141111.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS",
+   "file_bytes": 3647343,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "ine 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 7.3
+  },
+  {
+   "granule_ur": "AIRS2RET.7.0:AIRS.2002.08.30.226.L2.RetStd_IR.v7.0.1.0.G20140141015.hdf",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/Aqua_AIRS_Level2/AIRS2RET.7.0/2002/242/AIRS.2002.08.30.226.L2.RetStd_IR.v7.0.1.0.G20140141015.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS",
+   "file_bytes": 3699530,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "ine 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 6.5
+  },
+  {
+   "granule_ur": "AIRS2RET.7.0:AIRS.2026.09.21.097.L2.RetStd_IR.v7.0.10.0.G26264180644.hdf",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/Aqua_AIRS_Level2/AIRS2RET.7.0/2026/264/AIRS.2026.09.21.097.L2.RetStd_IR.v7.0.10.0.G26264180644.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS",
+   "file_bytes": 3638621,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "ine 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 6.8
+  },
+  {
+   "granule_ur": "AIRS2RET.7.0:AIRS.2026.09.21.098.L2.RetStd_IR.v7.0.10.0.G26264180346.hdf",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/Aqua_AIRS_Level2/AIRS2RET.7.0/2026/264/AIRS.2026.09.21.098.L2.RetStd_IR.v7.0.10.0.G26264180346.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS",
+   "file_bytes": 3696701,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "ine 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 6.5
+  }
+ ]
+}

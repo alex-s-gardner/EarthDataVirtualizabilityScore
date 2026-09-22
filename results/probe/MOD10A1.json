@@ -1,0 +1,895 @@
+{
+ "version": "61",
+ "level": "L3",
+ "sensor": "Terra/MODIS",
+ "format": "HDF-EOS2",
+ "daac": "NASA NSIDC DAAC",
+ "short_name": "MOD10A1",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "MOD10A1.A2000055.h08v05.061.2020037170713.hdf",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/MODIS/MOD10A1/61/2000/02/24/MOD10A1.A2000055.h08v05.061.2020037170713.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 7655327,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "NDSI_Snow_Cover",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_x",
+      "NDSI_Snow_Cover_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none",
+      "missing_value": 200
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI_Snow_Cover_Basic_QA",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_Basic_QA_x",
+      "NDSI_Snow_Cover_Basic_QA_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI_Snow_Cover_Algorithm_Flags_QA",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_Algorithm_Flags_QA_x",
+      "NDSI_Snow_Cover_Algorithm_Flags_QA_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_x",
+      "NDSI_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "scale_factor": 1.1878912057698614e-24,
+      "_FillValue": 0,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Snow_Albedo_Daily_Tile",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Snow_Albedo_Daily_Tile_x",
+      "Snow_Albedo_Daily_Tile_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none",
+      "missing_value": 250
+     },
+     "grid": {}
+    },
+    {
+     "name": "orbit_pnt",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "orbit_pnt_x",
+      "orbit_pnt_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "granule_pnt",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "granule_pnt_x",
+      "granule_pnt_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 4.6
+  },
+  {
+   "granule_ur": "MOD10A1.A2000056.h08v05.061.2020037162801.hdf",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/MODIS/MOD10A1/61/2000/02/25/MOD10A1.A2000056.h08v05.061.2020037162801.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 6903287,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "NDSI_Snow_Cover",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_x",
+      "NDSI_Snow_Cover_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none",
+      "missing_value": 200
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI_Snow_Cover_Basic_QA",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_Basic_QA_x",
+      "NDSI_Snow_Cover_Basic_QA_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI_Snow_Cover_Algorithm_Flags_QA",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_Algorithm_Flags_QA_x",
+      "NDSI_Snow_Cover_Algorithm_Flags_QA_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_x",
+      "NDSI_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "scale_factor": 1.1878912057698614e-24,
+      "_FillValue": 0,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Snow_Albedo_Daily_Tile",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Snow_Albedo_Daily_Tile_x",
+      "Snow_Albedo_Daily_Tile_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none",
+      "missing_value": 250
+     },
+     "grid": {}
+    },
+    {
+     "name": "orbit_pnt",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "orbit_pnt_x",
+      "orbit_pnt_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "granule_pnt",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "granule_pnt_x",
+      "granule_pnt_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 4.1
+  },
+  {
+   "granule_ur": "MOD10A1.A2026262.h08v05.061.2026264030918.hdf_A4djsfUq",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/MODIS/MOD10A1/61/2026/09/19/MOD10A1.A2026262.h08v05.061.2026264030918.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 6375056,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "NDSI_Snow_Cover",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_x",
+      "NDSI_Snow_Cover_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none",
+      "missing_value": 200
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI_Snow_Cover_Basic_QA",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_Basic_QA_x",
+      "NDSI_Snow_Cover_Basic_QA_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI_Snow_Cover_Algorithm_Flags_QA",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_Algorithm_Flags_QA_x",
+      "NDSI_Snow_Cover_Algorithm_Flags_QA_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_x",
+      "NDSI_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "scale_factor": 1.1878912057698614e-24,
+      "_FillValue": 0,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Snow_Albedo_Daily_Tile",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Snow_Albedo_Daily_Tile_x",
+      "Snow_Albedo_Daily_Tile_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none",
+      "missing_value": 250
+     },
+     "grid": {}
+    },
+    {
+     "name": "orbit_pnt",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "orbit_pnt_x",
+      "orbit_pnt_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "granule_pnt",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "granule_pnt_x",
+      "granule_pnt_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 3.4
+  },
+  {
+   "granule_ur": "MOD10A1.A2026263.h08v05.061.2026265032638.hdf_A4djsfUq",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/MODIS/MOD10A1/61/2026/09/20/MOD10A1.A2026263.h08v05.061.2026265032638.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 7469789,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "NDSI_Snow_Cover",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_x",
+      "NDSI_Snow_Cover_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none",
+      "missing_value": 200
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI_Snow_Cover_Basic_QA",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_Basic_QA_x",
+      "NDSI_Snow_Cover_Basic_QA_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI_Snow_Cover_Algorithm_Flags_QA",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_Snow_Cover_Algorithm_Flags_QA_x",
+      "NDSI_Snow_Cover_Algorithm_Flags_QA_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "NDSI",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "NDSI_x",
+      "NDSI_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "scale_factor": 1.1878912057698614e-24,
+      "_FillValue": 0,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Snow_Albedo_Daily_Tile",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Snow_Albedo_Daily_Tile_x",
+      "Snow_Albedo_Daily_Tile_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none",
+      "missing_value": 250
+     },
+     "grid": {}
+    },
+    {
+     "name": "orbit_pnt",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "orbit_pnt_x",
+      "orbit_pnt_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "granule_pnt",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "granule_pnt_x",
+      "granule_pnt_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 4.1
+  }
+ ]
+}

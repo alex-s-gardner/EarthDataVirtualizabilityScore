@@ -1,0 +1,73 @@
+{
+ "version": "V4-51",
+ "level": "L1B",
+ "sensor": "CALIPSO/CALIOP",
+ "format": "HDF4",
+ "daac": "NASA/LARC/SD/ASDC",
+ "short_name": "CAL_LID_L1-Standard-V4-51",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "CAL_LID_L1-Standard-V4-51.2006-06-12T00-53-43ZN.hdf",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CALIPSO/CAL_LID_L1-Standard-V4-51_V4-51/2006.06/CAL_LID_L1-Standard-V4-51.2006-06-12T00-53-43ZN.hdf",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 452662919,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "UnicodeDecodeError",
+   "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
+   "traceback_tail": "09_NASA_data_virtualization/.venv/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
+   "seconds": 30.2
+  },
+  {
+   "granule_ur": "CAL_LID_L1-Standard-V4-51.2006-06-12T01-40-18ZD.hdf",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CALIPSO/CAL_LID_L1-Standard-V4-51_V4-51/2006.06/CAL_LID_L1-Standard-V4-51.2006-06-12T01-40-18ZD.hdf",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 508111943,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "UnicodeDecodeError",
+   "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
+   "traceback_tail": "09_NASA_data_virtualization/.venv/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
+   "seconds": 31.7
+  },
+  {
+   "granule_ur": "CAL_LID_L1-Standard-V4-51.2023-06-30T20-54-18ZN.hdf",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CALIPSO/CAL_LID_L1-Standard-V4-51_V4-51/2023.06/CAL_LID_L1-Standard-V4-51.2023-06-30T20-54-18ZN.hdf",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 445322880,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "UnicodeDecodeError",
+   "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
+   "traceback_tail": "09_NASA_data_virtualization/.venv/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
+   "seconds": 27.3
+  },
+  {
+   "granule_ur": "CAL_LID_L1-Standard-V4-51.2023-06-30T21-39-53ZD.hdf",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CALIPSO/CAL_LID_L1-Standard-V4-51_V4-51/2023.06/CAL_LID_L1-Standard-V4-51.2023-06-30T21-39-53ZD.hdf",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 512701869,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "UnicodeDecodeError",
+   "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
+   "traceback_tail": "09_NASA_data_virtualization/.venv/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
+   "seconds": 30.3
+  }
+ ]
+}

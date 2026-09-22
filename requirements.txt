@@ -1,0 +1,17 @@
+# Direct dependencies of the probe and verification stages, at the versions that produced
+# results/. kerchunk and fsspec are pinned because VirtualiZarr's HDF4 and netCDF-3 parsers
+# reach the network through them, and which granules those parsers accept is itself a finding.
+earthaccess==0.19.0
+fsspec==2026.9.0
+h5py==3.16.0
+icechunk==2.2.2
+kerchunk==0.2.10
+numcodecs==0.17.0
+numpy==2.5.3
+obspec-utils==0.9.0
+obstore==0.11.1
+requests==2.34.2
+tifffile==2026.9.20
+virtualizarr==2.7.3
+xarray==2026.7.0
+zarr==3.4.0

@@ -1,0 +1,22 @@
+name = "NASADataVirtualization"
+version = "0.1.0"
+authors = ["Alex Gardner"]
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+EarthData = "0ce7a1f8-0645-46c2-a0bb-6c09c29d93e9"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[sources]
+EarthData = {url = "https://github.com/alex-s-gardner/EarthData.jl", rev = "3f692a6"}
+
+[compat]
+CSV = "0.10"
+DataFrames = "1"
+HTTP = "1"
+JSON3 = "1"
+julia = "1.10"

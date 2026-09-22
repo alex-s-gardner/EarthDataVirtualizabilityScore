@@ -1,0 +1,9677 @@
+{
+ "version": "006",
+ "level": "L2",
+ "sensor": "SMAP/L-band radiometer",
+ "format": "HDF5",
+ "daac": "NASA NSIDC DAAC",
+ "short_name": "SPL2SMP_E",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "SMAP_L2_SM_P_E_00865_A_20150331T162945_R19240_001.h5",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL2SMP_E/006/2015/03/31/SMAP_L2_SM_P_E_00865_A_20150331T162945_R19240_001.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 27887874,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Soil_Moisture_Retrieval_Data/EASE_column_index",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12093,
+     "chunk_bytes_max": 12093,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/EASE_row_index",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18431,
+     "chunk_bytes_max": 18431,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/albedo",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 194948,
+     "chunk_bytes_max": 194948,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/albedo_option3",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 192940,
+     "chunk_bytes_max": 192940,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/boresight_incidence",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 585281,
+     "chunk_bytes_max": 585281,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/bulk_density",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 454346,
+     "chunk_bytes_max": 454346,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/clay_fraction",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 487099,
+     "chunk_bytes_max": 487099,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/freeze_thaw_fraction",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8194,
+     "chunk_bytes_max": 8194,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/grid_surface_status",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12200,
+     "chunk_bytes_max": 12200,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/latitude",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 38374,
+     "chunk_bytes_max": 38374,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/latitude_centroid",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 38374,
+     "chunk_bytes_max": 38374,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/longitude",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 24933,
+     "chunk_bytes_max": 24933,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/longitude_centroid",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 24933,
+     "chunk_bytes_max": 24933,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/organic_content",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 411330,
+     "chunk_bytes_max": 411330,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/radar_water_body_fraction",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 188634,
+     "chunk_bytes_max": 188634,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 22715,
+     "chunk_bytes_max": 22715,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option1",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 23002,
+     "chunk_bytes_max": 23002,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option2",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20491,
+     "chunk_bytes_max": 20491,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option3",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 22715,
+     "chunk_bytes_max": 22715,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/roughness_coefficient",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 226224,
+     "chunk_bytes_max": 226224,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/roughness_coefficient_option3",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 455222,
+     "chunk_bytes_max": 455222,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/sand_fraction",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 469605,
+     "chunk_bytes_max": 469605,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 413712,
+     "chunk_bytes_max": 413712,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_error",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5248,
+     "chunk_bytes_max": 5248,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option1",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 396426,
+     "chunk_bytes_max": 396426,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option2",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 413358,
+     "chunk_bytes_max": 413358,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option3",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 413712,
+     "chunk_bytes_max": 413712,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/static_water_body_fraction",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 188634,
+     "chunk_bytes_max": 188634,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_flag",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 29933,
+     "chunk_bytes_max": 29933,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_temperature",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 425630,
+     "chunk_bytes_max": 425630,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvins"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_water_fraction_mb_h",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 623265,
+     "chunk_bytes_max": 623265,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_water_fraction_mb_v",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 623037,
+     "chunk_bytes_max": 623037,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_3_corrected",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 969837,
+     "chunk_bytes_max": 969837,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_4_corrected",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 998999,
+     "chunk_bytes_max": 998999,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_h_corrected",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 877449,
+     "chunk_bytes_max": 877449,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_h_uncorrected",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 883899,
+     "chunk_bytes_max": 883899,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_3",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8462,
+     "chunk_bytes_max": 8462,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_4",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 7937,
+     "chunk_bytes_max": 7937,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_h",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 23156,
+     "chunk_bytes_max": 23156,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_v",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 23502,
+     "chunk_bytes_max": 23502,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_time_seconds",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1319836,
+     "chunk_bytes_max": 1319836,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_time_utc",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "|S24",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1335366,
+     "chunk_bytes_max": 1335366,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_v_corrected",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 866616,
+     "chunk_bytes_max": 866616,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_v_uncorrected",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 873574,
+     "chunk_bytes_max": 873574,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 359953,
+     "chunk_bytes_max": 359953,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option1",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 330579,
+     "chunk_bytes_max": 330579,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option2",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 330579,
+     "chunk_bytes_max": 330579,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option3",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 359953,
+     "chunk_bytes_max": 359953,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_water_content",
+     "shape": [
+      269166
+     ],
+     "chunks": [
+      269166
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 376014,
+     "chunk_bytes_max": 376014,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg/m**2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/EASE_column_index",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2719,
+     "chunk_bytes_max": 2719,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/EASE_row_index",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 9821,
+     "chunk_bytes_max": 9821,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/albedo",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 129013,
+     "chunk_bytes_max": 129013,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/albedo_option3",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 126764,
+     "chunk_bytes_max": 126764,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/boresight_incidence",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 295437,
+     "chunk_bytes_max": 295437,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/bulk_density",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 278780,
+     "chunk_bytes_max": 278780,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/clay_fraction",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 303341,
+     "chunk_bytes_max": 303341,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/freeze_thaw_fraction",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4431,
+     "chunk_bytes_max": 4431,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/grid_surface_status",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 7957,
+     "chunk_bytes_max": 7957,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/latitude",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 430161,
+     "chunk_bytes_max": 430161,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/latitude_centroid",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 430164,
+     "chunk_bytes_max": 430164,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/longitude",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 455958,
+     "chunk_bytes_max": 455958,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/longitude_centroid",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 455958,
+     "chunk_bytes_max": 455958,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/organic_content",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 225375,
+     "chunk_bytes_max": 225375,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/radar_water_body_fraction",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 127591,
+     "chunk_bytes_max": 127591,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15037,
+     "chunk_bytes_max": 15037,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option1",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16402,
+     "chunk_bytes_max": 16402,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option2",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 14218,
+     "chunk_bytes_max": 14218,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option3",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15037,
+     "chunk_bytes_max": 15037,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/roughness_coefficient",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 148580,
+     "chunk_bytes_max": 148580,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/roughness_coefficient_option3",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 274122,
+     "chunk_bytes_max": 274122,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/sand_fraction",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 290807,
+     "chunk_bytes_max": 290807,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 237593,
+     "chunk_bytes_max": 237593,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_error",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2654,
+     "chunk_bytes_max": 2654,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option1",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 221411,
+     "chunk_bytes_max": 221411,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option2",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 237159,
+     "chunk_bytes_max": 237159,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option3",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 237593,
+     "chunk_bytes_max": 237593,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/static_water_body_fraction",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 127591,
+     "chunk_bytes_max": 127591,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_flag",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 21196,
+     "chunk_bytes_max": 21196,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_temperature",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 277389,
+     "chunk_bytes_max": 277389,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvins"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_water_fraction_mb_h",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 363473,
+     "chunk_bytes_max": 363473,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_water_fraction_mb_v",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 363648,
+     "chunk_bytes_max": 363648,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_3_corrected",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 485320,
+     "chunk_bytes_max": 485320,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_4_corrected",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 503136,
+     "chunk_bytes_max": 503136,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_h_corrected",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 444276,
+     "chunk_bytes_max": 444276,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_h_uncorrected",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 447979,
+     "chunk_bytes_max": 447979,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_3",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6874,
+     "chunk_bytes_max": 6874,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_4",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6637,
+     "chunk_bytes_max": 6637,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_h",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16831,
+     "chunk_bytes_max": 16831,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_v",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16866,
+     "chunk_bytes_max": 16866,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_time_seconds",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 673229,
+     "chunk_bytes_max": 673229,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_time_utc",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "|S24",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 684161,
+     "chunk_bytes_max": 684161,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_v_corrected",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 439986,
+     "chunk_bytes_max": 439986,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_v_uncorrected",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 444249,
+     "chunk_bytes_max": 444249,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 194780,
+     "chunk_bytes_max": 194780,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option1",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 153716,
+     "chunk_bytes_max": 153716,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option2",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 153716,
+     "chunk_bytes_max": 153716,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option3",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 194780,
+     "chunk_bytes_max": 194780,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_water_content",
+     "shape": [
+      135450
+     ],
+     "chunks": [
+      135450
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 192558,
+     "chunk_bytes_max": 192558,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg/m**2"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "Soil_Moisture_Retrieval_Data/latitude": {
+     "n": 269166,
+     "first": 81.71884155273438,
+     "step": -0.47057342529296875,
+     "last": -82.21759796142578
+    },
+    "Soil_Moisture_Retrieval_Data/longitude": {
+     "n": 269166,
+     "first": -145.12966918945312,
+     "step": 0.0,
+     "last": 176.9657745361328
+    },
+    "Soil_Moisture_Retrieval_Data_Polar/latitude": {
+     "n": 135450,
+     "first": 75.34361267089844,
+     "step": 0.028717041015625,
+     "last": 0.023149333894252777
+    },
+    "Soil_Moisture_Retrieval_Data_Polar/longitude": {
+     "n": 135450,
+     "first": -110.83336639404297,
+     "step": 0.29584503173828125,
+     "last": 20.988191604614258
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 26,
+    "n_fetches": 26,
+    "leading_fraction": 0.038461538461538464,
+    "contiguous_runs": 2,
+    "span_fraction": 1.0384615384615385
+   },
+   "seconds": 54.3
+  },
+  {
+   "granule_ur": "SMAP_L2_SM_P_E_00866_A_20150331T180814_R19240_001.h5",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL2SMP_E/006/2015/03/31/SMAP_L2_SM_P_E_00866_A_20150331T180814_R19240_001.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 20947489,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Soil_Moisture_Retrieval_Data/EASE_column_index",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12146,
+     "chunk_bytes_max": 12146,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/EASE_row_index",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18412,
+     "chunk_bytes_max": 18412,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/albedo",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 73668,
+     "chunk_bytes_max": 73668,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/albedo_option3",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 69750,
+     "chunk_bytes_max": 69750,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/boresight_incidence",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 583814,
+     "chunk_bytes_max": 583814,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/bulk_density",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 155150,
+     "chunk_bytes_max": 155150,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/clay_fraction",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 164166,
+     "chunk_bytes_max": 164166,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/freeze_thaw_fraction",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 9392,
+     "chunk_bytes_max": 9392,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/grid_surface_status",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 9406,
+     "chunk_bytes_max": 9406,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/latitude",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 38219,
+     "chunk_bytes_max": 38219,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/latitude_centroid",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 38219,
+     "chunk_bytes_max": 38219,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/longitude",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 24685,
+     "chunk_bytes_max": 24685,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/longitude_centroid",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 24685,
+     "chunk_bytes_max": 24685,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/organic_content",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 130397,
+     "chunk_bytes_max": 130397,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/radar_water_body_fraction",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 89049,
+     "chunk_bytes_max": 89049,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 9422,
+     "chunk_bytes_max": 9422,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option1",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 10035,
+     "chunk_bytes_max": 10035,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option2",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8670,
+     "chunk_bytes_max": 8670,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option3",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 9422,
+     "chunk_bytes_max": 9422,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/roughness_coefficient",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 77821,
+     "chunk_bytes_max": 77821,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/roughness_coefficient_option3",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 141743,
+     "chunk_bytes_max": 141743,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/sand_fraction",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 159433,
+     "chunk_bytes_max": 159433,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 104501,
+     "chunk_bytes_max": 104501,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_error",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5244,
+     "chunk_bytes_max": 5244,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option1",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 99741,
+     "chunk_bytes_max": 99741,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option2",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 104527,
+     "chunk_bytes_max": 104527,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option3",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 104501,
+     "chunk_bytes_max": 104501,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/static_water_body_fraction",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 89049,
+     "chunk_bytes_max": 89049,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_flag",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 14755,
+     "chunk_bytes_max": 14755,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_temperature",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 155492,
+     "chunk_bytes_max": 155492,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvins"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_water_fraction_mb_h",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 430011,
+     "chunk_bytes_max": 430011,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_water_fraction_mb_v",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 429659,
+     "chunk_bytes_max": 429659,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_3_corrected",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 964292,
+     "chunk_bytes_max": 964292,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_4_corrected",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 999416,
+     "chunk_bytes_max": 999416,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_h_corrected",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 849387,
+     "chunk_bytes_max": 849387,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_h_uncorrected",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 852840,
+     "chunk_bytes_max": 852840,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_3",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3201,
+     "chunk_bytes_max": 3201,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_4",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3241,
+     "chunk_bytes_max": 3241,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_h",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 13940,
+     "chunk_bytes_max": 13940,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_v",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 14598,
+     "chunk_bytes_max": 14598,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_time_seconds",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1317926,
+     "chunk_bytes_max": 1317926,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_time_utc",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "|S24",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1325384,
+     "chunk_bytes_max": 1325384,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_v_corrected",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 844260,
+     "chunk_bytes_max": 844260,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_v_uncorrected",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 847822,
+     "chunk_bytes_max": 847822,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 93257,
+     "chunk_bytes_max": 93257,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option1",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 67293,
+     "chunk_bytes_max": 67293,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option2",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 67293,
+     "chunk_bytes_max": 67293,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option3",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 93257,
+     "chunk_bytes_max": 93257,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_water_content",
+     "shape": [
+      268969
+     ],
+     "chunks": [
+      268969
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 99471,
+     "chunk_bytes_max": 99471,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg/m**2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/EASE_column_index",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1850,
+     "chunk_bytes_max": 1850,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/EASE_row_index",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 10320,
+     "chunk_bytes_max": 10320,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/albedo",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 70539,
+     "chunk_bytes_max": 70539,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/albedo_option3",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 66341,
+     "chunk_bytes_max": 66341,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/boresight_incidence",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 268519,
+     "chunk_bytes_max": 268519,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/bulk_density",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 146546,
+     "chunk_bytes_max": 146546,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/clay_fraction",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 154059,
+     "chunk_bytes_max": 154059,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/freeze_thaw_fraction",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5483,
+     "chunk_bytes_max": 5483,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/grid_surface_status",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6086,
+     "chunk_bytes_max": 6086,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/latitude",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 458436,
+     "chunk_bytes_max": 458436,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/latitude_centroid",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 458423,
+     "chunk_bytes_max": 458423,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/longitude",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 475907,
+     "chunk_bytes_max": 475907,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/longitude_centroid",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 475907,
+     "chunk_bytes_max": 475907,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/organic_content",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 121136,
+     "chunk_bytes_max": 121136,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/radar_water_body_fraction",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 69296,
+     "chunk_bytes_max": 69296,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8163,
+     "chunk_bytes_max": 8163,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option1",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8849,
+     "chunk_bytes_max": 8849,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option2",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 7291,
+     "chunk_bytes_max": 7291,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option3",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8163,
+     "chunk_bytes_max": 8163,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/roughness_coefficient",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 74757,
+     "chunk_bytes_max": 74757,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/roughness_coefficient_option3",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 133404,
+     "chunk_bytes_max": 133404,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/sand_fraction",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 150693,
+     "chunk_bytes_max": 150693,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 101723,
+     "chunk_bytes_max": 101723,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_error",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2657,
+     "chunk_bytes_max": 2657,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option1",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 96970,
+     "chunk_bytes_max": 96970,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option2",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 101709,
+     "chunk_bytes_max": 101709,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option3",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 101723,
+     "chunk_bytes_max": 101723,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/static_water_body_fraction",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 69296,
+     "chunk_bytes_max": 69296,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_flag",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12785,
+     "chunk_bytes_max": 12785,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_temperature",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 156155,
+     "chunk_bytes_max": 156155,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvins"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_water_fraction_mb_h",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 291481,
+     "chunk_bytes_max": 291481,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_water_fraction_mb_v",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 291785,
+     "chunk_bytes_max": 291785,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_3_corrected",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 490131,
+     "chunk_bytes_max": 490131,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_4_corrected",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 504266,
+     "chunk_bytes_max": 504266,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_h_corrected",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 445758,
+     "chunk_bytes_max": 445758,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_h_uncorrected",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 447545,
+     "chunk_bytes_max": 447545,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_3",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2736,
+     "chunk_bytes_max": 2736,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_4",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2893,
+     "chunk_bytes_max": 2893,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_h",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 10316,
+     "chunk_bytes_max": 10316,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_v",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 10507,
+     "chunk_bytes_max": 10507,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_time_seconds",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 682110,
+     "chunk_bytes_max": 682110,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_time_utc",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "|S24",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 697801,
+     "chunk_bytes_max": 697801,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_v_corrected",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 441836,
+     "chunk_bytes_max": 441836,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_v_uncorrected",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 443653,
+     "chunk_bytes_max": 443653,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 91100,
+     "chunk_bytes_max": 91100,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option1",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 64358,
+     "chunk_bytes_max": 64358,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option2",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 64358,
+     "chunk_bytes_max": 64358,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option3",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 91100,
+     "chunk_bytes_max": 91100,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_water_content",
+     "shape": [
+      135577
+     ],
+     "chunks": [
+      135577
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 92014,
+     "chunk_bytes_max": 92014,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg/m**2"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 19,
+    "n_fetches": 19,
+    "leading_fraction": 0.05263157894736842,
+    "contiguous_runs": 2,
+    "span_fraction": 1.0526315789473684
+   },
+   "seconds": 26.8
+  },
+  {
+   "granule_ur": "SMAP_L2_SM_P_E_62177_A_20260921T224840_R19240_001.h5_pDJvhVoW",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL2SMP_E/006/2026/09/21/SMAP_L2_SM_P_E_62177_A_20260921T224840_R19240_001.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 28684946,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Soil_Moisture_Retrieval_Data/EASE_column_index",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12011,
+     "chunk_bytes_max": 12011,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/EASE_row_index",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18210,
+     "chunk_bytes_max": 18210,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/albedo",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 238424,
+     "chunk_bytes_max": 238424,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/albedo_option3",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 224983,
+     "chunk_bytes_max": 224983,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/boresight_incidence",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 507101,
+     "chunk_bytes_max": 507101,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/bulk_density",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 411349,
+     "chunk_bytes_max": 411349,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/clay_fraction",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 420715,
+     "chunk_bytes_max": 420715,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/freeze_thaw_fraction",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6357,
+     "chunk_bytes_max": 6357,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/grid_surface_status",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19587,
+     "chunk_bytes_max": 19587,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/latitude",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 37778,
+     "chunk_bytes_max": 37778,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/latitude_centroid",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 37778,
+     "chunk_bytes_max": 37778,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/longitude",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 23127,
+     "chunk_bytes_max": 23127,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/longitude_centroid",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 23127,
+     "chunk_bytes_max": 23127,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/organic_content",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 434240,
+     "chunk_bytes_max": 434240,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/radar_water_body_fraction",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 363758,
+     "chunk_bytes_max": 363758,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 32958,
+     "chunk_bytes_max": 32958,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option1",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 29343,
+     "chunk_bytes_max": 29343,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option2",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 28419,
+     "chunk_bytes_max": 28419,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option3",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 32958,
+     "chunk_bytes_max": 32958,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/roughness_coefficient",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 284140,
+     "chunk_bytes_max": 284140,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/roughness_coefficient_option3",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 416507,
+     "chunk_bytes_max": 416507,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/sand_fraction",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 421008,
+     "chunk_bytes_max": 421008,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 365911,
+     "chunk_bytes_max": 365911,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_error",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5208,
+     "chunk_bytes_max": 5208,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option1",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 351734,
+     "chunk_bytes_max": 351734,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option2",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 367805,
+     "chunk_bytes_max": 367805,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option3",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 365911,
+     "chunk_bytes_max": 365911,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/static_water_body_fraction",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 363758,
+     "chunk_bytes_max": 363758,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_flag",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 43468,
+     "chunk_bytes_max": 43468,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_temperature",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 383763,
+     "chunk_bytes_max": 383763,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvins"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_water_fraction_mb_h",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 719897,
+     "chunk_bytes_max": 719897,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_water_fraction_mb_v",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 716039,
+     "chunk_bytes_max": 716039,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_3_corrected",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 969082,
+     "chunk_bytes_max": 969082,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_4_corrected",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 993135,
+     "chunk_bytes_max": 993135,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_h_corrected",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 886109,
+     "chunk_bytes_max": 886109,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_h_uncorrected",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 896012,
+     "chunk_bytes_max": 896012,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_3",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 7389,
+     "chunk_bytes_max": 7389,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_4",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 7630,
+     "chunk_bytes_max": 7630,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_h",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 32209,
+     "chunk_bytes_max": 32209,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_v",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 32202,
+     "chunk_bytes_max": 32202,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_time_seconds",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1241051,
+     "chunk_bytes_max": 1241051,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_time_utc",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "|S24",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1321078,
+     "chunk_bytes_max": 1321078,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_v_corrected",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 875616,
+     "chunk_bytes_max": 875616,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_v_uncorrected",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 885973,
+     "chunk_bytes_max": 885973,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 354084,
+     "chunk_bytes_max": 354084,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option1",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 366075,
+     "chunk_bytes_max": 366075,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option2",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 366075,
+     "chunk_bytes_max": 366075,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option3",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 354084,
+     "chunk_bytes_max": 354084,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_water_content",
+     "shape": [
+      267218
+     ],
+     "chunks": [
+      267218
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 418221,
+     "chunk_bytes_max": 418221,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg/m**2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/EASE_column_index",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3890,
+     "chunk_bytes_max": 3890,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/EASE_row_index",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4843,
+     "chunk_bytes_max": 4843,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/albedo",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 169192,
+     "chunk_bytes_max": 169192,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/albedo_option3",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 163673,
+     "chunk_bytes_max": 163673,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/boresight_incidence",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 270179,
+     "chunk_bytes_max": 270179,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/bulk_density",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 263672,
+     "chunk_bytes_max": 263672,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/clay_fraction",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 273021,
+     "chunk_bytes_max": 273021,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/freeze_thaw_fraction",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3351,
+     "chunk_bytes_max": 3351,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/grid_surface_status",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12207,
+     "chunk_bytes_max": 12207,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/latitude",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 384054,
+     "chunk_bytes_max": 384054,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/latitude_centroid",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 384061,
+     "chunk_bytes_max": 384061,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/longitude",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 448039,
+     "chunk_bytes_max": 448039,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/longitude_centroid",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 448039,
+     "chunk_bytes_max": 448039,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/organic_content",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 278492,
+     "chunk_bytes_max": 278492,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/radar_water_body_fraction",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 257107,
+     "chunk_bytes_max": 257107,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19934,
+     "chunk_bytes_max": 19934,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option1",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18392,
+     "chunk_bytes_max": 18392,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option2",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18416,
+     "chunk_bytes_max": 18416,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option3",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19934,
+     "chunk_bytes_max": 19934,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/roughness_coefficient",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 200056,
+     "chunk_bytes_max": 200056,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/roughness_coefficient_option3",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 270535,
+     "chunk_bytes_max": 270535,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/sand_fraction",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 272753,
+     "chunk_bytes_max": 272753,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 228370,
+     "chunk_bytes_max": 228370,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_error",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2736,
+     "chunk_bytes_max": 2736,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option1",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 230568,
+     "chunk_bytes_max": 230568,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option2",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 228577,
+     "chunk_bytes_max": 228577,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option3",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 228370,
+     "chunk_bytes_max": 228370,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/static_water_body_fraction",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 257107,
+     "chunk_bytes_max": 257107,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_flag",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 26740,
+     "chunk_bytes_max": 26740,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_temperature",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 237188,
+     "chunk_bytes_max": 237188,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvins"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_water_fraction_mb_h",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 401210,
+     "chunk_bytes_max": 401210,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_water_fraction_mb_v",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 401516,
+     "chunk_bytes_max": 401516,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_3_corrected",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 492161,
+     "chunk_bytes_max": 492161,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_4_corrected",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 519034,
+     "chunk_bytes_max": 519034,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_h_corrected",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 461655,
+     "chunk_bytes_max": 461655,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_h_uncorrected",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 466536,
+     "chunk_bytes_max": 466536,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_3",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4731,
+     "chunk_bytes_max": 4731,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_4",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5031,
+     "chunk_bytes_max": 5031,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_h",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20237,
+     "chunk_bytes_max": 20237,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_v",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19749,
+     "chunk_bytes_max": 19749,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_time_seconds",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 590365,
+     "chunk_bytes_max": 590365,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_time_utc",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "|S24",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 574299,
+     "chunk_bytes_max": 574299,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_v_corrected",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 454318,
+     "chunk_bytes_max": 454318,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_v_uncorrected",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 460258,
+     "chunk_bytes_max": 460258,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 228852,
+     "chunk_bytes_max": 228852,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option1",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 230781,
+     "chunk_bytes_max": 230781,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option2",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 230781,
+     "chunk_bytes_max": 230781,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option3",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 228852,
+     "chunk_bytes_max": 228852,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_water_content",
+     "shape": [
+      139605
+     ],
+     "chunks": [
+      139605
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 273316,
+     "chunk_bytes_max": 273316,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg/m**2"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 28,
+    "n_fetches": 28,
+    "leading_fraction": 0.03571428571428571,
+    "contiguous_runs": 1,
+    "span_fraction": 1.037037037037037
+   },
+   "seconds": 42.9
+  },
+  {
+   "granule_ur": "SMAP_L2_SM_P_E_62178_A_20260922T002705_R19240_001.h5_pDJvhVoW",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL2SMP_E/006/2026/09/22/SMAP_L2_SM_P_E_62178_A_20260922T002705_R19240_001.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 25352439,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Soil_Moisture_Retrieval_Data/EASE_column_index",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12059,
+     "chunk_bytes_max": 12059,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/EASE_row_index",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 17431,
+     "chunk_bytes_max": 17431,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/albedo",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 119819,
+     "chunk_bytes_max": 119819,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/albedo_option3",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 126033,
+     "chunk_bytes_max": 126033,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/boresight_incidence",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 511294,
+     "chunk_bytes_max": 511294,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/bulk_density",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 236939,
+     "chunk_bytes_max": 236939,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/clay_fraction",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 243201,
+     "chunk_bytes_max": 243201,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/freeze_thaw_fraction",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5404,
+     "chunk_bytes_max": 5404,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/grid_surface_status",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 11205,
+     "chunk_bytes_max": 11205,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/latitude",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 36825,
+     "chunk_bytes_max": 36825,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/latitude_centroid",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 36825,
+     "chunk_bytes_max": 36825,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/longitude",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 23081,
+     "chunk_bytes_max": 23081,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/longitude_centroid",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 23081,
+     "chunk_bytes_max": 23081,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/organic_content",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 252250,
+     "chunk_bytes_max": 252250,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/radar_water_body_fraction",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 211301,
+     "chunk_bytes_max": 211301,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18244,
+     "chunk_bytes_max": 18244,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option1",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16691,
+     "chunk_bytes_max": 16691,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option2",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15511,
+     "chunk_bytes_max": 15511,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/retrieval_qual_flag_option3",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18244,
+     "chunk_bytes_max": 18244,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/roughness_coefficient",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 181817,
+     "chunk_bytes_max": 181817,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/roughness_coefficient_option3",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 245931,
+     "chunk_bytes_max": 245931,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/sand_fraction",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 242820,
+     "chunk_bytes_max": 242820,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 234715,
+     "chunk_bytes_max": 234715,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_error",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5239,
+     "chunk_bytes_max": 5239,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option1",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 228696,
+     "chunk_bytes_max": 228696,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option2",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 234305,
+     "chunk_bytes_max": 234305,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/soil_moisture_option3",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 234715,
+     "chunk_bytes_max": 234715,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/static_water_body_fraction",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 211301,
+     "chunk_bytes_max": 211301,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_flag",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 26108,
+     "chunk_bytes_max": 26108,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_temperature",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 222092,
+     "chunk_bytes_max": 222092,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvins"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_water_fraction_mb_h",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 486861,
+     "chunk_bytes_max": 486861,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/surface_water_fraction_mb_v",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 476529,
+     "chunk_bytes_max": 476529,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_3_corrected",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 970625,
+     "chunk_bytes_max": 970625,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_4_corrected",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 997822,
+     "chunk_bytes_max": 997822,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_h_corrected",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 865756,
+     "chunk_bytes_max": 865756,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_h_uncorrected",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 870592,
+     "chunk_bytes_max": 870592,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_3",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6930,
+     "chunk_bytes_max": 6930,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_4",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6363,
+     "chunk_bytes_max": 6363,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_h",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20790,
+     "chunk_bytes_max": 20790,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_qual_flag_v",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 21065,
+     "chunk_bytes_max": 21065,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_time_seconds",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1248066,
+     "chunk_bytes_max": 1248066,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_time_utc",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "|S24",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1332729,
+     "chunk_bytes_max": 1332729,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_v_corrected",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 857392,
+     "chunk_bytes_max": 857392,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/tb_v_uncorrected",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 862441,
+     "chunk_bytes_max": 862441,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 231277,
+     "chunk_bytes_max": 231277,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option1",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 240117,
+     "chunk_bytes_max": 240117,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option2",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 240117,
+     "chunk_bytes_max": 240117,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_opacity_option3",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 231277,
+     "chunk_bytes_max": 231277,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data/vegetation_water_content",
+     "shape": [
+      268835
+     ],
+     "chunks": [
+      268835
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 253936,
+     "chunk_bytes_max": 253936,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg/m**2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/EASE_column_index",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4187,
+     "chunk_bytes_max": 4187,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/EASE_row_index",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6745,
+     "chunk_bytes_max": 6745,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/albedo",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 115084,
+     "chunk_bytes_max": 115084,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/albedo_option3",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 120839,
+     "chunk_bytes_max": 120839,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/boresight_incidence",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 279343,
+     "chunk_bytes_max": 279343,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/bulk_density",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 249477,
+     "chunk_bytes_max": 249477,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/clay_fraction",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 257368,
+     "chunk_bytes_max": 257368,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/freeze_thaw_fraction",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3016,
+     "chunk_bytes_max": 3016,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/grid_surface_status",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6825,
+     "chunk_bytes_max": 6825,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/latitude",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 423300,
+     "chunk_bytes_max": 423300,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/latitude_centroid",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 423307,
+     "chunk_bytes_max": 423307,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/longitude",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 460613,
+     "chunk_bytes_max": 460613,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/longitude_centroid",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 460613,
+     "chunk_bytes_max": 460613,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/organic_content",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 265937,
+     "chunk_bytes_max": 265937,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/radar_water_body_fraction",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 176235,
+     "chunk_bytes_max": 176235,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15294,
+     "chunk_bytes_max": 15294,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option1",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 13842,
+     "chunk_bytes_max": 13842,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option2",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12633,
+     "chunk_bytes_max": 12633,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/retrieval_qual_flag_option3",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15294,
+     "chunk_bytes_max": 15294,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/roughness_coefficient",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 177303,
+     "chunk_bytes_max": 177303,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/roughness_coefficient_option3",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 261125,
+     "chunk_bytes_max": 261125,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/sand_fraction",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 256609,
+     "chunk_bytes_max": 256609,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 248052,
+     "chunk_bytes_max": 248052,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_error",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2828,
+     "chunk_bytes_max": 2828,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option1",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 242513,
+     "chunk_bytes_max": 242513,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option2",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 247735,
+     "chunk_bytes_max": 247735,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/soil_moisture_option3",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 248052,
+     "chunk_bytes_max": 248052,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "cm**3/cm**3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/static_water_body_fraction",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 176235,
+     "chunk_bytes_max": 176235,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_flag",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19083,
+     "chunk_bytes_max": 19083,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_temperature",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 229821,
+     "chunk_bytes_max": 229821,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvins"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_water_fraction_mb_h",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 368026,
+     "chunk_bytes_max": 368026,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/surface_water_fraction_mb_v",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 368537,
+     "chunk_bytes_max": 368537,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_3_corrected",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 512607,
+     "chunk_bytes_max": 512607,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_4_corrected",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 536342,
+     "chunk_bytes_max": 536342,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_h_corrected",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 469502,
+     "chunk_bytes_max": 469502,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_h_uncorrected",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 472976,
+     "chunk_bytes_max": 472976,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_3",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5446,
+     "chunk_bytes_max": 5446,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_4",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4895,
+     "chunk_bytes_max": 4895,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_h",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15197,
+     "chunk_bytes_max": 15197,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_qual_flag_v",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 14771,
+     "chunk_bytes_max": 14771,
+     "cf": {
+      "_FillValue": 65534
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_time_seconds",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 614687,
+     "chunk_bytes_max": 614687,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "seconds"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_time_utc",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "|S24",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 615570,
+     "chunk_bytes_max": 615570,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_v_corrected",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 462273,
+     "chunk_bytes_max": 462273,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/tb_v_uncorrected",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 465896,
+     "chunk_bytes_max": 465896,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 242535,
+     "chunk_bytes_max": 242535,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option1",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 252505,
+     "chunk_bytes_max": 252505,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option2",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 252505,
+     "chunk_bytes_max": 252505,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_opacity_option3",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 242535,
+     "chunk_bytes_max": 242535,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Soil_Moisture_Retrieval_Data_Polar/vegetation_water_content",
+     "shape": [
+      144411
+     ],
+     "chunks": [
+      144411
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 268199,
+     "chunk_bytes_max": 268199,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg/m**2"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "Soil_Moisture_Retrieval_Data/latitude": {
+     "n": 268835,
+     "first": 83.95420837402344,
+     "step": -1.2038650512695312,
+     "last": 76.5421371459961
+    },
+    "Soil_Moisture_Retrieval_Data/longitude": {
+     "n": 268835,
+     "first": -179.9533233642578,
+     "step": 0.0,
+     "last": 179.9533233642578
+    },
+    "Soil_Moisture_Retrieval_Data_Polar/latitude": {
+     "n": 144411,
+     "first": 0.01591368205845356,
+     "step": 0.018031703308224678,
+     "last": 75.35258483886719
+    },
+    "Soil_Moisture_Retrieval_Data_Polar/longitude": {
+     "n": 144411,
+     "first": -99.05297088623047,
+     "step": 0.0565338134765625,
+     "last": 129.17819213867188
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 24,
+    "n_fetches": 24,
+    "leading_fraction": 0.041666666666666664,
+    "contiguous_runs": 2,
+    "span_fraction": 1.0416666666666667
+   },
+   "seconds": 51.8
+  }
+ ]
+}

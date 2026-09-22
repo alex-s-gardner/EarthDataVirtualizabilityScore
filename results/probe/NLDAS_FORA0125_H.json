@@ -1,0 +1,2085 @@
+{
+ "version": "2.0",
+ "level": "L4",
+ "sensor": "NLDAS (model)",
+ "format": "NetCDF",
+ "daac": "NASA/GSFC/SED/ESD/TISL/GESDISC",
+ "short_name": "NLDAS_FORA0125_H",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "NLDAS_FORA0125_H.2.0:NLDAS_FORA0125_H.A19790101.1300.020.nc",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/NLDAS/NLDAS_FORA0125_H.2.0/1979/001/NLDAS_FORA0125_H.A19790101.1300.020.nc",
+   "orbit": "",
+   "declared_format": "NetCDF",
+   "file_bytes": 1720852,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "lon",
+     "shape": [
+      464
+     ],
+     "chunks": [
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 201,
+     "chunk_bytes_max": 201,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees_east",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      224
+     ],
+     "chunks": [
+      224
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 256,
+     "chunk_bytes_max": 256,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees_north",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {
+      "units": "hours since 1979-01-01 00:00:00"
+     },
+     "grid": {}
+    },
+    {
+     "name": "time_bnds",
+     "shape": [
+      1,
+      2
+     ],
+     "chunks": [
+      1,
+      2
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "bnds"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Tair",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 157665,
+     "chunk_bytes_max": 157665,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Qair",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 245720,
+     "chunk_bytes_max": 245720,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "PSurf",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 177450,
+     "chunk_bytes_max": 177450,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Pa",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Wind_E",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 198300,
+     "chunk_bytes_max": 198300,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Wind_N",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 199333,
+     "chunk_bytes_max": 199333,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "LWdown",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 190564,
+     "chunk_bytes_max": 190564,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "CRainf_frac",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16227,
+     "chunk_bytes_max": 16227,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "fraction",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "CAPE",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 44779,
+     "chunk_bytes_max": 44779,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "J kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "PotEvap",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 233550,
+     "chunk_bytes_max": 233550,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Rainf",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 109043,
+     "chunk_bytes_max": 109043,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "SWdown",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 50436,
+     "chunk_bytes_max": 50436,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "lon": {
+     "n": 464,
+     "first": -124.9375,
+     "step": 0.125,
+     "last": -67.0625
+    },
+    "lat": {
+     "n": 224,
+     "first": 25.0625,
+     "step": 0.125,
+     "last": 52.9375
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 2,
+    "n_fetches": 2,
+    "leading_fraction": 0.5,
+    "contiguous_runs": 1,
+    "span_fraction": 2.0
+   },
+   "seconds": 22.2
+  },
+  {
+   "granule_ur": "NLDAS_FORA0125_H.2.0:NLDAS_FORA0125_H.A19790101.1400.020.nc",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/NLDAS/NLDAS_FORA0125_H.2.0/1979/001/NLDAS_FORA0125_H.A19790101.1400.020.nc",
+   "orbit": "",
+   "declared_format": "NetCDF",
+   "file_bytes": 1790021,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "lon",
+     "shape": [
+      464
+     ],
+     "chunks": [
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 201,
+     "chunk_bytes_max": 201,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees_east",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      224
+     ],
+     "chunks": [
+      224
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 256,
+     "chunk_bytes_max": 256,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees_north",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {
+      "units": "hours since 1979-01-01 00:00:00"
+     },
+     "grid": {}
+    },
+    {
+     "name": "time_bnds",
+     "shape": [
+      1,
+      2
+     ],
+     "chunks": [
+      1,
+      2
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "bnds"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Tair",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 157631,
+     "chunk_bytes_max": 157631,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Qair",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 245855,
+     "chunk_bytes_max": 245855,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "PSurf",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 177414,
+     "chunk_bytes_max": 177414,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Pa",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Wind_E",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 198225,
+     "chunk_bytes_max": 198225,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Wind_N",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 199123,
+     "chunk_bytes_max": 199123,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "LWdown",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 190758,
+     "chunk_bytes_max": 190758,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "CRainf_frac",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16117,
+     "chunk_bytes_max": 16117,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "fraction",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "CAPE",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 44545,
+     "chunk_bytes_max": 44545,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "J kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "PotEvap",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 233550,
+     "chunk_bytes_max": 233550,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Rainf",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 106538,
+     "chunk_bytes_max": 106538,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "SWdown",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 122480,
+     "chunk_bytes_max": 122480,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 2,
+    "n_fetches": 2,
+    "leading_fraction": 0.5,
+    "contiguous_runs": 1,
+    "span_fraction": 2.0
+   },
+   "seconds": 9.1
+  },
+  {
+   "granule_ur": "NLDAS_FORA0125_H.2.0:NLDAS_FORA0125_H.A20260918.1100.020.nc",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/NLDAS/NLDAS_FORA0125_H.2.0/2026/261/NLDAS_FORA0125_H.A20260918.1100.020.nc",
+   "orbit": "",
+   "declared_format": "NetCDF",
+   "file_bytes": 1737096,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "lon",
+     "shape": [
+      464
+     ],
+     "chunks": [
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 201,
+     "chunk_bytes_max": 201,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees_east",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      224
+     ],
+     "chunks": [
+      224
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 256,
+     "chunk_bytes_max": 256,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees_north",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {
+      "units": "hours since 1979-01-01 00:00:00"
+     },
+     "grid": {}
+    },
+    {
+     "name": "time_bnds",
+     "shape": [
+      1,
+      2
+     ],
+     "chunks": [
+      1,
+      2
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "bnds"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Tair",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 152943,
+     "chunk_bytes_max": 152943,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Qair",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 234819,
+     "chunk_bytes_max": 234819,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "PSurf",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 174346,
+     "chunk_bytes_max": 174346,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Pa",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Wind_E",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 197519,
+     "chunk_bytes_max": 197519,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Wind_N",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 197325,
+     "chunk_bytes_max": 197325,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "LWdown",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 182857,
+     "chunk_bytes_max": 182857,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "CRainf_frac",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 30852,
+     "chunk_bytes_max": 30852,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "fraction",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "CAPE",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 144819,
+     "chunk_bytes_max": 144819,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "J kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "PotEvap",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 243909,
+     "chunk_bytes_max": 243909,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Rainf",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 48787,
+     "chunk_bytes_max": 48787,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "SWdown",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 36904,
+     "chunk_bytes_max": 36904,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 2,
+    "n_fetches": 2,
+    "leading_fraction": 0.5,
+    "contiguous_runs": 1,
+    "span_fraction": 2.0
+   },
+   "seconds": 9.0
+  },
+  {
+   "granule_ur": "NLDAS_FORA0125_H.2.0:NLDAS_FORA0125_H.A20260918.1200.020.nc",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/NLDAS/NLDAS_FORA0125_H.2.0/2026/261/NLDAS_FORA0125_H.A20260918.1200.020.nc",
+   "orbit": "",
+   "declared_format": "NetCDF",
+   "file_bytes": 1796161,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "lon",
+     "shape": [
+      464
+     ],
+     "chunks": [
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 201,
+     "chunk_bytes_max": 201,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees_east",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      224
+     ],
+     "chunks": [
+      224
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 256,
+     "chunk_bytes_max": 256,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees_north",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {
+      "units": "hours since 1979-01-01 00:00:00"
+     },
+     "grid": {}
+    },
+    {
+     "name": "time_bnds",
+     "shape": [
+      1,
+      2
+     ],
+     "chunks": [
+      1,
+      2
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time",
+      "bnds"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Tair",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 153170,
+     "chunk_bytes_max": 153170,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Qair",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 234818,
+     "chunk_bytes_max": 234818,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "PSurf",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 174094,
+     "chunk_bytes_max": 174094,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Pa",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Wind_E",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 197978,
+     "chunk_bytes_max": 197978,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Wind_N",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 197915,
+     "chunk_bytes_max": 197915,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "LWdown",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 183038,
+     "chunk_bytes_max": 183038,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "CRainf_frac",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 30196,
+     "chunk_bytes_max": 30196,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "fraction",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "CAPE",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 138222,
+     "chunk_bytes_max": 138222,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "J kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "PotEvap",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 243909,
+     "chunk_bytes_max": 243909,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Rainf",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 50108,
+     "chunk_bytes_max": 50108,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    },
+    {
+     "name": "SWdown",
+     "shape": [
+      1,
+      224,
+      464
+     ],
+     "chunks": [
+      1,
+      224,
+      464
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 100697,
+     "chunk_bytes_max": 100697,
+     "cf": {
+      "scale_factor": 1.0,
+      "add_offset": 0.0,
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "lon": {
+     "n": 464,
+     "first": -124.9375,
+     "step": 0.125,
+     "last": -67.0625
+    },
+    "lat": {
+     "n": 224,
+     "first": 25.0625,
+     "step": 0.125,
+     "last": 52.9375
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 2,
+    "n_fetches": 2,
+    "leading_fraction": 0.5,
+    "contiguous_runs": 1,
+    "span_fraction": 2.0
+   },
+   "seconds": 21.6
+  }
+ ]
+}

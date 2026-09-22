@@ -1,0 +1,4399 @@
+{
+ "version": "7",
+ "level": "L1B",
+ "sensor": "Terra/MODIS",
+ "format": "NetCDF-4",
+ "daac": "NASA/GSFC/SED/ESD/HBSL/BISB/LAADS",
+ "short_name": "MOD021KM",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "LAADS:8749495961",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MOD021KM/MOD021KM.A2000055.0000.007.2025059225803.nc",
+   "orbit": "",
+   "declared_format": "NetCDF-4",
+   "file_bytes": 42714186,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Band_1KM_Emissive",
+     "shape": [
+      16
+     ],
+     "chunks": [
+      16
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_Emissive"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 64,
+     "chunk_bytes_max": 64,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_1KM_RefSB",
+     "shape": [
+      15
+     ],
+     "chunks": [
+      15
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_RefSB"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 60,
+     "chunk_bytes_max": 60,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_250M",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_250M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_500M",
+     "shape": [
+      5
+     ],
+     "chunks": [
+      5
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_500M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20,
+     "chunk_bytes_max": 20,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Change in relative responses of thermal detectors",
+     "shape": [
+      16,
+      10
+     ],
+     "chunks": [
+      16,
+      10
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 160,
+     "chunk_bytes_max": 160,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 1km Bands",
+     "shape": [
+      203,
+      15,
+      10
+     ],
+     "chunks": [
+      203,
+      15,
+      10
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 52,
+     "chunk_bytes_max": 52,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 250m Bands",
+     "shape": [
+      203,
+      2,
+      40
+     ],
+     "chunks": [
+      203,
+      2,
+      40
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 38,
+     "chunk_bytes_max": 38,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 500m Bands",
+     "shape": [
+      203,
+      5,
+      20
+     ],
+     "chunks": [
+      203,
+      5,
+      20
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 43,
+     "chunk_bytes_max": 43,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Thermal Bands",
+     "shape": [
+      203,
+      16,
+      10
+     ],
+     "chunks": [
+      203,
+      16,
+      10
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 115,
+     "chunk_bytes_max": 115,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Level 1B Swath Metadata",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      10
+     ],
+     "dtype": "[('Scan Number', '<i4'), ('Complete Scan Flag', '<i4'), ('Scan Type', 'S4'), ('Mirror Side', '<i4'), ('EV Sector Start Time', '<f8'), ('EV_Frames', '<i4'), ('Nadir_Frame_Number', '<i4'), ('Latitude of Nadir Frame', '<f4'), ('Longitude of Nadir Frame', '<f4'), ('Solar Azimuth of Nadir Frame', '<f4'), ('Solar Zenith of Nadir Frame', '<f4'), ('No. OBC BB thermistor outliers', '<i4'), ('Bit QA Flags', '<u4'), ('Sector Rotation Angle', '<f4')]",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 21,
+     "chunk_bytes_median": 303,
+     "chunk_bytes_max": 308,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Noise in Thermal Detectors",
+     "shape": [
+      16,
+      10
+     ],
+     "chunks": [
+      16,
+      10
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 160,
+     "chunk_bytes_max": 160,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+     "shape": [
+      2030
+     ],
+     "chunks": [
+      2030
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "10*nscans"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 31,
+     "chunk_bytes_max": 31,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim",
+     "shape": [
+      271
+     ],
+     "chunks": [
+      271
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18,
+     "chunk_bytes_max": 18,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+     "shape": [
+      406
+     ],
+     "chunks": [
+      406
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "2*nscans"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 21,
+     "chunk_bytes_max": 21,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames",
+     "shape": [
+      1354
+     ],
+     "chunks": [
+      1354
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 27,
+     "chunk_bytes_max": 27,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_1KM_Emissive",
+     "shape": [
+      16
+     ],
+     "chunks": [
+      16
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_Emissive"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 64,
+     "chunk_bytes_max": 64,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_1KM_RefSB",
+     "shape": [
+      15
+     ],
+     "chunks": [
+      15
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_RefSB"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 60,
+     "chunk_bytes_max": 60,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_250M",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_250M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_500M",
+     "shape": [
+      5
+     ],
+     "chunks": [
+      5
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_500M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20,
+     "chunk_bytes_max": 20,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_Emissive",
+     "shape": [
+      16,
+      2030,
+      1354
+     ],
+     "chunks": [
+      6,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_Emissive",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 3,
+     "chunk_bytes_median": 12574192,
+     "chunk_bytes_max": 14742520,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_Emissive_Uncert_Indexes",
+     "shape": [
+      16,
+      2030,
+      1354
+     ],
+     "chunks": [
+      12,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_Emissive",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 2,
+     "chunk_bytes_median": 32074,
+     "chunk_bytes_max": 32076,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_RefSB",
+     "shape": [
+      15,
+      2030,
+      1354
+     ],
+     "chunks": [
+      6,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_RefSB",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_RefSB_Uncert_Indexes",
+     "shape": [
+      15,
+      2030,
+      1354
+     ],
+     "chunks": [
+      12,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_RefSB",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB_Samples_Used",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB_Uncert_Indexes",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB_Samples_Used",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB_Uncert_Indexes",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_Band26",
+     "shape": [
+      2030,
+      1354
+     ],
+     "chunks": [
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1616451,
+     "chunk_bytes_max": 1616451,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_Band26_Uncert_Indexes",
+     "shape": [
+      2030,
+      1354
+     ],
+     "chunks": [
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2687,
+     "chunk_bytes_max": 2687,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Height",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 113648,
+     "chunk_bytes_max": 113648,
+     "cf": {
+      "_FillValue": -32767,
+      "units": "meters"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Range",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 148890,
+     "chunk_bytes_max": 148890,
+     "cf": {
+      "scale_factor": 25.0,
+      "_FillValue": 0,
+      "units": "meters"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SensorAzimuth",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168002,
+     "chunk_bytes_max": 168002,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SensorZenith",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15811,
+     "chunk_bytes_max": 15811,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SolarAzimuth",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 139053,
+     "chunk_bytes_max": 139053,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SolarZenith",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 58952,
+     "chunk_bytes_max": 58952,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/gflags",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 129,
+     "chunk_bytes_max": 129,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Geolocation Fields/Latitude",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 346881,
+     "chunk_bytes_max": 346881,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Geolocation Fields/Longitude",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 383624,
+     "chunk_bytes_max": 383624,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS INFORMATION/StructMetadata.0",
+     "shape": [],
+     "chunks": [],
+     "dtype": "|S32000",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 32000,
+     "chunk_bytes_max": 32000,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 4,
+    "n_fetches": 4,
+    "leading_fraction": 0.25,
+    "contiguous_runs": 3,
+    "span_fraction": 1.025
+   },
+   "seconds": 16.6
+  },
+  {
+   "granule_ur": "LAADS:8749501828",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MOD021KM/MOD021KM.A2000055.0005.007.2025059225850.nc",
+   "orbit": "",
+   "declared_format": "NetCDF-4",
+   "file_bytes": 45597505,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Band_1KM_Emissive",
+     "shape": [
+      16
+     ],
+     "chunks": [
+      16
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_Emissive"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 64,
+     "chunk_bytes_max": 64,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_1KM_RefSB",
+     "shape": [
+      15
+     ],
+     "chunks": [
+      15
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_RefSB"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 60,
+     "chunk_bytes_max": 60,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_250M",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_250M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_500M",
+     "shape": [
+      5
+     ],
+     "chunks": [
+      5
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_500M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20,
+     "chunk_bytes_max": 20,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Change in relative responses of thermal detectors",
+     "shape": [
+      16,
+      10
+     ],
+     "chunks": [
+      16,
+      10
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 160,
+     "chunk_bytes_max": 160,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 1km Bands",
+     "shape": [
+      203,
+      15,
+      10
+     ],
+     "chunks": [
+      203,
+      15,
+      10
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 52,
+     "chunk_bytes_max": 52,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 250m Bands",
+     "shape": [
+      203,
+      2,
+      40
+     ],
+     "chunks": [
+      203,
+      2,
+      40
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 38,
+     "chunk_bytes_max": 38,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 500m Bands",
+     "shape": [
+      203,
+      5,
+      20
+     ],
+     "chunks": [
+      203,
+      5,
+      20
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 43,
+     "chunk_bytes_max": 43,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Thermal Bands",
+     "shape": [
+      203,
+      16,
+      10
+     ],
+     "chunks": [
+      203,
+      16,
+      10
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 121,
+     "chunk_bytes_max": 121,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Level 1B Swath Metadata",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      10
+     ],
+     "dtype": "[('Scan Number', '<i4'), ('Complete Scan Flag', '<i4'), ('Scan Type', 'S4'), ('Mirror Side', '<i4'), ('EV Sector Start Time', '<f8'), ('EV_Frames', '<i4'), ('Nadir_Frame_Number', '<i4'), ('Latitude of Nadir Frame', '<f4'), ('Longitude of Nadir Frame', '<f4'), ('Solar Azimuth of Nadir Frame', '<f4'), ('Solar Zenith of Nadir Frame', '<f4'), ('No. OBC BB thermistor outliers', '<i4'), ('Bit QA Flags', '<u4'), ('Sector Rotation Angle', '<f4')]",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 21,
+     "chunk_bytes_median": 304,
+     "chunk_bytes_max": 310,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Noise in Thermal Detectors",
+     "shape": [
+      16,
+      10
+     ],
+     "chunks": [
+      16,
+      10
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 160,
+     "chunk_bytes_max": 160,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+     "shape": [
+      2030
+     ],
+     "chunks": [
+      2030
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "10*nscans"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 31,
+     "chunk_bytes_max": 31,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim",
+     "shape": [
+      271
+     ],
+     "chunks": [
+      271
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18,
+     "chunk_bytes_max": 18,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+     "shape": [
+      406
+     ],
+     "chunks": [
+      406
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "2*nscans"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 21,
+     "chunk_bytes_max": 21,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames",
+     "shape": [
+      1354
+     ],
+     "chunks": [
+      1354
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 27,
+     "chunk_bytes_max": 27,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_1KM_Emissive",
+     "shape": [
+      16
+     ],
+     "chunks": [
+      16
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_Emissive"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 64,
+     "chunk_bytes_max": 64,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_1KM_RefSB",
+     "shape": [
+      15
+     ],
+     "chunks": [
+      15
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_RefSB"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 60,
+     "chunk_bytes_max": 60,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_250M",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_250M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_500M",
+     "shape": [
+      5
+     ],
+     "chunks": [
+      5
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_500M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20,
+     "chunk_bytes_max": 20,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_Emissive",
+     "shape": [
+      16,
+      2030,
+      1354
+     ],
+     "chunks": [
+      6,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_Emissive",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 3,
+     "chunk_bytes_median": 12044370,
+     "chunk_bytes_max": 14175550,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_Emissive_Uncert_Indexes",
+     "shape": [
+      16,
+      2030,
+      1354
+     ],
+     "chunks": [
+      12,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_Emissive",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 2,
+     "chunk_bytes_median": 32074,
+     "chunk_bytes_max": 32076,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_RefSB",
+     "shape": [
+      15,
+      2030,
+      1354
+     ],
+     "chunks": [
+      6,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_RefSB",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 3,
+     "chunk_bytes_median": 1758229,
+     "chunk_bytes_max": 1777538,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_RefSB_Uncert_Indexes",
+     "shape": [
+      15,
+      2030,
+      1354
+     ],
+     "chunks": [
+      12,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_RefSB",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 2,
+     "chunk_bytes_median": 32107,
+     "chunk_bytes_max": 32128,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 10711,
+     "chunk_bytes_max": 10711,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB_Samples_Used",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5368,
+     "chunk_bytes_max": 5368,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB_Uncert_Indexes",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5371,
+     "chunk_bytes_max": 5371,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 26759,
+     "chunk_bytes_max": 26759,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB_Samples_Used",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 13396,
+     "chunk_bytes_max": 13396,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB_Uncert_Indexes",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 13401,
+     "chunk_bytes_max": 13401,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_Band26",
+     "shape": [
+      2030,
+      1354
+     ],
+     "chunks": [
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1629141,
+     "chunk_bytes_max": 1629141,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_Band26_Uncert_Indexes",
+     "shape": [
+      2030,
+      1354
+     ],
+     "chunks": [
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2687,
+     "chunk_bytes_max": 2687,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Height",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 22375,
+     "chunk_bytes_max": 22375,
+     "cf": {
+      "_FillValue": -32767,
+      "units": "meters"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Range",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 70973,
+     "chunk_bytes_max": 70973,
+     "cf": {
+      "scale_factor": 25.0,
+      "_FillValue": 0,
+      "units": "meters"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SensorAzimuth",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 174483,
+     "chunk_bytes_max": 174483,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SensorZenith",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8547,
+     "chunk_bytes_max": 8547,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SolarAzimuth",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 150256,
+     "chunk_bytes_max": 150256,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SolarZenith",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 58285,
+     "chunk_bytes_max": 58285,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/gflags",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 129,
+     "chunk_bytes_max": 129,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Geolocation Fields/Latitude",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 353964,
+     "chunk_bytes_max": 353964,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Geolocation Fields/Longitude",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 371504,
+     "chunk_bytes_max": 371504,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS INFORMATION/StructMetadata.0",
+     "shape": [],
+     "chunks": [],
+     "dtype": "|S32000",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 32000,
+     "chunk_bytes_max": 32000,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 5,
+    "n_fetches": 5,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 4,
+    "span_fraction": 1.0232558139534884
+   },
+   "seconds": 14.9
+  },
+  {
+   "granule_ur": "LAADS:10045212497",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MOD021KM/MOD021KM.A2026261.1140.007.2026261175117.nc",
+   "orbit": "",
+   "declared_format": "NetCDF-4",
+   "file_bytes": 73657203,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Band_1KM_Emissive",
+     "shape": [
+      16
+     ],
+     "chunks": [
+      16
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_Emissive"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 64,
+     "chunk_bytes_max": 64,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_1KM_RefSB",
+     "shape": [
+      15
+     ],
+     "chunks": [
+      15
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_RefSB"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 60,
+     "chunk_bytes_max": 60,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_250M",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_250M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_500M",
+     "shape": [
+      5
+     ],
+     "chunks": [
+      5
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_500M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20,
+     "chunk_bytes_max": 20,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Change in relative responses of thermal detectors",
+     "shape": [
+      16,
+      10
+     ],
+     "chunks": [
+      16,
+      10
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 160,
+     "chunk_bytes_max": 160,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 1km Bands",
+     "shape": [
+      203,
+      15,
+      10
+     ],
+     "chunks": [
+      203,
+      15,
+      10
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 52,
+     "chunk_bytes_max": 52,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 250m Bands",
+     "shape": [
+      203,
+      2,
+      40
+     ],
+     "chunks": [
+      203,
+      2,
+      40
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 38,
+     "chunk_bytes_max": 38,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 500m Bands",
+     "shape": [
+      203,
+      5,
+      20
+     ],
+     "chunks": [
+      203,
+      5,
+      20
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 43,
+     "chunk_bytes_max": 43,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Thermal Bands",
+     "shape": [
+      203,
+      16,
+      10
+     ],
+     "chunks": [
+      203,
+      16,
+      10
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 158,
+     "chunk_bytes_max": 158,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Level 1B Swath Metadata",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      10
+     ],
+     "dtype": "[('Scan Number', '<i4'), ('Complete Scan Flag', '<i4'), ('Scan Type', 'S4'), ('Mirror Side', '<i4'), ('EV Sector Start Time', '<f8'), ('EV_Frames', '<i4'), ('Nadir_Frame_Number', '<i4'), ('Latitude of Nadir Frame', '<f4'), ('Longitude of Nadir Frame', '<f4'), ('Solar Azimuth of Nadir Frame', '<f4'), ('Solar Zenith of Nadir Frame', '<f4'), ('No. OBC BB thermistor outliers', '<i4'), ('Bit QA Flags', '<u4'), ('Sector Rotation Angle', '<f4')]",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 21,
+     "chunk_bytes_median": 301,
+     "chunk_bytes_max": 305,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Noise in Thermal Detectors",
+     "shape": [
+      16,
+      10
+     ],
+     "chunks": [
+      16,
+      10
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 160,
+     "chunk_bytes_max": 160,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+     "shape": [
+      2030
+     ],
+     "chunks": [
+      2030
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "10*nscans"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 31,
+     "chunk_bytes_max": 31,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim",
+     "shape": [
+      271
+     ],
+     "chunks": [
+      271
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18,
+     "chunk_bytes_max": 18,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+     "shape": [
+      406
+     ],
+     "chunks": [
+      406
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "2*nscans"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 21,
+     "chunk_bytes_max": 21,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames",
+     "shape": [
+      1354
+     ],
+     "chunks": [
+      1354
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 27,
+     "chunk_bytes_max": 27,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_1KM_Emissive",
+     "shape": [
+      16
+     ],
+     "chunks": [
+      16
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_Emissive"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 64,
+     "chunk_bytes_max": 64,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_1KM_RefSB",
+     "shape": [
+      15
+     ],
+     "chunks": [
+      15
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_RefSB"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 60,
+     "chunk_bytes_max": 60,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_250M",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_250M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_500M",
+     "shape": [
+      5
+     ],
+     "chunks": [
+      5
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_500M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20,
+     "chunk_bytes_max": 20,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_Emissive",
+     "shape": [
+      16,
+      2030,
+      1354
+     ],
+     "chunks": [
+      6,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_Emissive",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 3,
+     "chunk_bytes_median": 23392047,
+     "chunk_bytes_max": 27091045,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_Emissive_Uncert_Indexes",
+     "shape": [
+      16,
+      2030,
+      1354
+     ],
+     "chunks": [
+      12,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_Emissive",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 2,
+     "chunk_bytes_median": 969463,
+     "chunk_bytes_max": 1496286,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_RefSB",
+     "shape": [
+      15,
+      2030,
+      1354
+     ],
+     "chunks": [
+      6,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_RefSB",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_RefSB_Uncert_Indexes",
+     "shape": [
+      15,
+      2030,
+      1354
+     ],
+     "chunks": [
+      12,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_RefSB",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB_Samples_Used",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB_Uncert_Indexes",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB_Samples_Used",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB_Uncert_Indexes",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_Band26",
+     "shape": [
+      2030,
+      1354
+     ],
+     "chunks": [
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1739059,
+     "chunk_bytes_max": 1739059,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_Band26_Uncert_Indexes",
+     "shape": [
+      2030,
+      1354
+     ],
+     "chunks": [
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 14228,
+     "chunk_bytes_max": 14228,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Height",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 25003,
+     "chunk_bytes_max": 25003,
+     "cf": {
+      "_FillValue": -32767,
+      "units": "meters"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Range",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 114169,
+     "chunk_bytes_max": 114169,
+     "cf": {
+      "scale_factor": 25.0,
+      "_FillValue": 0,
+      "units": "meters"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SensorAzimuth",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 72689,
+     "chunk_bytes_max": 72689,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SensorZenith",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 11651,
+     "chunk_bytes_max": 11651,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SolarAzimuth",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 63000,
+     "chunk_bytes_max": 63000,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SolarZenith",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 65875,
+     "chunk_bytes_max": 65875,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/gflags",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 129,
+     "chunk_bytes_max": 129,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Geolocation Fields/Latitude",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 350923,
+     "chunk_bytes_max": 350923,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Geolocation Fields/Longitude",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 368026,
+     "chunk_bytes_max": 368026,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS INFORMATION/StructMetadata.0",
+     "shape": [],
+     "chunks": [],
+     "dtype": "|S32000",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 32000,
+     "chunk_bytes_max": 32000,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 5,
+    "n_fetches": 5,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 4,
+    "span_fraction": 1.0142857142857142
+   },
+   "seconds": 17.0
+  },
+  {
+   "granule_ur": "LAADS:10045212498",
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MOD021KM/MOD021KM.A2026261.1145.007.2026261175118.nc",
+   "orbit": "",
+   "declared_format": "NetCDF-4",
+   "file_bytes": 74270526,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Band_1KM_Emissive",
+     "shape": [
+      16
+     ],
+     "chunks": [
+      16
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_Emissive"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 64,
+     "chunk_bytes_max": 64,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_1KM_RefSB",
+     "shape": [
+      15
+     ],
+     "chunks": [
+      15
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_RefSB"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 60,
+     "chunk_bytes_max": 60,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_250M",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_250M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Band_500M",
+     "shape": [
+      5
+     ],
+     "chunks": [
+      5
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_500M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20,
+     "chunk_bytes_max": 20,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Change in relative responses of thermal detectors",
+     "shape": [
+      16,
+      10
+     ],
+     "chunks": [
+      16,
+      10
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 160,
+     "chunk_bytes_max": 160,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 1km Bands",
+     "shape": [
+      203,
+      15,
+      10
+     ],
+     "chunks": [
+      203,
+      15,
+      10
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 52,
+     "chunk_bytes_max": 52,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 250m Bands",
+     "shape": [
+      203,
+      2,
+      40
+     ],
+     "chunks": [
+      203,
+      2,
+      40
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 38,
+     "chunk_bytes_max": 38,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Reflective 500m Bands",
+     "shape": [
+      203,
+      5,
+      20
+     ],
+     "chunks": [
+      203,
+      5,
+      20
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 43,
+     "chunk_bytes_max": 43,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "DC Restore Change for Thermal Bands",
+     "shape": [
+      203,
+      16,
+      10
+     ],
+     "chunks": [
+      203,
+      16,
+      10
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1",
+      "phony_dim_2"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Level 1B Swath Metadata",
+     "shape": [
+      203
+     ],
+     "chunks": [
+      10
+     ],
+     "dtype": "[('Scan Number', '<i4'), ('Complete Scan Flag', '<i4'), ('Scan Type', 'S4'), ('Mirror Side', '<i4'), ('EV Sector Start Time', '<f8'), ('EV_Frames', '<i4'), ('Nadir_Frame_Number', '<i4'), ('Latitude of Nadir Frame', '<f4'), ('Longitude of Nadir Frame', '<f4'), ('Solar Azimuth of Nadir Frame', '<f4'), ('Solar Zenith of Nadir Frame', '<f4'), ('No. OBC BB thermistor outliers', '<i4'), ('Bit QA Flags', '<u4'), ('Sector Rotation Angle', '<f4')]",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 21,
+     "chunk_bytes_median": 297,
+     "chunk_bytes_max": 309,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Noise in Thermal Detectors",
+     "shape": [
+      16,
+      10
+     ],
+     "chunks": [
+      16,
+      10
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_0",
+      "phony_dim_1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 160,
+     "chunk_bytes_max": 160,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+     "shape": [
+      2030
+     ],
+     "chunks": [
+      2030
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "10*nscans"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 31,
+     "chunk_bytes_max": 31,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim",
+     "shape": [
+      271
+     ],
+     "chunks": [
+      271
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 18,
+     "chunk_bytes_max": 18,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+     "shape": [
+      406
+     ],
+     "chunks": [
+      406
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "2*nscans"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 21,
+     "chunk_bytes_max": 21,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames",
+     "shape": [
+      1354
+     ],
+     "chunks": [
+      1354
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 27,
+     "chunk_bytes_max": 27,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_1KM_Emissive",
+     "shape": [
+      16
+     ],
+     "chunks": [
+      16
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_Emissive"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 64,
+     "chunk_bytes_max": 64,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_1KM_RefSB",
+     "shape": [
+      15
+     ],
+     "chunks": [
+      15
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_1KM_RefSB"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 60,
+     "chunk_bytes_max": 60,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_250M",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_250M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Band_500M",
+     "shape": [
+      5
+     ],
+     "chunks": [
+      5
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "Band_500M"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20,
+     "chunk_bytes_max": 20,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_Emissive",
+     "shape": [
+      16,
+      2030,
+      1354
+     ],
+     "chunks": [
+      6,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_Emissive",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 3,
+     "chunk_bytes_median": 23066428,
+     "chunk_bytes_max": 27463820,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_Emissive_Uncert_Indexes",
+     "shape": [
+      16,
+      2030,
+      1354
+     ],
+     "chunks": [
+      12,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_Emissive",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 2,
+     "chunk_bytes_median": 1237783,
+     "chunk_bytes_max": 2032758,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_RefSB",
+     "shape": [
+      15,
+      2030,
+      1354
+     ],
+     "chunks": [
+      6,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_RefSB",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_1KM_RefSB_Uncert_Indexes",
+     "shape": [
+      15,
+      2030,
+      1354
+     ],
+     "chunks": [
+      12,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_1KM_RefSB",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB_Samples_Used",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_250_Aggr1km_RefSB_Uncert_Indexes",
+     "shape": [
+      2,
+      2030,
+      1354
+     ],
+     "chunks": [
+      2,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_250M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB_Samples_Used",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": -1,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_500_Aggr1km_RefSB_Uncert_Indexes",
+     "shape": [
+      5,
+      2030,
+      1354
+     ],
+     "chunks": [
+      5,
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Band_500M",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_Band26",
+     "shape": [
+      2030,
+      1354
+     ],
+     "chunks": [
+      2030,
+      1354
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1712066,
+     "chunk_bytes_max": 1712066,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/EV_Band26_Uncert_Indexes",
+     "shape": [
+      2030,
+      1354
+     ],
+     "chunks": [
+      2030,
+      1354
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/10*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Max_EV_frames"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 20304,
+     "chunk_bytes_max": 20304,
+     "cf": {
+      "_FillValue": 255,
+      "units": "none"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Height",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 139471,
+     "chunk_bytes_max": 139471,
+     "cf": {
+      "_FillValue": -32767,
+      "units": "meters"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/Range",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "uint16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 166125,
+     "chunk_bytes_max": 166125,
+     "cf": {
+      "scale_factor": 25.0,
+      "_FillValue": 0,
+      "units": "meters"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SensorAzimuth",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 104549,
+     "chunk_bytes_max": 104549,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SensorZenith",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16603,
+     "chunk_bytes_max": 16603,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SolarAzimuth",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 56512,
+     "chunk_bytes_max": 56512,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/SolarZenith",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 68501,
+     "chunk_bytes_max": 68501,
+     "cf": {
+      "scale_factor": 0.01,
+      "_FillValue": -32767,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Data Fields/gflags",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 129,
+     "chunk_bytes_max": 129,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Geolocation Fields/Latitude",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 344228,
+     "chunk_bytes_max": 344228,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/Geolocation Fields/Longitude",
+     "shape": [
+      406,
+      271
+     ],
+     "chunks": [
+      406,
+      271
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/2*nscans",
+      "HDFEOS/SWATHS/MODIS_SWATH_Type_L1B/1KM_geo_dim"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 373713,
+     "chunk_bytes_max": 373713,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS INFORMATION/StructMetadata.0",
+     "shape": [],
+     "chunks": [],
+     "dtype": "|S32000",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 32000,
+     "chunk_bytes_max": 32000,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 5,
+    "n_fetches": 5,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 4,
+    "span_fraction": 1.0142857142857142
+   },
+   "seconds": 16.9
+  }
+ ]
+}

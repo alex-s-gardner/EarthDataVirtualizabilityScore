@@ -1,0 +1,3619 @@
+{
+ "version": "061",
+ "level": "L3",
+ "sensor": "Terra+Aqua/MODIS",
+ "format": "HDF-EOS2",
+ "daac": "LP DAAC",
+ "short_name": "MCD43A3",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "MCD43A3.A2000055.h08v05.061.2020038135119",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD43A3.061/MCD43A3.A2000055.h08v05.061.2020038135119/MCD43A3.A2000055.h08v05.061.2020038135119.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 81229216,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band1_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7043,
+     "chunk_bytes_max": 16053,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band2_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7454,
+     "chunk_bytes_max": 16103,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band3_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7084,
+     "chunk_bytes_max": 16024,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band4_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7079,
+     "chunk_bytes_max": 16018,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band5_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 8988,
+     "chunk_bytes_max": 18140,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band6_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 8759,
+     "chunk_bytes_max": 18192,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band7_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7730,
+     "chunk_bytes_max": 17130,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_vis_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7066,
+     "chunk_bytes_max": 16038,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_nir_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 12235,
+     "chunk_bytes_max": 28681,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_shortwave_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 12194,
+     "chunk_bytes_max": 28703,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band1_x",
+      "Albedo_BSA_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 209637,
+     "chunk_bytes_max": 247483,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band2_x",
+      "Albedo_BSA_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 214718,
+     "chunk_bytes_max": 255494,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band3_x",
+      "Albedo_BSA_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 177352,
+     "chunk_bytes_max": 204451,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band4_x",
+      "Albedo_BSA_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 194904,
+     "chunk_bytes_max": 227631,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band5_x",
+      "Albedo_BSA_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 213195,
+     "chunk_bytes_max": 263045,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band6_x",
+      "Albedo_BSA_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 223082,
+     "chunk_bytes_max": 271032,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band7_x",
+      "Albedo_BSA_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 223378,
+     "chunk_bytes_max": 273318,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_vis_x",
+      "Albedo_BSA_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 191869,
+     "chunk_bytes_max": 224031,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_nir_x",
+      "Albedo_BSA_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 210535,
+     "chunk_bytes_max": 256121,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_shortwave_x",
+      "Albedo_BSA_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 196646,
+     "chunk_bytes_max": 236411,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band1_x",
+      "Albedo_WSA_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 213694,
+     "chunk_bytes_max": 258122,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band2_x",
+      "Albedo_WSA_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 219706,
+     "chunk_bytes_max": 266101,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band3_x",
+      "Albedo_WSA_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 181758,
+     "chunk_bytes_max": 213504,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band4_x",
+      "Albedo_WSA_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 199323,
+     "chunk_bytes_max": 238828,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band5_x",
+      "Albedo_WSA_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 217613,
+     "chunk_bytes_max": 274339,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band6_x",
+      "Albedo_WSA_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 226481,
+     "chunk_bytes_max": 279533,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band7_x",
+      "Albedo_WSA_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 227038,
+     "chunk_bytes_max": 281301,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_vis_x",
+      "Albedo_WSA_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 195540,
+     "chunk_bytes_max": 233917,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_nir_x",
+      "Albedo_WSA_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 214545,
+     "chunk_bytes_max": 265925,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_shortwave_x",
+      "Albedo_WSA_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 200780,
+     "chunk_bytes_max": 246568,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.7
+  },
+  {
+   "granule_ur": "MCD43A3.A2000056.h08v05.061.2020038201507",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD43A3.061/MCD43A3.A2000056.h08v05.061.2020038201507/MCD43A3.A2000056.h08v05.061.2020038201507.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 90379306,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band1_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 11430,
+     "chunk_bytes_max": 17429,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band2_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 11619,
+     "chunk_bytes_max": 17232,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band3_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 11442,
+     "chunk_bytes_max": 17451,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band4_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 11411,
+     "chunk_bytes_max": 17419,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band5_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 14934,
+     "chunk_bytes_max": 18763,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band6_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 14708,
+     "chunk_bytes_max": 18543,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band7_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 13347,
+     "chunk_bytes_max": 18059,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_vis_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 11492,
+     "chunk_bytes_max": 17449,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_nir_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 17777,
+     "chunk_bytes_max": 26134,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_shortwave_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 17600,
+     "chunk_bytes_max": 26142,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band1_x",
+      "Albedo_BSA_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 208681,
+     "chunk_bytes_max": 242848,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band2_x",
+      "Albedo_BSA_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 213351,
+     "chunk_bytes_max": 247630,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band3_x",
+      "Albedo_BSA_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 175337,
+     "chunk_bytes_max": 200240,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band4_x",
+      "Albedo_BSA_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 193662,
+     "chunk_bytes_max": 222760,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band5_x",
+      "Albedo_BSA_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 213113,
+     "chunk_bytes_max": 257417,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band6_x",
+      "Albedo_BSA_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 224013,
+     "chunk_bytes_max": 266495,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band7_x",
+      "Albedo_BSA_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 223476,
+     "chunk_bytes_max": 267955,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_vis_x",
+      "Albedo_BSA_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 190709,
+     "chunk_bytes_max": 218657,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_nir_x",
+      "Albedo_BSA_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 209734,
+     "chunk_bytes_max": 249514,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_shortwave_x",
+      "Albedo_BSA_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 195508,
+     "chunk_bytes_max": 229849,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band1_x",
+      "Albedo_WSA_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 213038,
+     "chunk_bytes_max": 251645,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band2_x",
+      "Albedo_WSA_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 218662,
+     "chunk_bytes_max": 255983,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band3_x",
+      "Albedo_WSA_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 179710,
+     "chunk_bytes_max": 208563,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band4_x",
+      "Albedo_WSA_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 198421,
+     "chunk_bytes_max": 232093,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band5_x",
+      "Albedo_WSA_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 218106,
+     "chunk_bytes_max": 268200,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band6_x",
+      "Albedo_WSA_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 227612,
+     "chunk_bytes_max": 274394,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band7_x",
+      "Albedo_WSA_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 227177,
+     "chunk_bytes_max": 274597,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_vis_x",
+      "Albedo_WSA_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 194692,
+     "chunk_bytes_max": 227252,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_nir_x",
+      "Albedo_WSA_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 213991,
+     "chunk_bytes_max": 256965,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_shortwave_x",
+      "Albedo_WSA_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 199888,
+     "chunk_bytes_max": 237716,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.3
+  },
+  {
+   "granule_ur": "MCD43A3.A2026255.h08v05.061.2026264204340",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD43A3.061/MCD43A3.A2026255.h08v05.061.2026264204340/MCD43A3.A2026255.h08v05.061.2026264204340.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 105479475,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band1_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7290,
+     "chunk_bytes_max": 15115,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band2_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 8590,
+     "chunk_bytes_max": 14779,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band3_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7628,
+     "chunk_bytes_max": 14383,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band4_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7384,
+     "chunk_bytes_max": 13755,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band5_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 8508,
+     "chunk_bytes_max": 14208,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band6_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 13679,
+     "chunk_bytes_max": 19486,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band7_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7842,
+     "chunk_bytes_max": 15925,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_vis_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 7396,
+     "chunk_bytes_max": 15107,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_nir_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 15389,
+     "chunk_bytes_max": 23783,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_shortwave_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 15409,
+     "chunk_bytes_max": 23774,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band1_x",
+      "Albedo_BSA_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 227205,
+     "chunk_bytes_max": 255038,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band2_x",
+      "Albedo_BSA_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 235125,
+     "chunk_bytes_max": 265495,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band3_x",
+      "Albedo_BSA_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 184370,
+     "chunk_bytes_max": 210804,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band4_x",
+      "Albedo_BSA_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 207352,
+     "chunk_bytes_max": 231592,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band5_x",
+      "Albedo_BSA_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 242370,
+     "chunk_bytes_max": 267448,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band6_x",
+      "Albedo_BSA_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 252723,
+     "chunk_bytes_max": 275818,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band7_x",
+      "Albedo_BSA_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 246769,
+     "chunk_bytes_max": 276042,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_vis_x",
+      "Albedo_BSA_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 205653,
+     "chunk_bytes_max": 229583,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_nir_x",
+      "Albedo_BSA_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 233125,
+     "chunk_bytes_max": 259088,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_shortwave_x",
+      "Albedo_BSA_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 216413,
+     "chunk_bytes_max": 247568,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band1_x",
+      "Albedo_WSA_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 224636,
+     "chunk_bytes_max": 253735,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band2_x",
+      "Albedo_WSA_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 234436,
+     "chunk_bytes_max": 267263,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band3_x",
+      "Albedo_WSA_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 181771,
+     "chunk_bytes_max": 210113,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band4_x",
+      "Albedo_WSA_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 204706,
+     "chunk_bytes_max": 231840,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band5_x",
+      "Albedo_WSA_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 239522,
+     "chunk_bytes_max": 269975,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band6_x",
+      "Albedo_WSA_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 250830,
+     "chunk_bytes_max": 278166,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band7_x",
+      "Albedo_WSA_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 244470,
+     "chunk_bytes_max": 276011,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_vis_x",
+      "Albedo_WSA_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 202472,
+     "chunk_bytes_max": 228771,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_nir_x",
+      "Albedo_WSA_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 230525,
+     "chunk_bytes_max": 261018,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_shortwave_x",
+      "Albedo_WSA_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 213551,
+     "chunk_bytes_max": 246923,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.8
+  },
+  {
+   "granule_ur": "MCD43A3.A2026256.h08v05.061.2026265032855",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD43A3.061/MCD43A3.A2026256.h08v05.061.2026265032855/MCD43A3.A2026256.h08v05.061.2026265032855.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 105878686,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band1_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 9061,
+     "chunk_bytes_max": 15347,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band2_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 9463,
+     "chunk_bytes_max": 16774,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band3_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 9050,
+     "chunk_bytes_max": 15824,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band4_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 8940,
+     "chunk_bytes_max": 15625,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band5_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 9839,
+     "chunk_bytes_max": 15911,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band6_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 14329,
+     "chunk_bytes_max": 21521,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_Band7_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 9600,
+     "chunk_bytes_max": 15809,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_vis_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 9198,
+     "chunk_bytes_max": 15656,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_nir_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 15969,
+     "chunk_bytes_max": 25312,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "BRDF_Albedo_Band_Mandatory_Quality_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "BRDF_Albedo_Band_Mandatory_Quality_shortwave_x",
+      "BRDF_Albedo_Band_Mandatory_Quality_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 15905,
+     "chunk_bytes_max": 25290,
+     "cf": {
+      "_FillValue": 255,
+      "units": "concatenated flags"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band1_x",
+      "Albedo_BSA_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 227426,
+     "chunk_bytes_max": 255490,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band2_x",
+      "Albedo_BSA_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 235762,
+     "chunk_bytes_max": 266247,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band3_x",
+      "Albedo_BSA_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 184672,
+     "chunk_bytes_max": 210876,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band4_x",
+      "Albedo_BSA_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 207699,
+     "chunk_bytes_max": 232255,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band5_x",
+      "Albedo_BSA_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 242931,
+     "chunk_bytes_max": 268184,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band6_x",
+      "Albedo_BSA_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 252763,
+     "chunk_bytes_max": 275521,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_Band7_x",
+      "Albedo_BSA_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 247083,
+     "chunk_bytes_max": 276255,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_vis_x",
+      "Albedo_BSA_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 205968,
+     "chunk_bytes_max": 229893,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_nir_x",
+      "Albedo_BSA_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 233648,
+     "chunk_bytes_max": 260642,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_BSA_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_BSA_shortwave_x",
+      "Albedo_BSA_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 216638,
+     "chunk_bytes_max": 247930,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band1_x",
+      "Albedo_WSA_Band1_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 224352,
+     "chunk_bytes_max": 253091,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band2_x",
+      "Albedo_WSA_Band2_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 234388,
+     "chunk_bytes_max": 267050,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band3_x",
+      "Albedo_WSA_Band3_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 181760,
+     "chunk_bytes_max": 209292,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band4_x",
+      "Albedo_WSA_Band4_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 204485,
+     "chunk_bytes_max": 230840,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band5_x",
+      "Albedo_WSA_Band5_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 239001,
+     "chunk_bytes_max": 269594,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band6",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band6_x",
+      "Albedo_WSA_Band6_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 251383,
+     "chunk_bytes_max": 276488,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_Band7",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_Band7_x",
+      "Albedo_WSA_Band7_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 244454,
+     "chunk_bytes_max": 275546,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_vis",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_vis_x",
+      "Albedo_WSA_vis_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 202178,
+     "chunk_bytes_max": 228013,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_nir",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_nir_x",
+      "Albedo_WSA_nir_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 230473,
+     "chunk_bytes_max": 260878,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Albedo_WSA_shortwave",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      100,
+      2400
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Albedo_WSA_shortwave_x",
+      "Albedo_WSA_shortwave_y"
+     ],
+     "n_chunks": 24,
+     "chunk_bytes_median": 213307,
+     "chunk_bytes_max": 246231,
+     "cf": {
+      "scale_factor": -3.2363318029872255e+292,
+      "add_offset": 0.0,
+      "_FillValue": 32767,
+      "units": "reflectance, no units"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.4
+  }
+ ]
+}

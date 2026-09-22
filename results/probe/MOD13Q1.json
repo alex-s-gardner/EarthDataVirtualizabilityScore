@@ -1,0 +1,1515 @@
+{
+ "version": "061",
+ "level": "L3",
+ "sensor": "Terra/MODIS",
+ "format": "HDF-EOS2",
+ "daac": "LP DAAC",
+ "short_name": "MOD13Q1",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "MOD13Q1.A2000049.h08v05.061.2020041152304",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD13Q1.061/MOD13Q1.A2000049.h08v05.061.2020041152304/MOD13Q1.A2000049.h08v05.061.2020041152304.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 193904477,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "250m 16 days NDVI",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days NDVI_x",
+      "250m 16 days NDVI_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6558,
+     "chunk_bytes_max": 7151,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -3000,
+      "units": "NDVI"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days EVI",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days EVI_x",
+      "250m 16 days EVI_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6243,
+     "chunk_bytes_max": 6946,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -3000,
+      "units": "EVI"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days VI Quality",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days VI Quality_x",
+      "250m 16 days VI Quality_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 526,
+     "chunk_bytes_max": 871,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "bit field"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days red reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days red reflectance_x",
+      "250m 16 days red reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6356,
+     "chunk_bytes_max": 7115,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days NIR reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days NIR reflectance_x",
+      "250m 16 days NIR reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6425,
+     "chunk_bytes_max": 7178,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days blue reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days blue reflectance_x",
+      "250m 16 days blue reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 4042,
+     "chunk_bytes_max": 4547,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days MIR reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days MIR reflectance_x",
+      "250m 16 days MIR reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 4785,
+     "chunk_bytes_max": 5516,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days view zenith angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days view zenith angle_x",
+      "250m 16 days view zenith angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 2201,
+     "chunk_bytes_max": 2800,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -10000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days sun zenith angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days sun zenith angle_x",
+      "250m 16 days sun zenith angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 1514,
+     "chunk_bytes_max": 2000,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -10000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days relative azimuth angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days relative azimuth angle_x",
+      "250m 16 days relative azimuth angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 2273,
+     "chunk_bytes_max": 2667,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -4000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days composite day of the year",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days composite day of the year_x",
+      "250m 16 days composite day of the year_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 433,
+     "chunk_bytes_max": 751,
+     "cf": {
+      "_FillValue": -1,
+      "units": "Julian day of the year "
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days pixel reliability",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days pixel reliability_x",
+      "250m 16 days pixel reliability_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 195,
+     "chunk_bytes_max": 346,
+     "cf": {
+      "_FillValue": -1,
+      "units": "rank"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 13.2
+  },
+  {
+   "granule_ur": "MOD13Q1.A2000065.h08v05.061.2020040135924",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD13Q1.061/MOD13Q1.A2000065.h08v05.061.2020040135924/MOD13Q1.A2000065.h08v05.061.2020040135924.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 212773450,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "250m 16 days NDVI",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days NDVI_x",
+      "250m 16 days NDVI_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6553,
+     "chunk_bytes_max": 7633,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -3000,
+      "units": "NDVI"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days EVI",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days EVI_x",
+      "250m 16 days EVI_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6234,
+     "chunk_bytes_max": 7243,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -3000,
+      "units": "EVI"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days VI Quality",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days VI Quality_x",
+      "250m 16 days VI Quality_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 328,
+     "chunk_bytes_max": 838,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "bit field"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days red reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days red reflectance_x",
+      "250m 16 days red reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6383,
+     "chunk_bytes_max": 7198,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days NIR reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days NIR reflectance_x",
+      "250m 16 days NIR reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6469,
+     "chunk_bytes_max": 7257,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days blue reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days blue reflectance_x",
+      "250m 16 days blue reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 4611,
+     "chunk_bytes_max": 5254,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days MIR reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days MIR reflectance_x",
+      "250m 16 days MIR reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 5316,
+     "chunk_bytes_max": 6204,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days view zenith angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days view zenith angle_x",
+      "250m 16 days view zenith angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 3360,
+     "chunk_bytes_max": 4113,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -10000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days sun zenith angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days sun zenith angle_x",
+      "250m 16 days sun zenith angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 2396,
+     "chunk_bytes_max": 3029,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -10000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days relative azimuth angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days relative azimuth angle_x",
+      "250m 16 days relative azimuth angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 3320,
+     "chunk_bytes_max": 4141,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -4000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days composite day of the year",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days composite day of the year_x",
+      "250m 16 days composite day of the year_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 877,
+     "chunk_bytes_max": 1152,
+     "cf": {
+      "_FillValue": -1,
+      "units": "Julian day of the year "
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days pixel reliability",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days pixel reliability_x",
+      "250m 16 days pixel reliability_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 128,
+     "chunk_bytes_max": 295,
+     "cf": {
+      "_FillValue": -1,
+      "units": "rank"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 8.5
+  },
+  {
+   "granule_ur": "MOD13Q1.A2026225.h08v05.061.2026243093305",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD13Q1.061/MOD13Q1.A2026225.h08v05.061.2026243093305/MOD13Q1.A2026225.h08v05.061.2026243093305.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 223947314,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "250m 16 days NDVI",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days NDVI_x",
+      "250m 16 days NDVI_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6869,
+     "chunk_bytes_max": 7807,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -3000,
+      "units": "NDVI"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days EVI",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days EVI_x",
+      "250m 16 days EVI_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6566,
+     "chunk_bytes_max": 7420,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -3000,
+      "units": "EVI"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days VI Quality",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days VI Quality_x",
+      "250m 16 days VI Quality_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 212,
+     "chunk_bytes_max": 547,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "bit field"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days red reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days red reflectance_x",
+      "250m 16 days red reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6481,
+     "chunk_bytes_max": 7264,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days NIR reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days NIR reflectance_x",
+      "250m 16 days NIR reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6587,
+     "chunk_bytes_max": 7295,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days blue reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days blue reflectance_x",
+      "250m 16 days blue reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 4779,
+     "chunk_bytes_max": 5474,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days MIR reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days MIR reflectance_x",
+      "250m 16 days MIR reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 5548,
+     "chunk_bytes_max": 6283,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days view zenith angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days view zenith angle_x",
+      "250m 16 days view zenith angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 3526,
+     "chunk_bytes_max": 4282,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -10000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days sun zenith angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days sun zenith angle_x",
+      "250m 16 days sun zenith angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 3140,
+     "chunk_bytes_max": 3836,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -10000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days relative azimuth angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days relative azimuth angle_x",
+      "250m 16 days relative azimuth angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 3344,
+     "chunk_bytes_max": 4075,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -4000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days composite day of the year",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days composite day of the year_x",
+      "250m 16 days composite day of the year_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 999,
+     "chunk_bytes_max": 1245,
+     "cf": {
+      "_FillValue": -1,
+      "units": "Julian day of the year "
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days pixel reliability",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days pixel reliability_x",
+      "250m 16 days pixel reliability_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 89,
+     "chunk_bytes_max": 201,
+     "cf": {
+      "_FillValue": -1,
+      "units": "rank"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 11.1
+  },
+  {
+   "granule_ur": "MOD13Q1.A2026241.h08v05.061.2026257235344",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD13Q1.061/MOD13Q1.A2026241.h08v05.061.2026257235344/MOD13Q1.A2026241.h08v05.061.2026257235344.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 219930630,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "250m 16 days NDVI",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days NDVI_x",
+      "250m 16 days NDVI_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6799,
+     "chunk_bytes_max": 7694,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -3000,
+      "units": "NDVI"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days EVI",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days EVI_x",
+      "250m 16 days EVI_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6548,
+     "chunk_bytes_max": 7312,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -3000,
+      "units": "EVI"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days VI Quality",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days VI Quality_x",
+      "250m 16 days VI Quality_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 242,
+     "chunk_bytes_max": 527,
+     "cf": {
+      "_FillValue": 65535,
+      "units": "bit field"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days red reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days red reflectance_x",
+      "250m 16 days red reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6402,
+     "chunk_bytes_max": 7173,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days NIR reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days NIR reflectance_x",
+      "250m 16 days NIR reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 6533,
+     "chunk_bytes_max": 7253,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days blue reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days blue reflectance_x",
+      "250m 16 days blue reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 4595,
+     "chunk_bytes_max": 5231,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days MIR reflectance",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days MIR reflectance_x",
+      "250m 16 days MIR reflectance_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 5327,
+     "chunk_bytes_max": 6024,
+     "cf": {
+      "scale_factor": 4.428251e-317,
+      "add_offset": 0.0,
+      "_FillValue": -1000,
+      "units": "reflectance"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days view zenith angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days view zenith angle_x",
+      "250m 16 days view zenith angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 3398,
+     "chunk_bytes_max": 4203,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -10000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days sun zenith angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days sun zenith angle_x",
+      "250m 16 days sun zenith angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 2997,
+     "chunk_bytes_max": 3733,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -10000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days relative azimuth angle",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days relative azimuth angle_x",
+      "250m 16 days relative azimuth angle_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 3087,
+     "chunk_bytes_max": 3894,
+     "cf": {
+      "scale_factor": 1.12884e-319,
+      "add_offset": 0.0,
+      "_FillValue": -4000,
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days composite day of the year",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": ">i2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days composite day of the year_x",
+      "250m 16 days composite day of the year_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 955,
+     "chunk_bytes_max": 1233,
+     "cf": {
+      "_FillValue": -1,
+      "units": "Julian day of the year "
+     },
+     "grid": {}
+    },
+    {
+     "name": "250m 16 days pixel reliability",
+     "shape": [
+      4800,
+      4800
+     ],
+     "chunks": [
+      1,
+      4800
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "250m 16 days pixel reliability_x",
+      "250m 16 days pixel reliability_y"
+     ],
+     "n_chunks": 4800,
+     "chunk_bytes_median": 94,
+     "chunk_bytes_max": 178,
+     "cf": {
+      "_FillValue": -1,
+      "units": "rank"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 10.3
+  }
+ ]
+}

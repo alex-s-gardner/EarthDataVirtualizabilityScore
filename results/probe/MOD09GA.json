@@ -1,0 +1,73 @@
+{
+ "version": "061",
+ "level": "L2G",
+ "sensor": "Terra/MODIS",
+ "format": "HDF-EOS2",
+ "daac": "LP DAAC",
+ "short_name": "MOD09GA",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "MOD09GA.A2000055.h08v05.061.2020037170220",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09GA.061/MOD09GA.A2000055.h08v05.061.2020037170220/MOD09GA.A2000055.h08v05.061.2020037170220.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 84466859,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "ine 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 7.0
+  },
+  {
+   "granule_ur": "MOD09GA.A2000056.h08v05.061.2020037162220",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09GA.061/MOD09GA.A2000056.h08v05.061.2020037162220/MOD09GA.A2000056.h08v05.061.2020037162220.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 71744357,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "~~~~~~~~~~~~~~~~~^^\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 302, in _dec_chunked\n    data = self._dec(\"VS\", chk_tbl_ref)[\"data\"]  # corresponding table\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 16.8
+  },
+  {
+   "granule_ur": "MOD09GA.A2026262.h08v05.061.2026264030559",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09GA.061/MOD09GA.A2026262.h08v05.061.2026264030559/MOD09GA.A2026262.h08v05.061.2026264030559.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 79842166,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "ine 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 6.6
+  },
+  {
+   "granule_ur": "MOD09GA.A2026263.h08v05.061.2026265032035",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09GA.061/MOD09GA.A2026263.h08v05.061.2026265032035/MOD09GA.A2026263.h08v05.061.2026265032035.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 81019994,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "ine 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 5.6
+  }
+ ]
+}

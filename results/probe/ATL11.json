@@ -1,0 +1,97 @@
+{
+ "version": "007",
+ "level": "L3",
+ "sensor": "ICESat-2/ATLAS",
+ "format": "HDF5",
+ "daac": "NASA NSIDC DAAC",
+ "short_name": "ATL11",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "ATL11_000103_0332_007_05.h5_8ouogReK",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/ATLAS/ATL11/007/2019/03/29/ATL11_000103_0332_007_05.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 4594387,
+   "dmrpp": false,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "/pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1",
+   "traceback_tail": "s/gardnera/Research/26_09_NASA_data_virtualization/.venv/lib/python3.14/site-packages/virtualizarr/parsers/hdf/hdf.py\", line 420, in _dataset_dims\n    raise ValueError(\n    ...<2 lines>...\n    )\nValueError: /pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1\n",
+   "locality": {
+    "n_blocks": 5,
+    "n_fetches": 5,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 1,
+    "span_fraction": 1.25
+   },
+   "seconds": 10.5
+  },
+  {
+   "granule_ur": "ATL11_000104_0332_007_05.h5_8ouogReK",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/ATLAS/ATL11/007/2019/03/29/ATL11_000104_0332_007_05.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 21097433,
+   "dmrpp": false,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "/pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1",
+   "traceback_tail": "s/gardnera/Research/26_09_NASA_data_virtualization/.venv/lib/python3.14/site-packages/virtualizarr/parsers/hdf/hdf.py\", line 420, in _dataset_dims\n    raise ValueError(\n    ...<2 lines>...\n    )\nValueError: /pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1\n",
+   "locality": {
+    "n_blocks": 11,
+    "n_fetches": 11,
+    "leading_fraction": 0.09090909090909091,
+    "contiguous_runs": 3,
+    "span_fraction": 1.05
+   },
+   "seconds": 17.8
+  },
+  {
+   "granule_ur": "ATL11_138711_0332_007_05.h5_8ouogReK",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/ATLAS/ATL11/007/2019/03/29/ATL11_138711_0332_007_05.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 144830023,
+   "dmrpp": false,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "/pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1",
+   "traceback_tail": "s/gardnera/Research/26_09_NASA_data_virtualization/.venv/lib/python3.14/site-packages/virtualizarr/parsers/hdf/hdf.py\", line 420, in _dataset_dims\n    raise ValueError(\n    ...<2 lines>...\n    )\nValueError: /pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1\n",
+   "locality": {
+    "n_blocks": 48,
+    "n_fetches": 48,
+    "leading_fraction": 0.125,
+    "contiguous_runs": 8,
+    "span_fraction": 1.0072463768115942
+   },
+   "seconds": 67.7
+  },
+  {
+   "granule_ur": "ATL11_138712_0332_007_05.h5_8ouogReK",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/ATLAS/ATL11/007/2019/03/29/ATL11_138712_0332_007_05.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 66066597,
+   "dmrpp": false,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "/pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1",
+   "traceback_tail": "s/gardnera/Research/26_09_NASA_data_virtualization/.venv/lib/python3.14/site-packages/virtualizarr/parsers/hdf/hdf.py\", line 420, in _dataset_dims\n    raise ValueError(\n    ...<2 lines>...\n    )\nValueError: /pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1\n",
+   "locality": {
+    "n_blocks": 26,
+    "n_fetches": 26,
+    "leading_fraction": 0.11538461538461539,
+    "contiguous_runs": 3,
+    "span_fraction": 1.0158730158730158
+   },
+   "seconds": 40.7
+  }
+ ]
+}

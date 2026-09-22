@@ -1,0 +1,97 @@
+{
+ "version": "002",
+ "level": "L2G",
+ "sensor": "Suomi-NPP/VIIRS",
+ "format": "HDF-EOS5",
+ "daac": "LP DAAC",
+ "short_name": "VNP09GA",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "VNP09GA.A2012019.h08v05.002.2023122183335",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP09GA.002/VNP09GA.A2012019.h08v05.002.2023122183335/VNP09GA.A2012019.h08v05.002.2023122183335.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 95472681,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
+   "traceback_tail": "nv/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "locality": {
+    "n_blocks": 4,
+    "n_fetches": 4,
+    "leading_fraction": 0.25,
+    "contiguous_runs": 4,
+    "span_fraction": 1.010989010989011
+   },
+   "seconds": 11.6
+  },
+  {
+   "granule_ur": "VNP09GA.A2012020.h08v05.002.2023122194534",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP09GA.002/VNP09GA.A2012020.h08v05.002.2023122194534/VNP09GA.A2012020.h08v05.002.2023122194534.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 77125047,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
+   "traceback_tail": "nv/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "locality": {
+    "n_blocks": 3,
+    "n_fetches": 3,
+    "leading_fraction": 0.3333333333333333,
+    "contiguous_runs": 3,
+    "span_fraction": 1.0136986301369864
+   },
+   "seconds": 8.8
+  },
+  {
+   "granule_ur": "VNP09GA.A2026263.h08v05.002.2026264092203",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP09GA.002/VNP09GA.A2026263.h08v05.002.2026264092203/VNP09GA.A2026263.h08v05.002.2026264092203.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 84118197,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
+   "traceback_tail": "nv/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "locality": {
+    "n_blocks": 3,
+    "n_fetches": 3,
+    "leading_fraction": 0.3333333333333333,
+    "contiguous_runs": 3,
+    "span_fraction": 1.0125
+   },
+   "seconds": 9.1
+  },
+  {
+   "granule_ur": "VNP09GA.A2026264.h08v05.002.2026265085724",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP09GA.002/VNP09GA.A2026264.h08v05.002.2026265085724/VNP09GA.A2026264.h08v05.002.2026265085724.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 100692828,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
+   "traceback_tail": "nv/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "locality": {
+    "n_blocks": 4,
+    "n_fetches": 4,
+    "leading_fraction": 0.25,
+    "contiguous_runs": 4,
+    "span_fraction": 1.0104166666666667
+   },
+   "seconds": 10.2
+  }
+ ]
+}

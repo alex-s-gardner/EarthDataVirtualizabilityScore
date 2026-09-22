@@ -1,0 +1,14 @@
+# Python environment for the probe and verification stages, recreated from scratch.
+.venv/
+__pycache__/
+
+# Icechunk repository the verification stage creates and deletes on each run.
+results/verify_repo/
+
+# Snapshots of earlier runs, kept locally for comparison.
+results/_backup_*/
+
+# Working notes. What they motivate is stated in README.md instead.
+*.docx
+
+.DS_Store

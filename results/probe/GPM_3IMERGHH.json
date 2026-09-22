@@ -1,0 +1,2233 @@
+{
+ "version": "07",
+ "level": "L3",
+ "sensor": "GPM/DPR+GMI",
+ "format": "HDF5",
+ "daac": "NASA/GSFC/SED/ESD/TISL/GESDISC",
+ "short_name": "GPM_3IMERGHH",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.19980101-S000000-E002959.0000.V07B.HDF5",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGHH.07/1998/001/3B-HHR.MS.MRG.3IMERG.19980101-S000000-E002959.0000.V07B.HDF5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 7842209,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Grid/nv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "nv"
+     ],
+     "n_chunks": 2,
+     "chunk_bytes_median": 12752024489753151488,
+     "chunk_bytes_max": 15466261437980350042,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/lonv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lonv"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/latv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "latv"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      32
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15,
+     "chunk_bytes_max": 15,
+     "cf": {
+      "units": "seconds since 1980-01-06 00:00:00 UTC",
+      "calendar": "julian"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lon",
+     "shape": [
+      3600
+     ],
+     "chunks": [
+      3600
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6546,
+     "chunk_bytes_max": 6546,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lat",
+     "shape": [
+      1800
+     ],
+     "chunks": [
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3344,
+     "chunk_bytes_max": 3344,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/time_bnds",
+     "shape": [
+      1,
+      2
+     ],
+     "chunks": [
+      32,
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "nv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19,
+     "chunk_bytes_max": 19,
+     "cf": {
+      "units": "seconds since 1980-01-06 00:00:00 UTC"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lon_bnds",
+     "shape": [
+      3600,
+      2
+     ],
+     "chunks": [
+      3600,
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lon",
+      "lonv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12188,
+     "chunk_bytes_max": 12188,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lat_bnds",
+     "shape": [
+      1800,
+      2
+     ],
+     "chunks": [
+      1800,
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "latv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6255,
+     "chunk_bytes_max": 6255,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/precipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 66665,
+     "chunk_bytes_max": 106024,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/randomError",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 81965,
+     "chunk_bytes_max": 127937,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/probabilityLiquidPrecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 39900,
+     "chunk_bytes_max": 71066,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/precipitationQualityIndex",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 15933,
+     "chunk_bytes_max": 22101,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWprecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 3560,
+     "chunk_bytes_max": 14446,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWprecipSource",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 2227,
+     "chunk_bytes_max": 4132,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWobservationTime",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 2370,
+     "chunk_bytes_max": 6222,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "minutes"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/IRprecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 53375,
+     "chunk_bytes_max": 95388,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/IRinfluence",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 16174,
+     "chunk_bytes_max": 22308,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/precipitationUncal",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 65767,
+     "chunk_bytes_max": 105995,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "Grid/lon": {
+     "n": 3600,
+     "first": -179.9499969482422,
+     "step": 0.0999908447265625,
+     "last": 179.9499969482422
+    },
+    "Grid/lat": {
+     "n": 1800,
+     "first": -89.94999694824219,
+     "step": 0.09999847412109375,
+     "last": 89.94999694824219
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 6,
+    "n_fetches": 6,
+    "leading_fraction": 0.16666666666666666,
+    "contiguous_runs": 3,
+    "span_fraction": 1.1428571428571428
+   },
+   "seconds": 30.5
+  },
+  {
+   "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.19980101-S003000-E005959.0030.V07B.HDF5",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGHH.07/1998/001/3B-HHR.MS.MRG.3IMERG.19980101-S003000-E005959.0030.V07B.HDF5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 7910486,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Grid/nv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "nv"
+     ],
+     "n_chunks": 2,
+     "chunk_bytes_median": 4292378474411036672,
+     "chunk_bytes_max": 7777466605187888947,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/lonv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lonv"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/latv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "latv"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      32
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15,
+     "chunk_bytes_max": 15,
+     "cf": {
+      "units": "seconds since 1980-01-06 00:00:00 UTC",
+      "calendar": "julian"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lon",
+     "shape": [
+      3600
+     ],
+     "chunks": [
+      3600
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6546,
+     "chunk_bytes_max": 6546,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lat",
+     "shape": [
+      1800
+     ],
+     "chunks": [
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3344,
+     "chunk_bytes_max": 3344,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/time_bnds",
+     "shape": [
+      1,
+      2
+     ],
+     "chunks": [
+      32,
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "nv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19,
+     "chunk_bytes_max": 19,
+     "cf": {
+      "units": "seconds since 1980-01-06 00:00:00 UTC"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lon_bnds",
+     "shape": [
+      3600,
+      2
+     ],
+     "chunks": [
+      3600,
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lon",
+      "lonv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12188,
+     "chunk_bytes_max": 12188,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lat_bnds",
+     "shape": [
+      1800,
+      2
+     ],
+     "chunks": [
+      1800,
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "latv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6255,
+     "chunk_bytes_max": 6255,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/precipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 68186,
+     "chunk_bytes_max": 105256,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/randomError",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 82307,
+     "chunk_bytes_max": 125983,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/probabilityLiquidPrecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 39900,
+     "chunk_bytes_max": 71066,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/precipitationQualityIndex",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 15778,
+     "chunk_bytes_max": 21815,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWprecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 2401,
+     "chunk_bytes_max": 24440,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWprecipSource",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 1625,
+     "chunk_bytes_max": 2852,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWobservationTime",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 1668,
+     "chunk_bytes_max": 5651,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "minutes"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/IRprecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 52747,
+     "chunk_bytes_max": 93238,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/IRinfluence",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 17027,
+     "chunk_bytes_max": 20853,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/precipitationUncal",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 67336,
+     "chunk_bytes_max": 105211,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 6,
+    "n_fetches": 6,
+    "leading_fraction": 0.16666666666666666,
+    "contiguous_runs": 3,
+    "span_fraction": 1.1428571428571428
+   },
+   "seconds": 18.3
+  },
+  {
+   "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.20250930-S230000-E232959.1380.V07B.HDF5",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGHH.07/2025/273/3B-HHR.MS.MRG.3IMERG.20250930-S230000-E232959.1380.V07B.HDF5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 7996856,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Grid/nv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "nv"
+     ],
+     "n_chunks": 2,
+     "chunk_bytes_median": 11434730998400724992,
+     "chunk_bytes_max": 14100921193781345942,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/lonv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lonv"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/latv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "latv"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      32
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15,
+     "chunk_bytes_max": 15,
+     "cf": {
+      "units": "seconds since 1980-01-06 00:00:00 UTC",
+      "calendar": "julian"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lon",
+     "shape": [
+      3600
+     ],
+     "chunks": [
+      3600
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6546,
+     "chunk_bytes_max": 6546,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lat",
+     "shape": [
+      1800
+     ],
+     "chunks": [
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3344,
+     "chunk_bytes_max": 3344,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/time_bnds",
+     "shape": [
+      1,
+      2
+     ],
+     "chunks": [
+      32,
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "nv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19,
+     "chunk_bytes_max": 19,
+     "cf": {
+      "units": "seconds since 1980-01-06 00:00:00 UTC"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lon_bnds",
+     "shape": [
+      3600,
+      2
+     ],
+     "chunks": [
+      3600,
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lon",
+      "lonv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12188,
+     "chunk_bytes_max": 12188,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lat_bnds",
+     "shape": [
+      1800,
+      2
+     ],
+     "chunks": [
+      1800,
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "latv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6255,
+     "chunk_bytes_max": 6255,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/precipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 59575,
+     "chunk_bytes_max": 94673,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/randomError",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 66292,
+     "chunk_bytes_max": 109428,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/probabilityLiquidPrecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 38569,
+     "chunk_bytes_max": 70279,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/precipitationQualityIndex",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 16593,
+     "chunk_bytes_max": 21664,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWprecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 21954,
+     "chunk_bytes_max": 62209,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWprecipSource",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 4016,
+     "chunk_bytes_max": 6439,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWobservationTime",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 7235,
+     "chunk_bytes_max": 10997,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "minutes"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/IRprecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 51586,
+     "chunk_bytes_max": 83767,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/IRinfluence",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 11675,
+     "chunk_bytes_max": 15779,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/precipitationUncal",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 59248,
+     "chunk_bytes_max": 90834,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 6,
+    "n_fetches": 6,
+    "leading_fraction": 0.16666666666666666,
+    "contiguous_runs": 3,
+    "span_fraction": 1.1428571428571428
+   },
+   "seconds": 18.2
+  },
+  {
+   "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.20250930-S233000-E235959.1410.V07B.HDF5",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGHH.07/2025/273/3B-HHR.MS.MRG.3IMERG.20250930-S233000-E235959.1410.V07B.HDF5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 7919945,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Grid/nv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "nv"
+     ],
+     "n_chunks": 2,
+     "chunk_bytes_median": 7290512682138037248,
+     "chunk_bytes_max": 9142043610849241584,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/lonv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lonv"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/latv",
+     "shape": [
+      2
+     ],
+     "chunks": [
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "latv"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "Grid/time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      32
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 15,
+     "chunk_bytes_max": 15,
+     "cf": {
+      "units": "seconds since 1980-01-06 00:00:00 UTC",
+      "calendar": "julian"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lon",
+     "shape": [
+      3600
+     ],
+     "chunks": [
+      3600
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6546,
+     "chunk_bytes_max": 6546,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lat",
+     "shape": [
+      1800
+     ],
+     "chunks": [
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3344,
+     "chunk_bytes_max": 3344,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/time_bnds",
+     "shape": [
+      1,
+      2
+     ],
+     "chunks": [
+      32,
+      2
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "nv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19,
+     "chunk_bytes_max": 19,
+     "cf": {
+      "units": "seconds since 1980-01-06 00:00:00 UTC"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lon_bnds",
+     "shape": [
+      3600,
+      2
+     ],
+     "chunks": [
+      3600,
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lon",
+      "lonv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 12188,
+     "chunk_bytes_max": 12188,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/lat_bnds",
+     "shape": [
+      1800,
+      2
+     ],
+     "chunks": [
+      1800,
+      2
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "latv"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6255,
+     "chunk_bytes_max": 6255,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/precipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 60701,
+     "chunk_bytes_max": 91061,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/randomError",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 68448,
+     "chunk_bytes_max": 105195,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/probabilityLiquidPrecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 38569,
+     "chunk_bytes_max": 70279,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "percent"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/precipitationQualityIndex",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lon",
+      "lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 16634,
+     "chunk_bytes_max": 22333,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWprecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 21367,
+     "chunk_bytes_max": 45611,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWprecipSource",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 4712,
+     "chunk_bytes_max": 6190,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/MWobservationTime",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 8106,
+     "chunk_bytes_max": 11702,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "minutes"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/IRprecipitation",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 51780,
+     "chunk_bytes_max": 81825,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/IRinfluence",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      291,
+      1800
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 13,
+     "chunk_bytes_median": 11568,
+     "chunk_bytes_max": 14634,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "Grid/Intermediate/precipitationUncal",
+     "shape": [
+      1,
+      3600,
+      1800
+     ],
+     "chunks": [
+      1,
+      145,
+      1800
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Grid/time",
+      "Grid/lon",
+      "Grid/lat"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 60471,
+     "chunk_bytes_max": 87372,
+     "cf": {
+      "_FillValue": "AAAAQPOHw8A=",
+      "units": "mm/hr"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "Grid/lon": {
+     "n": 3600,
+     "first": -179.9499969482422,
+     "step": 0.0999908447265625,
+     "last": 179.9499969482422
+    },
+    "Grid/lat": {
+     "n": 1800,
+     "first": -89.94999694824219,
+     "step": 0.09999847412109375,
+     "last": 89.94999694824219
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 6,
+    "n_fetches": 6,
+    "leading_fraction": 0.16666666666666666,
+    "contiguous_runs": 3,
+    "span_fraction": 1.1428571428571428
+   },
+   "seconds": 30.9
+  }
+ ]
+}
