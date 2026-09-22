@@ -32,7 +32,7 @@ via h5py     : [2595 2602 2605 2602 2618 2626]
 
 ## 2. Icechunk round-trip
 
-Virtual chunk container `https://archive.podaac.earthdata.nasa.gov/` carrying the Earthdata Login token; committed snapshot `8KW7XGGSSJY24HCAXK2G`.
+Virtual chunk container `https://archive.podaac.earthdata.nasa.gov/` carrying the Earthdata Login token; committed snapshot `NCSEZPJD828HJV52DHXG`.
 Reopened: dims {'time': 4, 'lat': 720, 'lon': 1440, 'nv': 2}, 6 data variables.
 
 Slice (slice(358, 362, None), slice(718, 722, None)) of index `[0]` read out of the repository: **identical to the source granule**
@@ -93,7 +93,7 @@ The refusal names the obstruction H2 predicts (“inconsistent chunk shapes”),
 
 ## 6. Catalog cross-check
 
-`CMR-Hits` read directly and `earthaccess` counting the same query, both now. `inventory.csv` was written 2026-09-22T10:47, and an archive still ingesting grows between then and now, so its stored count is reported as drift rather than as a disagreement.
+`CMR-Hits` read directly and `earthaccess` counting the same query, both now. `inventory.csv` was written 2026-09-22T11:41, and an archive still ingesting grows between then and now, so its stored count is reported as drift rather than as a disagreement.
 
 | Product | Version | CMR-Hits | earthaccess | Agree | Recorded | Drift since |
 |---|---|---|---|---|---|---|
