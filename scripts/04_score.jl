@@ -18,10 +18,11 @@ const PROBE = joinpath(RESULTS, "probe")
 """
     GRADE_ORDER
 
-Sort key for grades, best first. `U` sorts last: it is not a worse archive than `F` but an
-unmeasured one.
+Sort key for grades, best first. `F*` sorts above `F`: neither is readable by the tooling measured
+here, but an `F*` archive already holds the byte ranges a manifest is made of, so it is the closer of
+the two to a cube. `U` sorts last: it is not a worse archive than `F` but an unmeasured one.
 """
-const GRADE_ORDER = Dict("A" => 1, "B" => 2, "C" => 3, "D" => 4, "F" => 5, "U" => 6)
+const GRADE_ORDER = Dict("A" => 1, "B" => 2, "C" => 3, "D" => 4, "F*" => 5, "F" => 6, "U" => 7)
 
 """
     status_cell(v::Verdict) -> String
@@ -130,11 +131,24 @@ function score_all()
             error("$sn graded $(a.grade) with no CUBE_AXES entry: add one in src/structure.jl " *
                   "stating what a cube over its record would be indexed by, or the report cannot " *
                   "say whether the grade is a container choice or an absence of structure")
+
+        # An F whose blocks stage 6 found addressable is an F*: the archive holds what a manifest
+        # needs and no reader here reaches it, which asks nothing of the producer.
+        grade, blocker = a.grade, a.blocker
+        if grade == "F"
+            gap = reader_gap(sn)
+            if isnothing(gap)
+                fb = something(file_blocker(sn), diagnosis_open(sn), nothing)
+                isnothing(fb) || (blocker = "$blocker; $fb")
+            else
+                (grade, blocker) = ("F*", "$blocker; $gap")
+            end
+        end
         shape, chunkmb = headline_chunk(a)
         dmrpp = any(get(p, :dmrpp, false) for p in rec.probes)
 
         push!(rows, (
-            grade = a.grade,
+            grade,
             sensor = cat.sensor,
             short_name = sn,
             level = cat.level,
@@ -150,7 +164,7 @@ function score_all()
             n_granules = cat.granules,
             volume_tb = round(volume_tb(rec, cat.granules); digits = 3),
             dmrpp = dmrpp ? "yes" : "no",
-            blocker = a.blocker,
+            blocker,
             chunk_shape_stable = status_cell(a.chunks),
             concat_ok = status_cell(a.concat),
             cf_stable = status_cell(a.cf),

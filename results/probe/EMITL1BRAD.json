@@ -222,7 +222,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.0097087378640777
    },
-   "seconds": 13.0
+   "seconds": 11.9
   },
   {
    "granule_ur": "EMIT_L1B_RAD_002_20220810T034115",
@@ -436,14 +436,14 @@
     "contiguous_runs": 5,
     "span_fraction": 1.0097087378640777
    },
-   "seconds": 13.2
+   "seconds": 12.2
   },
   {
-   "granule_ur": "EMIT_L1B_RAD_002_20260921T072655",
-   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL1BRAD.002/EMIT_L1B_RAD_002_20260921T072655/EMIT_L1B_OBS_002_20260921T072655.nc",
+   "granule_ur": "EMIT_L1B_RAD_002_20260826T014632",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL1BRAD.002/EMIT_L1B_RAD_002_20260826T014632/EMIT_L1B_OBS_002_20260826T014632.nc",
    "orbit": "",
    "declared_format": "netCDF-4",
-   "file_bytes": 108903490,
+   "file_bytes": 108710954,
    "dmrpp": true,
    "container": "hdf5",
    "vars": [
@@ -583,12 +583,12 @@
     {
      "name": "location/glt_x",
      "shape": [
-      1904,
-      2202
+      2026,
+      1983
      ],
      "chunks": [
-      952,
-      1101
+      2026,
+      1983
      ],
      "dtype": "int32",
      "codecs": [
@@ -600,9 +600,9 @@
       "ortho_y",
       "ortho_x"
      ],
-     "n_chunks": 4,
-     "chunk_bytes_median": 91570,
-     "chunk_bytes_max": 94779,
+     "n_chunks": 1,
+     "chunk_bytes_median": 247640,
+     "chunk_bytes_max": 247640,
      "cf": {
       "_FillValue": 0,
       "units": "pixel location"
@@ -612,12 +612,12 @@
     {
      "name": "location/glt_y",
      "shape": [
-      1904,
-      2202
+      2026,
+      1983
      ],
      "chunks": [
-      952,
-      1101
+      2026,
+      1983
      ],
      "dtype": "int32",
      "codecs": [
@@ -629,9 +629,9 @@
       "ortho_y",
       "ortho_x"
      ],
-     "n_chunks": 4,
-     "chunk_bytes_median": 104485,
-     "chunk_bytes_max": 108635,
+     "n_chunks": 1,
+     "chunk_bytes_median": 336108,
+     "chunk_bytes_max": 336108,
      "cf": {
       "_FillValue": 0,
       "units": "pixel location"
@@ -650,14 +650,14 @@
     "contiguous_runs": 5,
     "span_fraction": 1.0097087378640777
    },
-   "seconds": 11.3
+   "seconds": 12.4
   },
   {
-   "granule_ur": "EMIT_L1B_RAD_002_20260921T072706",
-   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL1BRAD.002/EMIT_L1B_RAD_002_20260921T072706/EMIT_L1B_OBS_002_20260921T072706.nc",
+   "granule_ur": "EMIT_L1B_RAD_002_20260921T163721",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL1BRAD.002/EMIT_L1B_RAD_002_20260921T163721/EMIT_L1B_OBS_002_20260921T163721.nc",
    "orbit": "",
    "declared_format": "netCDF-4",
-   "file_bytes": 108892642,
+   "file_bytes": 108698049,
    "dmrpp": true,
    "container": "hdf5",
    "vars": [
@@ -797,12 +797,12 @@
     {
      "name": "location/glt_x",
      "shape": [
-      1901,
-      2210
+      1895,
+      1935
      ],
      "chunks": [
-      951,
-      1105
+      1895,
+      1935
      ],
      "dtype": "int32",
      "codecs": [
@@ -814,9 +814,9 @@
       "ortho_y",
       "ortho_x"
      ],
-     "n_chunks": 4,
-     "chunk_bytes_median": 87915,
-     "chunk_bytes_max": 91840,
+     "n_chunks": 1,
+     "chunk_bytes_median": 347737,
+     "chunk_bytes_max": 347737,
      "cf": {
       "_FillValue": 0,
       "units": "pixel location"
@@ -826,12 +826,197 @@
     {
      "name": "location/glt_y",
      "shape": [
-      1901,
-      2210
+      1895,
+      1935
      ],
      "chunks": [
-      951,
-      1105
+      1895,
+      1935
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "ortho_y",
+      "ortho_x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 223106,
+     "chunk_bytes_max": 223106,
+     "cf": {
+      "_FillValue": 0,
+      "units": "pixel location"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {
+    "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 5,
+    "n_fetches": 5,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 5,
+    "span_fraction": 1.0097087378640777
+   },
+   "seconds": 11.1
+  },
+  {
+   "granule_ur": "EMIT_L1B_RAD_002_20260921T163733",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL1BRAD.002/EMIT_L1B_RAD_002_20260921T163733/EMIT_L1B_OBS_002_20260921T163733.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 165758506,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "obs",
+     "shape": [
+      1952,
+      1242,
+      11
+     ],
+     "chunks": [
+      1952,
+      1242,
+      11
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "downtrack",
+      "crosstrack",
+      "bands"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 106672896,
+     "chunk_bytes_max": 106672896,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "sensor_band_parameters/observation_bands",
+     "shape": [
+      11
+     ],
+     "chunks": [
+      11
+     ],
+     "dtype": "StringDType()",
+     "codecs": [
+      "VLenUTF8Codec"
+     ],
+     "dims": [
+      "bands"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 176,
+     "chunk_bytes_max": 176,
+     "cf": {
+      "_FillValue": "-9999.0"
+     },
+     "grid": {}
+    },
+    {
+     "name": "location/lon",
+     "shape": [
+      1952,
+      1242
+     ],
+     "chunks": [
+      1952,
+      1242
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "downtrack",
+      "crosstrack"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19395072,
+     "chunk_bytes_max": 19395072,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "location/lat",
+     "shape": [
+      1952,
+      1242
+     ],
+     "chunks": [
+      1952,
+      1242
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "downtrack",
+      "crosstrack"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19395072,
+     "chunk_bytes_max": 19395072,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "location/elev",
+     "shape": [
+      1952,
+      1242
+     ],
+     "chunks": [
+      1952,
+      1242
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "downtrack",
+      "crosstrack"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19395072,
+     "chunk_bytes_max": 19395072,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "location/glt_x",
+     "shape": [
+      2477,
+      2358
+     ],
+     "chunks": [
+      1239,
+      1179
      ],
      "dtype": "int32",
      "codecs": [
@@ -844,8 +1029,37 @@
       "ortho_x"
      ],
      "n_chunks": 4,
-     "chunk_bytes_median": 102622,
-     "chunk_bytes_max": 107700,
+     "chunk_bytes_median": 136006,
+     "chunk_bytes_max": 172989,
+     "cf": {
+      "_FillValue": 0,
+      "units": "pixel location"
+     },
+     "grid": {}
+    },
+    {
+     "name": "location/glt_y",
+     "shape": [
+      2477,
+      2358
+     ],
+     "chunks": [
+      1239,
+      1179
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "ortho_y",
+      "ortho_x"
+     ],
+     "n_chunks": 4,
+     "chunk_bytes_median": 83933,
+     "chunk_bytes_max": 99585,
      "cf": {
       "_FillValue": 0,
       "units": "pixel location"
@@ -863,9 +1077,9 @@
     "n_fetches": 5,
     "leading_fraction": 0.2,
     "contiguous_runs": 5,
-    "span_fraction": 1.0097087378640777
+    "span_fraction": 1.0
    },
-   "seconds": 12.0
+   "seconds": 12.8
   }
  ]
 }

@@ -248,7 +248,7 @@
     "contiguous_runs": 12,
     "span_fraction": 0.9969879518072289
    },
-   "seconds": 47.7
+   "seconds": 47.5
   },
   {
    "granule_ur": "20020602090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1",
@@ -475,14 +475,14 @@
     "contiguous_runs": 12,
     "span_fraction": 0.9969788519637462
    },
-   "seconds": 35.0
+   "seconds": 35.8
   },
   {
-   "granule_ur": "20260919090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1",
-   "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/MUR-JPL-L4-GLOB-v4.1/20260919090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1.nc",
+   "granule_ur": "20070411090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1",
+   "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/MUR-JPL-L4-GLOB-v4.1/20070411090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1.nc",
    "orbit": "",
    "declared_format": "netCDF-4",
-   "file_bytes": 766738666,
+   "file_bytes": 370856685,
    "dmrpp": true,
    "container": "hdf5",
    "vars": [
@@ -583,8 +583,8 @@
       "lon"
      ],
      "n_chunks": 324,
-     "chunk_bytes_median": 1006522,
-     "chunk_bytes_max": 2268529,
+     "chunk_bytes_median": 1157243,
+     "chunk_bytes_max": 2287848,
      "cf": {
       "scale_factor": 0.001,
       "add_offset": 298.15,
@@ -617,8 +617,1013 @@
       "lon"
      ],
      "n_chunks": 324,
-     "chunk_bytes_median": 32343,
-     "chunk_bytes_max": 81623,
+     "chunk_bytes_median": 35358,
+     "chunk_bytes_max": 81523,
+     "cf": {
+      "scale_factor": 0.01,
+      "add_offset": 0.0,
+      "_FillValue": -32768,
+      "units": "kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "mask",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1447,
+      2895
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 169,
+     "chunk_bytes_median": 11782,
+     "chunk_bytes_max": 75771,
+     "cf": {
+      "_FillValue": -128
+     },
+     "grid": {}
+    },
+    {
+     "name": "sea_ice_fraction",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1447,
+      2895
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 169,
+     "chunk_bytes_median": 5397,
+     "chunk_bytes_max": 124733,
+     "cf": {
+      "scale_factor": 0.01,
+      "add_offset": 0.0,
+      "_FillValue": -128,
+      "units": "fraction (between 0 and 1)"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 16,
+    "n_fetches": 16,
+    "leading_fraction": 0.0625,
+    "contiguous_runs": 11,
+    "span_fraction": 1.0
+   },
+   "seconds": 34.2
+  },
+  {
+   "granule_ur": "20120220090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1",
+   "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/MUR-JPL-L4-GLOB-v4.1/20120220090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 365325970,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "seconds since 1981-01-01 00:00:00 UTC"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      17999
+     ],
+     "chunks": [
+      17999
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4373,
+     "chunk_bytes_max": 4373,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      36000
+     ],
+     "chunks": [
+      36000
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5538,
+     "chunk_bytes_max": 5538,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "analysed_sst",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1023,
+      2047
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 324,
+     "chunk_bytes_median": 1139447,
+     "chunk_bytes_max": 2263766,
+     "cf": {
+      "scale_factor": 0.001,
+      "add_offset": 298.15,
+      "_FillValue": -32768,
+      "units": "kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "analysis_error",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1023,
+      2047
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 324,
+     "chunk_bytes_median": 32444,
+     "chunk_bytes_max": 84906,
+     "cf": {
+      "scale_factor": 0.01,
+      "add_offset": 0.0,
+      "_FillValue": -32768,
+      "units": "kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "mask",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1447,
+      2895
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 169,
+     "chunk_bytes_median": 11971,
+     "chunk_bytes_max": 75885,
+     "cf": {
+      "_FillValue": -128
+     },
+     "grid": {}
+    },
+    {
+     "name": "sea_ice_fraction",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1447,
+      2895
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 169,
+     "chunk_bytes_median": 4768,
+     "chunk_bytes_max": 136232,
+     "cf": {
+      "scale_factor": 0.01,
+      "add_offset": 0.0,
+      "_FillValue": -128,
+      "units": "fraction (between 0 and 1)"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 16,
+    "n_fetches": 16,
+    "leading_fraction": 0.0625,
+    "contiguous_runs": 11,
+    "span_fraction": 1.0
+   },
+   "seconds": 33.3
+  },
+  {
+   "granule_ur": "20161231090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1",
+   "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/MUR-JPL-L4-GLOB-v4.1/20161231090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 356026929,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "seconds since 1981-01-01 00:00:00 UTC"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      17999
+     ],
+     "chunks": [
+      17999
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4373,
+     "chunk_bytes_max": 4373,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      36000
+     ],
+     "chunks": [
+      36000
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5538,
+     "chunk_bytes_max": 5538,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "analysed_sst",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1023,
+      2047
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 324,
+     "chunk_bytes_median": 910731,
+     "chunk_bytes_max": 2248688,
+     "cf": {
+      "scale_factor": 0.001,
+      "add_offset": 298.15,
+      "_FillValue": -32768,
+      "units": "kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "analysis_error",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1023,
+      2047
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 324,
+     "chunk_bytes_median": 32849,
+     "chunk_bytes_max": 81358,
+     "cf": {
+      "scale_factor": 0.01,
+      "add_offset": 0.0,
+      "_FillValue": -32768,
+      "units": "kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "mask",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1447,
+      2895
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 169,
+     "chunk_bytes_median": 11878,
+     "chunk_bytes_max": 70938,
+     "cf": {
+      "_FillValue": -128
+     },
+     "grid": {}
+    },
+    {
+     "name": "sea_ice_fraction",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1447,
+      2895
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 169,
+     "chunk_bytes_median": 4082,
+     "chunk_bytes_max": 152271,
+     "cf": {
+      "scale_factor": 0.01,
+      "add_offset": 0.0,
+      "_FillValue": -128,
+      "units": "fraction (between 0 and 1)"
+     },
+     "grid": {}
+    },
+    {
+     "name": "dt_1km_data",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1447,
+      2895
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 169,
+     "chunk_bytes_median": 119293,
+     "chunk_bytes_max": 731671,
+     "cf": {
+      "_FillValue": -128,
+      "units": "hours"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 18,
+    "n_fetches": 18,
+    "leading_fraction": 0.05555555555555555,
+    "contiguous_runs": 13,
+    "span_fraction": 0.9970501474926253
+   },
+   "seconds": 39.0
+  },
+  {
+   "granule_ur": "20211111090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1",
+   "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/MUR-JPL-L4-GLOB-v4.1/20211111090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 740150381,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "seconds since 1981-01-01 00:00:00 UTC"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      17999
+     ],
+     "chunks": [
+      17999
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4373,
+     "chunk_bytes_max": 4373,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      36000
+     ],
+     "chunks": [
+      36000
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5538,
+     "chunk_bytes_max": 5538,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "analysed_sst",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1023,
+      2047
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 324,
+     "chunk_bytes_median": 1003993,
+     "chunk_bytes_max": 2287378,
+     "cf": {
+      "scale_factor": 0.001,
+      "add_offset": 298.15,
+      "_FillValue": -32768,
+      "units": "kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "analysis_error",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1023,
+      2047
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 324,
+     "chunk_bytes_median": 33159,
+     "chunk_bytes_max": 90428,
+     "cf": {
+      "scale_factor": 0.01,
+      "add_offset": 0.0,
+      "_FillValue": -32768,
+      "units": "kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "mask",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1447,
+      2895
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 169,
+     "chunk_bytes_median": 11923,
+     "chunk_bytes_max": 70764,
+     "cf": {
+      "_FillValue": -128
+     },
+     "grid": {}
+    },
+    {
+     "name": "sea_ice_fraction",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1447,
+      2895
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 169,
+     "chunk_bytes_median": 4082,
+     "chunk_bytes_max": 197434,
+     "cf": {
+      "scale_factor": 0.01,
+      "add_offset": 0.0,
+      "_FillValue": -128
+     },
+     "grid": {}
+    },
+    {
+     "name": "dt_1km_data",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1447,
+      2895
+     ],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 169,
+     "chunk_bytes_median": 158369,
+     "chunk_bytes_max": 1060975,
+     "cf": {
+      "_FillValue": -128,
+      "units": "hours"
+     },
+     "grid": {}
+    },
+    {
+     "name": "sst_anomaly",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1023,
+      2047
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 324,
+     "chunk_bytes_median": 1103340,
+     "chunk_bytes_max": 2300945,
+     "cf": {
+      "scale_factor": 0.001,
+      "add_offset": 0.0,
+      "_FillValue": -32768,
+      "units": "kelvin"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 25,
+    "n_fetches": 25,
+    "leading_fraction": 0.08,
+    "contiguous_runs": 19,
+    "span_fraction": 0.9957446808510638
+   },
+   "seconds": 55.3
+  },
+  {
+   "granule_ur": "20260919090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1",
+   "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/MUR-JPL-L4-GLOB-v4.1/20260919090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 766214648,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "seconds since 1981-01-01 00:00:00 UTC"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      17999
+     ],
+     "chunks": [
+      17999
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4373,
+     "chunk_bytes_max": 4373,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      36000
+     ],
+     "chunks": [
+      36000
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5538,
+     "chunk_bytes_max": 5538,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "analysed_sst",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1023,
+      2047
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 324,
+     "chunk_bytes_median": 1001679,
+     "chunk_bytes_max": 2264794,
+     "cf": {
+      "scale_factor": 0.001,
+      "add_offset": 298.15,
+      "_FillValue": -32768,
+      "units": "kelvin"
+     },
+     "grid": {}
+    },
+    {
+     "name": "analysis_error",
+     "shape": [
+      1,
+      17999,
+      36000
+     ],
+     "chunks": [
+      1,
+      1023,
+      2047
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 324,
+     "chunk_bytes_median": 31167,
+     "chunk_bytes_max": 80703,
      "cf": {
       "scale_factor": 0.01,
       "add_offset": 0.0,
@@ -747,8 +1752,8 @@
       "lon"
      ],
      "n_chunks": 324,
-     "chunk_bytes_median": 1191186,
-     "chunk_bytes_max": 2283611,
+     "chunk_bytes_median": 1202123,
+     "chunk_bytes_max": 2280522,
      "cf": {
       "scale_factor": 0.001,
       "add_offset": 0.0,
@@ -761,20 +1766,20 @@
    "root_attrs": {},
    "ok": true,
    "locality": {
-    "n_blocks": 28,
-    "n_fetches": 28,
-    "leading_fraction": 0.07142857142857142,
+    "n_blocks": 27,
+    "n_fetches": 27,
+    "leading_fraction": 0.07407407407407407,
     "contiguous_runs": 19,
-    "span_fraction": 0.9972640218878249
+    "span_fraction": 0.9986301369863013
    },
-   "seconds": 57.0
+   "seconds": 58.9
   },
   {
    "granule_ur": "20260920090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1",
    "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/MUR-JPL-L4-GLOB-v4.1/20260920090000-JPL-L4_GHRSST-SSTfnd-MUR-GLOB-v02.0-fv04.1.nc",
    "orbit": "",
    "declared_format": "netCDF-4",
-   "file_bytes": 752285926,
+   "file_bytes": 767548553,
    "dmrpp": true,
    "container": "hdf5",
    "vars": [
@@ -875,8 +1880,8 @@
       "lon"
      ],
      "n_chunks": 324,
-     "chunk_bytes_median": 968102,
-     "chunk_bytes_max": 2251415,
+     "chunk_bytes_median": 1003062,
+     "chunk_bytes_max": 2248271,
      "cf": {
       "scale_factor": 0.001,
       "add_offset": 298.15,
@@ -909,8 +1914,8 @@
       "lon"
      ],
      "n_chunks": 324,
-     "chunk_bytes_median": 33430,
-     "chunk_bytes_max": 79398,
+     "chunk_bytes_median": 30360,
+     "chunk_bytes_max": 81035,
      "cf": {
       "scale_factor": 0.01,
       "add_offset": 0.0,
@@ -1039,8 +2044,8 @@
       "lon"
      ],
      "n_chunks": 324,
-     "chunk_bytes_median": 1164935,
-     "chunk_bytes_max": 2268916,
+     "chunk_bytes_median": 1218730,
+     "chunk_bytes_max": 2267593,
      "cf": {
       "scale_factor": 0.001,
       "add_offset": 0.0,
@@ -1067,13 +2072,13 @@
    },
    "ok": true,
    "locality": {
-    "n_blocks": 26,
-    "n_fetches": 26,
-    "leading_fraction": 0.07692307692307693,
+    "n_blocks": 25,
+    "n_fetches": 25,
+    "leading_fraction": 0.08,
     "contiguous_runs": 21,
-    "span_fraction": 0.99721059972106
+    "span_fraction": 0.9986320109439124
    },
-   "seconds": 65.9
+   "seconds": 61.9
   }
  ]
 }

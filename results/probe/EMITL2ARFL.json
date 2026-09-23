@@ -326,7 +326,7 @@
     "contiguous_runs": 5,
     "span_fraction": 0.9871436556735607
    },
-   "seconds": 12.0
+   "seconds": 11.6
   },
   {
    "granule_ur": "EMIT_L2A_RFL_002_20220810T034115",
@@ -644,14 +644,14 @@
     "contiguous_runs": 5,
     "span_fraction": 0.9871436556735607
    },
-   "seconds": 11.1
+   "seconds": 11.7
   },
   {
-   "granule_ur": "EMIT_L2A_RFL_002_20260921T072655",
-   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.002/EMIT_L2A_RFL_002_20260921T072655/EMIT_L2A_RFL_002_20260921T072655.nc",
+   "granule_ur": "EMIT_L2A_RFL_002_20260826T014632",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.002/EMIT_L2A_RFL_002_20260826T014632/EMIT_L2A_RFL_002_20260826T014632.nc",
    "orbit": "",
    "declared_format": "netCDF-4",
-   "file_bytes": 1876728166,
+   "file_bytes": 1876535630,
    "dmrpp": true,
    "container": "hdf5",
    "vars": [
@@ -841,12 +841,12 @@
     {
      "name": "location/glt_x",
      "shape": [
-      1904,
-      2202
+      2026,
+      1983
      ],
      "chunks": [
-      952,
-      1101
+      2026,
+      1983
      ],
      "dtype": "int32",
      "codecs": [
@@ -858,9 +858,9 @@
       "ortho_y",
       "ortho_x"
      ],
-     "n_chunks": 4,
-     "chunk_bytes_median": 91570,
-     "chunk_bytes_max": 94779,
+     "n_chunks": 1,
+     "chunk_bytes_median": 247640,
+     "chunk_bytes_max": 247640,
      "cf": {
       "_FillValue": 0,
       "units": "pixel location"
@@ -870,12 +870,12 @@
     {
      "name": "location/glt_y",
      "shape": [
-      1904,
-      2202
+      2026,
+      1983
      ],
      "chunks": [
-      952,
-      1101
+      2026,
+      1983
      ],
      "dtype": "int32",
      "codecs": [
@@ -887,9 +887,9 @@
       "ortho_y",
       "ortho_x"
      ],
-     "n_chunks": 4,
-     "chunk_bytes_median": 104485,
-     "chunk_bytes_max": 108635,
+     "n_chunks": 1,
+     "chunk_bytes_median": 336108,
+     "chunk_bytes_max": 336108,
      "cf": {
       "_FillValue": 0,
       "units": "pixel location"
@@ -956,20 +956,20 @@
    },
    "ok": true,
    "locality": {
-    "n_blocks": 6,
-    "n_fetches": 6,
-    "leading_fraction": 0.8333333333333334,
+    "n_blocks": 5,
+    "n_fetches": 5,
+    "leading_fraction": 0.8,
     "contiguous_runs": 5,
     "span_fraction": 0.9871436556735607
    },
-   "seconds": 14.4
+   "seconds": 11.6
   },
   {
-   "granule_ur": "EMIT_L2A_RFL_002_20260921T072706",
-   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.002/EMIT_L2A_RFL_002_20260921T072706/EMIT_L2A_RFL_002_20260921T072706.nc",
+   "granule_ur": "EMIT_L2A_RFL_002_20260921T163721",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.002/EMIT_L2A_RFL_002_20260921T163721/EMIT_L2A_RFL_002_20260921T163721.nc",
    "orbit": "",
    "declared_format": "netCDF-4",
-   "file_bytes": 1876717318,
+   "file_bytes": 1876522725,
    "dmrpp": true,
    "container": "hdf5",
    "vars": [
@@ -1159,12 +1159,12 @@
     {
      "name": "location/glt_x",
      "shape": [
-      1901,
-      2210
+      1895,
+      1935
      ],
      "chunks": [
-      951,
-      1105
+      1895,
+      1935
      ],
      "dtype": "int32",
      "codecs": [
@@ -1176,9 +1176,9 @@
       "ortho_y",
       "ortho_x"
      ],
-     "n_chunks": 4,
-     "chunk_bytes_median": 87915,
-     "chunk_bytes_max": 91840,
+     "n_chunks": 1,
+     "chunk_bytes_median": 347737,
+     "chunk_bytes_max": 347737,
      "cf": {
       "_FillValue": 0,
       "units": "pixel location"
@@ -1188,12 +1188,12 @@
     {
      "name": "location/glt_y",
      "shape": [
-      1901,
-      2210
+      1895,
+      1935
      ],
      "chunks": [
-      951,
-      1105
+      1895,
+      1935
      ],
      "dtype": "int32",
      "codecs": [
@@ -1205,9 +1205,9 @@
       "ortho_y",
       "ortho_x"
      ],
-     "n_chunks": 4,
-     "chunk_bytes_median": 102622,
-     "chunk_bytes_max": 107700,
+     "n_chunks": 1,
+     "chunk_bytes_median": 223106,
+     "chunk_bytes_max": 223106,
      "cf": {
       "_FillValue": 0,
       "units": "pixel location"
@@ -1262,6 +1262,324 @@
      "n_chunks": 1,
      "chunk_bytes_median": 12718080,
      "chunk_bytes_max": 12718080,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "g/cm^2"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {
+    "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 5,
+    "n_fetches": 5,
+    "leading_fraction": 0.8,
+    "contiguous_runs": 5,
+    "span_fraction": 0.9871436556735607
+   },
+   "seconds": 11.9
+  },
+  {
+   "granule_ur": "EMIT_L2A_RFL_002_20260921T163733",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.002/EMIT_L2A_RFL_002_20260921T163733/EMIT_L2A_RFL_002_20260921T163733.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 2861685070,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "reflectance",
+     "shape": [
+      1952,
+      1242,
+      285
+     ],
+     "chunks": [
+      1952,
+      1242,
+      285
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "downtrack",
+      "crosstrack",
+      "bands"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2763797760,
+     "chunk_bytes_max": 2763797760,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "unitless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "sensor_band_parameters/wavelengths",
+     "shape": [
+      285
+     ],
+     "chunks": [
+      285
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "bands"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1140,
+     "chunk_bytes_max": 1140,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "nm"
+     },
+     "grid": {}
+    },
+    {
+     "name": "sensor_band_parameters/fwhm",
+     "shape": [
+      285
+     ],
+     "chunks": [
+      285
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "bands"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1140,
+     "chunk_bytes_max": 1140,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "nm"
+     },
+     "grid": {}
+    },
+    {
+     "name": "sensor_band_parameters/good_wavelengths",
+     "shape": [
+      285
+     ],
+     "chunks": [
+      285
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "bands"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 285,
+     "chunk_bytes_max": 285,
+     "cf": {
+      "_FillValue": 241,
+      "units": "unitless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "location/lon",
+     "shape": [
+      1952,
+      1242
+     ],
+     "chunks": [
+      1952,
+      1242
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "downtrack",
+      "crosstrack"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19395072,
+     "chunk_bytes_max": 19395072,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "location/lat",
+     "shape": [
+      1952,
+      1242
+     ],
+     "chunks": [
+      1952,
+      1242
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "downtrack",
+      "crosstrack"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19395072,
+     "chunk_bytes_max": 19395072,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "location/elev",
+     "shape": [
+      1952,
+      1242
+     ],
+     "chunks": [
+      1952,
+      1242
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "downtrack",
+      "crosstrack"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19395072,
+     "chunk_bytes_max": 19395072,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "location/glt_x",
+     "shape": [
+      2477,
+      2358
+     ],
+     "chunks": [
+      1239,
+      1179
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "ortho_y",
+      "ortho_x"
+     ],
+     "n_chunks": 4,
+     "chunk_bytes_median": 136006,
+     "chunk_bytes_max": 172989,
+     "cf": {
+      "_FillValue": 0,
+      "units": "pixel location"
+     },
+     "grid": {}
+    },
+    {
+     "name": "location/glt_y",
+     "shape": [
+      2477,
+      2358
+     ],
+     "chunks": [
+      1239,
+      1179
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "ortho_y",
+      "ortho_x"
+     ],
+     "n_chunks": 4,
+     "chunk_bytes_median": 83933,
+     "chunk_bytes_max": 99585,
+     "cf": {
+      "_FillValue": 0,
+      "units": "pixel location"
+     },
+     "grid": {}
+    },
+    {
+     "name": "state_variables/aerosol_optical_thickness",
+     "shape": [
+      1952,
+      1242
+     ],
+     "chunks": [
+      1952,
+      1242
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "downtrack",
+      "crosstrack"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19395072,
+     "chunk_bytes_max": 19395072,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "unitless"
+     },
+     "grid": {}
+    },
+    {
+     "name": "state_variables/water_vapor",
+     "shape": [
+      1952,
+      1242
+     ],
+     "chunks": [
+      1952,
+      1242
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "downtrack",
+      "crosstrack"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 19395072,
+     "chunk_bytes_max": 19395072,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "g/cm^2"
@@ -1279,9 +1597,9 @@
     "n_fetches": 6,
     "leading_fraction": 0.8333333333333334,
     "contiguous_runs": 5,
-    "span_fraction": 0.9871436556735607
+    "span_fraction": 0.9868083547086846
    },
-   "seconds": 25.6
+   "seconds": 14.8
   }
  ]
 }

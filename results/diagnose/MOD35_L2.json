@@ -1,0 +1,54 @@
+{
+ "short_name": "MOD35_L2",
+ "format": "HDF-EOS",
+ "diagnoses": [
+  {
+   "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MOD35_L2/MOD35_L2.A2000055.0000.061.2017202185902.hdf",
+   "error_type": "ValueError",
+   "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
+   "n_like_this": 8,
+   "container": "hdf4",
+   "local_bytes": 1496737,
+   "findings": {
+    "tag_census": {
+     "VERSION": 1,
+     "SD": 9,
+     "COMPRESSED": 9,
+     "VG": 22,
+     "VS": 152,
+     "VH": 152,
+     "NT": 10,
+     "SDD": 10,
+     "NDG": 10,
+     "NULL": 1
+    },
+    "scientific_data_tags": {
+     "total": 9,
+     "contiguous": 0,
+     "extended": 9,
+     "extension_types": {
+      "COMP": 9
+     },
+     "decode_errors": {},
+     "sd_decoder_registered": false,
+     "contiguous_sample": [],
+     "compressed_elements": {
+      "codecs": {
+       "DEFLATE": 9
+      }
+     },
+     "chunked_elements": {
+      "decoded": 0,
+      "failed": {},
+      "total_chunks": 0,
+      "codecs": {},
+      "chunk_sample": []
+     }
+    },
+    "refusal_site": {
+     "raised": false
+    }
+   }
+  }
+ ]
+}

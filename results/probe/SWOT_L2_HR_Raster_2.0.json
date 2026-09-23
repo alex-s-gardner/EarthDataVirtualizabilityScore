@@ -1289,7 +1289,7 @@
     "contiguous_runs": 22,
     "span_fraction": 1.0169491525423728
    },
-   "seconds": 79.6
+   "seconds": 76.9
   },
   {
    "granule_ur": "SWOT_L2_HR_Raster_100m_UTM10T_N_x_x_x_478_013_114F_20230402T081513_20230402T081534_PGC0_01",
@@ -2557,7 +2557,7 @@
     "contiguous_runs": 20,
     "span_fraction": 1.0185185185185186
    },
-   "seconds": 59.6
+   "seconds": 61.8
   },
   {
    "granule_ur": "SWOT_L2_HR_Raster_100m_UTM10T_N_x_x_x_577_013_114F_20230709T164742_20230709T164803_PGC0_01",
@@ -3825,7 +3825,7 @@
     "contiguous_runs": 11,
     "span_fraction": 1.024390243902439
    },
-   "seconds": 60.5
+   "seconds": 62.2
   },
   {
    "granule_ur": "SWOT_L2_HR_Raster_100m_UTM10T_N_x_x_x_578_013_114F_20230710T163820_20230710T163841_PGC0_01",
@@ -5107,7 +5107,7 @@
     "contiguous_runs": 13,
     "span_fraction": 1.025
    },
-   "seconds": 64.9
+   "seconds": 68.5
   }
  ]
 }

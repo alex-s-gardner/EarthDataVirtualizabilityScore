@@ -1,0 +1,875 @@
+{
+ "version": "006",
+ "level": "L3",
+ "sensor": "ICESat-2/ATLAS",
+ "format": "netCDF-4",
+ "daac": "NASA NSIDC DAAC",
+ "short_name": "ATL14",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "ATL14_GL_0331_100m_006_01.nc_szTjN4o6",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/ATLAS/ATL14/006/2019/01/01/ATL14_GL_0331_100m_006_01.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 1469263993,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "Polar_Stereographic",
+     "shape": [],
+     "chunks": [],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 4643954612757622152,
+     "chunk_bytes_max": 4643954612757622152,
+     "cf": {},
+     "grid": {
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-670000.0, 100.0, 0.0, -610000.0, 0.0, -100.0]",
+      "grid_mapping_name": "polar_stereographic",
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
+      "false_easting": 0.0,
+      "false_northing": 0.0,
+      "semi_major_axis": 6378.137,
+      "inverse_flattening": 298.257223563
+     }
+    },
+    {
+     "name": "x",
+     "shape": [
+      15401
+     ],
+     "chunks": [
+      15401
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8708,
+     "chunk_bytes_max": 8708,
+     "cf": {
+      "_FillValue": "////////738=",
+      "units": "meters"
+     },
+     "grid": {}
+    },
+    {
+     "name": "y",
+     "shape": [
+      27401
+     ],
+     "chunks": [
+      27401
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5451,
+     "chunk_bytes_max": 5451,
+     "cf": {
+      "_FillValue": "////////738=",
+      "units": "meters"
+     },
+     "grid": {}
+    },
+    {
+     "name": "ice_area",
+     "shape": [
+      27401,
+      15401
+     ],
+     "chunks": [
+      2491,
+      1401
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 121,
+     "chunk_bytes_median": 480621,
+     "chunk_bytes_max": 1409573,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters^2"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "h",
+     "shape": [
+      27401,
+      15401
+     ],
+     "chunks": [
+      2491,
+      1401
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 121,
+     "chunk_bytes_median": 2196978,
+     "chunk_bytes_max": 7314168,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "h_sigma",
+     "shape": [
+      27401,
+      15401
+     ],
+     "chunks": [
+      2491,
+      1401
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 121,
+     "chunk_bytes_median": 2546449,
+     "chunk_bytes_max": 10632463,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "data_count",
+     "shape": [
+      27401,
+      15401
+     ],
+     "chunks": [
+      2491,
+      1401
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 121,
+     "chunk_bytes_median": 859204,
+     "chunk_bytes_max": 5145133,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "counts"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "misfit_rms",
+     "shape": [
+      27401,
+      15401
+     ],
+     "chunks": [
+      2491,
+      1401
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 121,
+     "chunk_bytes_median": 832644,
+     "chunk_bytes_max": 4856808,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "misfit_scaled_rms",
+     "shape": [
+      27401,
+      15401
+     ],
+     "chunks": [
+      2491,
+      1401
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 121,
+     "chunk_bytes_median": 834757,
+     "chunk_bytes_max": 4805451,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "counts"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/x",
+     "shape": [
+      38
+     ],
+     "chunks": [
+      38
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 108,
+     "chunk_bytes_max": 108,
+     "cf": {
+      "_FillValue": "////////738=",
+      "units": "meters"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/y",
+     "shape": [
+      68
+     ],
+     "chunks": [
+      68
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "////////738=",
+      "units": "meters"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/N_data",
+     "shape": [
+      68,
+      38
+     ],
+     "chunks": [
+      68,
+      38
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4481,
+     "chunk_bytes_max": 4481,
+     "cf": {
+      "_FillValue": 2147483647,
+      "units": "counts"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/RMS_data",
+     "shape": [
+      68,
+      38
+     ],
+     "chunks": [
+      68,
+      38
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5640,
+     "chunk_bytes_max": 5640,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/RMS_bias",
+     "shape": [
+      68,
+      38
+     ],
+     "chunks": [
+      68,
+      38
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5473,
+     "chunk_bytes_max": 5473,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/N_bias",
+     "shape": [
+      68,
+      38
+     ],
+     "chunks": [
+      68,
+      38
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2784,
+     "chunk_bytes_max": 2784,
+     "cf": {
+      "_FillValue": 2147483647,
+      "units": "counts"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/RMS_d2z0dx2",
+     "shape": [
+      68,
+      38
+     ],
+     "chunks": [
+      68,
+      38
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5656,
+     "chunk_bytes_max": 5656,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters^-1"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/RMS_d2zdt2",
+     "shape": [
+      68,
+      38
+     ],
+     "chunks": [
+      68,
+      38
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5546,
+     "chunk_bytes_max": 5546,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters years^2"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/RMS_d2zdx2dt",
+     "shape": [
+      68,
+      38
+     ],
+     "chunks": [
+      68,
+      38
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5655,
+     "chunk_bytes_max": 5655,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters^-1 years^-1"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/sigma_xx0",
+     "shape": [
+      68,
+      38
+     ],
+     "chunks": [
+      68,
+      38
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 635,
+     "chunk_bytes_max": 635,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters^-1"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/sigma_tt",
+     "shape": [
+      68,
+      38
+     ],
+     "chunks": [
+      68,
+      38
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 633,
+     "chunk_bytes_max": 633,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters years^-2"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/sigma_xxt",
+     "shape": [
+      68,
+      38
+     ],
+     "chunks": [
+      68,
+      38
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 635,
+     "chunk_bytes_max": 635,
+     "cf": {
+      "_FillValue": "AAAA4P//70c=",
+      "units": "meters^-1 years^-1"
+     },
+     "grid": {
+      "grid_mapping": "Polar_Stereographic"
+     }
+    },
+    {
+     "name": "tile_stats/Polar_Stereographic",
+     "shape": [],
+     "chunks": [],
+     "dtype": "int8",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 4643954612757622152,
+     "chunk_bytes_max": 4643954612757622152,
+     "cf": {},
+     "grid": {
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "-640000.0 40000.0 0.0 -3320000.0 0.0 40000.0",
+      "grid_mapping_name": "polar_stereographic",
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
+      "false_easting": 0.0,
+      "false_northing": 0.0,
+      "semi_major_axis": 6378.137,
+      "inverse_flattening": 298.257223563
+     }
+    },
+    {
+     "name": "METADATA/iso_19139_dataset_xml",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "|S11058",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 11058,
+     "chunk_bytes_max": 11058,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "METADATA/iso_19139_series_xml",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "|S38092",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 38092,
+     "chunk_bytes_max": 38092,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "orbit_info/bounding_polygon_dim1",
+     "shape": [
+      76
+     ],
+     "chunks": [
+      76
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "bounding_polygon_dim1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 304,
+     "chunk_bytes_max": 304,
+     "cf": {
+      "units": "1"
+     },
+     "grid": {}
+    },
+    {
+     "name": "orbit_info/bounding_polygon_lat1",
+     "shape": [
+      76
+     ],
+     "chunks": [
+      76
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "bounding_polygon_dim1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 304,
+     "chunk_bytes_max": 304,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "orbit_info/bounding_polygon_lon1",
+     "shape": [
+      76
+     ],
+     "chunks": [
+      76
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "bounding_polygon_dim1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 304,
+     "chunk_bytes_max": 304,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "quality_assessment/qa_granule_fail_reason",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "1"
+     },
+     "grid": {}
+    },
+    {
+     "name": "quality_assessment/qa_granule_pass_fail",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "phony_dim_1"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4,
+     "chunk_bytes_max": 4,
+     "cf": {
+      "units": "1"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {
+    "x": {
+     "n": 15401,
+     "first": -670000.0,
+     "step": 100.0,
+     "last": 870000.0
+    },
+    "y": {
+     "n": 27401,
+     "first": -3350000.0,
+     "step": 100.0,
+     "last": -610000.0
+    },
+    "tile_stats/x": {
+     "n": 38,
+     "first": -640000.0,
+     "step": 40000.0,
+     "last": 840000.0
+    },
+    "tile_stats/y": {
+     "n": 68,
+     "first": -3320000.0,
+     "step": 40000.0,
+     "last": -640000.0
+    }
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 15,
+    "n_fetches": 15,
+    "leading_fraction": 0.26666666666666666,
+    "contiguous_runs": 13,
+    "span_fraction": 1.0007137758743754
+   },
+   "seconds": 37.3
+  }
+ ]
+}

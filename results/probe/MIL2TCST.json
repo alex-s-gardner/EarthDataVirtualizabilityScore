@@ -28,7 +28,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.5
+   "seconds": 7.8
   },
   {
    "granule_ur": "MISR_AM1_TC_STEREO_P020_O000995_F07_0012.hdf",
@@ -48,7 +48,87 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.6
+   "seconds": 7.9
+  },
+  {
+   "granule_ur": "MISR_AM1_TC_STEREO_P020_O028489_F07_0012.hdf",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/MISR/MIL2TCST.002/2005.04.26/MISR_AM1_TC_STEREO_P020_O028489_F07_0012.hdf",
+   "orbit": "A",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 88546851,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 8.5
+  },
+  {
+   "granule_ur": "MISR_AM1_TC_STEREO_P020_O057148_F08_0017.hdf",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/MISR/MIL2TCST.002/2010.09.15/MISR_AM1_TC_STEREO_P020_O057148_F08_0017.hdf",
+   "orbit": "A",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 79750731,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 8.4
+  },
+  {
+   "granule_ur": "MISR_AM1_TC_STEREO_P020_O085574_F08_0017.hdf",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/MISR/MIL2TCST.002/2016.01.19/MISR_AM1_TC_STEREO_P020_O085574_F08_0017.hdf",
+   "orbit": "D",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 75710699,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 7.7
+  },
+  {
+   "granule_ur": "MISR_AM1_TC_STEREO_P020_O114000_F08_0017.hdf",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/MISR/MIL2TCST.002/2021.05.24/MISR_AM1_TC_STEREO_P020_O114000_F08_0017.hdf",
+   "orbit": "A",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 79911701,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 8.4
   },
   {
    "granule_ur": "MISR_AM1_TC_STEREO_P020_O120990_F08_0017.hdf",
@@ -68,7 +148,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 6.1
+   "seconds": 8.7
   },
   {
    "granule_ur": "MISR_AM1_TC_STEREO_P020_O121223_F08_0017.hdf",
@@ -89,7 +169,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 6.8
+   "seconds": 7.8
   }
  ]
 }

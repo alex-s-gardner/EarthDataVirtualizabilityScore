@@ -1,0 +1,81 @@
+{
+ "short_name": "CAL_LID_L1-Standard-V4-51",
+ "format": "HDF4",
+ "diagnoses": [
+  {
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CALIPSO/CAL_LID_L1-Standard-V4-51_V4-51/2006.06/CAL_LID_L1-Standard-V4-51.2006-06-12T00-53-43ZN.hdf",
+   "error_type": "UnicodeDecodeError",
+   "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
+   "n_like_this": 8,
+   "container": "hdf4",
+   "local_bytes": 452662919,
+   "findings": {
+    "tag_census": {
+     "VERSION": 1,
+     "VS": 526,
+     "SD": 78,
+     "LINKED": 3551,
+     "VH": 526,
+     "VG": 235,
+     "NT": 78,
+     "SDD": 78,
+     "NDG": 78,
+     "NULL": 1
+    },
+    "scientific_data_tags": {
+     "total": 78,
+     "contiguous": 0,
+     "extended": 78,
+     "extension_types": {
+      "LINKED": 78
+     },
+     "decode_errors": {},
+     "sd_decoder_registered": false,
+     "contiguous_sample": [],
+     "compressed_elements": {
+      "codecs": {}
+     },
+     "chunked_elements": {
+      "decoded": 0,
+      "failed": {},
+      "total_chunks": 0,
+      "codecs": {},
+      "chunk_sample": []
+     }
+    },
+    "refusal_site": {
+     "raised": true,
+     "error_type": "UnicodeDecodeError",
+     "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
+     "indexing": {
+      "tag": "VH",
+      "ref": 4893,
+      "extended": false,
+      "offset": 452634784,
+      "length": 55,
+      "keys_present": [
+       "classlen",
+       "cls",
+       "extended",
+       "interface",
+       "isize",
+       "ivsize",
+       "length",
+       "loc",
+       "name",
+       "namelen",
+       "names",
+       "nfields",
+       "nvert",
+       "offset",
+       "offsets",
+       "order",
+       "ref",
+       "types"
+      ]
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "short_name": "CER_SSF1deg-Day_Aqua-MODIS",
+ "format": "HDF4",
+ "diagnoses": [
+  {
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CER_SSF1deg-Day_Aqua-MODIS_Edition4A/2002.07/CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.200207",
+   "error_type": "UnicodeDecodeError",
+   "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
+   "n_like_this": 3,
+   "container": "hdf4",
+   "local_bytes": 768661847,
+   "findings": {
+    "tag_census": {
+     "VERSION": 1,
+     "SD": 85,
+     "VS": 510,
+     "VH": 510,
+     "VG": 98,
+     "NT": 85,
+     "SDD": 85,
+     "NDG": 85,
+     "COMPRESSED": 81,
+     "LINKED": 388,
+     "NULL": 1
+    },
+    "scientific_data_tags": {
+     "total": 85,
+     "contiguous": 4,
+     "extended": 81,
+     "extension_types": {
+      "COMP": 81
+     },
+     "decode_errors": {},
+     "sd_decoder_registered": false,
+     "contiguous_sample": [
+      {
+       "ref": 84,
+       "offset": 2502,
+       "length": 1440
+      },
+      {
+       "ref": 86,
+       "offset": 3942,
+       "length": 720
+      },
+      {
+       "ref": 88,
+       "offset": 4662,
+       "length": 124
+      },
+      {
+       "ref": 90,
+       "offset": 4786,
+       "length": 20
+      }
+     ],
+     "compressed_elements": {
+      "codecs": {
+       "DEFLATE": 81
+      }
+     },
+     "chunked_elements": {
+      "decoded": 0,
+      "failed": {},
+      "total_chunks": 0,
+      "codecs": {},
+      "chunk_sample": []
+     }
+    },
+    "refusal_site": {
+     "raised": true,
+     "error_type": "UnicodeDecodeError",
+     "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte"
+    }
+   }
+  }
+ ]
+}

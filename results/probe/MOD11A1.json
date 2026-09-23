@@ -373,7 +373,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 4.4
+   "seconds": 4.6
   },
   {
    "granule_ur": "MOD11A1.A2000056.h08v05.061.2020043120932",
@@ -738,7 +738,1467 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 4.8
+   "seconds": 4.6
+  },
+  {
+   "granule_ur": "MOD11A1.A2005169.h08v05.061.2020245103814",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD11A1.061/MOD11A1.A2005169.h08v05.061.2020245103814/MOD11A1.A2005169.h08v05.061.2020245103814.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 6057389,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LST_Day_1km",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LST_Day_1km_x",
+      "LST_Day_1km_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1542094,
+     "chunk_bytes_max": 1542094,
+     "cf": {
+      "scale_factor": 7.688168988729552e+284,
+      "_FillValue": 0,
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC_Day",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_Day_x",
+      "QC_Day_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 183495,
+     "chunk_bytes_max": 183495,
+     "cf": {
+      "_FillValue": "NA"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Day_view_time",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Day_view_time_x",
+      "Day_view_time_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 54569,
+     "chunk_bytes_max": 54569,
+     "cf": {
+      "scale_factor": -1.5423487136675799e-180,
+      "_FillValue": 255,
+      "units": "hrs"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Day_view_angl",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Day_view_angl_x",
+      "Day_view_angl_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 102052,
+     "chunk_bytes_max": 102052,
+     "cf": {
+      "scale_factor": 3.03865e-319,
+      "add_offset": 2.082475e-317,
+      "_FillValue": 255,
+      "units": "deg"
+     },
+     "grid": {}
+    },
+    {
+     "name": "LST_Night_1km",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LST_Night_1km_x",
+      "LST_Night_1km_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1360232,
+     "chunk_bytes_max": 1360232,
+     "cf": {
+      "scale_factor": 7.688168988729552e+284,
+      "_FillValue": 0,
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC_Night",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_Night_x",
+      "QC_Night_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 132829,
+     "chunk_bytes_max": 132829,
+     "cf": {
+      "_FillValue": "NA"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Night_view_time",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Night_view_time_x",
+      "Night_view_time_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 63221,
+     "chunk_bytes_max": 63221,
+     "cf": {
+      "scale_factor": -1.5423487136675799e-180,
+      "_FillValue": 255,
+      "units": "hrs"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Night_view_angl",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Night_view_angl_x",
+      "Night_view_angl_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 87502,
+     "chunk_bytes_max": 87502,
+     "cf": {
+      "scale_factor": 3.03865e-319,
+      "add_offset": 2.082475e-317,
+      "_FillValue": 255,
+      "units": "deg"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Emis_31",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Emis_31_x",
+      "Emis_31_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 267194,
+     "chunk_bytes_max": 267194,
+     "cf": {
+      "scale_factor": -3.2363318029890407e+292,
+      "add_offset": 7.387368604433486e+137,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Emis_32",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Emis_32_x",
+      "Emis_32_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 247249,
+     "chunk_bytes_max": 247249,
+     "cf": {
+      "scale_factor": -3.2363318029890407e+292,
+      "add_offset": 7.387368604433486e+137,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Clear_day_cov",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Clear_day_cov_x",
+      "Clear_day_cov_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 983063,
+     "chunk_bytes_max": 983063,
+     "cf": {
+      "scale_factor": -3.2363318029854103e+292,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Clear_night_cov",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Clear_night_cov_x",
+      "Clear_night_cov_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 949903,
+     "chunk_bytes_max": 949903,
+     "cf": {
+      "scale_factor": -3.2363318029854103e+292,
+      "_FillValue": 0
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.2
+  },
+  {
+   "granule_ur": "MOD11A1.A2010285.h08v05.061.2021181035933",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD11A1.061/MOD11A1.A2010285.h08v05.061.2021181035933/MOD11A1.A2010285.h08v05.061.2021181035933.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 6390488,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LST_Day_1km",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LST_Day_1km_x",
+      "LST_Day_1km_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1605249,
+     "chunk_bytes_max": 1605249,
+     "cf": {
+      "scale_factor": 7.688168988729552e+284,
+      "_FillValue": 0,
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC_Day",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_Day_x",
+      "QC_Day_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 124502,
+     "chunk_bytes_max": 124502,
+     "cf": {
+      "_FillValue": "NA"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Day_view_time",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Day_view_time_x",
+      "Day_view_time_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 44856,
+     "chunk_bytes_max": 44856,
+     "cf": {
+      "scale_factor": -1.5423487136675799e-180,
+      "_FillValue": 255,
+      "units": "hrs"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Day_view_angl",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Day_view_angl_x",
+      "Day_view_angl_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 80145,
+     "chunk_bytes_max": 80145,
+     "cf": {
+      "scale_factor": 3.03865e-319,
+      "add_offset": 2.082475e-317,
+      "_FillValue": 255,
+      "units": "deg"
+     },
+     "grid": {}
+    },
+    {
+     "name": "LST_Night_1km",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LST_Night_1km_x",
+      "LST_Night_1km_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1532320,
+     "chunk_bytes_max": 1532320,
+     "cf": {
+      "scale_factor": 7.688168988729552e+284,
+      "_FillValue": 0,
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC_Night",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_Night_x",
+      "QC_Night_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 174296,
+     "chunk_bytes_max": 174296,
+     "cf": {
+      "_FillValue": "NA"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Night_view_time",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Night_view_time_x",
+      "Night_view_time_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 67790,
+     "chunk_bytes_max": 67790,
+     "cf": {
+      "scale_factor": -1.5423487136675799e-180,
+      "_FillValue": 255,
+      "units": "hrs"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Night_view_angl",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Night_view_angl_x",
+      "Night_view_angl_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 109382,
+     "chunk_bytes_max": 109382,
+     "cf": {
+      "scale_factor": 3.03865e-319,
+      "add_offset": 2.082475e-317,
+      "_FillValue": 255,
+      "units": "deg"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Emis_31",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Emis_31_x",
+      "Emis_31_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 257320,
+     "chunk_bytes_max": 257320,
+     "cf": {
+      "scale_factor": -3.2363318029890407e+292,
+      "add_offset": 7.387368604433486e+137,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Emis_32",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Emis_32_x",
+      "Emis_32_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 242557,
+     "chunk_bytes_max": 242557,
+     "cf": {
+      "scale_factor": -3.2363318029890407e+292,
+      "add_offset": 7.387368604433486e+137,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Clear_day_cov",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Clear_day_cov_x",
+      "Clear_day_cov_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1009918,
+     "chunk_bytes_max": 1009918,
+     "cf": {
+      "scale_factor": -3.2363318029854103e+292,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Clear_night_cov",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Clear_night_cov_x",
+      "Clear_night_cov_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1057731,
+     "chunk_bytes_max": 1057731,
+     "cf": {
+      "scale_factor": -3.2363318029854103e+292,
+      "_FillValue": 0
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 4.9
+  },
+  {
+   "granule_ur": "MOD11A1.A2016035.h08v05.061.2022003164247",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD11A1.061/MOD11A1.A2016035.h08v05.061.2022003164247/MOD11A1.A2016035.h08v05.061.2022003164247.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 5417278,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LST_Day_1km",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LST_Day_1km_x",
+      "LST_Day_1km_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1082792,
+     "chunk_bytes_max": 1082792,
+     "cf": {
+      "scale_factor": 7.688168988729552e+284,
+      "_FillValue": 0,
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC_Day",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_Day_x",
+      "QC_Day_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 198386,
+     "chunk_bytes_max": 198386,
+     "cf": {
+      "_FillValue": "NA"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Day_view_time",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Day_view_time_x",
+      "Day_view_time_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 106311,
+     "chunk_bytes_max": 106311,
+     "cf": {
+      "scale_factor": -1.5423487136675799e-180,
+      "_FillValue": 255,
+      "units": "hrs"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Day_view_angl",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Day_view_angl_x",
+      "Day_view_angl_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 147634,
+     "chunk_bytes_max": 147634,
+     "cf": {
+      "scale_factor": 3.03865e-319,
+      "add_offset": 2.082475e-317,
+      "_FillValue": 255,
+      "units": "deg"
+     },
+     "grid": {}
+    },
+    {
+     "name": "LST_Night_1km",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LST_Night_1km_x",
+      "LST_Night_1km_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1097913,
+     "chunk_bytes_max": 1097913,
+     "cf": {
+      "scale_factor": 7.688168988729552e+284,
+      "_FillValue": 0,
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC_Night",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_Night_x",
+      "QC_Night_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 183536,
+     "chunk_bytes_max": 183536,
+     "cf": {
+      "_FillValue": "NA"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Night_view_time",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Night_view_time_x",
+      "Night_view_time_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 109706,
+     "chunk_bytes_max": 109706,
+     "cf": {
+      "scale_factor": -1.5423487136675799e-180,
+      "_FillValue": 255,
+      "units": "hrs"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Night_view_angl",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Night_view_angl_x",
+      "Night_view_angl_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 139937,
+     "chunk_bytes_max": 139937,
+     "cf": {
+      "scale_factor": 3.03865e-319,
+      "add_offset": 2.082475e-317,
+      "_FillValue": 255,
+      "units": "deg"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Emis_31",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Emis_31_x",
+      "Emis_31_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 279447,
+     "chunk_bytes_max": 279447,
+     "cf": {
+      "scale_factor": -3.2363318029890407e+292,
+      "add_offset": 7.387368604433486e+137,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Emis_32",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Emis_32_x",
+      "Emis_32_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 250672,
+     "chunk_bytes_max": 250672,
+     "cf": {
+      "scale_factor": -3.2363318029890407e+292,
+      "add_offset": 7.387368604433486e+137,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Clear_day_cov",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Clear_day_cov_x",
+      "Clear_day_cov_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 848951,
+     "chunk_bytes_max": 848951,
+     "cf": {
+      "scale_factor": -3.2363318029854103e+292,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Clear_night_cov",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Clear_night_cov_x",
+      "Clear_night_cov_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 887570,
+     "chunk_bytes_max": 887570,
+     "cf": {
+      "scale_factor": -3.2363318029854103e+292,
+      "_FillValue": 0
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 4.7
+  },
+  {
+   "granule_ur": "MOD11A1.A2021150.h08v05.061.2021151085828",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD11A1.061/MOD11A1.A2021150.h08v05.061.2021151085828/MOD11A1.A2021150.h08v05.061.2021151085828.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 6264484,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LST_Day_1km",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LST_Day_1km_x",
+      "LST_Day_1km_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1559061,
+     "chunk_bytes_max": 1559061,
+     "cf": {
+      "scale_factor": 7.688168988729552e+284,
+      "_FillValue": 0,
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC_Day",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_Day_x",
+      "QC_Day_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172447,
+     "chunk_bytes_max": 172447,
+     "cf": {
+      "_FillValue": "NA"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Day_view_time",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Day_view_time_x",
+      "Day_view_time_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 59960,
+     "chunk_bytes_max": 59960,
+     "cf": {
+      "scale_factor": -1.5423487136675799e-180,
+      "_FillValue": 255,
+      "units": "hrs"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Day_view_angl",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Day_view_angl_x",
+      "Day_view_angl_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 94407,
+     "chunk_bytes_max": 94407,
+     "cf": {
+      "scale_factor": 3.03865e-319,
+      "add_offset": 2.082475e-317,
+      "_FillValue": 255,
+      "units": "deg"
+     },
+     "grid": {}
+    },
+    {
+     "name": "LST_Night_1km",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LST_Night_1km_x",
+      "LST_Night_1km_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1396752,
+     "chunk_bytes_max": 1396752,
+     "cf": {
+      "scale_factor": 7.688168988729552e+284,
+      "_FillValue": 0,
+      "units": "K"
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC_Night",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_Night_x",
+      "QC_Night_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 169815,
+     "chunk_bytes_max": 169815,
+     "cf": {
+      "_FillValue": "NA"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Night_view_time",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Night_view_time_x",
+      "Night_view_time_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 72785,
+     "chunk_bytes_max": 72785,
+     "cf": {
+      "scale_factor": -1.5423487136675799e-180,
+      "_FillValue": 255,
+      "units": "hrs"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Night_view_angl",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Night_view_angl_x",
+      "Night_view_angl_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 109895,
+     "chunk_bytes_max": 109895,
+     "cf": {
+      "scale_factor": 3.03865e-319,
+      "add_offset": 2.082475e-317,
+      "_FillValue": 255,
+      "units": "deg"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Emis_31",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Emis_31_x",
+      "Emis_31_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 281571,
+     "chunk_bytes_max": 281571,
+     "cf": {
+      "scale_factor": -3.2363318029890407e+292,
+      "add_offset": 7.387368604433486e+137,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Emis_32",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Emis_32_x",
+      "Emis_32_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 260220,
+     "chunk_bytes_max": 260220,
+     "cf": {
+      "scale_factor": -3.2363318029890407e+292,
+      "add_offset": 7.387368604433486e+137,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Clear_day_cov",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Clear_day_cov_x",
+      "Clear_day_cov_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 998607,
+     "chunk_bytes_max": 998607,
+     "cf": {
+      "scale_factor": -3.2363318029854103e+292,
+      "_FillValue": 0
+     },
+     "grid": {}
+    },
+    {
+     "name": "Clear_night_cov",
+     "shape": [
+      1200,
+      1200
+     ],
+     "chunks": [
+      1200,
+      1200
+     ],
+     "dtype": ">u2",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "Clear_night_cov_x",
+      "Clear_night_cov_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1002352,
+     "chunk_bytes_max": 1002352,
+     "cf": {
+      "scale_factor": -3.2363318029854103e+292,
+      "_FillValue": 0
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.3
   },
   {
    "granule_ur": "MOD11A1.A2026263.h08v05.061.2026264144455",
@@ -1103,7 +2563,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 4.3
+   "seconds": 4.6
   },
   {
    "granule_ur": "MOD11A1.A2026264.h08v05.061.2026265092030",
@@ -1469,7 +2929,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.1
+   "seconds": 4.4
   }
  ]
 }

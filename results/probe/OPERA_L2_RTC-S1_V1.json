@@ -160,7 +160,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.16666666666666666
    },
-   "seconds": 6.0
+   "seconds": 5.5
   },
   {
    "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20160601T000514Z_20250928T024515Z_S1A_30_v1.0",
@@ -313,7 +313,335 @@
     "contiguous_runs": 1,
     "span_fraction": 0.16666666666666666
    },
-   "seconds": 5.6
+   "seconds": 5.0
+  },
+  {
+   "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20180522T000525Z_20250921T124239Z_S1A_30_v1.0",
+   "url": "https://cumulus.asf.earthdatacloud.nasa.gov/OPERA/OPERA_L2_RTC-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20180522T000525Z_20250921T124239Z_S1A_30_v1.0/OPERA_L2_RTC-S1_T063-133239-IW1_20180522T000525Z_20250921T124239Z_S1A_30_v1.0_VV.tif",
+   "orbit": "",
+   "declared_format": "GeoTIFF+HDF5+XML",
+   "file_bytes": 6988908,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      1616,
+      3301
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 28,
+     "chunk_bytes_median": 45835,
+     "chunk_bytes_max": 873913,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      404,
+      826
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 2,
+     "chunk_bytes_median": 202357,
+     "chunk_bytes_max": 256080,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      101,
+      207
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 28145,
+     "chunk_bytes_max": 28145,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      26,
+      52
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 3571,
+     "chunk_bytes_max": 3571,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      13,
+      26
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1957,
+     "chunk_bytes_max": 1957,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     224760.0,
+     1354350.0,
+     0.0
+    ],
+    "pixel_scale": [
+     30.0,
+     30.0,
+     0.0
+    ],
+    "crs": "EPSG:32616",
+    "photometric": "1",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 0.16666666666666666
+   },
+   "seconds": 5.0
+  },
+  {
+   "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20200628T000540Z_20250909T014302Z_S1A_30_v1.0",
+   "url": "https://cumulus.asf.earthdatacloud.nasa.gov/OPERA/OPERA_L2_RTC-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20200628T000540Z_20250909T014302Z_S1A_30_v1.0/OPERA_L2_RTC-S1_T063-133239-IW1_20200628T000540Z_20250909T014302Z_S1A_30_v1.0_VV.tif",
+   "orbit": "",
+   "declared_format": "GeoTIFF+HDF5+XML",
+   "file_bytes": 6854855,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      1616,
+      3301
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 28,
+     "chunk_bytes_median": 44086,
+     "chunk_bytes_max": 857609,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      404,
+      826
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 2,
+     "chunk_bytes_median": 198812,
+     "chunk_bytes_max": 246071,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      101,
+      207
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 27077,
+     "chunk_bytes_max": 27077,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      26,
+      52
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 3471,
+     "chunk_bytes_max": 3471,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      13,
+      26
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "8"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1932,
+     "chunk_bytes_max": 1932,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     224760.0,
+     1354350.0,
+     0.0
+    ],
+    "pixel_scale": [
+     30.0,
+     30.0,
+     0.0
+    ],
+    "crs": "EPSG:32616",
+    "photometric": "1",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 0.16666666666666666
+   },
+   "seconds": 6.7
+  },
+  {
+   "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20220724T000554Z_20250108T061209Z_S1A_30_v1.0",
+   "url": "https://datapool.asf.alaska.edu/RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20220724T000554Z_20250108T061209Z_S1A_30_v1.0_VV.tif",
+   "orbit": "",
+   "declared_format": "GeoTIFF+HDF5+XML",
+   "ok": false,
+   "error_type": "PermissionDeniedError",
+   "error": "The operation lacked the necessary privileges to complete for path RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20220724T000554Z_20250108T061209Z_S1A_30_v1.0_VV.tif: Error performing HEAD https://datapool.asf.alaska.edu/RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20220724T000554Z_20250108T061209Z_S1A_30_v1.0_VV.tif in 218.373125ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug sour",
+   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 218.373125ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
+   "seconds": 0.2
+  },
+  {
+   "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20240830T000557Z_20240830T184455Z_S1A_30_v1.0",
+   "url": "https://datapool.asf.alaska.edu/RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20240830T000557Z_20240830T184455Z_S1A_30_v1.0_VV.tif",
+   "orbit": "",
+   "declared_format": "GeoTIFF+HDF5+XML",
+   "ok": false,
+   "error_type": "PermissionDeniedError",
+   "error": "The operation lacked the necessary privileges to complete for path RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20240830T000557Z_20240830T184455Z_S1A_30_v1.0_VV.tif: Error performing HEAD https://datapool.asf.alaska.edu/RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20240830T000557Z_20240830T184455Z_S1A_30_v1.0_VV.tif in 157.746917ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug sour",
+   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 157.746917ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
+   "seconds": 0.2
   },
   {
    "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20260716T000445Z_20260811T182630Z_S1C_30_v1.0",
@@ -466,7 +794,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.16666666666666666
    },
-   "seconds": 4.7
+   "seconds": 5.7
   },
   {
    "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20260821T000447Z_20260821T210612Z_S1C_30_v1.0",
@@ -619,7 +947,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.16666666666666666
    },
-   "seconds": 4.7
+   "seconds": 5.4
   }
  ]
 }

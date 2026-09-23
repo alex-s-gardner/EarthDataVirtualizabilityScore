@@ -19,16 +19,16 @@
    "container": "hdf5",
    "ok": false,
    "error_type": "ProbeTimeout",
-   "error": "exceeded the 480 s probe budget for one granule",
-   "traceback_tail": " ^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"<repo>/scripts/03_probe.py\", line 389, in fire\n    raise ProbeTimeout(\n        f\"exceeded the {seconds} s probe budget for one granule\")\n__mp_main__.ProbeTimeout: exceeded the 480 s probe budget for one granule\n",
+   "error": "exceeded the 1800 s probe budget for one granule",
+   "traceback_tail": ".<4 lines>...\n        coalesce=coalesce,\n        ^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"<repo>/scripts/03_probe.py\", line 412, in fire\n    raise ProbeTimeout(\n        f\"exceeded the {seconds} s probe budget for one granule\")\n__mp_main__.ProbeTimeout: exceeded the 1800 s probe budget for one granule\n",
    "locality": {
-    "n_blocks": 197,
-    "n_fetches": 197,
-    "leading_fraction": 0.25888324873096447,
-    "contiguous_runs": 11,
+    "n_blocks": 721,
+    "n_fetches": 724,
+    "leading_fraction": 0.07073509015256588,
+    "contiguous_runs": 46,
     "span_fraction": 1.0
    },
-   "seconds": 481.6
+   "seconds": 1801.7
   },
   {
    "granule_ur": "M2I3NPASM.5.12.4:MERRA2_100.inst3_3d_asm_Np.19800102.nc4",
@@ -37,7 +37,43 @@
    "ok": false,
    "attempted": false,
    "error_type": "ProbeTimeout",
-   "error": "not attempted: an earlier granule of this collection exceeded the 480 s probe budget"
+   "error": "not attempted: an earlier granule of this collection exceeded the 1800 s probe budget"
+  },
+  {
+   "granule_ur": "M2I3NPASM.5.12.4:MERRA2_100.inst3_3d_asm_Np.19890506.nc4",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/MERRA2/M2I3NPASM.5.12.4/1989/05/MERRA2_100.inst3_3d_asm_Np.19890506.nc4",
+   "orbit": "",
+   "ok": false,
+   "attempted": false,
+   "error_type": "ProbeTimeout",
+   "error": "not attempted: an earlier granule of this collection exceeded the 1800 s probe budget"
+  },
+  {
+   "granule_ur": "M2I3NPASM.5.12.4:MERRA2_200.inst3_3d_asm_Np.19980909.nc4",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/MERRA2/M2I3NPASM.5.12.4/1998/09/MERRA2_200.inst3_3d_asm_Np.19980909.nc4",
+   "orbit": "",
+   "ok": false,
+   "attempted": false,
+   "error_type": "ProbeTimeout",
+   "error": "not attempted: an earlier granule of this collection exceeded the 1800 s probe budget"
+  },
+  {
+   "granule_ur": "M2I3NPASM.5.12.4:MERRA2_300.inst3_3d_asm_Np.20080114.nc4",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/MERRA2/M2I3NPASM.5.12.4/2008/01/MERRA2_300.inst3_3d_asm_Np.20080114.nc4",
+   "orbit": "",
+   "ok": false,
+   "attempted": false,
+   "error_type": "ProbeTimeout",
+   "error": "not attempted: an earlier granule of this collection exceeded the 1800 s probe budget"
+  },
+  {
+   "granule_ur": "M2I3NPASM.5.12.4:MERRA2_400.inst3_3d_asm_Np.20170519.nc4",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/MERRA2/M2I3NPASM.5.12.4/2017/05/MERRA2_400.inst3_3d_asm_Np.20170519.nc4",
+   "orbit": "",
+   "ok": false,
+   "attempted": false,
+   "error_type": "ProbeTimeout",
+   "error": "not attempted: an earlier granule of this collection exceeded the 1800 s probe budget"
   },
   {
    "granule_ur": "M2I3NPASM.5.12.4:MERRA2_400.inst3_3d_asm_Np.20260731.nc4",
@@ -46,7 +82,7 @@
    "ok": false,
    "attempted": false,
    "error_type": "ProbeTimeout",
-   "error": "not attempted: an earlier granule of this collection exceeded the 480 s probe budget"
+   "error": "not attempted: an earlier granule of this collection exceeded the 1800 s probe budget"
   },
   {
    "granule_ur": "M2I3NPASM.5.12.4:MERRA2_400.inst3_3d_asm_Np.20260801.nc4",
@@ -55,7 +91,7 @@
    "ok": false,
    "attempted": false,
    "error_type": "ProbeTimeout",
-   "error": "not attempted: an earlier granule of this collection exceeded the 480 s probe budget"
+   "error": "not attempted: an earlier granule of this collection exceeded the 1800 s probe budget"
   }
  ]
 }

@@ -1,0 +1,49 @@
+{
+ "short_name": "VNP13A1",
+ "format": "HDF-EOS5",
+ "diagnoses": [
+  {
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP13A1.002/VNP13A1.A2012017.h08v05.002.2023201191932/VNP13A1.A2012017.h08v05.002.2023201191932.h5",
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype int16, got list",
+   "n_like_this": 8,
+   "container": "hdf5",
+   "local_bytes": 91076021,
+   "findings": {
+    "unencodable_fill_values": [
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI",
+      "dtype": "int16",
+      "reason": "2 values rather than one",
+      "fill_value": "[-15000 -13000]"
+     },
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI2",
+      "dtype": "int16",
+      "reason": "2 values rather than one",
+      "fill_value": "[-15000 -13000]"
+     },
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days NDVI",
+      "dtype": "int16",
+      "reason": "2 values rather than one",
+      "fill_value": "[-15000 -13000]"
+     },
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days pixel reliability",
+      "dtype": "int8",
+      "reason": "2 values rather than one",
+      "fill_value": "[-4 -1]"
+     }
+    ],
+    "multi_scale_axes": [],
+    "unfixed_dtypes": [],
+    "filters": {
+     "gzip": 16
+    },
+    "n_datasets": 22,
+    "n_groups": 7
+   }
+  }
+ ]
+}

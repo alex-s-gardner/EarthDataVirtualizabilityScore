@@ -4339,7 +4339,7 @@
     "contiguous_runs": 7,
     "span_fraction": 0.8730529595015576
    },
-   "seconds": 12.4
+   "seconds": 11.9
   },
   {
    "granule_ur": "NISAR_L2_PR_GUNW_025_036_A_163_026_2000_SH_20260710T175011_20260710T175030_20260722T175010_20260722T175026_P05023_N_P_J_001",
@@ -8670,7 +8670,7 @@
     "contiguous_runs": 7,
     "span_fraction": 0.8765151515151515
    },
-   "seconds": 13.2
+   "seconds": 12.4
   },
   {
    "granule_ur": "NISAR_L2_PR_GUNW_029_036_A_163_030_2000_SH_20260827T175009_20260827T175024_20260908T175009_20260908T175024_P05023_N_P_J_001",
@@ -13001,7 +13001,7 @@
     "contiguous_runs": 7,
     "span_fraction": 0.87265625
    },
-   "seconds": 12.8
+   "seconds": 14.7
   },
   {
    "granule_ur": "NISAR_L2_PR_GUNW_030_036_A_163_031_2000_SH_20260908T175009_20260908T175024_20260920T175009_20260920T175028_P05023_N_P_J_001",
@@ -17333,7 +17333,7 @@
     "contiguous_runs": 7,
     "span_fraction": 0.8734472049689441
    },
-   "seconds": 13.4
+   "seconds": 12.1
   }
  ]
 }

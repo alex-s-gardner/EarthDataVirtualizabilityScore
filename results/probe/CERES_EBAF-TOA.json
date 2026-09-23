@@ -1879,7 +1879,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 14.9
+   "seconds": 16.4
   },
   {
    "granule_ur": "CERES_EBAF-TOA_Edition4.2.1_200003-202606.nc",
@@ -3751,7 +3751,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 17.5
+   "seconds": 15.0
   }
  ]
 }

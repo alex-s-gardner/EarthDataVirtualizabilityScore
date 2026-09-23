@@ -1,0 +1,78 @@
+{
+ "short_name": "CER_SYN1deg-1Hour_Terra-Aqua-NOAA20",
+ "format": "HDF4",
+ "diagnoses": [
+  {
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CER_SYN1deg-1Hour_Terra-Aqua-NOAA20_Edition4B/2000.03.01/CER_SYN1deg-1Hour_Terra-Aqua-NOAA20_Edition4B_401412.20000301",
+   "error_type": "UnicodeDecodeError",
+   "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
+   "n_like_this": 8,
+   "container": "hdf4",
+   "local_bytes": 745844015,
+   "findings": {
+    "tag_census": {
+     "VERSION": 1,
+     "SD": 152,
+     "VS": 907,
+     "VH": 907,
+     "VG": 182,
+     "NT": 152,
+     "SDD": 152,
+     "NDG": 152,
+     "COMPRESSED": 145,
+     "LINKED": 807,
+     "NULL": 1
+    },
+    "scientific_data_tags": {
+     "total": 152,
+     "contiguous": 7,
+     "extended": 145,
+     "extension_types": {
+      "COMP": 145
+     },
+     "decode_errors": {},
+     "sd_decoder_registered": false,
+     "contiguous_sample": [
+      {
+       "ref": 148,
+       "offset": 2502,
+       "length": 1440
+      },
+      {
+       "ref": 150,
+       "offset": 3942,
+       "length": 720
+      },
+      {
+       "ref": 152,
+       "offset": 4662,
+       "length": 96
+      },
+      {
+       "ref": 154,
+       "offset": 4758,
+       "length": 20
+      }
+     ],
+     "compressed_elements": {
+      "codecs": {
+       "DEFLATE": 145
+      }
+     },
+     "chunked_elements": {
+      "decoded": 0,
+      "failed": {},
+      "total_chunks": 0,
+      "codecs": {},
+      "chunk_sample": []
+     }
+    },
+    "refusal_site": {
+     "raised": true,
+     "error_type": "UnicodeDecodeError",
+     "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte"
+    }
+   }
+  }
+ ]
+}

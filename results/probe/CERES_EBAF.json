@@ -7052,7 +7052,7 @@
     "contiguous_runs": 42,
     "span_fraction": 0.9293394777265745
    },
-   "seconds": 68.1
+   "seconds": 67.9
   },
   {
    "granule_ur": "CERES_EBAF_Edition4.2.1_200003-202603.nc",
@@ -14097,7 +14097,7 @@
     "contiguous_runs": 42,
     "span_fraction": 0.9299847792998478
    },
-   "seconds": 67.0
+   "seconds": 73.7
   }
  ]
 }

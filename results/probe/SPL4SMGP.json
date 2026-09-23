@@ -1661,7 +1661,7 @@
     "contiguous_runs": 28,
     "span_fraction": 1.0072463768115942
    },
-   "seconds": 54.9
+   "seconds": 55.6
   },
   {
    "granule_ur": "SMAP_L4_SM_gph_20150331T043000_Vv8010_001.h5",
@@ -3301,14 +3301,14 @@
     "contiguous_runs": 29,
     "span_fraction": 1.0071428571428571
    },
-   "seconds": 51.8
+   "seconds": 52.0
   },
   {
-   "granule_ur": "SMAP_L4_SM_gph_20260919T193000_Vv8011_001.h5_u9loH5HD",
-   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL4SMGP/008/2026/09/19/SMAP_L4_SM_gph_20260919T193000_Vv8011_001.h5",
+   "granule_ur": "SMAP_L4_SM_gph_20170716T223000_Vv8010_001.h5",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL4SMGP/008/2017/07/16/SMAP_L4_SM_gph_20170716T223000_Vv8010_001.h5",
    "orbit": "",
    "declared_format": "HDF5",
-   "file_bytes": 149420301,
+   "file_bytes": 150885027,
    "dmrpp": true,
    "container": "hdf5",
    "vars": [
@@ -3556,8 +3556,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1564075,
-     "chunk_bytes_max": 1564075,
+     "chunk_bytes_median": 1818535,
+     "chunk_bytes_max": 1818535,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -3587,8 +3587,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 384961,
-     "chunk_bytes_max": 384961,
+     "chunk_bytes_median": 381771,
+     "chunk_bytes_max": 381771,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m",
@@ -3618,8 +3618,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 339843,
-     "chunk_bytes_max": 339843,
+     "chunk_bytes_median": 366652,
+     "chunk_bytes_max": 366652,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -3649,8 +3649,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4370574,
-     "chunk_bytes_max": 4370574,
+     "chunk_bytes_median": 4634296,
+     "chunk_bytes_max": 4634296,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -3680,8 +3680,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4753465,
-     "chunk_bytes_max": 4753465,
+     "chunk_bytes_median": 4763136,
+     "chunk_bytes_max": 4763136,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -3711,8 +3711,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4877600,
-     "chunk_bytes_max": 4877600,
+     "chunk_bytes_median": 4810536,
+     "chunk_bytes_max": 4810536,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -3742,8 +3742,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3962512,
-     "chunk_bytes_max": 3962512,
+     "chunk_bytes_median": 4105047,
+     "chunk_bytes_max": 4105047,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m",
@@ -3773,8 +3773,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4761210,
-     "chunk_bytes_max": 4761210,
+     "chunk_bytes_median": 4714289,
+     "chunk_bytes_max": 4714289,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -3804,8 +3804,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4360997,
-     "chunk_bytes_max": 4360997,
+     "chunk_bytes_median": 4323060,
+     "chunk_bytes_max": 4323060,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -3835,8 +3835,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 2261898,
-     "chunk_bytes_max": 2261898,
+     "chunk_bytes_median": 2074033,
+     "chunk_bytes_max": 2074033,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -3866,8 +3866,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4121117,
-     "chunk_bytes_max": 4121117,
+     "chunk_bytes_median": 4053144,
+     "chunk_bytes_max": 4053144,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -3897,8 +3897,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3228430,
-     "chunk_bytes_max": 3228430,
+     "chunk_bytes_median": 2966377,
+     "chunk_bytes_max": 2966377,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -3928,8 +3928,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4274452,
-     "chunk_bytes_max": 4274452,
+     "chunk_bytes_median": 4314756,
+     "chunk_bytes_max": 4314756,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m2 m-2",
@@ -3959,8 +3959,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4085113,
-     "chunk_bytes_max": 4085113,
+     "chunk_bytes_median": 4084117,
+     "chunk_bytes_max": 4084117,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "1",
@@ -3990,8 +3990,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4453389,
-     "chunk_bytes_max": 4453389,
+     "chunk_bytes_median": 4443397,
+     "chunk_bytes_max": 4443397,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -4021,8 +4021,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1984325,
-     "chunk_bytes_max": 1984325,
+     "chunk_bytes_median": 2720858,
+     "chunk_bytes_max": 2720858,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -4052,8 +4052,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3808234,
-     "chunk_bytes_max": 3808234,
+     "chunk_bytes_median": 3999287,
+     "chunk_bytes_max": 3999287,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -4083,8 +4083,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3660579,
-     "chunk_bytes_max": 3660579,
+     "chunk_bytes_median": 3633663,
+     "chunk_bytes_max": 3633663,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -4114,8 +4114,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3599581,
-     "chunk_bytes_max": 3599581,
+     "chunk_bytes_median": 3447771,
+     "chunk_bytes_max": 3447771,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -4145,8 +4145,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1949839,
-     "chunk_bytes_max": 1949839,
+     "chunk_bytes_median": 2706876,
+     "chunk_bytes_max": 2706876,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -4176,8 +4176,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4272212,
-     "chunk_bytes_max": 4272212,
+     "chunk_bytes_median": 4237617,
+     "chunk_bytes_max": 4237617,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m3 m-3",
@@ -4207,8 +4207,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1061522,
-     "chunk_bytes_max": 1061522,
+     "chunk_bytes_median": 1211962,
+     "chunk_bytes_max": 1211962,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "percent",
@@ -4238,8 +4238,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4173125,
-     "chunk_bytes_max": 4173125,
+     "chunk_bytes_median": 4010015,
+     "chunk_bytes_max": 4010015,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -4269,8 +4269,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4336939,
-     "chunk_bytes_max": 4336939,
+     "chunk_bytes_median": 4242198,
+     "chunk_bytes_max": 4242198,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m3 m-3",
@@ -4300,8 +4300,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1016882,
-     "chunk_bytes_max": 1016882,
+     "chunk_bytes_median": 1135882,
+     "chunk_bytes_max": 1135882,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "percent",
@@ -4331,8 +4331,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4244999,
-     "chunk_bytes_max": 4244999,
+     "chunk_bytes_median": 4213784,
+     "chunk_bytes_max": 4213784,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -4362,8 +4362,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4512672,
-     "chunk_bytes_max": 4512672,
+     "chunk_bytes_median": 4424912,
+     "chunk_bytes_max": 4424912,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m3 m-3",
@@ -4393,8 +4393,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4389308,
-     "chunk_bytes_max": 4389308,
+     "chunk_bytes_median": 4274313,
+     "chunk_bytes_max": 4274313,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -4424,8 +4424,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 491951,
-     "chunk_bytes_max": 491951,
+     "chunk_bytes_median": 399780,
+     "chunk_bytes_max": 399780,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m",
@@ -4455,8 +4455,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 715274,
-     "chunk_bytes_max": 715274,
+     "chunk_bytes_median": 491646,
+     "chunk_bytes_max": 491646,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2",
@@ -4486,8 +4486,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 596857,
-     "chunk_bytes_max": 596857,
+     "chunk_bytes_median": 478297,
+     "chunk_bytes_max": 478297,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -4517,8 +4517,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 599512,
-     "chunk_bytes_max": 599512,
+     "chunk_bytes_median": 393104,
+     "chunk_bytes_max": 393104,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -4548,8 +4548,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4085313,
-     "chunk_bytes_max": 4085313,
+     "chunk_bytes_median": 4167761,
+     "chunk_bytes_max": 4167761,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -4579,8 +4579,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4018849,
-     "chunk_bytes_max": 4018849,
+     "chunk_bytes_median": 4089971,
+     "chunk_bytes_max": 4089971,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -4610,8 +4610,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3984977,
-     "chunk_bytes_max": 3984977,
+     "chunk_bytes_median": 3976339,
+     "chunk_bytes_max": 3976339,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -4641,8 +4641,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3898467,
-     "chunk_bytes_max": 3898467,
+     "chunk_bytes_median": 3646123,
+     "chunk_bytes_max": 3646123,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -4672,8 +4672,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3792677,
-     "chunk_bytes_max": 3792677,
+     "chunk_bytes_median": 3786276,
+     "chunk_bytes_max": 3786276,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -4703,8 +4703,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3826612,
-     "chunk_bytes_max": 3826612,
+     "chunk_bytes_median": 3792929,
+     "chunk_bytes_max": 3792929,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -4734,8 +4734,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 2692075,
-     "chunk_bytes_max": 2692075,
+     "chunk_bytes_median": 3674230,
+     "chunk_bytes_max": 3674230,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -4765,8 +4765,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3854587,
-     "chunk_bytes_max": 3854587,
+     "chunk_bytes_median": 3850834,
+     "chunk_bytes_max": 3850834,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg kg-1",
@@ -4796,8 +4796,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3556585,
-     "chunk_bytes_max": 3556585,
+     "chunk_bytes_median": 3574945,
+     "chunk_bytes_max": 3574945,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "Pa",
@@ -4827,8 +4827,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4220079,
-     "chunk_bytes_max": 4220079,
+     "chunk_bytes_median": 4268613,
+     "chunk_bytes_max": 4268613,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -4858,8 +4858,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3993325,
-     "chunk_bytes_max": 3993325,
+     "chunk_bytes_median": 4148478,
+     "chunk_bytes_max": 4148478,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -4889,8 +4889,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3133970,
-     "chunk_bytes_max": 3133970,
+     "chunk_bytes_median": 2920645,
+     "chunk_bytes_max": 2920645,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -4920,8 +4920,3288 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4443837,
-     "chunk_bytes_max": 4443837,
+     "chunk_bytes_median": 4409078,
+     "chunk_bytes_max": 4409078,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 33,
+    "n_fetches": 33,
+    "leading_fraction": 0.12121212121212122,
+    "contiguous_runs": 26,
+    "span_fraction": 1.006993006993007
+   },
+   "seconds": 55.2
+  },
+  {
+   "granule_ur": "SMAP_L4_SM_gph_20191101T223000_Vv8010_001.h5",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL4SMGP/008/2019/11/01/SMAP_L4_SM_gph_20191101T223000_Vv8010_001.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 148865765,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "EASE2_global_projection",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "|S1",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4629137466983448576,
+     "chunk_bytes_max": 4629137466983448576,
+     "cf": {},
+     "grid": {
+      "grid_mapping_name": "lambert_cylindrical_equal_area",
+      "longitude_of_central_meridian": 0.0,
+      "standard_parallel": 30.0,
+      "false_easting": 0.0,
+      "false_northing": 0.0
+     }
+    },
+    {
+     "name": "cell_column",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1529932,
+     "chunk_bytes_max": 1529932,
+     "cf": {
+      "_FillValue": 4294967294,
+      "units": "dimensionless",
+      "missing_value": 4294967294
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_lat",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 129173,
+     "chunk_bytes_max": 129173,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_lon",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 435513,
+     "chunk_bytes_max": 435513,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_row",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 128046,
+     "chunk_bytes_max": 128046,
+     "cf": {
+      "_FillValue": 4294967294,
+      "units": "dimensionless",
+      "missing_value": 4294967294
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "units": "seconds since 2000-01-01 11:58:55.816"
+     },
+     "grid": {}
+    },
+    {
+     "name": "x",
+     "shape": [
+      3856
+     ],
+     "chunks": [
+      3856
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16376,
+     "chunk_bytes_max": 16376,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "y",
+     "shape": [
+      1624
+     ],
+     "chunks": [
+      1624
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6668,
+     "chunk_bytes_max": 6668,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Geophysical_Data/baseflow_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1733602,
+     "chunk_bytes_max": 1733602,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/depth_to_water_table_from_surface",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 383331,
+     "chunk_bytes_max": 383331,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/free_surface_water_on_peat_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 380227,
+     "chunk_bytes_max": 380227,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_ground",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4535085,
+     "chunk_bytes_max": 4535085,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_latent",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4470015,
+     "chunk_bytes_max": 4470015,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_sensible",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4535137,
+     "chunk_bytes_max": 4535137,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/height_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3856598,
+     "chunk_bytes_max": 3856598,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_evapotranspiration_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4595173,
+     "chunk_bytes_max": 4595173,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_saturated",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4001770,
+     "chunk_bytes_max": 4001770,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_snow_covered",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2379792,
+     "chunk_bytes_max": 2379792,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_unsaturated",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3807184,
+     "chunk_bytes_max": 3807184,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_wilting",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2775038,
+     "chunk_bytes_max": 2775038,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/leaf_area_index",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4331490,
+     "chunk_bytes_max": 4331490,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m2 m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/mwrtm_vegopacity",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4026288,
+     "chunk_bytes_max": 4026288,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/net_downward_longwave_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4400895,
+     "chunk_bytes_max": 4400895,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/net_downward_shortwave_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2254276,
+     "chunk_bytes_max": 2254276,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/overland_runoff_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3758029,
+     "chunk_bytes_max": 3758029,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/precipitation_total_surface_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3737815,
+     "chunk_bytes_max": 3737815,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/radiation_longwave_absorbed_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3561281,
+     "chunk_bytes_max": 3561281,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/radiation_shortwave_downward_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2231115,
+     "chunk_bytes_max": 2231115,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4219883,
+     "chunk_bytes_max": 4219883,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile_pctl",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1127380,
+     "chunk_bytes_max": 1127380,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "percent",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4117829,
+     "chunk_bytes_max": 4117829,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4319829,
+     "chunk_bytes_max": 4319829,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone_pctl",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1095146,
+     "chunk_bytes_max": 1095146,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "percent",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4195216,
+     "chunk_bytes_max": 4195216,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_surface",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4422136,
+     "chunk_bytes_max": 4422136,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_surface_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4270065,
+     "chunk_bytes_max": 4270065,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_depth",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1134838,
+     "chunk_bytes_max": 1134838,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_mass",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1532020,
+     "chunk_bytes_max": 1532020,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_melt_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 781161,
+     "chunk_bytes_max": 781161,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snowfall_surface_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1407655,
+     "chunk_bytes_max": 1407655,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer1",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3792359,
+     "chunk_bytes_max": 3792359,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer2",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3781444,
+     "chunk_bytes_max": 3781444,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer3",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3696342,
+     "chunk_bytes_max": 3696342,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer4",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3698763,
+     "chunk_bytes_max": 3698763,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer5",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3740433,
+     "chunk_bytes_max": 3740433,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer6",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3804829,
+     "chunk_bytes_max": 3804829,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_water_infiltration_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2206157,
+     "chunk_bytes_max": 2206157,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/specific_humidity_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3959343,
+     "chunk_bytes_max": 3959343,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/surface_pressure",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3531531,
+     "chunk_bytes_max": 3531531,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Pa",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/surface_temp",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4011311,
+     "chunk_bytes_max": 4011311,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/temp_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3892281,
+     "chunk_bytes_max": 3892281,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/vegetation_greenness_fraction",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3247482,
+     "chunk_bytes_max": 3247482,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/windspeed_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4422497,
+     "chunk_bytes_max": 4422497,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 33,
+    "n_fetches": 33,
+    "leading_fraction": 0.12121212121212122,
+    "contiguous_runs": 28,
+    "span_fraction": 1.0070921985815602
+   },
+   "seconds": 50.5
+  },
+  {
+   "granule_ur": "SMAP_L4_SM_gph_20220217T223000_Vv8010_001.h5",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL4SMGP/008/2022/02/17/SMAP_L4_SM_gph_20220217T223000_Vv8010_001.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 146489349,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "EASE2_global_projection",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "|S1",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4629137466983448576,
+     "chunk_bytes_max": 4629137466983448576,
+     "cf": {},
+     "grid": {
+      "grid_mapping_name": "lambert_cylindrical_equal_area",
+      "longitude_of_central_meridian": 0.0,
+      "standard_parallel": 30.0,
+      "false_easting": 0.0,
+      "false_northing": 0.0
+     }
+    },
+    {
+     "name": "cell_column",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1529932,
+     "chunk_bytes_max": 1529932,
+     "cf": {
+      "_FillValue": 4294967294,
+      "units": "dimensionless",
+      "missing_value": 4294967294
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_lat",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 129173,
+     "chunk_bytes_max": 129173,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_lon",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 435513,
+     "chunk_bytes_max": 435513,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_row",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 128046,
+     "chunk_bytes_max": 128046,
+     "cf": {
+      "_FillValue": 4294967294,
+      "units": "dimensionless",
+      "missing_value": 4294967294
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "units": "seconds since 2000-01-01 11:58:55.816"
+     },
+     "grid": {}
+    },
+    {
+     "name": "x",
+     "shape": [
+      3856
+     ],
+     "chunks": [
+      3856
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16376,
+     "chunk_bytes_max": 16376,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "y",
+     "shape": [
+      1624
+     ],
+     "chunks": [
+      1624
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6668,
+     "chunk_bytes_max": 6668,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Geophysical_Data/baseflow_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1737663,
+     "chunk_bytes_max": 1737663,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/depth_to_water_table_from_surface",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 375684,
+     "chunk_bytes_max": 375684,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/free_surface_water_on_peat_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 369822,
+     "chunk_bytes_max": 369822,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_ground",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4342993,
+     "chunk_bytes_max": 4342993,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_latent",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4321544,
+     "chunk_bytes_max": 4321544,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_sensible",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4614882,
+     "chunk_bytes_max": 4614882,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/height_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3709483,
+     "chunk_bytes_max": 3709483,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_evapotranspiration_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4262417,
+     "chunk_bytes_max": 4262417,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_saturated",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3374155,
+     "chunk_bytes_max": 3374155,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_snow_covered",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1939288,
+     "chunk_bytes_max": 1939288,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_unsaturated",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3217544,
+     "chunk_bytes_max": 3217544,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_wilting",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2379042,
+     "chunk_bytes_max": 2379042,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/leaf_area_index",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4350344,
+     "chunk_bytes_max": 4350344,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m2 m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/mwrtm_vegopacity",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3292105,
+     "chunk_bytes_max": 3292105,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/net_downward_longwave_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4490329,
+     "chunk_bytes_max": 4490329,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/net_downward_shortwave_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2307725,
+     "chunk_bytes_max": 2307725,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/overland_runoff_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3583033,
+     "chunk_bytes_max": 3583033,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/precipitation_total_surface_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3715401,
+     "chunk_bytes_max": 3715401,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/radiation_longwave_absorbed_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3542199,
+     "chunk_bytes_max": 3542199,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/radiation_shortwave_downward_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2270696,
+     "chunk_bytes_max": 2270696,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4228029,
+     "chunk_bytes_max": 4228029,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile_pctl",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1195796,
+     "chunk_bytes_max": 1195796,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "percent",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4125374,
+     "chunk_bytes_max": 4125374,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4337823,
+     "chunk_bytes_max": 4337823,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone_pctl",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1131816,
+     "chunk_bytes_max": 1131816,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "percent",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4205241,
+     "chunk_bytes_max": 4205241,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_surface",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4375531,
+     "chunk_bytes_max": 4375531,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_surface_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4210844,
+     "chunk_bytes_max": 4210844,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_depth",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1560723,
+     "chunk_bytes_max": 1560723,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_mass",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1793105,
+     "chunk_bytes_max": 1793105,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_melt_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 630311,
+     "chunk_bytes_max": 630311,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snowfall_surface_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1725005,
+     "chunk_bytes_max": 1725005,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer1",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3817580,
+     "chunk_bytes_max": 3817580,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer2",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3787055,
+     "chunk_bytes_max": 3787055,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer3",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3761653,
+     "chunk_bytes_max": 3761653,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer4",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3688569,
+     "chunk_bytes_max": 3688569,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer5",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3764458,
+     "chunk_bytes_max": 3764458,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer6",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3818629,
+     "chunk_bytes_max": 3818629,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_water_infiltration_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2559212,
+     "chunk_bytes_max": 2559212,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/specific_humidity_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4006223,
+     "chunk_bytes_max": 4006223,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/surface_pressure",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3443183,
+     "chunk_bytes_max": 3443183,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Pa",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/surface_temp",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3877154,
+     "chunk_bytes_max": 3877154,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/temp_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3767709,
+     "chunk_bytes_max": 3767709,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/vegetation_greenness_fraction",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3368035,
+     "chunk_bytes_max": 3368035,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/windspeed_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4410248,
+     "chunk_bytes_max": 4410248,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m s-1",
@@ -4938,17 +8218,17 @@
     "n_blocks": 33,
     "n_fetches": 33,
     "leading_fraction": 0.09090909090909091,
-    "contiguous_runs": 26,
-    "span_fraction": 1.0070422535211268
+    "contiguous_runs": 28,
+    "span_fraction": 1.0071942446043165
    },
-   "seconds": 53.9
+   "seconds": 52.0
   },
   {
-   "granule_ur": "SMAP_L4_SM_gph_20260919T223000_Vv8011_001.h5_u9loH5HD",
-   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL4SMGP/008/2026/09/19/SMAP_L4_SM_gph_20260919T223000_Vv8011_001.h5",
+   "granule_ur": "SMAP_L4_SM_gph_20240604T223000_Vv8010_001.h5",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL4SMGP/008/2024/06/04/SMAP_L4_SM_gph_20240604T223000_Vv8010_001.h5",
    "orbit": "",
    "declared_format": "HDF5",
-   "file_bytes": 151125680,
+   "file_bytes": 150258481,
    "dmrpp": true,
    "container": "hdf5",
    "vars": [
@@ -5196,8 +8476,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1556162,
-     "chunk_bytes_max": 1556162,
+     "chunk_bytes_median": 1752233,
+     "chunk_bytes_max": 1752233,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -5227,8 +8507,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 384927,
-     "chunk_bytes_max": 384927,
+     "chunk_bytes_median": 386744,
+     "chunk_bytes_max": 386744,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m",
@@ -5258,8 +8538,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 366464,
-     "chunk_bytes_max": 366464,
+     "chunk_bytes_median": 387267,
+     "chunk_bytes_max": 387267,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -5289,8 +8569,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4421240,
-     "chunk_bytes_max": 4421240,
+     "chunk_bytes_median": 4490339,
+     "chunk_bytes_max": 4490339,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -5320,8 +8600,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4838668,
-     "chunk_bytes_max": 4838668,
+     "chunk_bytes_median": 4686820,
+     "chunk_bytes_max": 4686820,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -5351,8 +8631,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4643826,
-     "chunk_bytes_max": 4643826,
+     "chunk_bytes_median": 4614106,
+     "chunk_bytes_max": 4614106,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -5382,8 +8662,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3959896,
-     "chunk_bytes_max": 3959896,
+     "chunk_bytes_median": 4142313,
+     "chunk_bytes_max": 4142313,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m",
@@ -5413,8 +8693,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4832677,
-     "chunk_bytes_max": 4832677,
+     "chunk_bytes_median": 4672610,
+     "chunk_bytes_max": 4672610,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -5444,8 +8724,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4376130,
-     "chunk_bytes_max": 4376130,
+     "chunk_bytes_median": 4216772,
+     "chunk_bytes_max": 4216772,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -5475,8 +8755,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 2265490,
-     "chunk_bytes_max": 2265490,
+     "chunk_bytes_median": 2094397,
+     "chunk_bytes_max": 2094397,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -5506,8 +8786,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4120005,
-     "chunk_bytes_max": 4120005,
+     "chunk_bytes_median": 3952920,
+     "chunk_bytes_max": 3952920,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -5537,8 +8817,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3224245,
-     "chunk_bytes_max": 3224245,
+     "chunk_bytes_median": 2893663,
+     "chunk_bytes_max": 2893663,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -5568,8 +8848,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4298670,
-     "chunk_bytes_max": 4298670,
+     "chunk_bytes_median": 4314734,
+     "chunk_bytes_max": 4314734,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m2 m-2",
@@ -5599,8 +8879,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4085252,
-     "chunk_bytes_max": 4085252,
+     "chunk_bytes_median": 4078186,
+     "chunk_bytes_max": 4078186,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "1",
@@ -5630,8 +8910,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4374596,
-     "chunk_bytes_max": 4374596,
+     "chunk_bytes_median": 4508105,
+     "chunk_bytes_max": 4508105,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -5661,8 +8941,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 2523133,
-     "chunk_bytes_max": 2523133,
+     "chunk_bytes_median": 2751045,
+     "chunk_bytes_max": 2751045,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -5692,8 +8972,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4012785,
-     "chunk_bytes_max": 4012785,
+     "chunk_bytes_median": 3973965,
+     "chunk_bytes_max": 3973965,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -5723,8 +9003,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3645036,
-     "chunk_bytes_max": 3645036,
+     "chunk_bytes_median": 3766285,
+     "chunk_bytes_max": 3766285,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -5754,8 +9034,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3582742,
-     "chunk_bytes_max": 3582742,
+     "chunk_bytes_median": 3591381,
+     "chunk_bytes_max": 3591381,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -5785,8 +9065,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 2495482,
-     "chunk_bytes_max": 2495482,
+     "chunk_bytes_median": 2720233,
+     "chunk_bytes_max": 2720233,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "W m-2",
@@ -5816,8 +9096,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4294484,
-     "chunk_bytes_max": 4294484,
+     "chunk_bytes_median": 4237449,
+     "chunk_bytes_max": 4237449,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m3 m-3",
@@ -5847,8 +9127,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1061278,
-     "chunk_bytes_max": 1061278,
+     "chunk_bytes_median": 1274908,
+     "chunk_bytes_max": 1274908,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "percent",
@@ -5878,8 +9158,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4165348,
-     "chunk_bytes_max": 4165348,
+     "chunk_bytes_median": 4123729,
+     "chunk_bytes_max": 4123729,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -5909,8 +9189,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4377738,
-     "chunk_bytes_max": 4377738,
+     "chunk_bytes_median": 4332330,
+     "chunk_bytes_max": 4332330,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m3 m-3",
@@ -5940,8 +9220,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1018079,
-     "chunk_bytes_max": 1018079,
+     "chunk_bytes_median": 1199982,
+     "chunk_bytes_max": 1199982,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "percent",
@@ -5971,8 +9251,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4238940,
-     "chunk_bytes_max": 4238940,
+     "chunk_bytes_median": 4203918,
+     "chunk_bytes_max": 4203918,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -6002,8 +9282,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4461418,
-     "chunk_bytes_max": 4461418,
+     "chunk_bytes_median": 4372328,
+     "chunk_bytes_max": 4372328,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m3 m-3",
@@ -6033,8 +9313,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4368521,
-     "chunk_bytes_max": 4368521,
+     "chunk_bytes_median": 4283422,
+     "chunk_bytes_max": 4283422,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -6064,8 +9344,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 504723,
-     "chunk_bytes_max": 504723,
+     "chunk_bytes_median": 636701,
+     "chunk_bytes_max": 636701,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m",
@@ -6095,8 +9375,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 725852,
-     "chunk_bytes_max": 725852,
+     "chunk_bytes_median": 728731,
+     "chunk_bytes_max": 728731,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2",
@@ -6126,8 +9406,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 635757,
-     "chunk_bytes_max": 635757,
+     "chunk_bytes_median": 676106,
+     "chunk_bytes_max": 676106,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -6157,8 +9437,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 618078,
-     "chunk_bytes_max": 618078,
+     "chunk_bytes_median": 566419,
+     "chunk_bytes_max": 566419,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -6188,8 +9468,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4084074,
-     "chunk_bytes_max": 4084074,
+     "chunk_bytes_median": 4063868,
+     "chunk_bytes_max": 4063868,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -6219,8 +9499,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4014147,
-     "chunk_bytes_max": 4014147,
+     "chunk_bytes_median": 3989161,
+     "chunk_bytes_max": 3989161,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -6250,8 +9530,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3985616,
-     "chunk_bytes_max": 3985616,
+     "chunk_bytes_median": 3773445,
+     "chunk_bytes_max": 3773445,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -6281,8 +9561,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3898034,
-     "chunk_bytes_max": 3898034,
+     "chunk_bytes_median": 3637386,
+     "chunk_bytes_max": 3637386,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -6312,8 +9592,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3791939,
-     "chunk_bytes_max": 3791939,
+     "chunk_bytes_median": 3759987,
+     "chunk_bytes_max": 3759987,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -6343,8 +9623,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3825703,
-     "chunk_bytes_max": 3825703,
+     "chunk_bytes_median": 3817571,
+     "chunk_bytes_max": 3817571,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -6374,8 +9654,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3200518,
-     "chunk_bytes_max": 3200518,
+     "chunk_bytes_median": 2686815,
+     "chunk_bytes_max": 2686815,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg m-2 s-1",
@@ -6405,8 +9685,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3859990,
-     "chunk_bytes_max": 3859990,
+     "chunk_bytes_median": 3844116,
+     "chunk_bytes_max": 3844116,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "kg kg-1",
@@ -6436,8 +9716,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3553804,
-     "chunk_bytes_max": 3553804,
+     "chunk_bytes_median": 3548147,
+     "chunk_bytes_max": 3548147,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "Pa",
@@ -6467,8 +9747,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4282325,
-     "chunk_bytes_max": 4282325,
+     "chunk_bytes_median": 4223652,
+     "chunk_bytes_max": 4223652,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -6498,8 +9778,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3992100,
-     "chunk_bytes_max": 3992100,
+     "chunk_bytes_median": 4169673,
+     "chunk_bytes_max": 4169673,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "K",
@@ -6529,8 +9809,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3132066,
-     "chunk_bytes_max": 3132066,
+     "chunk_bytes_median": 2989254,
+     "chunk_bytes_max": 2989254,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "dimensionless",
@@ -6560,8 +9840,3288 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4322221,
-     "chunk_bytes_max": 4322221,
+     "chunk_bytes_median": 4421571,
+     "chunk_bytes_max": 4421571,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 33,
+    "n_fetches": 33,
+    "leading_fraction": 0.12121212121212122,
+    "contiguous_runs": 28,
+    "span_fraction": 1.006993006993007
+   },
+   "seconds": 50.9
+  },
+  {
+   "granule_ur": "SMAP_L4_SM_gph_20260920T193000_Vv8011_001.h5_u9loH5HD",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL4SMGP/008/2026/09/20/SMAP_L4_SM_gph_20260920T193000_Vv8011_001.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 150310952,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "EASE2_global_projection",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "|S1",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4629137466983448576,
+     "chunk_bytes_max": 4629137466983448576,
+     "cf": {},
+     "grid": {
+      "grid_mapping_name": "lambert_cylindrical_equal_area",
+      "longitude_of_central_meridian": 0.0,
+      "standard_parallel": 30.0,
+      "false_easting": 0.0,
+      "false_northing": 0.0
+     }
+    },
+    {
+     "name": "cell_column",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1529932,
+     "chunk_bytes_max": 1529932,
+     "cf": {
+      "_FillValue": 4294967294,
+      "units": "dimensionless",
+      "missing_value": 4294967294
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_lat",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 129173,
+     "chunk_bytes_max": 129173,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_lon",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 435513,
+     "chunk_bytes_max": 435513,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_row",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 128046,
+     "chunk_bytes_max": 128046,
+     "cf": {
+      "_FillValue": 4294967294,
+      "units": "dimensionless",
+      "missing_value": 4294967294
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "units": "seconds since 2000-01-01 11:58:55.816"
+     },
+     "grid": {}
+    },
+    {
+     "name": "x",
+     "shape": [
+      3856
+     ],
+     "chunks": [
+      3856
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16376,
+     "chunk_bytes_max": 16376,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "y",
+     "shape": [
+      1624
+     ],
+     "chunks": [
+      1624
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6668,
+     "chunk_bytes_max": 6668,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Geophysical_Data/baseflow_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1563109,
+     "chunk_bytes_max": 1563109,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/depth_to_water_table_from_surface",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 386013,
+     "chunk_bytes_max": 386013,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/free_surface_water_on_peat_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 355150,
+     "chunk_bytes_max": 355150,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_ground",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4429310,
+     "chunk_bytes_max": 4429310,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_latent",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4749686,
+     "chunk_bytes_max": 4749686,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_sensible",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4642822,
+     "chunk_bytes_max": 4642822,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/height_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3968874,
+     "chunk_bytes_max": 3968874,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_evapotranspiration_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4763778,
+     "chunk_bytes_max": 4763778,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_saturated",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4374277,
+     "chunk_bytes_max": 4374277,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_snow_covered",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2250668,
+     "chunk_bytes_max": 2250668,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_unsaturated",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4120007,
+     "chunk_bytes_max": 4120007,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_wilting",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3230673,
+     "chunk_bytes_max": 3230673,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/leaf_area_index",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4300364,
+     "chunk_bytes_max": 4300364,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m2 m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/mwrtm_vegopacity",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4084050,
+     "chunk_bytes_max": 4084050,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/net_downward_longwave_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4384158,
+     "chunk_bytes_max": 4384158,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/net_downward_shortwave_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1971750,
+     "chunk_bytes_max": 1971750,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/overland_runoff_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3996273,
+     "chunk_bytes_max": 3996273,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/precipitation_total_surface_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3664146,
+     "chunk_bytes_max": 3664146,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/radiation_longwave_absorbed_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3584061,
+     "chunk_bytes_max": 3584061,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/radiation_shortwave_downward_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1932839,
+     "chunk_bytes_max": 1932839,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4292510,
+     "chunk_bytes_max": 4292510,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile_pctl",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1062345,
+     "chunk_bytes_max": 1062345,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "percent",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4182012,
+     "chunk_bytes_max": 4182012,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4365978,
+     "chunk_bytes_max": 4365978,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone_pctl",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1018272,
+     "chunk_bytes_max": 1018272,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "percent",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4241737,
+     "chunk_bytes_max": 4241737,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_surface",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4511276,
+     "chunk_bytes_max": 4511276,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_surface_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4387079,
+     "chunk_bytes_max": 4387079,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_depth",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 507287,
+     "chunk_bytes_max": 507287,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_mass",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 709984,
+     "chunk_bytes_max": 709984,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_melt_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 595017,
+     "chunk_bytes_max": 595017,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snowfall_surface_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 598884,
+     "chunk_bytes_max": 598884,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer1",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4066129,
+     "chunk_bytes_max": 4066129,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer2",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4012803,
+     "chunk_bytes_max": 4012803,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer3",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3983787,
+     "chunk_bytes_max": 3983787,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer4",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3898056,
+     "chunk_bytes_max": 3898056,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer5",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3792604,
+     "chunk_bytes_max": 3792604,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer6",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3826398,
+     "chunk_bytes_max": 3826398,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_water_infiltration_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3628485,
+     "chunk_bytes_max": 3628485,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/specific_humidity_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3850036,
+     "chunk_bytes_max": 3850036,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/surface_pressure",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3553743,
+     "chunk_bytes_max": 3553743,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Pa",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/surface_temp",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4210859,
+     "chunk_bytes_max": 4210859,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/temp_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4006257,
+     "chunk_bytes_max": 4006257,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/vegetation_greenness_fraction",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3139951,
+     "chunk_bytes_max": 3139951,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/windspeed_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4411954,
+     "chunk_bytes_max": 4411954,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 32,
+    "n_fetches": 32,
+    "leading_fraction": 0.09375,
+    "contiguous_runs": 27,
+    "span_fraction": 1.006993006993007
+   },
+   "seconds": 55.2
+  },
+  {
+   "granule_ur": "SMAP_L4_SM_gph_20260920T223000_Vv8011_001.h5_u9loH5HD",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL4SMGP/008/2026/09/20/SMAP_L4_SM_gph_20260920T223000_Vv8011_001.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 151656143,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "EASE2_global_projection",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "|S1",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4629137466983448576,
+     "chunk_bytes_max": 4629137466983448576,
+     "cf": {},
+     "grid": {
+      "grid_mapping_name": "lambert_cylindrical_equal_area",
+      "longitude_of_central_meridian": 0.0,
+      "standard_parallel": 30.0,
+      "false_easting": 0.0,
+      "false_northing": 0.0
+     }
+    },
+    {
+     "name": "cell_column",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1529932,
+     "chunk_bytes_max": 1529932,
+     "cf": {
+      "_FillValue": 4294967294,
+      "units": "dimensionless",
+      "missing_value": 4294967294
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_lat",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 129173,
+     "chunk_bytes_max": 129173,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_lon",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 435513,
+     "chunk_bytes_max": 435513,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "degrees",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "cell_row",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "uint32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 128046,
+     "chunk_bytes_max": 128046,
+     "cf": {
+      "_FillValue": 4294967294,
+      "units": "dimensionless",
+      "missing_value": 4294967294
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "phony_dim_0"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16,
+     "chunk_bytes_max": 16,
+     "cf": {
+      "units": "seconds since 2000-01-01 11:58:55.816"
+     },
+     "grid": {}
+    },
+    {
+     "name": "x",
+     "shape": [
+      3856
+     ],
+     "chunks": [
+      3856
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 16376,
+     "chunk_bytes_max": 16376,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "y",
+     "shape": [
+      1624
+     ],
+     "chunks": [
+      1624
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 6668,
+     "chunk_bytes_max": 6668,
+     "cf": {
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "Geophysical_Data/baseflow_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1506617,
+     "chunk_bytes_max": 1506617,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/depth_to_water_table_from_surface",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 380370,
+     "chunk_bytes_max": 380370,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/free_surface_water_on_peat_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 369561,
+     "chunk_bytes_max": 369561,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_ground",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4513426,
+     "chunk_bytes_max": 4513426,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_latent",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4805504,
+     "chunk_bytes_max": 4805504,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/heat_flux_sensible",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4619644,
+     "chunk_bytes_max": 4619644,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/height_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3980773,
+     "chunk_bytes_max": 3980773,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_evapotranspiration_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4822434,
+     "chunk_bytes_max": 4822434,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_saturated",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4375281,
+     "chunk_bytes_max": 4375281,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_snow_covered",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2255252,
+     "chunk_bytes_max": 2255252,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_unsaturated",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4120928,
+     "chunk_bytes_max": 4120928,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/land_fraction_wilting",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3228787,
+     "chunk_bytes_max": 3228787,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/leaf_area_index",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4300377,
+     "chunk_bytes_max": 4300377,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m2 m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/mwrtm_vegopacity",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4083937,
+     "chunk_bytes_max": 4083937,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/net_downward_longwave_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4409916,
+     "chunk_bytes_max": 4409916,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/net_downward_shortwave_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2521683,
+     "chunk_bytes_max": 2521683,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/overland_runoff_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3987893,
+     "chunk_bytes_max": 3987893,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/precipitation_total_surface_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3661310,
+     "chunk_bytes_max": 3661310,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/radiation_longwave_absorbed_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3578741,
+     "chunk_bytes_max": 3578741,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/radiation_shortwave_downward_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2493786,
+     "chunk_bytes_max": 2493786,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "W m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4284834,
+     "chunk_bytes_max": 4284834,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile_pctl",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1062369,
+     "chunk_bytes_max": 1062369,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "percent",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_profile_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4163878,
+     "chunk_bytes_max": 4163878,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4370773,
+     "chunk_bytes_max": 4370773,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone_pctl",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 1019460,
+     "chunk_bytes_max": 1019460,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "percent",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_rootzone_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4232199,
+     "chunk_bytes_max": 4232199,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_surface",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4495961,
+     "chunk_bytes_max": 4495961,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m3 m-3",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/sm_surface_wetness",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4370804,
+     "chunk_bytes_max": 4370804,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_depth",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 520882,
+     "chunk_bytes_max": 520882,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "m",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_mass",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 723253,
+     "chunk_bytes_max": 723253,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snow_melt_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 638201,
+     "chunk_bytes_max": 638201,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/snowfall_surface_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 619106,
+     "chunk_bytes_max": 619106,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer1",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4058485,
+     "chunk_bytes_max": 4058485,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer2",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4009239,
+     "chunk_bytes_max": 4009239,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer3",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3984310,
+     "chunk_bytes_max": 3984310,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer4",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3897357,
+     "chunk_bytes_max": 3897357,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer5",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3793454,
+     "chunk_bytes_max": 3793454,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_temp_layer6",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3826237,
+     "chunk_bytes_max": 3826237,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/soil_water_infiltration_flux",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3641084,
+     "chunk_bytes_max": 3641084,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg m-2 s-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/specific_humidity_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3845078,
+     "chunk_bytes_max": 3845078,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "kg kg-1",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/surface_pressure",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3549955,
+     "chunk_bytes_max": 3549955,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "Pa",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/surface_temp",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4244046,
+     "chunk_bytes_max": 4244046,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/temp_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4022853,
+     "chunk_bytes_max": 4022853,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "K",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/vegetation_greenness_fraction",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3121619,
+     "chunk_bytes_max": 3121619,
+     "cf": {
+      "_FillValue": "AAAAAICHw8A=",
+      "units": "dimensionless",
+      "missing_value": -9999.0
+     },
+     "grid": {
+      "grid_mapping": "EASE2_global_projection"
+     }
+    },
+    {
+     "name": "Geophysical_Data/windspeed_lowatmmodlay",
+     "shape": [
+      1624,
+      3856
+     ],
+     "chunks": [
+      1624,
+      3856
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "y",
+      "x"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 4438985,
+     "chunk_bytes_max": 4438985,
      "cf": {
       "_FillValue": "AAAAAICHw8A=",
       "units": "m s-1",
@@ -6592,10 +13152,10 @@
     "n_blocks": 32,
     "n_fetches": 32,
     "leading_fraction": 0.09375,
-    "contiguous_runs": 27,
+    "contiguous_runs": 26,
     "span_fraction": 1.0069444444444444
    },
-   "seconds": 51.9
+   "seconds": 54.1
   }
  ]
 }

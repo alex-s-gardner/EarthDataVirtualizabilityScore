@@ -22,7 +22,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
    "traceback_tail": "n3.14/site-packages/kerchunk/hdf4.py\", line 371, in _dec_version\n    \"string:\": _null_str(self.f.read(info[\"length\"] - 10).decode()),\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte\n",
-   "seconds": 45.1
+   "seconds": 51.7
   },
   {
    "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.200208",
@@ -37,7 +37,63 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
    "traceback_tail": "n3.14/site-packages/kerchunk/hdf4.py\", line 371, in _dec_version\n    \"string:\": _null_str(self.f.read(info[\"length\"] - 10).decode()),\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte\n",
-   "seconds": 44.6
+   "seconds": 43.0
+  },
+  {
+   "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.200705",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CER_SSF1deg-Day_Aqua-MODIS_Edition4A/2007.05/CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.200705",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 927115607,
+   "dmrpp": false,
+   "container": "hdf4",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "granule is 927 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
+   "traceback_tail": "\", line 449, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 927 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "seconds": 2.4
+  },
+  {
+   "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.201203",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CER_SSF1deg-Day_Aqua-MODIS_Edition4A/2012.03/CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.201203",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 914458967,
+   "dmrpp": false,
+   "container": "hdf4",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "granule is 914 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
+   "traceback_tail": "\", line 449, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 914 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "seconds": 2.4
+  },
+  {
+   "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_403405.201701",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CER_SSF1deg-Day_Aqua-MODIS_Edition4A/2017.01/CER_SSF1deg-Day_Aqua-MODIS_Edition4A_403405.201701",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 897886557,
+   "dmrpp": false,
+   "container": "hdf4",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "granule is 898 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
+   "traceback_tail": "\", line 449, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 898 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "seconds": 3.1
+  },
+  {
+   "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_406406.202111",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CERES/CER_SSF1deg-Day_Aqua-MODIS_Edition4A/2021.11/CER_SSF1deg-Day_Aqua-MODIS_Edition4A_406406.202111",
+   "orbit": "",
+   "declared_format": "HDF4",
+   "file_bytes": 884128105,
+   "dmrpp": false,
+   "container": "hdf4",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "granule is 884 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
+   "traceback_tail": "\", line 449, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 884 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "seconds": 2.5
   },
   {
    "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_407407.202301",
@@ -50,8 +106,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "granule is 897 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
-   "traceback_tail": "\", line 426, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 897 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
-   "seconds": 3.0
+   "traceback_tail": "\", line 449, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 897 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "seconds": 2.5
   },
   {
    "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_407407.202302",
@@ -66,7 +122,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
    "traceback_tail": "n3.14/site-packages/kerchunk/hdf4.py\", line 371, in _dec_version\n    \"string:\": _null_str(self.f.read(info[\"length\"] - 10).decode()),\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte\n",
-   "seconds": 48.4
+   "seconds": 41.9
   }
  ]
 }

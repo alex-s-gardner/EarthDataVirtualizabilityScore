@@ -1,0 +1,1277 @@
+{
+ "version": "004",
+ "level": "L1T",
+ "sensor": "Terra/ASTER",
+ "format": "COG",
+ "daac": "LP DAAC",
+ "short_name": "AST_L1T",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "AST_L1T_00403042000203404_20250124090841",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/AST_L1T.004/AST_L1T_00403042000203404_20250124090841/AST_L1T_00403042000203404_20250124090841_TIR.tif",
+   "orbit": "",
+   "declared_format": "COG",
+   "file_bytes": 377495,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      1078,
+      1087,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 9,
+     "chunk_bytes_median": 2049,
+     "chunk_bytes_max": 71238,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      539,
+      544,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 4,
+     "chunk_bytes_median": 2029,
+     "chunk_bytes_max": 75318,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      270,
+      272,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 23583,
+     "chunk_bytes_max": 23583,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      135,
+      136,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 8761,
+     "chunk_bytes_max": 8761,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      68,
+      68,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 3918,
+     "chunk_bytes_max": 3918,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     470115.0,
+     -8566965.0,
+     0.0
+    ],
+    "pixel_scale": [
+     90.0,
+     90.0,
+     0.0
+    ],
+    "crs": "EPSG:32659",
+    "photometric": "2",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0
+   },
+   "seconds": 4.8
+  },
+  {
+   "granule_ur": "AST_L1T_00403042000203413_20250124090841",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/AST_L1T.004/AST_L1T_00403042000203413_20250124090841/AST_L1T_00403042000203413_20250124090841_TIR.tif",
+   "orbit": "",
+   "declared_format": "COG",
+   "file_bytes": 394670,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      1078,
+      1087,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 9,
+     "chunk_bytes_median": 2031,
+     "chunk_bytes_max": 71198,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      539,
+      544,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 4,
+     "chunk_bytes_median": 2028,
+     "chunk_bytes_max": 80105,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      270,
+      272,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 25143,
+     "chunk_bytes_max": 25143,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      135,
+      136,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 9215,
+     "chunk_bytes_max": 9215,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      68,
+      68,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 4371,
+     "chunk_bytes_max": 4371,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     429165.0,
+     -8610975.0,
+     0.0
+    ],
+    "pixel_scale": [
+     90.0,
+     90.0,
+     0.0
+    ],
+    "crs": "EPSG:32659",
+    "photometric": "2",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0
+   },
+   "seconds": 5.1
+  },
+  {
+   "granule_ur": "AST_L1T_00406262005034238_20250518101324",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/AST_L1T.004/AST_L1T_00406262005034238_20250518101324/AST_L1T_00406262005034238_20250518101324_TIR.tif",
+   "orbit": "",
+   "declared_format": "COG",
+   "file_bytes": 812170,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      861,
+      961,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 4,
+     "chunk_bytes_median": 119347,
+     "chunk_bytes_max": 240934,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      431,
+      481,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 172916,
+     "chunk_bytes_max": 172916,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      216,
+      241,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 49332,
+     "chunk_bytes_max": 49332,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      108,
+      121,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 15111,
+     "chunk_bytes_max": 15111,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      54,
+      61,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 5648,
+     "chunk_bytes_max": 5648,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     239985.0,
+     -3841965.0,
+     0.0
+    ],
+    "pixel_scale": [
+     90.0,
+     90.0,
+     0.0
+    ],
+    "crs": "EPSG:32619",
+    "photometric": "2",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0
+   },
+   "seconds": 4.4
+  },
+  {
+   "granule_ur": "AST_L1T_00410172010001720_20250706173520",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/AST_L1T.004/AST_L1T_00410172010001720_20250706173520/AST_L1T_00410172010001720_20250706173520_TIR.tif",
+   "orbit": "",
+   "declared_format": "COG",
+   "file_bytes": 606334,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      813,
+      923,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 4,
+     "chunk_bytes_median": 104014,
+     "chunk_bytes_max": 150028,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      407,
+      462,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 128375,
+     "chunk_bytes_max": 128375,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      204,
+      231,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 38766,
+     "chunk_bytes_max": 38766,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      102,
+      116,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 12969,
+     "chunk_bytes_max": 12969,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      51,
+      58,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 5158,
+     "chunk_bytes_max": 5158,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     402165.0,
+     -378225.0,
+     0.0
+    ],
+    "pixel_scale": [
+     90.0,
+     90.0,
+     0.0
+    ],
+    "crs": "EPSG:32656",
+    "photometric": "2",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0
+   },
+   "seconds": 4.9
+  },
+  {
+   "granule_ur": "AST_L1T_00402082016012305_20250810221117",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/AST_L1T.004/AST_L1T_00402082016012305_20250810221117/AST_L1T_00402082016012305_20250810221117_TIR.tif",
+   "orbit": "",
+   "declared_format": "COG",
+   "file_bytes": 377917,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      826,
+      933,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 4,
+     "chunk_bytes_median": 67915,
+     "chunk_bytes_max": 90645,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      413,
+      467,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 76497,
+     "chunk_bytes_max": 76497,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      207,
+      234,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 23226,
+     "chunk_bytes_max": 23226,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      104,
+      117,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 8218,
+     "chunk_bytes_max": 8218,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      52,
+      59,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 4061,
+     "chunk_bytes_max": 4061,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     441765.0,
+     3357315.0,
+     0.0
+    ],
+    "pixel_scale": [
+     90.0,
+     90.0,
+     0.0
+    ],
+    "crs": "EPSG:32654",
+    "photometric": "2",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0
+   },
+   "seconds": 4.8
+  },
+  {
+   "granule_ur": "AST_L1T_00405312021000508_20250915131401",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/AST_L1T.004/AST_L1T_00405312021000508_20250915131401/AST_L1T_00405312021000508_20250915131401_TIR.tif",
+   "orbit": "",
+   "declared_format": "COG",
+   "file_bytes": 546304,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      863,
+      963,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 4,
+     "chunk_bytes_median": 95799,
+     "chunk_bytes_max": 125128,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      432,
+      482,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 113515,
+     "chunk_bytes_max": 113515,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      216,
+      241,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 34199,
+     "chunk_bytes_max": 34199,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      108,
+      121,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 11358,
+     "chunk_bytes_max": 11358,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      54,
+      61,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 4830,
+     "chunk_bytes_max": 4830,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     599715.0,
+     6223545.0,
+     0.0
+    ],
+    "pixel_scale": [
+     90.0,
+     90.0,
+     0.0
+    ],
+    "crs": "EPSG:32658",
+    "photometric": "2",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0
+   },
+   "seconds": 4.9
+  },
+  {
+   "granule_ur": "AST_L1T_00408012026234011_20260831060027",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/AST_L1T.004/AST_L1T_00408012026234011_20260831060027/AST_L1T_00408012026234011_20260831060027_VNIR.tif",
+   "orbit": "",
+   "declared_format": "COG",
+   "file_bytes": 24245651,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      4957,
+      5599,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 110,
+     "chunk_bytes_median": 218322,
+     "chunk_bytes_max": 465428,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      2479,
+      2800,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 30,
+     "chunk_bytes_median": 162598,
+     "chunk_bytes_max": 403918,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      1240,
+      1400,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 9,
+     "chunk_bytes_median": 116881,
+     "chunk_bytes_max": 272674,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      620,
+      700,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 4,
+     "chunk_bytes_median": 44505,
+     "chunk_bytes_max": 232988,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      310,
+      350,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 86563,
+     "chunk_bytes_max": 86563,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     460432.5,
+     2926357.5,
+     0.0
+    ],
+    "pixel_scale": [
+     15.0,
+     15.0,
+     0.0
+    ],
+    "crs": "EPSG:32654",
+    "photometric": "2",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 0.043478260869565216
+   },
+   "seconds": 4.8
+  },
+  {
+   "granule_ur": "AST_L1T_00408012026234020_20260831060050",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/AST_L1T.004/AST_L1T_00408012026234020_20260831060050/AST_L1T_00408012026234020_20260831060050_VNIR.tif",
+   "orbit": "",
+   "declared_format": "COG",
+   "file_bytes": 24034085,
+   "dmrpp": false,
+   "container": "tiff",
+   "vars": [
+    {
+     "name": "band",
+     "overview": false,
+     "shape": [
+      4957,
+      5605,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 110,
+     "chunk_bytes_median": 218917,
+     "chunk_bytes_max": 331549,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview1",
+     "overview": true,
+     "shape": [
+      2479,
+      2803,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 30,
+     "chunk_bytes_median": 171821,
+     "chunk_bytes_max": 292820,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview2",
+     "overview": true,
+     "shape": [
+      1240,
+      1402,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 9,
+     "chunk_bytes_median": 116600,
+     "chunk_bytes_max": 285018,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview3",
+     "overview": true,
+     "shape": [
+      620,
+      701,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 4,
+     "chunk_bytes_median": 47706,
+     "chunk_bytes_max": 225404,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "overview4",
+     "overview": true,
+     "shape": [
+      310,
+      351,
+      3
+     ],
+     "chunks": [
+      512,
+      512
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "5"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 86309,
+     "chunk_bytes_max": 86309,
+     "tiled": true,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "tiff_grid": {
+    "tiepoint": [
+     0.0,
+     0.0,
+     0.0,
+     447022.5,
+     2867407.5,
+     0.0
+    ],
+    "pixel_scale": [
+     15.0,
+     15.0,
+     0.0
+    ],
+    "crs": "EPSG:32654",
+    "photometric": "2",
+    "planarconfig": "1"
+   },
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 0.045454545454545456
+   },
+   "seconds": 5.1
+  }
+ ]
+}

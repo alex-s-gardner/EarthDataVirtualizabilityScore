@@ -1,0 +1,76 @@
+{
+ "short_name": "MIL2TCST",
+ "format": "HDF-EOS2",
+ "diagnoses": [
+  {
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/MISR/MIL2TCST.002/2000.02.24/MISR_AM1_TC_STEREO_P020_O000995_F06_0009.hdf",
+   "error_type": null,
+   "error": null,
+   "n_like_this": 8,
+   "container": "hdf4",
+   "local_bytes": 65446887,
+   "findings": {
+    "tag_census": {
+     "VERSION": 1,
+     "VS": 574,
+     "VH": 574,
+     "VG": 196,
+     "NT": 170,
+     "SDD": 170,
+     "NDG": 170,
+     "SD": 170,
+     "CHUNK": 24310,
+     "COMPRESSED": 24310,
+     "LINKED": 521,
+     "FD": 4,
+     "NULL": 1
+    },
+    "scientific_data_tags": {
+     "total": 170,
+     "contiguous": 0,
+     "extended": 170,
+     "extension_types": {
+      "CHUNKED": 170
+     },
+     "decode_errors": {},
+     "sd_decoder_registered": false,
+     "contiguous_sample": [],
+     "compressed_elements": {
+      "codecs": {}
+     },
+     "chunked_elements": {
+      "decoded": 170,
+      "failed": {
+       "TypeError": 35
+      },
+      "total_chunks": 24480,
+      "codecs": {
+       "DEFLATE": 24310,
+       "NONE": 135
+      },
+      "chunk_sample": [
+       {
+        "index": "24.0.0",
+        "offset": 9964887,
+        "length": 152
+       },
+       {
+        "index": "24.0.0",
+        "offset": 9964655,
+        "length": 84
+       },
+       {
+        "index": "24.0.0",
+        "offset": 9965071,
+        "length": 152
+       }
+      ]
+     }
+    },
+    "refusal_site": {
+     "raised": false
+    }
+   }
+  }
+ ]
+}

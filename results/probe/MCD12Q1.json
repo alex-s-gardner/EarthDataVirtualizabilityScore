@@ -1,0 +1,2991 @@
+{
+ "version": "061",
+ "level": "L3",
+ "sensor": "Terra+Aqua/MODIS",
+ "format": "HDF-EOS2",
+ "daac": "LP DAAC",
+ "short_name": "MCD12Q1",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "MCD12Q1.A2001001.h08v05.061.2022146033917",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD12Q1.061/MCD12Q1.A2001001.h08v05.061.2022146033917/MCD12Q1.A2001001.h08v05.061.2022146033917.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 15318949,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LC_Type1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type1_x",
+      "LC_Type1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 809937,
+     "chunk_bytes_max": 809937,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type2_x",
+      "LC_Type2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 797762,
+     "chunk_bytes_max": 797762,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type3_x",
+      "LC_Type3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 737331,
+     "chunk_bytes_max": 737331,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type4_x",
+      "LC_Type4_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 682763,
+     "chunk_bytes_max": 682763,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type5_x",
+      "LC_Type5_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 742646,
+     "chunk_bytes_max": 742646,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_Assessment_x",
+      "LC_Prop1_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3017151,
+     "chunk_bytes_max": 3017151,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_Assessment_x",
+      "LC_Prop2_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3009487,
+     "chunk_bytes_max": 3009487,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_Assessment_x",
+      "LC_Prop3_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 3012344,
+     "chunk_bytes_max": 3012344,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_x",
+      "LC_Prop1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 870507,
+     "chunk_bytes_max": 870507,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_x",
+      "LC_Prop2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 724142,
+     "chunk_bytes_max": 724142,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_x",
+      "LC_Prop3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 705812,
+     "chunk_bytes_max": 705812,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_x",
+      "QC_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 99087,
+     "chunk_bytes_max": 99087,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LW",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LW_x",
+      "LW_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 37672,
+     "chunk_bytes_max": 37672,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.5
+  },
+  {
+   "granule_ur": "MCD12Q1.A2002001.h08v05.061.2022147203929",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD12Q1.061/MCD12Q1.A2002001.h08v05.061.2022147203929/MCD12Q1.A2002001.h08v05.061.2022147203929.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 14741851,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LC_Type1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type1_x",
+      "LC_Type1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 763330,
+     "chunk_bytes_max": 763330,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type2_x",
+      "LC_Type2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 758070,
+     "chunk_bytes_max": 758070,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type3_x",
+      "LC_Type3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 701504,
+     "chunk_bytes_max": 701504,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type4_x",
+      "LC_Type4_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 652240,
+     "chunk_bytes_max": 652240,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type5_x",
+      "LC_Type5_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 704249,
+     "chunk_bytes_max": 704249,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_Assessment_x",
+      "LC_Prop1_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2936059,
+     "chunk_bytes_max": 2936059,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_Assessment_x",
+      "LC_Prop2_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2915334,
+     "chunk_bytes_max": 2915334,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_Assessment_x",
+      "LC_Prop3_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2921747,
+     "chunk_bytes_max": 2921747,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_x",
+      "LC_Prop1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 822157,
+     "chunk_bytes_max": 822157,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_x",
+      "LC_Prop2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 687692,
+     "chunk_bytes_max": 687692,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_x",
+      "LC_Prop3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 664195,
+     "chunk_bytes_max": 664195,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_x",
+      "QC_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 105294,
+     "chunk_bytes_max": 105294,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LW",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LW_x",
+      "LW_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 37672,
+     "chunk_bytes_max": 37672,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 6.4
+  },
+  {
+   "granule_ur": "MCD12Q1.A2006001.h08v05.061.2022202150408",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD12Q1.061/MCD12Q1.A2006001.h08v05.061.2022202150408/MCD12Q1.A2006001.h08v05.061.2022202150408.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 13766122,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LC_Type1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type1_x",
+      "LC_Type1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 716625,
+     "chunk_bytes_max": 716625,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type2_x",
+      "LC_Type2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 712955,
+     "chunk_bytes_max": 712955,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type3_x",
+      "LC_Type3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 666436,
+     "chunk_bytes_max": 666436,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type4_x",
+      "LC_Type4_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 617092,
+     "chunk_bytes_max": 617092,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type5_x",
+      "LC_Type5_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 665285,
+     "chunk_bytes_max": 665285,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_Assessment_x",
+      "LC_Prop1_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2719938,
+     "chunk_bytes_max": 2719938,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_Assessment_x",
+      "LC_Prop2_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2706168,
+     "chunk_bytes_max": 2706168,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_Assessment_x",
+      "LC_Prop3_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2707219,
+     "chunk_bytes_max": 2707219,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_x",
+      "LC_Prop1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 767103,
+     "chunk_bytes_max": 767103,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_x",
+      "LC_Prop2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 650858,
+     "chunk_bytes_max": 650858,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_x",
+      "LC_Prop3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 620402,
+     "chunk_bytes_max": 620402,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_x",
+      "QC_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 106060,
+     "chunk_bytes_max": 106060,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LW",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LW_x",
+      "LW_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 37672,
+     "chunk_bytes_max": 37672,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.2
+  },
+  {
+   "granule_ur": "MCD12Q1.A2011001.h08v05.061.2022161130812",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD12Q1.061/MCD12Q1.A2011001.h08v05.061.2022161130812/MCD12Q1.A2011001.h08v05.061.2022161130812.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 13348493,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LC_Type1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type1_x",
+      "LC_Type1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 694445,
+     "chunk_bytes_max": 694445,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type2_x",
+      "LC_Type2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 691125,
+     "chunk_bytes_max": 691125,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type3_x",
+      "LC_Type3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 645142,
+     "chunk_bytes_max": 645142,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type4_x",
+      "LC_Type4_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 598574,
+     "chunk_bytes_max": 598574,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type5_x",
+      "LC_Type5_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 645122,
+     "chunk_bytes_max": 645122,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_Assessment_x",
+      "LC_Prop1_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2634028,
+     "chunk_bytes_max": 2634028,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_Assessment_x",
+      "LC_Prop2_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2620343,
+     "chunk_bytes_max": 2620343,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_Assessment_x",
+      "LC_Prop3_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2621941,
+     "chunk_bytes_max": 2621941,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_x",
+      "LC_Prop1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 746326,
+     "chunk_bytes_max": 746326,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_x",
+      "LC_Prop2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 633073,
+     "chunk_bytes_max": 633073,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_x",
+      "LC_Prop3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 602969,
+     "chunk_bytes_max": 602969,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_x",
+      "QC_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 105426,
+     "chunk_bytes_max": 105426,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LW",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LW_x",
+      "LW_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 37672,
+     "chunk_bytes_max": 37672,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.4
+  },
+  {
+   "granule_ur": "MCD12Q1.A2016001.h08v05.061.2022166151313",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD12Q1.061/MCD12Q1.A2016001.h08v05.061.2022166151313/MCD12Q1.A2016001.h08v05.061.2022166151313.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 13445207,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LC_Type1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type1_x",
+      "LC_Type1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 704021,
+     "chunk_bytes_max": 704021,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type2_x",
+      "LC_Type2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 700864,
+     "chunk_bytes_max": 700864,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type3_x",
+      "LC_Type3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 652426,
+     "chunk_bytes_max": 652426,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type4_x",
+      "LC_Type4_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 614494,
+     "chunk_bytes_max": 614494,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type5_x",
+      "LC_Type5_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 656964,
+     "chunk_bytes_max": 656964,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_Assessment_x",
+      "LC_Prop1_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2640629,
+     "chunk_bytes_max": 2640629,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_Assessment_x",
+      "LC_Prop2_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2628308,
+     "chunk_bytes_max": 2628308,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_Assessment_x",
+      "LC_Prop3_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2629561,
+     "chunk_bytes_max": 2629561,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_x",
+      "LC_Prop1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 750735,
+     "chunk_bytes_max": 750735,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_x",
+      "LC_Prop2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 642508,
+     "chunk_bytes_max": 642508,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_x",
+      "LC_Prop3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 609177,
+     "chunk_bytes_max": 609177,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_x",
+      "QC_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 105541,
+     "chunk_bytes_max": 105541,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LW",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LW_x",
+      "LW_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 37672,
+     "chunk_bytes_max": 37672,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.2
+  },
+  {
+   "granule_ur": "MCD12Q1.A2021001.h08v05.061.2022216030750",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD12Q1.061/MCD12Q1.A2021001.h08v05.061.2022216030750/MCD12Q1.A2021001.h08v05.061.2022216030750.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 13559679,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LC_Type1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type1_x",
+      "LC_Type1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 705165,
+     "chunk_bytes_max": 705165,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type2_x",
+      "LC_Type2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 701516,
+     "chunk_bytes_max": 701516,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type3_x",
+      "LC_Type3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 654106,
+     "chunk_bytes_max": 654106,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type4_x",
+      "LC_Type4_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 610253,
+     "chunk_bytes_max": 610253,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type5_x",
+      "LC_Type5_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 656799,
+     "chunk_bytes_max": 656799,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_Assessment_x",
+      "LC_Prop1_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2676321,
+     "chunk_bytes_max": 2676321,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_Assessment_x",
+      "LC_Prop2_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2662372,
+     "chunk_bytes_max": 2662372,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_Assessment_x",
+      "LC_Prop3_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2665859,
+     "chunk_bytes_max": 2665859,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_x",
+      "LC_Prop1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 752890,
+     "chunk_bytes_max": 752890,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_x",
+      "LC_Prop2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 645645,
+     "chunk_bytes_max": 645645,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_x",
+      "LC_Prop3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 613375,
+     "chunk_bytes_max": 613375,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_x",
+      "QC_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 105399,
+     "chunk_bytes_max": 105399,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LW",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LW_x",
+      "LW_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 37672,
+     "chunk_bytes_max": 37672,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.4
+  },
+  {
+   "granule_ur": "MCD12Q1.A2023001.h08v05.061.2024252121335",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD12Q1.061/MCD12Q1.A2023001.h08v05.061.2024252121335/MCD12Q1.A2023001.h08v05.061.2024252121335.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 13386997,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LC_Type1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type1_x",
+      "LC_Type1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 688568,
+     "chunk_bytes_max": 688568,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type2_x",
+      "LC_Type2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 684380,
+     "chunk_bytes_max": 684380,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type3_x",
+      "LC_Type3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 641657,
+     "chunk_bytes_max": 641657,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type4_x",
+      "LC_Type4_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 603308,
+     "chunk_bytes_max": 603308,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type5_x",
+      "LC_Type5_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 644552,
+     "chunk_bytes_max": 644552,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_Assessment_x",
+      "LC_Prop1_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2655662,
+     "chunk_bytes_max": 2655662,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_Assessment_x",
+      "LC_Prop2_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2644860,
+     "chunk_bytes_max": 2644860,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_Assessment_x",
+      "LC_Prop3_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2645153,
+     "chunk_bytes_max": 2645153,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_x",
+      "LC_Prop1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 730036,
+     "chunk_bytes_max": 730036,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_x",
+      "LC_Prop2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 633029,
+     "chunk_bytes_max": 633029,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_x",
+      "LC_Prop3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 599860,
+     "chunk_bytes_max": 599860,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_x",
+      "QC_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 105959,
+     "chunk_bytes_max": 105959,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LW",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LW_x",
+      "LW_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 37672,
+     "chunk_bytes_max": 37672,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.4
+  },
+  {
+   "granule_ur": "MCD12Q1.A2024001.h08v05.061.2025205073841",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD12Q1.061/MCD12Q1.A2024001.h08v05.061.2025205073841/MCD12Q1.A2024001.h08v05.061.2025205073841.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 13477500,
+   "dmrpp": true,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "vars": [
+    {
+     "name": "LC_Type1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type1_x",
+      "LC_Type1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 690701,
+     "chunk_bytes_max": 690701,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type2_x",
+      "LC_Type2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 686281,
+     "chunk_bytes_max": 686281,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type3_x",
+      "LC_Type3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 643298,
+     "chunk_bytes_max": 643298,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type4",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type4_x",
+      "LC_Type4_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 604036,
+     "chunk_bytes_max": 604036,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Type5",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Type5_x",
+      "LC_Type5_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 645910,
+     "chunk_bytes_max": 645910,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_Assessment_x",
+      "LC_Prop1_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2681016,
+     "chunk_bytes_max": 2681016,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_Assessment_x",
+      "LC_Prop2_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2670932,
+     "chunk_bytes_max": 2670932,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3_Assessment",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_Assessment_x",
+      "LC_Prop3_Assessment_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 2670216,
+     "chunk_bytes_max": 2670216,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop1",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop1_x",
+      "LC_Prop1_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 734705,
+     "chunk_bytes_max": 734705,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop2",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop2_x",
+      "LC_Prop2_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 634442,
+     "chunk_bytes_max": 634442,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LC_Prop3",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LC_Prop3_x",
+      "LC_Prop3_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 599827,
+     "chunk_bytes_max": 599827,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "QC",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "QC_x",
+      "QC_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 106163,
+     "chunk_bytes_max": 106163,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    },
+    {
+     "name": "LW",
+     "shape": [
+      2400,
+      2400
+     ],
+     "chunks": [
+      2400,
+      2400
+     ],
+     "dtype": "uint8",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "LW_x",
+      "LW_y"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 37672,
+     "chunk_bytes_max": 37672,
+     "cf": {
+      "_FillValue": 255
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 0,
+    "leading_fraction": null,
+    "contiguous_runs": 0,
+    "span_fraction": null
+   },
+   "seconds": 5.8
+  }
+ ]
+}

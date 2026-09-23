@@ -1,0 +1,109 @@
+{
+ "short_name": "VNP09GA",
+ "format": "HDF-EOS5",
+ "diagnoses": [
+  {
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP09GA.002/VNP09GA.A2012019.h08v05.002.2023122183335/VNP09GA.A2012019.h08v05.002.2023122183335.h5",
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
+   "n_like_this": 8,
+   "container": "hdf5",
+   "local_bytes": 95472681,
+   "findings": {
+    "unencodable_fill_values": [
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF1_1",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF2_1",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF3_1",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF4_1",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF5_1",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF6_1",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF7_1",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "SurfReflect_QF1_c",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "SurfReflect_QF2_c",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "SurfReflect_QF3_c",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "SurfReflect_QF4_c",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "SurfReflect_QF5_c",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "SurfReflect_QF6_c",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     },
+     {
+      "dataset": "SurfReflect_QF7_c",
+      "dtype": "uint8",
+      "reason": "a string on a numeric dtype",
+      "fill_value": "[b'N/A']"
+     }
+    ],
+    "multi_scale_axes": [],
+    "unfixed_dtypes": [],
+    "filters": {
+     "gzip": 58
+    },
+    "n_datasets": 67,
+    "n_groups": 9
+   }
+  }
+ ]
+}

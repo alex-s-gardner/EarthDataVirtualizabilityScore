@@ -20,7 +20,7 @@
    "ok": false,
    "error_type": "TypeError",
    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
-   "traceback_tail": "nv/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "traceback_tail": "v>/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
    "locality": {
     "n_blocks": 4,
     "n_fetches": 4,
@@ -28,7 +28,7 @@
     "contiguous_runs": 4,
     "span_fraction": 1.010989010989011
    },
-   "seconds": 11.6
+   "seconds": 11.5
   },
   {
    "granule_ur": "VNP09GA.A2012020.h08v05.002.2023122194534",
@@ -41,7 +41,7 @@
    "ok": false,
    "error_type": "TypeError",
    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
-   "traceback_tail": "nv/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "traceback_tail": "v>/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
    "locality": {
     "n_blocks": 3,
     "n_fetches": 3,
@@ -50,6 +50,90 @@
     "span_fraction": 1.0136986301369864
    },
    "seconds": 8.8
+  },
+  {
+   "granule_ur": "VNP09GA.A2014358.h08v05.002.2024062222949",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP09GA.002/VNP09GA.A2014358.h08v05.002.2024062222949/VNP09GA.A2014358.h08v05.002.2024062222949.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 83946213,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
+   "traceback_tail": "v>/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "locality": {
+    "n_blocks": 3,
+    "n_fetches": 3,
+    "leading_fraction": 0.3333333333333333,
+    "contiguous_runs": 3,
+    "span_fraction": 1.0125
+   },
+   "seconds": 9.0
+  },
+  {
+   "granule_ur": "VNP09GA.A2017335.h08v05.002.2024072073830",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP09GA.002/VNP09GA.A2017335.h08v05.002.2024072073830/VNP09GA.A2017335.h08v05.002.2024072073830.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 95964437,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
+   "traceback_tail": "v>/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "locality": {
+    "n_blocks": 5,
+    "n_fetches": 5,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 4,
+    "span_fraction": 1.010989010989011
+   },
+   "seconds": 13.2
+  },
+  {
+   "granule_ur": "VNP09GA.A2020312.h08v05.002.2023057225717",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP09GA.002/VNP09GA.A2020312.h08v05.002.2023057225717/VNP09GA.A2020312.h08v05.002.2023057225717.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 102996116,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
+   "traceback_tail": "v>/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "locality": {
+    "n_blocks": 4,
+    "n_fetches": 4,
+    "leading_fraction": 0.25,
+    "contiguous_runs": 4,
+    "span_fraction": 1.010204081632653
+   },
+   "seconds": 10.1
+  },
+  {
+   "granule_ur": "VNP09GA.A2023289.h08v05.002.2023290175240",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP09GA.002/VNP09GA.A2023289.h08v05.002.2023290175240/VNP09GA.A2023289.h08v05.002.2023290175240.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 95559590,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
+   "traceback_tail": "v>/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "locality": {
+    "n_blocks": 4,
+    "n_fetches": 4,
+    "leading_fraction": 0.25,
+    "contiguous_runs": 4,
+    "span_fraction": 1.010989010989011
+   },
+   "seconds": 10.4
   },
   {
    "granule_ur": "VNP09GA.A2026263.h08v05.002.2026264092203",
@@ -62,7 +146,7 @@
    "ok": false,
    "error_type": "TypeError",
    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
-   "traceback_tail": "nv/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "traceback_tail": "v>/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
    "locality": {
     "n_blocks": 3,
     "n_fetches": 3,
@@ -70,7 +154,7 @@
     "contiguous_runs": 3,
     "span_fraction": 1.0125
    },
-   "seconds": 9.1
+   "seconds": 10.7
   },
   {
    "granule_ur": "VNP09GA.A2026264.h08v05.002.2026265085724",
@@ -83,7 +167,7 @@
    "ok": false,
    "error_type": "TypeError",
    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
-   "traceback_tail": "nv/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
+   "traceback_tail": "v>/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype uint8, got str\n",
    "locality": {
     "n_blocks": 4,
     "n_fetches": 4,
@@ -91,7 +175,7 @@
     "contiguous_runs": 4,
     "span_fraction": 1.0104166666666667
    },
-   "seconds": 10.2
+   "seconds": 10.5
   }
  ]
 }

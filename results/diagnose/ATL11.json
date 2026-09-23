@@ -1,0 +1,79 @@
+{
+ "short_name": "ATL11",
+ "format": "HDF5",
+ "diagnoses": [
+  {
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/ATLAS/ATL11/007/2019/03/29/ATL11_000103_0332_007_05.h5",
+   "error_type": "ValueError",
+   "error": "/pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1",
+   "n_like_this": 4,
+   "container": "hdf5",
+   "local_bytes": 4594387,
+   "findings": {
+    "unencodable_fill_values": [],
+    "multi_scale_axes": [
+     {
+      "dataset": "pt1/ref_surf/poly_coeffs",
+      "axis": 1,
+      "n_scales": 2,
+      "scales": [
+       "/pt1/ref_surf/poly_exponent_x",
+       "/pt1/ref_surf/poly_exponent_y"
+      ]
+     },
+     {
+      "dataset": "pt1/ref_surf/poly_coeffs_sigma",
+      "axis": 1,
+      "n_scales": 2,
+      "scales": [
+       "/pt1/ref_surf/poly_exponent_x",
+       "/pt1/ref_surf/poly_exponent_y"
+      ]
+     },
+     {
+      "dataset": "pt2/ref_surf/poly_coeffs",
+      "axis": 1,
+      "n_scales": 2,
+      "scales": [
+       "/pt2/ref_surf/poly_exponent_x",
+       "/pt2/ref_surf/poly_exponent_y"
+      ]
+     },
+     {
+      "dataset": "pt2/ref_surf/poly_coeffs_sigma",
+      "axis": 1,
+      "n_scales": 2,
+      "scales": [
+       "/pt2/ref_surf/poly_exponent_x",
+       "/pt2/ref_surf/poly_exponent_y"
+      ]
+     },
+     {
+      "dataset": "pt3/ref_surf/poly_coeffs",
+      "axis": 1,
+      "n_scales": 2,
+      "scales": [
+       "/pt3/ref_surf/poly_exponent_x",
+       "/pt3/ref_surf/poly_exponent_y"
+      ]
+     },
+     {
+      "dataset": "pt3/ref_surf/poly_coeffs_sigma",
+      "axis": 1,
+      "n_scales": 2,
+      "scales": [
+       "/pt3/ref_surf/poly_exponent_x",
+       "/pt3/ref_surf/poly_exponent_y"
+      ]
+     }
+    ],
+    "unfixed_dtypes": [],
+    "filters": {
+     "gzip": 150
+    },
+    "n_datasets": 179,
+    "n_groups": 36
+   }
+  }
+ ]
+}

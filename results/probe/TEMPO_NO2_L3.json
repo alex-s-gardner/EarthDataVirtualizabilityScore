@@ -1249,7 +1249,7 @@
     "contiguous_runs": 46,
     "span_fraction": 1.0011494252873563
    },
-   "seconds": 88.1
+   "seconds": 75.1
   },
   {
    "granule_ur": "TEMPO_NO2_L3_V04_20230802T161520Z_S002.nc",
@@ -2477,14 +2477,14 @@
     "contiguous_runs": 46,
     "span_fraction": 1.0011481056257177
    },
-   "seconds": 72.2
+   "seconds": 74.5
   },
   {
-   "granule_ur": "TEMPO_NO2_L3_V04_20260922T121210Z_S003.nc",
-   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/TEMPO/TEMPO_NO2_L3_V04/2026.09.22/TEMPO_NO2_L3_V04_20260922T121210Z_S003.nc",
+   "granule_ur": "TEMPO_NO2_L3_V04_20240317T232717Z_S015.nc",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/TEMPO/TEMPO_NO2_L3_V04/2024.03.17/TEMPO_NO2_L3_V04_20240317T232717Z_S015.nc",
    "orbit": "",
    "declared_format": "netCDF-4",
-   "file_bytes": 558828065,
+   "file_bytes": 549975854,
    "dmrpp": true,
    "container": "hdf5",
    "vars": [
@@ -2556,7 +2556,7 @@
      ],
      "n_chunks": 25,
      "chunk_bytes_median": 15980,
-     "chunk_bytes_max": 1500342,
+     "chunk_bytes_max": 1505626,
      "cf": {
       "_FillValue": "AAAAAAAAnkc=",
       "units": "km^2"
@@ -2611,8 +2611,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 684361,
-     "chunk_bytes_max": 9643934,
+     "chunk_bytes_median": 388234,
+     "chunk_bytes_max": 9424988,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -2643,8 +2643,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 877720,
-     "chunk_bytes_max": 9051076,
+     "chunk_bytes_median": 374612,
+     "chunk_bytes_max": 8863513,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -2675,8 +2675,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 573579,
-     "chunk_bytes_max": 7678426,
+     "chunk_bytes_median": 330693,
+     "chunk_bytes_max": 7488384,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -2707,8 +2707,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 35223,
-     "chunk_bytes_max": 48801,
+     "chunk_bytes_median": 48055,
+     "chunk_bytes_max": 88607,
      "cf": {
       "_FillValue": -9999
      },
@@ -2738,8 +2738,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 131121,
-     "chunk_bytes_max": 398405,
+     "chunk_bytes_median": 137663,
+     "chunk_bytes_max": 372311,
      "cf": {
       "_FillValue": -1
      },
@@ -2769,8 +2769,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 334189,
-     "chunk_bytes_max": 5496912,
+     "chunk_bytes_median": 310353,
+     "chunk_bytes_max": 6302774,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -2801,8 +2801,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 334127,
-     "chunk_bytes_max": 5408437,
+     "chunk_bytes_median": 307714,
+     "chunk_bytes_max": 6178864,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -2833,8 +2833,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 131121,
-     "chunk_bytes_max": 398459,
+     "chunk_bytes_median": 137663,
+     "chunk_bytes_max": 372224,
      "cf": {
       "_FillValue": -1
      },
@@ -2864,8 +2864,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 398939,
-     "chunk_bytes_max": 5379625,
+     "chunk_bytes_median": 301460,
+     "chunk_bytes_max": 5938968,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -2896,8 +2896,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 397898,
-     "chunk_bytes_max": 5388517,
+     "chunk_bytes_median": 302285,
+     "chunk_bytes_max": 5920934,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -2928,8 +2928,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 131121,
-     "chunk_bytes_max": 398405,
+     "chunk_bytes_median": 137651,
+     "chunk_bytes_max": 372220,
      "cf": {
       "_FillValue": -1
      },
@@ -2959,8 +2959,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 289815,
-     "chunk_bytes_max": 4327854,
+     "chunk_bytes_median": 272835,
+     "chunk_bytes_max": 4853308,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -2991,8 +2991,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 290927,
-     "chunk_bytes_max": 4315670,
+     "chunk_bytes_median": 273335,
+     "chunk_bytes_max": 4864176,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -3023,8 +3023,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 131121,
-     "chunk_bytes_max": 398405,
+     "chunk_bytes_median": 137651,
+     "chunk_bytes_max": 372220,
      "cf": {
       "_FillValue": -1
      },
@@ -3054,8 +3054,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 382675,
-     "chunk_bytes_max": 5106189,
+     "chunk_bytes_median": 292352,
+     "chunk_bytes_max": 5692195,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -3086,8 +3086,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 381556,
-     "chunk_bytes_max": 5096177,
+     "chunk_bytes_median": 291474,
+     "chunk_bytes_max": 5687811,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -3118,8 +3118,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 883556,
-     "chunk_bytes_max": 3452107,
+     "chunk_bytes_median": 758464,
+     "chunk_bytes_max": 3060705,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "degrees"
@@ -3150,8 +3150,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 931207,
-     "chunk_bytes_max": 3781337,
+     "chunk_bytes_median": 797455,
+     "chunk_bytes_max": 3337496,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "degrees"
@@ -3182,8 +3182,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 886724,
-     "chunk_bytes_max": 3669826,
+     "chunk_bytes_median": 770509,
+     "chunk_bytes_max": 3271286,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "degrees"
@@ -3214,8 +3214,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 851876,
-     "chunk_bytes_max": 8726638,
+     "chunk_bytes_median": 361986,
+     "chunk_bytes_max": 8555686,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -3246,8 +3246,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 865059,
-     "chunk_bytes_max": 8895457,
+     "chunk_bytes_median": 371432,
+     "chunk_bytes_max": 8829373,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -3278,8 +3278,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 772510,
-     "chunk_bytes_max": 3857841,
+     "chunk_bytes_median": 636807,
+     "chunk_bytes_max": 3484926,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "hPa"
@@ -3310,8 +3310,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 112490,
-     "chunk_bytes_max": 1488301,
+     "chunk_bytes_median": 277249,
+     "chunk_bytes_max": 1633413,
      "cf": {
       "_FillValue": -9999,
       "units": "m"
@@ -3342,8 +3342,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 58947,
-     "chunk_bytes_max": 93520,
+     "chunk_bytes_median": 76975,
+     "chunk_bytes_max": 658893,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -3373,8 +3373,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 842164,
-     "chunk_bytes_max": 8729973,
+     "chunk_bytes_median": 822563,
+     "chunk_bytes_max": 8751545,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -3405,8 +3405,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 858174,
-     "chunk_bytes_max": 8886380,
+     "chunk_bytes_median": 835188,
+     "chunk_bytes_max": 8920957,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -3437,8 +3437,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 1235784,
-     "chunk_bytes_max": 5379539,
+     "chunk_bytes_median": 1095466,
+     "chunk_bytes_max": 4850769,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -3468,8 +3468,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 329085,
-     "chunk_bytes_max": 2040662,
+     "chunk_bytes_median": 341531,
+     "chunk_bytes_max": 1570275,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "hPa"
@@ -3500,8 +3500,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 903368,
-     "chunk_bytes_max": 4732934,
+     "chunk_bytes_median": 731446,
+     "chunk_bytes_max": 3642244,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -3531,8 +3531,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 712229,
-     "chunk_bytes_max": 4118766,
+     "chunk_bytes_median": 865467,
+     "chunk_bytes_max": 3632772,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -3562,8 +3562,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 698808,
-     "chunk_bytes_max": 4032668,
+     "chunk_bytes_median": 856264,
+     "chunk_bytes_max": 3580540,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -3593,8 +3593,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 663847,
-     "chunk_bytes_max": 3901279,
+     "chunk_bytes_median": 684944,
+     "chunk_bytes_max": 3232982,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "hPa"
@@ -3625,8 +3625,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 1075632,
-     "chunk_bytes_max": 5394583,
+     "chunk_bytes_median": 851292,
+     "chunk_bytes_max": 4338115,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -3656,8 +3656,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 871085,
-     "chunk_bytes_max": 4165832,
+     "chunk_bytes_median": 689571,
+     "chunk_bytes_max": 3394677,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -3687,8 +3687,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 198622,
-     "chunk_bytes_max": 891801,
+     "chunk_bytes_median": 203824,
+     "chunk_bytes_max": 978378,
      "cf": {
       "_FillValue": -9999,
       "units": "m"
@@ -3699,20 +3699,20 @@
    "root_attrs": {},
    "ok": true,
    "locality": {
-    "n_blocks": 49,
-    "n_fetches": 49,
-    "leading_fraction": 0.04081632653061224,
-    "contiguous_runs": 46,
-    "span_fraction": 1.0018796992481203
+    "n_blocks": 53,
+    "n_fetches": 53,
+    "leading_fraction": 0.03773584905660377,
+    "contiguous_runs": 45,
+    "span_fraction": 1.001908396946565
    },
-   "seconds": 63.0
+   "seconds": 72.7
   },
   {
-   "granule_ur": "TEMPO_NO2_L3_V04_20260922T125218Z_S004.nc",
-   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/TEMPO/TEMPO_NO2_L3_V04/2026.09.22/TEMPO_NO2_L3_V04_20260922T125218Z_S004.nc",
+   "granule_ur": "TEMPO_NO2_L3_V04_20241103T122146Z_S002.nc",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/TEMPO/TEMPO_NO2_L3_V04/2024.11.03/TEMPO_NO2_L3_V04_20241103T122146Z_S002.nc",
    "orbit": "",
    "declared_format": "netCDF-4",
-   "file_bytes": 569899397,
+   "file_bytes": 465797473,
    "dmrpp": true,
    "container": "hdf5",
    "vars": [
@@ -3784,7 +3784,7 @@
      ],
      "n_chunks": 25,
      "chunk_bytes_median": 15980,
-     "chunk_bytes_max": 1502888,
+     "chunk_bytes_max": 1490870,
      "cf": {
       "_FillValue": "AAAAAAAAnkc=",
       "units": "km^2"
@@ -3839,8 +3839,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 514226,
-     "chunk_bytes_max": 9540156,
+     "chunk_bytes_median": 147994,
+     "chunk_bytes_max": 8185634,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -3871,8 +3871,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 689648,
-     "chunk_bytes_max": 8960185,
+     "chunk_bytes_median": 140420,
+     "chunk_bytes_max": 7892988,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -3903,8 +3903,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 425903,
-     "chunk_bytes_max": 7533974,
+     "chunk_bytes_median": 131621,
+     "chunk_bytes_max": 6740052,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -3935,8 +3935,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 32946,
-     "chunk_bytes_max": 41169,
+     "chunk_bytes_median": 34676,
+     "chunk_bytes_max": 51380,
      "cf": {
       "_FillValue": -9999
      },
@@ -3966,8 +3966,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 136510,
-     "chunk_bytes_max": 408908,
+     "chunk_bytes_median": 90870,
+     "chunk_bytes_max": 336199,
      "cf": {
       "_FillValue": -1
      },
@@ -3997,8 +3997,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 253145,
-     "chunk_bytes_max": 5516120,
+     "chunk_bytes_median": 101564,
+     "chunk_bytes_max": 5539008,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4029,8 +4029,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 252650,
-     "chunk_bytes_max": 5397588,
+     "chunk_bytes_median": 101819,
+     "chunk_bytes_max": 5375698,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4061,8 +4061,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 136510,
-     "chunk_bytes_max": 408908,
+     "chunk_bytes_median": 90870,
+     "chunk_bytes_max": 337069,
      "cf": {
       "_FillValue": -1
      },
@@ -4092,8 +4092,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 314135,
-     "chunk_bytes_max": 5382578,
+     "chunk_bytes_median": 98089,
+     "chunk_bytes_max": 5316355,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4124,8 +4124,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 314258,
-     "chunk_bytes_max": 5387138,
+     "chunk_bytes_median": 98148,
+     "chunk_bytes_max": 5310706,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4156,8 +4156,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 136510,
-     "chunk_bytes_max": 408908,
+     "chunk_bytes_median": 90870,
+     "chunk_bytes_max": 336399,
      "cf": {
       "_FillValue": -1
      },
@@ -4187,8 +4187,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 220444,
-     "chunk_bytes_max": 4302278,
+     "chunk_bytes_median": 93261,
+     "chunk_bytes_max": 4359826,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4219,8 +4219,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 221853,
-     "chunk_bytes_max": 4290486,
+     "chunk_bytes_median": 92943,
+     "chunk_bytes_max": 4349407,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4251,8 +4251,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 136510,
-     "chunk_bytes_max": 408908,
+     "chunk_bytes_median": 90870,
+     "chunk_bytes_max": 336399,
      "cf": {
       "_FillValue": -1
      },
@@ -4282,8 +4282,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 297721,
-     "chunk_bytes_max": 5107938,
+     "chunk_bytes_median": 96630,
+     "chunk_bytes_max": 5126764,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4314,8 +4314,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 297605,
-     "chunk_bytes_max": 5099915,
+     "chunk_bytes_median": 96720,
+     "chunk_bytes_max": 5110834,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4346,8 +4346,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 864344,
-     "chunk_bytes_max": 3540431,
+     "chunk_bytes_median": 911354,
+     "chunk_bytes_max": 3482200,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "degrees"
@@ -4378,8 +4378,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 892512,
-     "chunk_bytes_max": 3779991,
+     "chunk_bytes_median": 931362,
+     "chunk_bytes_max": 3774632,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "degrees"
@@ -4410,8 +4410,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 853492,
-     "chunk_bytes_max": 3671654,
+     "chunk_bytes_median": 881123,
+     "chunk_bytes_max": 3639318,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "degrees"
@@ -4442,8 +4442,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 663699,
-     "chunk_bytes_max": 8626064,
+     "chunk_bytes_median": 138080,
+     "chunk_bytes_max": 7671032,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4474,8 +4474,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 680368,
-     "chunk_bytes_max": 8827665,
+     "chunk_bytes_median": 138875,
+     "chunk_bytes_max": 7850149,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4506,8 +4506,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 877343,
-     "chunk_bytes_max": 4068411,
+     "chunk_bytes_median": 354319,
+     "chunk_bytes_max": 2403873,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "hPa"
@@ -4538,8 +4538,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 102462,
-     "chunk_bytes_max": 1486476,
+     "chunk_bytes_median": 111760,
+     "chunk_bytes_max": 1482947,
      "cf": {
       "_FillValue": -9999,
       "units": "m"
@@ -4570,8 +4570,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 58927,
-     "chunk_bytes_max": 75303,
+     "chunk_bytes_median": 64303,
+     "chunk_bytes_max": 211400,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -4601,8 +4601,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 664498,
-     "chunk_bytes_max": 8613273,
+     "chunk_bytes_median": 155875,
+     "chunk_bytes_max": 7883913,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4633,8 +4633,8 @@
       "longitude"
      ],
      "n_chunks": 16,
-     "chunk_bytes_median": 671999,
-     "chunk_bytes_max": 8805003,
+     "chunk_bytes_median": 156791,
+     "chunk_bytes_max": 7937481,
      "cf": {
       "_FillValue": "6oygOVk+KcY=",
       "units": "molecules/cm^2"
@@ -4665,8 +4665,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 1285555,
-     "chunk_bytes_max": 5448388,
+     "chunk_bytes_median": 597741,
+     "chunk_bytes_max": 3802909,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -4696,8 +4696,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 330811,
-     "chunk_bytes_max": 2054175,
+     "chunk_bytes_median": 220184,
+     "chunk_bytes_max": 1188831,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "hPa"
@@ -4728,8 +4728,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 1056469,
-     "chunk_bytes_max": 4999328,
+     "chunk_bytes_median": 361372,
+     "chunk_bytes_max": 3713734,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -4759,8 +4759,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 846442,
-     "chunk_bytes_max": 4718832,
+     "chunk_bytes_median": 357636,
+     "chunk_bytes_max": 3877618,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -4790,8 +4790,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 833863,
-     "chunk_bytes_max": 4634200,
+     "chunk_bytes_median": 357910,
+     "chunk_bytes_max": 3842593,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -4821,8 +4821,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 776293,
-     "chunk_bytes_max": 4077571,
+     "chunk_bytes_median": 343324,
+     "chunk_bytes_max": 3167338,
      "cf": {
       "_FillValue": "AAAAQFk+KcY=",
       "units": "hPa"
@@ -4853,8 +4853,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 1261991,
-     "chunk_bytes_max": 5680460,
+     "chunk_bytes_median": 442712,
+     "chunk_bytes_max": 4092950,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -4884,8 +4884,8 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 995512,
-     "chunk_bytes_max": 4213470,
+     "chunk_bytes_median": 359687,
+     "chunk_bytes_max": 3282393,
      "cf": {
       "_FillValue": "AAAAQFk+KcY="
      },
@@ -4915,8 +4915,4920 @@
       "longitude"
      ],
      "n_chunks": 9,
-     "chunk_bytes_median": 217396,
-     "chunk_bytes_max": 935422,
+     "chunk_bytes_median": 130342,
+     "chunk_bytes_max": 710163,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "m"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 48,
+    "n_fetches": 48,
+    "leading_fraction": 0.041666666666666664,
+    "contiguous_runs": 47,
+    "span_fraction": 1.0022522522522523
+   },
+   "seconds": 69.3
+  },
+  {
+   "granule_ur": "TEMPO_NO2_L3_V04_20250619T234651Z_S030.nc",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/TEMPO/TEMPO_NO2_L3_V04/2025.06.19/TEMPO_NO2_L3_V04_20250619T234651Z_S030.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 606799285,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "longitude",
+     "shape": [
+      7750
+     ],
+     "chunks": [
+      7750
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "longitude"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 31000,
+     "chunk_bytes_max": 31000,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "latitude",
+     "shape": [
+      2950
+     ],
+     "chunks": [
+      2950
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "latitude"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 11800,
+     "chunk_bytes_max": 11800,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "weight",
+     "shape": [
+      2950,
+      7750
+     ],
+     "chunks": [
+      590,
+      1550
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 15980,
+     "chunk_bytes_max": 1508086,
+     "cf": {
+      "_FillValue": "AAAAAAAAnkc=",
+      "units": "km^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {
+      "units": "seconds since 1980-01-06T00:00:00Z",
+      "calendar": "gregorian"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_troposphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 586281,
+     "chunk_bytes_max": 9670736,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_troposphere_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 865529,
+     "chunk_bytes_max": 9137261,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_stratosphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 499188,
+     "chunk_bytes_max": 7684997,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/main_data_quality_flag",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 33578,
+     "chunk_bytes_max": 48949,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_troposphere_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 138724,
+     "chunk_bytes_max": 371495,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_troposphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 314889,
+     "chunk_bytes_max": 6366272,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_troposphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 313140,
+     "chunk_bytes_max": 6202662,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_troposphere_uncertainty_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 138724,
+     "chunk_bytes_max": 372404,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_troposphere_uncertainty_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 433505,
+     "chunk_bytes_max": 6012485,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_troposphere_uncertainty_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 434116,
+     "chunk_bytes_max": 6015042,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_stratosphere_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 138724,
+     "chunk_bytes_max": 371051,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_stratosphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 283564,
+     "chunk_bytes_max": 4872637,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_stratosphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 285599,
+     "chunk_bytes_max": 4869284,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_total_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 138724,
+     "chunk_bytes_max": 371051,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_total_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 408569,
+     "chunk_bytes_max": 5780633,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_total_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 413466,
+     "chunk_bytes_max": 5759144,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/solar_zenith_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 801908,
+     "chunk_bytes_max": 3226854,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/viewing_zenith_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 797482,
+     "chunk_bytes_max": 3336791,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/relative_azimuth_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 798327,
+     "chunk_bytes_max": 3412632,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/vertical_column_total",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 832137,
+     "chunk_bytes_max": 8696178,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/vertical_column_total_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 854601,
+     "chunk_bytes_max": 9116911,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/surface_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 799469,
+     "chunk_bytes_max": 3959633,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/terrain_height",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 276977,
+     "chunk_bytes_max": 1634586,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/snow_ice_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 69610,
+     "chunk_bytes_max": 851346,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/fitted_slant_column",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 830106,
+     "chunk_bytes_max": 8686680,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/fitted_slant_column_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 851535,
+     "chunk_bytes_max": 9045606,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/albedo",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1205617,
+     "chunk_bytes_max": 4986674,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/tropopause_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 317722,
+     "chunk_bytes_max": 1824847,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_total",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 932946,
+     "chunk_bytes_max": 4340137,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/eff_cloud_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1110523,
+     "chunk_bytes_max": 5239720,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_cloud_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1095853,
+     "chunk_bytes_max": 5148400,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_cloud_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1095386,
+     "chunk_bytes_max": 5118776,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_troposphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1154651,
+     "chunk_bytes_max": 5074850,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_stratosphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 881255,
+     "chunk_bytes_max": 3771651,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/pbl_height",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 262478,
+     "chunk_bytes_max": 1105274,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "m"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 53,
+    "n_fetches": 53,
+    "leading_fraction": 0.03773584905660377,
+    "contiguous_runs": 43,
+    "span_fraction": 1.0017301038062283
+   },
+   "seconds": 74.1
+  },
+  {
+   "granule_ur": "TEMPO_NO2_L3_V04_20260205T130231Z_S002.nc",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/TEMPO/TEMPO_NO2_L3_V04/2026.02.05/TEMPO_NO2_L3_V04_20260205T130231Z_S002.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 475221724,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "longitude",
+     "shape": [
+      7750
+     ],
+     "chunks": [
+      7750
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "longitude"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 31000,
+     "chunk_bytes_max": 31000,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "latitude",
+     "shape": [
+      2950
+     ],
+     "chunks": [
+      2950
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "latitude"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 11800,
+     "chunk_bytes_max": 11800,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "weight",
+     "shape": [
+      2950,
+      7750
+     ],
+     "chunks": [
+      590,
+      1550
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 15980,
+     "chunk_bytes_max": 1508757,
+     "cf": {
+      "_FillValue": "AAAAAAAAnkc=",
+      "units": "km^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {
+      "units": "seconds since 1980-01-06T00:00:00Z",
+      "calendar": "gregorian"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_troposphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 173963,
+     "chunk_bytes_max": 8153193,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_troposphere_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 166089,
+     "chunk_bytes_max": 7773541,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_stratosphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 150341,
+     "chunk_bytes_max": 6655271,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/main_data_quality_flag",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 39994,
+     "chunk_bytes_max": 78472,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_troposphere_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 90155,
+     "chunk_bytes_max": 368429,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_troposphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 119688,
+     "chunk_bytes_max": 5483971,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_troposphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 119357,
+     "chunk_bytes_max": 5362660,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_troposphere_uncertainty_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 90155,
+     "chunk_bytes_max": 368694,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_troposphere_uncertainty_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 116703,
+     "chunk_bytes_max": 5267169,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_troposphere_uncertainty_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 116450,
+     "chunk_bytes_max": 5269383,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_stratosphere_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 90155,
+     "chunk_bytes_max": 368566,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_stratosphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 106806,
+     "chunk_bytes_max": 4236710,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_stratosphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 107384,
+     "chunk_bytes_max": 4225642,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_total_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 90155,
+     "chunk_bytes_max": 368566,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_total_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 113195,
+     "chunk_bytes_max": 5039939,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_total_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 113107,
+     "chunk_bytes_max": 5030827,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/solar_zenith_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 910892,
+     "chunk_bytes_max": 3502868,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/viewing_zenith_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 930356,
+     "chunk_bytes_max": 3781543,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/relative_azimuth_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 878362,
+     "chunk_bytes_max": 3652342,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/vertical_column_total",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 162054,
+     "chunk_bytes_max": 7526363,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/vertical_column_total_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 162742,
+     "chunk_bytes_max": 7670180,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/surface_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 279564,
+     "chunk_bytes_max": 2550984,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/terrain_height",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 111498,
+     "chunk_bytes_max": 1489025,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/snow_ice_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 58960,
+     "chunk_bytes_max": 301726,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/fitted_slant_column",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 230992,
+     "chunk_bytes_max": 8211141,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/fitted_slant_column_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 231326,
+     "chunk_bytes_max": 8260786,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/albedo",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 639109,
+     "chunk_bytes_max": 4054880,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/tropopause_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 208681,
+     "chunk_bytes_max": 1419975,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_total",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 299327,
+     "chunk_bytes_max": 3872331,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/eff_cloud_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 304211,
+     "chunk_bytes_max": 3940494,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_cloud_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 298772,
+     "chunk_bytes_max": 3848099,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_cloud_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 273970,
+     "chunk_bytes_max": 3499588,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_troposphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 351273,
+     "chunk_bytes_max": 4365510,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_stratosphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 298109,
+     "chunk_bytes_max": 3378956,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/pbl_height",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 99918,
+     "chunk_bytes_max": 757888,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "m"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 50,
+    "n_fetches": 50,
+    "leading_fraction": 0.04,
+    "contiguous_runs": 47,
+    "span_fraction": 1.0022075055187638
+   },
+   "seconds": 72.1
+  },
+  {
+   "granule_ur": "TEMPO_NO2_L3_V04_20260922T193226Z_S011.nc",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/TEMPO/TEMPO_NO2_L3_V04/2026.09.22/TEMPO_NO2_L3_V04_20260922T193226Z_S011.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 882356295,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "longitude",
+     "shape": [
+      7750
+     ],
+     "chunks": [
+      7750
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "longitude"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 31000,
+     "chunk_bytes_max": 31000,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "latitude",
+     "shape": [
+      2950
+     ],
+     "chunks": [
+      2950
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "latitude"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 11800,
+     "chunk_bytes_max": 11800,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "weight",
+     "shape": [
+      2950,
+      7750
+     ],
+     "chunks": [
+      590,
+      1550
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 499607,
+     "chunk_bytes_max": 1575071,
+     "cf": {
+      "_FillValue": "AAAAAAAAnkc=",
+      "units": "km^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {
+      "units": "seconds since 1980-01-06T00:00:00Z",
+      "calendar": "gregorian"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_troposphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 1121679,
+     "chunk_bytes_max": 9634238,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_troposphere_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 1412348,
+     "chunk_bytes_max": 9075371,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_stratosphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 932102,
+     "chunk_bytes_max": 7602091,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/main_data_quality_flag",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 38097,
+     "chunk_bytes_max": 69605,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_troposphere_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 214367,
+     "chunk_bytes_max": 502476,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_troposphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 584336,
+     "chunk_bytes_max": 6330384,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_troposphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 582109,
+     "chunk_bytes_max": 6170109,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_troposphere_uncertainty_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 214367,
+     "chunk_bytes_max": 504277,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_troposphere_uncertainty_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 685988,
+     "chunk_bytes_max": 6080245,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_troposphere_uncertainty_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 690379,
+     "chunk_bytes_max": 6049101,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_stratosphere_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 214367,
+     "chunk_bytes_max": 502397,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_stratosphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 518090,
+     "chunk_bytes_max": 4872051,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_stratosphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 521721,
+     "chunk_bytes_max": 4872617,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_total_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 214367,
+     "chunk_bytes_max": 502574,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_total_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 646219,
+     "chunk_bytes_max": 5799550,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_total_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 649740,
+     "chunk_bytes_max": 5786084,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/solar_zenith_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1244275,
+     "chunk_bytes_max": 4784361,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/viewing_zenith_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1249694,
+     "chunk_bytes_max": 4812074,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/relative_azimuth_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1043530,
+     "chunk_bytes_max": 4194713,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/vertical_column_total",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 1348785,
+     "chunk_bytes_max": 8760024,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/vertical_column_total_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 1388615,
+     "chunk_bytes_max": 9097213,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/surface_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1104429,
+     "chunk_bytes_max": 5391869,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/terrain_height",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 397190,
+     "chunk_bytes_max": 2089235,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/snow_ice_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 67638,
+     "chunk_bytes_max": 430925,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/fitted_slant_column",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 1674071,
+     "chunk_bytes_max": 8714493,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/fitted_slant_column_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 1730834,
+     "chunk_bytes_max": 8989955,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/albedo",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1554573,
+     "chunk_bytes_max": 6915094,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/tropopause_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 745558,
+     "chunk_bytes_max": 2809168,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_total",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1421171,
+     "chunk_bytes_max": 6143140,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/eff_cloud_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1641759,
+     "chunk_bytes_max": 6551271,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_cloud_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1610431,
+     "chunk_bytes_max": 6379697,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_cloud_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1534830,
+     "chunk_bytes_max": 5790547,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_troposphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1744434,
+     "chunk_bytes_max": 7114026,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_stratosphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1364187,
+     "chunk_bytes_max": 5237478,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/pbl_height",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 435334,
+     "chunk_bytes_max": 1406084,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "m"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 51,
+    "n_fetches": 51,
+    "leading_fraction": 0.0392156862745098,
+    "contiguous_runs": 46,
+    "span_fraction": 1.0011890606420928
+   },
+   "seconds": 74.4
+  },
+  {
+   "granule_ur": "TEMPO_NO2_L3_V04_20260922T203226Z_S012.nc",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/TEMPO/TEMPO_NO2_L3_V04/2026.09.22/TEMPO_NO2_L3_V04_20260922T203226Z_S012.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 824156064,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "longitude",
+     "shape": [
+      7750
+     ],
+     "chunks": [
+      7750
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "longitude"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 31000,
+     "chunk_bytes_max": 31000,
+     "cf": {
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "latitude",
+     "shape": [
+      2950
+     ],
+     "chunks": [
+      2950
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "latitude"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 11800,
+     "chunk_bytes_max": 11800,
+     "cf": {
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "weight",
+     "shape": [
+      2950,
+      7750
+     ],
+     "chunks": [
+      590,
+      1550
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 25,
+     "chunk_bytes_median": 493740,
+     "chunk_bytes_max": 1568109,
+     "cf": {
+      "_FillValue": "AAAAAAAAnkc=",
+      "units": "km^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "time",
+     "shape": [
+      1
+     ],
+     "chunks": [
+      1
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "time"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8,
+     "chunk_bytes_max": 8,
+     "cf": {
+      "units": "seconds since 1980-01-06T00:00:00Z",
+      "calendar": "gregorian"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_troposphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 629857,
+     "chunk_bytes_max": 9584564,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_troposphere_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 946276,
+     "chunk_bytes_max": 9035038,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/vertical_column_stratosphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 540936,
+     "chunk_bytes_max": 7589085,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "product/main_data_quality_flag",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 35048,
+     "chunk_bytes_max": 46771,
+     "cf": {
+      "_FillValue": -9999
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_troposphere_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 205521,
+     "chunk_bytes_max": 490097,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_troposphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 337329,
+     "chunk_bytes_max": 6008063,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_troposphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 338340,
+     "chunk_bytes_max": 5855543,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_troposphere_uncertainty_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 205230,
+     "chunk_bytes_max": 491613,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_troposphere_uncertainty_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 446763,
+     "chunk_bytes_max": 5747223,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_troposphere_uncertainty_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 449030,
+     "chunk_bytes_max": 5716461,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_stratosphere_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 205521,
+     "chunk_bytes_max": 490212,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_stratosphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 308202,
+     "chunk_bytes_max": 4605562,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_stratosphere_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 310944,
+     "chunk_bytes_max": 4602673,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/num_vertical_column_total_samples",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 205521,
+     "chunk_bytes_max": 490305,
+     "cf": {
+      "_FillValue": -1
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/min_vertical_column_total_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 427466,
+     "chunk_bytes_max": 5497260,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "qa_statistics/max_vertical_column_total_sample",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 430552,
+     "chunk_bytes_max": 5488900,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/solar_zenith_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1236302,
+     "chunk_bytes_max": 4721114,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/viewing_zenith_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1250992,
+     "chunk_bytes_max": 4812357,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "geolocation/relative_azimuth_angle",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1048687,
+     "chunk_bytes_max": 4476502,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "degrees"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/vertical_column_total",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 910241,
+     "chunk_bytes_max": 8755354,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/vertical_column_total_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 929013,
+     "chunk_bytes_max": 8983650,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/surface_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1102336,
+     "chunk_bytes_max": 5383372,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/terrain_height",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 396339,
+     "chunk_bytes_max": 2088998,
+     "cf": {
+      "_FillValue": -9999,
+      "units": "m"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/snow_ice_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 69481,
+     "chunk_bytes_max": 414533,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/fitted_slant_column",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 1503531,
+     "chunk_bytes_max": 8703637,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/fitted_slant_column_uncertainty",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      738,
+      1938
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 16,
+     "chunk_bytes_median": 1547436,
+     "chunk_bytes_max": 8922195,
+     "cf": {
+      "_FillValue": "6oygOVk+KcY=",
+      "units": "molecules/cm^2"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/albedo",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1565017,
+     "chunk_bytes_max": 6931253,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/tropopause_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 688944,
+     "chunk_bytes_max": 2788486,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_total",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1311201,
+     "chunk_bytes_max": 6146086,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/eff_cloud_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1396646,
+     "chunk_bytes_max": 6509699,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_cloud_fraction",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1377081,
+     "chunk_bytes_max": 6348321,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_cloud_pressure",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1328960,
+     "chunk_bytes_max": 5982941,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY=",
+      "units": "hPa"
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_troposphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1573861,
+     "chunk_bytes_max": 7118743,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/amf_stratosphere",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 1276991,
+     "chunk_bytes_max": 5260437,
+     "cf": {
+      "_FillValue": "AAAAQFk+KcY="
+     },
+     "grid": {}
+    },
+    {
+     "name": "support_data/pbl_height",
+     "shape": [
+      1,
+      2950,
+      7750
+     ],
+     "chunks": [
+      1,
+      984,
+      2584
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "time",
+      "latitude",
+      "longitude"
+     ],
+     "n_chunks": 9,
+     "chunk_bytes_median": 375257,
+     "chunk_bytes_max": 1412019,
      "cf": {
       "_FillValue": -9999,
       "units": "m"
@@ -4941,13 +9853,13 @@
    },
    "ok": true,
    "locality": {
-    "n_blocks": 50,
-    "n_fetches": 50,
-    "leading_fraction": 0.04,
-    "contiguous_runs": 47,
-    "span_fraction": 1.0018416206261511
+    "n_blocks": 51,
+    "n_fetches": 51,
+    "leading_fraction": 0.058823529411764705,
+    "contiguous_runs": 44,
+    "span_fraction": 1.0012738853503185
    },
-   "seconds": 69.2
+   "seconds": 80.8
   }
  ]
 }

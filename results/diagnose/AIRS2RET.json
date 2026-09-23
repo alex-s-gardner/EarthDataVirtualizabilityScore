@@ -1,0 +1,91 @@
+{
+ "short_name": "AIRS2RET",
+ "format": "HDF-EOS",
+ "diagnoses": [
+  {
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/Aqua_AIRS_Level2/AIRS2RET.7.0/2002/242/AIRS.2002.08.30.225.L2.RetStd_IR.v7.0.1.0.G20140141111.hdf",
+   "error_type": "KeyError",
+   "error": "'data'",
+   "n_like_this": 8,
+   "container": "hdf4",
+   "local_bytes": 3647343,
+   "findings": {
+    "tag_census": {
+     "VERSION": 1,
+     "SD": 163,
+     "COMPRESSED": 152,
+     "VG": 184,
+     "VS": 591,
+     "VH": 591,
+     "LINKED": 28,
+     "NT": 163,
+     "SDD": 163,
+     "NDG": 163,
+     "NULL": 1
+    },
+    "scientific_data_tags": {
+     "total": 163,
+     "contiguous": 11,
+     "extended": 152,
+     "extension_types": {
+      "COMP": 152
+     },
+     "decode_errors": {},
+     "sd_decoder_registered": false,
+     "contiguous_sample": [
+      {
+       "ref": 7,
+       "offset": 310,
+       "length": 90
+      },
+      {
+       "ref": 9,
+       "offset": 400,
+       "length": 60
+      },
+      {
+       "ref": 49,
+       "offset": 77201,
+       "length": 6
+      },
+      {
+       "ref": 51,
+       "offset": 77207,
+       "length": 6
+      }
+     ],
+     "compressed_elements": {
+      "codecs": {
+       "DEFLATE": 152
+      }
+     },
+     "chunked_elements": {
+      "decoded": 0,
+      "failed": {},
+      "total_chunks": 0,
+      "codecs": {},
+      "chunk_sample": []
+     }
+    },
+    "refusal_site": {
+     "raised": true,
+     "error_type": "KeyError",
+     "error": "'data'",
+     "indexing": {
+      "tag": "SD",
+      "ref": 7,
+      "extended": false,
+      "offset": 310,
+      "length": 90,
+      "keys_present": [
+       "extended",
+       "length",
+       "loc",
+       "offset"
+      ]
+     }
+    }
+   }
+  }
+ ]
+}

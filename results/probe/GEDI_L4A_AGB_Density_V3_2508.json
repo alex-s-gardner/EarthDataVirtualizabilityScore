@@ -1,0 +1,181 @@
+{
+ "version": "3",
+ "level": "L3",
+ "sensor": "ISS/GEDI",
+ "format": "HDF5",
+ "daac": "ORNL_DAAC",
+ "short_name": "GEDI_L4A_AGB_Density_V3_2508",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "GEDI04_A_2019094180555_O01753_01_T01683_02_004_01_V003",
+   "url": "https://data.ornldaac.earthdata.nasa.gov/ornl-cumulus-prod-protected/gedi/GEDI_L4A_AGB_Density_V3/data/GEDI04_A_2019094180555_O01753_01_T01683_02_004_01_V003.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 8986527,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://gi",
+   "traceback_tail": "zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://github.com/zarr-developers/zarr-python/issues/3117\n",
+   "locality": {
+    "n_blocks": 4,
+    "n_fetches": 4,
+    "leading_fraction": 0.25,
+    "contiguous_runs": 4,
+    "span_fraction": 1.125
+   },
+   "seconds": 10.5
+  },
+  {
+   "granule_ur": "GEDI04_A_2019094180555_O01753_02_T01683_02_004_01_V003",
+   "url": "https://data.ornldaac.earthdata.nasa.gov/ornl-cumulus-prod-protected/gedi/GEDI_L4A_AGB_Density_V3/data/GEDI04_A_2019094180555_O01753_02_T01683_02_004_01_V003.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 168541876,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://gi",
+   "traceback_tail": "zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://github.com/zarr-developers/zarr-python/issues/3117\n",
+   "locality": {
+    "n_blocks": 10,
+    "n_fetches": 10,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 10,
+    "span_fraction": 1.00625
+   },
+   "seconds": 17.9
+  },
+  {
+   "granule_ur": "GEDI04_A_2020274234154_O10210_03_T09842_02_004_01_V003",
+   "url": "https://data.ornldaac.earthdata.nasa.gov/ornl-cumulus-prod-protected/gedi/GEDI_L4A_AGB_Density_V3/data/GEDI04_A_2020274234154_O10210_03_T09842_02_004_01_V003.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 270839733,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://gi",
+   "traceback_tail": "zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://github.com/zarr-developers/zarr-python/issues/3117\n",
+   "locality": {
+    "n_blocks": 10,
+    "n_fetches": 10,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 10,
+    "span_fraction": 1.0
+   },
+   "seconds": 16.1
+  },
+  {
+   "granule_ur": "GEDI04_A_2022089133655_O18667_03_T06561_02_004_01_V003",
+   "url": "https://data.ornldaac.earthdata.nasa.gov/ornl-cumulus-prod-protected/gedi/GEDI_L4A_AGB_Density_V3/data/GEDI04_A_2022089133655_O18667_03_T06561_02_004_01_V003.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 272353870,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://gi",
+   "traceback_tail": "zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://github.com/zarr-developers/zarr-python/issues/3117\n",
+   "locality": {
+    "n_blocks": 10,
+    "n_fetches": 10,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 10,
+    "span_fraction": 1.0038610038610039
+   },
+   "seconds": 16.9
+  },
+  {
+   "granule_ur": "GEDI04_A_2024117133926_O30423_04_T00000_02_004_02_V003",
+   "url": "https://data.ornldaac.earthdata.nasa.gov/ornl-cumulus-prod-protected/gedi/GEDI_L4A_AGB_Density_V3/data/GEDI04_A_2024117133926_O30423_04_T00000_02_004_02_V003.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 178862044,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://gi",
+   "traceback_tail": "zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://github.com/zarr-developers/zarr-python/issues/3117\n",
+   "locality": {
+    "n_blocks": 11,
+    "n_fetches": 11,
+    "leading_fraction": 0.18181818181818182,
+    "contiguous_runs": 10,
+    "span_fraction": 1.0058823529411764
+   },
+   "seconds": 19.1
+  },
+  {
+   "granule_ur": "GEDI04_A_2025083230811_O35579_03_T02099_02_004_02_V003",
+   "url": "https://data.ornldaac.earthdata.nasa.gov/ornl-cumulus-prod-protected/gedi/GEDI_L4A_AGB_Density_V3/data/GEDI04_A_2025083230811_O35579_03_T02099_02_004_02_V003.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 201378681,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://gi",
+   "traceback_tail": "zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://github.com/zarr-developers/zarr-python/issues/3117\n",
+   "locality": {
+    "n_blocks": 10,
+    "n_fetches": 10,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 10,
+    "span_fraction": 1.0
+   },
+   "seconds": 16.0
+  },
+  {
+   "granule_ur": "GEDI04_A_2025190223019_O37238_03_T09057_02_004_02_V003",
+   "url": "https://data.ornldaac.earthdata.nasa.gov/ornl-cumulus-prod-protected/gedi/GEDI_L4A_AGB_Density_V3/data/GEDI04_A_2025190223019_O37238_03_T09057_02_004_02_V003.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 243756017,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://gi",
+   "traceback_tail": "zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://github.com/zarr-developers/zarr-python/issues/3117\n",
+   "locality": {
+    "n_blocks": 10,
+    "n_fetches": 10,
+    "leading_fraction": 0.2,
+    "contiguous_runs": 10,
+    "span_fraction": 1.0
+   },
+   "seconds": 16.7
+  },
+  {
+   "granule_ur": "GEDI04_A_2025190223019_O37238_04_T09057_02_004_02_V003",
+   "url": "https://data.ornldaac.earthdata.nasa.gov/ornl-cumulus-prod-protected/gedi/GEDI_L4A_AGB_Density_V3/data/GEDI04_A_2025190223019_O37238_04_T09057_02_004_02_V003.h5",
+   "orbit": "",
+   "declared_format": "HDF5",
+   "file_bytes": 92868264,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "ValueError",
+   "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://gi",
+   "traceback_tail": "zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://github.com/zarr-developers/zarr-python/issues/3117\n",
+   "locality": {
+    "n_blocks": 11,
+    "n_fetches": 11,
+    "leading_fraction": 0.18181818181818182,
+    "contiguous_runs": 9,
+    "span_fraction": 1.0113636363636365
+   },
+   "seconds": 18.5
+  }
+ ]
+}

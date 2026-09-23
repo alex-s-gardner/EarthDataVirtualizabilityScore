@@ -226,15 +226,17 @@ end
 
 Whether a granule failed in the network rather than in the file.
 
-A dropped connection or a refused request says nothing about how the granule was written, so it is
-excluded from the parse verdict instead of being graded as a blocking feature.
+A dropped connection, a refused request, a bucket that denies the credential, and a host that will
+not serve a range request all say nothing about how the granule was written, so they are excluded from
+the parse verdict instead of being graded as blocking features.
 """
 function transport_failure(probe)
     get(probe, :ok, false) && return false
     et = String(get(probe, :error_type, ""))
     m = String(get(probe, :error, ""))
-    return et in ("GenericError", "ConnectionError", "TimeoutError") ||
-           occursin("Generic HTTP error", m) || occursin("error sending request", m)
+    return et in ("GenericError", "ConnectionError", "TimeoutError", "PermissionDeniedError") ||
+           occursin("Generic HTTP error", m) || occursin("error sending request", m) ||
+           occursin("Range request not supported", m)
 end
 
 """
@@ -295,8 +297,12 @@ function classify_refusal(error_type, message)
         return "file attaches several dimension scales to one axis; a Zarr array names each axis once"
     occursin("KeyError", String(error_type)) && occursin("data", m) &&
         return "HDF4 backend cannot read the HDF-EOS2 vgroup holding the data-block references"
+    occursin("fill_value", m) && occursin("got list", m) &&
+        return "file stores an array _FillValue on a numeric variable; a Zarr fill value is scalar"
     occursin("fill_value", m) &&
         return "file stores a string _FillValue on a numeric variable; Zarr requires a number"
+    occursin("data type resolution", m) &&
+        return "array carries a dtype Zarr cannot express — " * first(m, 70)
     occursin("same number of dimensions", m) &&
         return "HDF4 backend derived a dimension-name list of the wrong length for the array's rank"
     occursin("copy-to-disk limit", m) && return "probe limit, not a data property — " * m

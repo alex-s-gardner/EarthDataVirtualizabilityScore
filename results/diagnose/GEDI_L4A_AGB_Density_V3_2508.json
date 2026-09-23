@@ -1,0 +1,45 @@
+{
+ "short_name": "GEDI_L4A_AGB_Density_V3_2508",
+ "format": "HDF5",
+ "diagnoses": [
+  {
+   "url": "https://data.ornldaac.earthdata.nasa.gov/ornl-cumulus-prod-protected/gedi/GEDI_L4A_AGB_Density_V3/data/GEDI04_A_2019094180555_O01753_01_T01683_02_004_01_V003.h5",
+   "error_type": "ValueError",
+   "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type. For a list of Zarr data types that are compatible with the numpy \"Object\"data type, see https://gi",
+   "n_like_this": 8,
+   "container": "hdf5",
+   "local_bytes": 8986527,
+   "findings": {
+    "unencodable_fill_values": [],
+    "multi_scale_axes": [],
+    "unfixed_dtypes": [
+     {
+      "dataset": "ANCILLARY/model_data",
+      "dtype": "[('predict_stratum', 'O'), ('model_group', 'u1'), ('model_name', 'O'), ('model_id', 'u1'), ('x_transform', 'O'), ('y_transform', 'O'), ('bias_correction_name', 'O'), ('fit_stratum', 'O'), ('rh_index', 'u1', (8,)), ('predictor_id', 'u1', (8,)), ('predictor_max_value', '<f4', (8,)), ('vcov', '<f8', (5, 5)), ('par', '<f8', (5,)), ('rse', '<f4'), ('dof', '<u4'), ('response_max_value', '<f4'), ('bias_correction_value', '<f4'), ('npar', 'u1')]"
+     },
+     {
+      "dataset": "ANCILLARY/pft_lut",
+      "dtype": "[('pft_class', 'u1'), ('pft_name', 'O')]"
+     },
+     {
+      "dataset": "ANCILLARY/phenology_lut",
+      "dtype": "[('phenology_class', 'u1'), ('phenology_name', 'O')]"
+     },
+     {
+      "dataset": "ANCILLARY/region_lut",
+      "dtype": "[('region_class', 'u1'), ('region_name', 'O')]"
+     },
+     {
+      "dataset": "ANCILLARY/worldcover_lut",
+      "dtype": "[('worldcover_class', 'u1'), ('worldcover_name', 'O')]"
+     }
+    ],
+    "filters": {
+     "gzip": 504
+    },
+    "n_datasets": 509,
+    "n_groups": 19
+   }
+  }
+ ]
+}

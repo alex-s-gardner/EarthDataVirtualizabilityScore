@@ -1,0 +1,1960 @@
+{
+ "version": "005",
+ "level": "L2",
+ "sensor": "Aura/MLS",
+ "format": "HDF-EOS5",
+ "daac": "NASA/GSFC/SED/ESD/TISL/GESDISC",
+ "short_name": "ML2O3_NRT",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "ML2O3_NRT.005:MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0110.he5",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/Aura_MLS_NRT/ML2O3_NRT.005/2026/259/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0110.he5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 1119,
+   "dmrpp": true,
+   "ok": false,
+   "error_type": "NotSupportedError",
+   "error": "Operation not supported: Range request not supported by data/Aura_MLS_NRT/ML2O3_NRT.005/2026/259/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0110.he5\n\nDebug source:\nNotSupported {\n    source: RangeNotSupported {\n        href: \"data/Aura_MLS_NRT/ML2O3_NRT.005/2026/259/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0110.he5\",\n    },\n}",
+   "traceback_tail": "equest not supported by data/Aura_MLS_NRT/ML2O3_NRT.005/2026/259/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0110.he5\n\nDebug source:\nNotSupported {\n    source: RangeNotSupported {\n        href: \"data/Aura_MLS_NRT/ML2O3_NRT.005/2026/259/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0110.he5\",\n    },\n}\n",
+   "seconds": 3.3
+  },
+  {
+   "granule_ur": "ML2O3_NRT.005:MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0155.he5",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/Aura_MLS_NRT/ML2O3_NRT.005/2026/259/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0155.he5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 1119,
+   "dmrpp": true,
+   "ok": false,
+   "error_type": "NotSupportedError",
+   "error": "Operation not supported: Range request not supported by data/Aura_MLS_NRT/ML2O3_NRT.005/2026/259/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0155.he5\n\nDebug source:\nNotSupported {\n    source: RangeNotSupported {\n        href: \"data/Aura_MLS_NRT/ML2O3_NRT.005/2026/259/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0155.he5\",\n    },\n}",
+   "traceback_tail": "equest not supported by data/Aura_MLS_NRT/ML2O3_NRT.005/2026/259/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0155.he5\n\nDebug source:\nNotSupported {\n    source: RangeNotSupported {\n        href: \"data/Aura_MLS_NRT/ML2O3_NRT.005/2026/259/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d259t0155.he5\",\n    },\n}\n",
+   "seconds": 3.3
+  },
+  {
+   "granule_ur": "ML2O3_NRT.005:MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d266t0025.he5",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/Aura_MLS_NRT/ML2O3_NRT.005/2026/266/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d266t0025.he5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 327087,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "HDFEOS/SWATHS/O3/nLevels",
+     "shape": [
+      55
+     ],
+     "chunks": [
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nLevels"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/nTimes",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nTimes"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/nTimesTotal",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nTimesTotal"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/Convergence",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/L2gpPrecision",
+     "shape": [
+      43,
+      55
+     ],
+     "chunks": [
+      43,
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes",
+      "HDFEOS/SWATHS/O3/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 309,
+     "chunk_bytes_max": 309,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/L2gpValue",
+     "shape": [
+      43,
+      55
+     ],
+     "chunks": [
+      43,
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes",
+      "HDFEOS/SWATHS/O3/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8358,
+     "chunk_bytes_max": 8358,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/O3",
+     "shape": [
+      43,
+      55
+     ],
+     "chunks": [
+      43,
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes",
+      "HDFEOS/SWATHS/O3/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8358,
+     "chunk_bytes_max": 8358,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/O3Precision",
+     "shape": [
+      43,
+      55
+     ],
+     "chunks": [
+      43,
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes",
+      "HDFEOS/SWATHS/O3/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 309,
+     "chunk_bytes_max": 309,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/Quality",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/Status",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": 513
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/ChunkNumber",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": -999
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/Latitude",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/LineOfSightAngle",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/LocalSolarTime",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/Longitude",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/OrbitGeodeticAngle",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/Pressure",
+     "shape": [
+      55
+     ],
+     "chunks": [
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 220,
+     "chunk_bytes_max": 220,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/SolarZenithAngle",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/Time",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 344,
+     "chunk_bytes_max": 344,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/nLevels",
+     "shape": [
+      37
+     ],
+     "chunks": [
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nLevels"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/nTimes",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nTimes"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/nTimesTotal",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nTimesTotal"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/Convergence",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/L2gpPrecision",
+     "shape": [
+      43,
+      37
+     ],
+     "chunks": [
+      43,
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes",
+      "HDFEOS/SWATHS/O3-APriori/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 111,
+     "chunk_bytes_max": 111,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/L2gpValue",
+     "shape": [
+      43,
+      37
+     ],
+     "chunks": [
+      43,
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes",
+      "HDFEOS/SWATHS/O3-APriori/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5443,
+     "chunk_bytes_max": 5443,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/O3-APriori",
+     "shape": [
+      43,
+      37
+     ],
+     "chunks": [
+      43,
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes",
+      "HDFEOS/SWATHS/O3-APriori/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5443,
+     "chunk_bytes_max": 5443,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/O3-APrioriPrecision",
+     "shape": [
+      43,
+      37
+     ],
+     "chunks": [
+      43,
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes",
+      "HDFEOS/SWATHS/O3-APriori/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 111,
+     "chunk_bytes_max": 111,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/Quality",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/Status",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": 513
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/ChunkNumber",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": -999
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/Latitude",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/LineOfSightAngle",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/LocalSolarTime",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/Longitude",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/OrbitGeodeticAngle",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/Pressure",
+     "shape": [
+      37
+     ],
+     "chunks": [
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 148,
+     "chunk_bytes_max": 148,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/SolarZenithAngle",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/Time",
+     "shape": [
+      43
+     ],
+     "chunks": [
+      43
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 344,
+     "chunk_bytes_max": 344,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS INFORMATION/StructMetadata.0",
+     "shape": [],
+     "chunks": [],
+     "dtype": "|S32000",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 32000,
+     "chunk_bytes_max": 32000,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS INFORMATION/coremetadata.0",
+     "shape": [],
+     "chunks": [],
+     "dtype": "|S65535",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 65535,
+     "chunk_bytes_max": 65535,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS INFORMATION/xmlmetadata",
+     "shape": [],
+     "chunks": [],
+     "dtype": "|S65535",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 65535,
+     "chunk_bytes_max": 65535,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0
+   },
+   "seconds": 6.9
+  },
+  {
+   "granule_ur": "ML2O3_NRT.005:MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d266t0040.he5",
+   "url": "https://data.gesdisc.earthdata.nasa.gov/data/Aura_MLS_NRT/ML2O3_NRT.005/2026/266/MLS-Aura_L2GP-O3_v05-03-NRT-20-c01_2026d266t0040.he5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 326962,
+   "dmrpp": true,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "HDFEOS/SWATHS/O3/nLevels",
+     "shape": [
+      55
+     ],
+     "chunks": [
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nLevels"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/nTimes",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nTimes"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/nTimesTotal",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nTimesTotal"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/Convergence",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/L2gpPrecision",
+     "shape": [
+      42,
+      55
+     ],
+     "chunks": [
+      42,
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes",
+      "HDFEOS/SWATHS/O3/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 307,
+     "chunk_bytes_max": 307,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/L2gpValue",
+     "shape": [
+      42,
+      55
+     ],
+     "chunks": [
+      42,
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes",
+      "HDFEOS/SWATHS/O3/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8156,
+     "chunk_bytes_max": 8156,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/O3",
+     "shape": [
+      42,
+      55
+     ],
+     "chunks": [
+      42,
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes",
+      "HDFEOS/SWATHS/O3/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 8156,
+     "chunk_bytes_max": 8156,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/O3Precision",
+     "shape": [
+      42,
+      55
+     ],
+     "chunks": [
+      42,
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes",
+      "HDFEOS/SWATHS/O3/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 307,
+     "chunk_bytes_max": 307,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/Quality",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Data Fields/Status",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": 513
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/ChunkNumber",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": -999
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/Latitude",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/LineOfSightAngle",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/LocalSolarTime",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/Longitude",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/OrbitGeodeticAngle",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/Pressure",
+     "shape": [
+      55
+     ],
+     "chunks": [
+      55
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 220,
+     "chunk_bytes_max": 220,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/SolarZenithAngle",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3/Geolocation Fields/Time",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 336,
+     "chunk_bytes_max": 336,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/nLevels",
+     "shape": [
+      37
+     ],
+     "chunks": [
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nLevels"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/nTimes",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nTimes"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/nTimesTotal",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "nTimesTotal"
+     ],
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/Convergence",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/L2gpPrecision",
+     "shape": [
+      42,
+      37
+     ],
+     "chunks": [
+      42,
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes",
+      "HDFEOS/SWATHS/O3-APriori/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 108,
+     "chunk_bytes_max": 108,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/L2gpValue",
+     "shape": [
+      42,
+      37
+     ],
+     "chunks": [
+      42,
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes",
+      "HDFEOS/SWATHS/O3-APriori/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5320,
+     "chunk_bytes_max": 5320,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/O3-APriori",
+     "shape": [
+      42,
+      37
+     ],
+     "chunks": [
+      42,
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes",
+      "HDFEOS/SWATHS/O3-APriori/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 5320,
+     "chunk_bytes_max": 5320,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/O3-APrioriPrecision",
+     "shape": [
+      42,
+      37
+     ],
+     "chunks": [
+      42,
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Zlib"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes",
+      "HDFEOS/SWATHS/O3-APriori/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 108,
+     "chunk_bytes_max": 108,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/Quality",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Data Fields/Status",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": 513
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/ChunkNumber",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "int32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": -999
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/Latitude",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/LineOfSightAngle",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/LocalSolarTime",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/Longitude",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/OrbitGeodeticAngle",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/Pressure",
+     "shape": [
+      37
+     ],
+     "chunks": [
+      37
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nLevels"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 148,
+     "chunk_bytes_max": 148,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/SolarZenithAngle",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 168,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS/SWATHS/O3-APriori/Geolocation Fields/Time",
+     "shape": [
+      42
+     ],
+     "chunks": [
+      42
+     ],
+     "dtype": "float64",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "HDFEOS/SWATHS/O3-APriori/nTimes"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 336,
+     "chunk_bytes_max": 336,
+     "cf": {
+      "_FillValue": "AAAAgOs/j8A="
+     },
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS INFORMATION/StructMetadata.0",
+     "shape": [],
+     "chunks": [],
+     "dtype": "|S32000",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 32000,
+     "chunk_bytes_max": 32000,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS INFORMATION/coremetadata.0",
+     "shape": [],
+     "chunks": [],
+     "dtype": "|S65535",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 65535,
+     "chunk_bytes_max": 65535,
+     "cf": {},
+     "grid": {}
+    },
+    {
+     "name": "HDFEOS INFORMATION/xmlmetadata",
+     "shape": [],
+     "chunks": [],
+     "dtype": "|S65535",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": null,
+     "n_chunks": 1,
+     "chunk_bytes_median": 65535,
+     "chunk_bytes_max": 65535,
+     "cf": {},
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "coords": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 1,
+    "n_fetches": 1,
+    "leading_fraction": 1.0,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0
+   },
+   "seconds": 6.9
+  }
+ ]
+}

@@ -21,8 +21,8 @@
    "ok": false,
    "error_type": "KeyError",
    "error": "'data'",
-   "traceback_tail": "ine 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
-   "seconds": 7.0
+   "traceback_tail": "\"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 8.1
   },
   {
    "granule_ur": "MOD09GA.A2000056.h08v05.061.2020037162220",
@@ -36,8 +36,68 @@
    "ok": false,
    "error_type": "KeyError",
    "error": "'data'",
-   "traceback_tail": "~~~~~~~~~~~~~~~~~^^\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 302, in _dec_chunked\n    data = self._dec(\"VS\", chk_tbl_ref)[\"data\"]  # corresponding table\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^\nKeyError: 'data'\n",
-   "seconds": 16.8
+   "traceback_tail": "_dec_extended\n    return self._dec_chunked()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 302, in _dec_chunked\n    data = self._dec(\"VS\", chk_tbl_ref)[\"data\"]  # corresponding table\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 7.6
+  },
+  {
+   "granule_ur": "MOD09GA.A2005169.h08v05.061.2020235212854",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09GA.061/MOD09GA.A2005169.h08v05.061.2020235212854/MOD09GA.A2005169.h08v05.061.2020235212854.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 81810470,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "\"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 8.9
+  },
+  {
+   "granule_ur": "MOD09GA.A2010285.h08v05.061.2021173153829",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09GA.061/MOD09GA.A2010285.h08v05.061.2021173153829/MOD09GA.A2010285.h08v05.061.2021173153829.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 77023392,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "\"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 7.6
+  },
+  {
+   "granule_ur": "MOD09GA.A2016035.h08v05.061.2021343160041",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09GA.061/MOD09GA.A2016035.h08v05.061.2021343160041/MOD09GA.A2016035.h08v05.061.2021343160041.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 81820082,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "\"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 8.2
+  },
+  {
+   "granule_ur": "MOD09GA.A2021150.h08v05.061.2021152031930",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09GA.061/MOD09GA.A2021150.h08v05.061.2021152031930/MOD09GA.A2021150.h08v05.061.2021152031930.hdf",
+   "orbit": "",
+   "declared_format": "HDF-EOS2",
+   "file_bytes": 76314245,
+   "dmrpp": false,
+   "container": "hdf4",
+   "parsed_locally": true,
+   "ok": false,
+   "error_type": "KeyError",
+   "error": "'data'",
+   "traceback_tail": "\"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 9.1
   },
   {
    "granule_ur": "MOD09GA.A2026262.h08v05.061.2026264030559",
@@ -51,8 +111,8 @@
    "ok": false,
    "error_type": "KeyError",
    "error": "'data'",
-   "traceback_tail": "ine 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
-   "seconds": 6.6
+   "traceback_tail": "\"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 8.4
   },
   {
    "granule_ur": "MOD09GA.A2026263.h08v05.061.2026265032035",
@@ -66,8 +126,8 @@
    "ok": false,
    "error_type": "KeyError",
    "error": "'data'",
-   "traceback_tail": "ine 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
-   "seconds": 5.6
+   "traceback_tail": "\"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 193, in _descend_vg\n    tmp = self._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 213, in _descend_vg\n    if isinstance(inf2[\"data\"][-1], (tuple, list)):\n                  ~~~~^^^^^^^^\nKeyError: 'data'\n",
+   "seconds": 7.8
   }
  ]
 }

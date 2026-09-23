@@ -12,9 +12,10 @@ const RESULTS = joinpath(@__DIR__, "..", "results")
     shown_grade(g) -> String
 
 A grade as the report displays it. `A` carries a star: an archive that virtualizes as it stands is
-the outcome the criteria ask a producer for, and the table is where a reader looks for it.
+the outcome the criteria ask a producer for, and the table is where a reader looks for it. `F*` is
+escaped so Markdown renders the asterisk rather than reading it as emphasis.
 """
-shown_grade(g) = g == "A" ? "A ⭐" : String(g)
+shown_grade(g) = g == "A" ? "A ⭐" : g == "F*" ? "F\\*" : String(g)
 
 """
     md_table(df, cols; headers) -> String
@@ -89,6 +90,50 @@ function orbit_note(df)
     return "The sample spans both orbit directions for " *
         "$(join(sort(String.(both.short_name)), ", ")), which is where a shared projection with a " *
         "different chunk origin can appear."
+end
+
+"""
+    partial_h2_example(df) -> String
+
+A collection where smaller variables carry a different chunk shape while the largest does not, quoted
+from its own H2 evidence.
+
+The case is worth showing because the grade turns on which variable offends, and naming one in prose
+would go stale the moment a wider sample implicates a different one.
+"""
+function partial_h2_example(df)
+    rows = filter(r -> occursin("differs for smaller variables", String(r.chunk_evidence)), df)
+    nrow(rows) == 0 && return ""
+    r = first(sort(rows, :short_name))
+    return " `$(r.short_name)` is the second case: $(r.chunk_evidence)."
+end
+
+"""
+    hdf4_note(df) -> String
+
+How the HDF4 path fared across the collections that use it, counted from their verdicts.
+
+Readability there varies by producer rather than by format, so the split between collections it reads
+and collections it does not is the thing to state, and it has to be counted rather than recalled: a
+collection added to `CANDIDATES` changes it.
+"""
+function hdf4_note(df)
+    fam = filter(r -> occursin(r"HDF4|HDF-EOS2|^HDF-EOS$", String(r.format)), df)
+    nrow(fam) == 0 && return "No collection in this set is distributed in an HDF4-generation container."
+    refused = filter(r -> occursin("parser refused", String(r.blocker)), fam)
+    empty_store = filter(r -> occursin("no arrays", String(r.blocker)), fam)
+    read_ok = nrow(fam) - nrow(refused) - nrow(empty_store)
+    kinds = unique([m.match for m in
+                    (match(r"(cannot read the HDF-EOS2 vgroup|dimension-name list|UTF-8)",
+                           String(r.blocker)) for r in eachrow(refused)) if !isnothing(m)])
+    note = "of the $(nrow(fam)) collections sampled in an HDF4-generation container, " *
+           "$read_ok yield arrays on every granule opened, $(nrow(refused)) raise on every granule " *
+           "in $(length(kinds)) distinct way$(length(kinds) == 1 ? "" : "s")"
+    n = nrow(empty_store)
+    n > 0 && (note *= ", and $n ($(join(sort(String.(empty_store.short_name)), ", "))) " *
+        "$(n == 1 ? "returns" : "return") a store holding no arrays at all, which is a failure the " *
+        "call's own return value does not report")
+    return note * "."
 end
 
 const CRITERIA = """
@@ -214,9 +259,13 @@ function build_report()
     - **D** — not virtualizable without rewriting bytes: the largest variable's chunk shape differs
       across granules (H2), concatenation would place a partial chunk in the array interior (H3), or
       the granules differ in extent on two or more axes and so are not slices of one array.
-    - **F** — the layout could not be read: no parser accepts the data, a parser refused every granule
-      it opened and named the feature that stopped it, or a parser accepted every granule and returned
-      a store holding no arrays, which yields no chunk manifest.
+    - **F\\*** — the layout could not be read, and the archive is not what stopped it. Stage 6 found
+      the file already carrying the byte ranges a chunk manifest is made of, under a codec Zarr can
+      decode, so nothing here asks the producer for a change: the gap is in the readers.
+    - **F** — the layout could not be read, and the archive is where the obstruction was found: an
+      encoding Zarr cannot express, a codec it has no decoder for, or one compressed stream with no
+      chunk boundary inside it. A row whose diagnosis settled neither question says so in its
+      deciding-criterion column rather than being read as either.
     - **U** — not measured. Every sampled granule exhausted the probe's wall-clock budget, which
       bounds reads over authenticated HTTPS from outside `us-west-2` where each request pays an
       Earthdata Login redirect. That is a limit of this measurement path, not a property of the
@@ -226,7 +275,7 @@ function build_report()
     rows fall short on more than one criterion, and which of them a reader cares about depends on what
     they intend to build.
     """)
-    empty_grades = [g for g in ["A", "B", "C", "D", "F", "U"] if !(g in df.grade)]
+    empty_grades = [g for g in ["A", "B", "C", "D", "F*", "F", "U"] if !(g in df.grade)]
     isempty(empty_grades) ||
         println(io, "No collection in this set graded $(join(empty_grades, " or ")).\n")
 
@@ -267,7 +316,7 @@ function build_report()
     """)
 
     println(io, "\n## The rows nothing could be read from\n")
-    unread = filter(r -> r.grade in ("F", "U"), df)
+    unread = filter(r -> r.grade in ("F*", "F", "U"), df)
     println(io, """
     No collection graded `F` or `U` lacks a cube. Each is a series of time-stamped arrays in its own
     catalog record, and the grade says only that no chunk manifest can be written over the bytes as
@@ -281,23 +330,24 @@ function build_report()
                                     "Record"]))
     println(io, """
 
-    Seven are HDF4-generation containers — `HDF-EOS`, `HDF-EOS2`, `HDF4` — holding ordinary gridded or
-    swath arrays: six raise inside the HDF4 backend and `MIL2TCST` returns a store with no arrays at
-    all, so in every case what fails is reading the container rather than anything about the data in
-    it. Two are HDF5-family files that one attribute would settle: `VNP09GA` stores a string
-    `_FillValue` on a numeric variable where Zarr's fill value is typed, and `ATL11` attaches several
-    dimension scales to one axis where a Zarr array names each axis once. `SRTMGL1` is a global
-    1 arc-second elevation grid distributed as `.hgt.zip`, and a DEFLATE stream over a whole file
-    offers no chunk boundary for a range request to land on. `GRACEFO_L2_JPL_MONTHLY_0063` is ASCII,
-    which carries no byte offsets to index. The two `U` rows refused nothing: they exhausted the
-    probe's wall-clock budget.
+    Which of `F` and `F*` a row carries is settled by reading the file, not by reading the exception.
+    Stage 6 re-opens one granule per distinct refusal and records what the file holds at that point: an
+    `F*` archive was found already carrying the byte ranges a manifest is made of, under a codec Zarr
+    can decode, so nothing in it needs rewriting and the gap is in the readers. An `F` archive was
+    found holding something Zarr cannot express — a string fill value on a numeric array, several
+    dimension scales on one axis, a codec with no Zarr decoder, or one compressed stream with no chunk
+    boundary inside it. The deciding-criterion column of the ranking carries that finding per row, and
+    `results/diagnose/` holds the census it reduces from.
 
-    So these collections stay in the ranking. Their grade is set entirely by a container chosen at
-    write time, which makes them the cheapest rows in the table to move: the same arrays in netCDF-4,
-    Zarr, or COG are readable by a manifest as they stand. A rewrite still has to meet H2 and H3 — one
-    chunk shape per variable, and a granule length that divides by it — and for the swath products
-    here that is an open question rather than a formality, since it is what most of the `D` rows fail
-    on.
+    An `F*` is the cheapest row in the table to move, because moving it asks nothing of the producer.
+    An `F` asks for one specific change, and the finding names it. Neither is readable with the tooling
+    measured here, which is why both sort below `D`. And a container change alone does not make a cube:
+    the rewritten archive still has to meet H2 and H3 — one chunk shape per variable, and a granule
+    length that divides by it — which for the swath products here is an open question rather than a
+    formality, since it is what most of the `D` rows fail on.
+
+    The `U` rows refused nothing: they exhausted the probe's wall-clock budget, so no diagnosis
+    applies to them.
     """)
 
     println(io, "\n## How each column was measured\n")
@@ -335,21 +385,20 @@ function build_report()
     compress by more than 1032:1, so a zlib-coded chunk whose recorded length is below the
     uncompressed chunk size divided by that bound is not a chunk length, and P-sz reads `—` rather
     than reporting a chunk of that size. This excludes `MOD10A1`, where the kerchunk HDF4 backend
-    records 16 bytes for a 2400×2400 chunk. Where the recorded lengths are plausible but small, they
-    are reported as measured: `MCD43A3`'s 489-byte chunks are within what DEFLATE can do to a
-    100×2400 array that is almost entirely fill, and the number then describes the sampled tiles,
-    which are mostly empty, as much as the chunking.
+    records 16 bytes for a zlib-coded 2400×2400 chunk. Where a recorded length is plausible it is
+    reported as measured however small it is, and for a tiled product that number describes the
+    sampled tile as much as the chunking: a tile that is mostly fill compresses further than a full
+    one.
 
     **Grid aligned.** For GeoTIFF, from `ModelPixelScaleTag`, `ModelTiepointTag`, and the CRS GeoKey:
     one origin in one CRS means one grid, several origins on a common lattice within one CRS mean one
     grid at different extents, and a fractional offset means no shared grid. Origins are compared only
     within a CRS. An easting and northing mean the same thing only in the same coordinate system, and
-    the MGRS-tiled products carry a different UTM zone per tile — `ECO_L2T_LSTE`'s four sampled
-    granules span EPSG:32641, 32642, and 32710 — so differencing their northings would subtract
-    coordinates that share no datum. Granules spanning several zones are reported as one grid per
-    tile: a cube per tile, not one cube over the archive. This separates two cases that look alike in
-    the catalog — `OPERA_L3_DSWX-HLS_V1`'s sampled granules all sit in EPSG:32656 on one 30 m lattice,
-    while `HLSL30`'s span three projections. The CRS is read from `ProjectedCSTypeGeoKey`, or from
+    an MGRS-tiled product carries a different UTM zone per tile, so differencing northings across
+    tiles would subtract coordinates that share no datum. Granules spanning several zones are reported
+    as one grid per tile: a cube per tile, not one cube over the archive. That separates two cases the
+    catalog states alike — granules that share one projection on one lattice, and granules carrying a
+    projection each, which `HLSL30` does across its sampled tiles. The CRS is read from `ProjectedCSTypeGeoKey`, or from
     `ProjectionGeoKey` where that key is 32767 ("user-defined"), which is how HLS writes its older
     granules. For HDF5 and netCDF, the spatial coordinate arrays are read through the
     manifest and their origin, spacing, and length compared between granules — a regular
@@ -383,10 +432,8 @@ function build_report()
     and it separates two cases the grade alone does not. Where the largest variable offends, no cube
     is available over the product's principal array, which is a `D`. Where smaller variables offend
     and the largest does not, a cube over the largest is available and the rest need rewriting, which
-    is a `B`. `MUR-JPL-L4-GLOB-v4.1` is the second case and shows why the early/late sample matters:
-    `analysed_sst` carries one chunk shape across the whole record, while `mask` is chunked
-    1×1447×2895 in 2002 and 1×1023×2047 in 2026. Sampling only recent granules would have graded the
-    collection clean.
+    is a `B`.$(partial_h2_example(df)) A sample drawn from one part of the record can miss that
+    difference entirely, which is what the interior draws and the two ends are for.
 
     **Chunk aligned.** Alignment is positional, so it presupposes a grid for the chunks to be
     positioned on. Two properties are measured — chunk shape identical across granules (H2), and
@@ -435,22 +482,19 @@ function build_report()
     installs a corrected version, in `scripts/vz_shims.py`, through which ICESat-2 `ATL03` reads.
 
     The HDF4 path, which VirtualiZarr delegates to kerchunk, reads some of NASA's HDF-EOS2 holdings and
-    not others: of the eleven HDF4-container collections sampled, four yield arrays on every granule,
-    six raise on every granule in three distinct ways, and one — `MIL2TCST` — returns a store holding no
-    arrays at all on every granule, which is a failure the call's own return value does not report. A
-    parser that reports success and produces no chunk manifest is graded as a failure to read the
-    layout, since nothing downstream can be built from an empty store. `MOD09GA` and `AIRS2RET` fail at
-    `hdf4.py:213`, where `_descend_vg` indexes the parsed `SD` tag's `data` field unconditionally, and
-    that field holds the data-block references. `MOD35_L2` and `MYD04_L2` fail because the backend
-    derives a dimension-name list whose length does not match the array's rank. The two ASDC HDF4
-    products fail decoding a vgroup name as UTF-8. HDF-EOS2 is therefore not uniformly unreadable —
-    readability varies by producer, which is why a grade here is measured per collection rather than
-    inferred from the format field.
+    not others: $(hdf4_note(df)) A parser that reports success and produces no chunk manifest is graded
+    as a failure to read the layout, since nothing downstream can be built from an empty store. So
+    HDF-EOS2 is not uniformly unreadable — readability varies by producer, which is why a grade here is
+    measured per collection rather than inferred from the format field.
 
-    Two refusals are properties of the files themselves. A granule that attaches more than one
-    dimension scale to a single axis is refused because a Zarr array names each axis once, which is
-    what excludes ICESat-2 `ATL11`. A granule that stores a string `_FillValue` on a numeric variable
-    is refused because Zarr's fill value is typed, which is what excludes `VNP09GA`.
+    Where a refusal came from is a separate question from what the file holds, and stage 6 answers it
+    per collection rather than per format: `_descend_vg` indexes a scientific-data descriptor's `data`
+    field unconditionally, and that field is set only for a descriptor the file marks extended, so a
+    contiguous one stops the walk even though the descriptor carries its own offset and length. That is
+    the finding behind every `F*` row. The refusals kept as properties of the files themselves are the
+    ones stage 6 traced to something Zarr cannot express: several dimension scales on one axis, which a
+    Zarr array cannot name once, and a string `_FillValue` on a numeric variable, which a typed Zarr
+    fill value cannot hold.
     """)
 
     println(io, "\n## Sample comparability\n")
@@ -557,6 +601,7 @@ function build_report()
     | `.venv/bin/python scripts/03_probe.py` | yes | opens every sampled granule and records its layout |
     | `julia --project=. scripts/04_score.jl` | no | reduces the measurements to a verdict per criterion and a grade |
     | `julia --project=. scripts/05_report.jl` | no | regenerates this file |
+    | `.venv/bin/python scripts/06_diagnose.py` | yes | re-reads every granule a parser refused and records what the file holds there |
     | `.venv/bin/python scripts/verify_endtoend.py` | yes | builds virtual stores and checks the grades against them |
 
     Stage 3 takes hours: every request pays an Earthdata Login redirect. Stages 2 and 3 accept a list

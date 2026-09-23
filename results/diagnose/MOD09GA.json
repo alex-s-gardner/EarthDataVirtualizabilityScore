@@ -1,0 +1,98 @@
+{
+ "short_name": "MOD09GA",
+ "format": "HDF-EOS2",
+ "diagnoses": [
+  {
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09GA.061/MOD09GA.A2000055.h08v05.061.2020037170220/MOD09GA.A2000055.h08v05.061.2020037170220.hdf",
+   "error_type": "KeyError",
+   "error": "'data'",
+   "n_like_this": 8,
+   "container": "hdf4",
+   "local_bytes": 84466859,
+   "findings": {
+    "tag_census": {
+     "VERSION": 1,
+     "VS": 398,
+     "SD": 44,
+     "VH": 398,
+     "VG": 59,
+     "NT": 44,
+     "SDD": 44,
+     "NDG": 44,
+     "LINKED": 126,
+     "CHUNK": 2207,
+     "COMPRESSED": 2207,
+     "NULL": 1
+    },
+    "scientific_data_tags": {
+     "total": 44,
+     "contiguous": 2,
+     "extended": 42,
+     "extension_types": {
+      "CHUNKED": 42
+     },
+     "decode_errors": {},
+     "sd_decoder_registered": false,
+     "contiguous_sample": [
+      {
+       "ref": 213,
+       "offset": 45773,
+       "length": 4800
+      },
+      {
+       "ref": 214,
+       "offset": 50573,
+       "length": 9600
+      }
+     ],
+     "compressed_elements": {
+      "codecs": {}
+     },
+     "chunked_elements": {
+      "decoded": 42,
+      "failed": {},
+      "total_chunks": 2207,
+      "codecs": {
+       "DEFLATE": 2207
+      },
+      "chunk_sample": [
+       {
+        "index": "0.0",
+        "offset": 903562,
+        "length": 11859
+       },
+       {
+        "index": "0.0",
+        "offset": 919583,
+        "length": 4375
+       },
+       {
+        "index": "0.0",
+        "offset": 928318,
+        "length": 16420
+       }
+      ]
+     }
+    },
+    "refusal_site": {
+     "raised": true,
+     "error_type": "KeyError",
+     "error": "'data'",
+     "indexing": {
+      "tag": "SD",
+      "ref": 213,
+      "extended": false,
+      "offset": 45773,
+      "length": 4800,
+      "keys_present": [
+       "extended",
+       "length",
+       "loc",
+       "offset"
+      ]
+     }
+    }
+   }
+  }
+ ]
+}

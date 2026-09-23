@@ -210,7 +210,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0263157894736843
    },
-   "seconds": 57.7
+   "seconds": 57.5
   },
   {
    "granule_ur": "PACE_OCI.20240306.L3m.DAY.BGC.V3_2.4km.nc",
@@ -399,7 +399,763 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0263157894736843
    },
-   "seconds": 53.5
+   "seconds": 51.6
+  },
+  {
+   "granule_ur": "PACE_OCI.20240907.L3m.DAY.BGC.V3_2.4km.nc",
+   "url": "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/PACE_OCI.20240907.L3m.DAY.BGC.V3_2.4km.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 43051070,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "poc",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 1363,
+     "chunk_bytes_max": 12259,
+     "cf": {
+      "scale_factor": 0.20000000298023224,
+      "add_offset": 6400.0,
+      "_FillValue": -32767,
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      4320
+     ],
+     "chunks": [
+      4320
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 17280,
+     "chunk_bytes_max": 17280,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      8640
+     ],
+     "chunks": [
+      8640
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 34560,
+     "chunk_bytes_max": 34560,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "pic",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 1211,
+     "chunk_bytes_max": 9474,
+     "cf": {
+      "scale_factor": 1.9999999949504854e-06,
+      "add_offset": 0.06499999761581421,
+      "_FillValue": -32767,
+      "units": "mol m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "chlor_a",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 3056,
+     "chunk_bytes_max": 34216,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "carbon_phyto",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 3024,
+     "chunk_bytes_max": 33401,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 42,
+    "n_fetches": 42,
+    "leading_fraction": 0.047619047619047616,
+    "contiguous_runs": 1,
+    "span_fraction": 1.024390243902439
+   },
+   "seconds": 53.8
+  },
+  {
+   "granule_ur": "PACE_OCI.20250312.L3m.DAY.BGC.V3_2.4km.nc",
+   "url": "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/PACE_OCI.20250312.L3m.DAY.BGC.V3_2.4km.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 44853862,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "poc",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 1603,
+     "chunk_bytes_max": 13126,
+     "cf": {
+      "scale_factor": 0.20000000298023224,
+      "add_offset": 6400.0,
+      "_FillValue": -32767,
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      4320
+     ],
+     "chunks": [
+      4320
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 17280,
+     "chunk_bytes_max": 17280,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      8640
+     ],
+     "chunks": [
+      8640
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 34560,
+     "chunk_bytes_max": 34560,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "pic",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 1466,
+     "chunk_bytes_max": 10960,
+     "cf": {
+      "scale_factor": 1.9999999949504854e-06,
+      "add_offset": 0.06499999761581421,
+      "_FillValue": -32767,
+      "units": "mol m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "chlor_a",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 3830,
+     "chunk_bytes_max": 32774,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "carbon_phyto",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 3805,
+     "chunk_bytes_max": 32312,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 43,
+    "n_fetches": 43,
+    "leading_fraction": 0.046511627906976744,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0238095238095237
+   },
+   "seconds": 52.6
+  },
+  {
+   "granule_ur": "PACE_OCI.20250915.L3m.DAY.BGC.V3_2.4km.nc",
+   "url": "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/PACE_OCI.20250915.L3m.DAY.BGC.V3_2.4km.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 44461148,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "poc",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 1469,
+     "chunk_bytes_max": 12391,
+     "cf": {
+      "scale_factor": 0.20000000298023224,
+      "add_offset": 6400.0,
+      "_FillValue": -32767,
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      4320
+     ],
+     "chunks": [
+      4320
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 17280,
+     "chunk_bytes_max": 17280,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      8640
+     ],
+     "chunks": [
+      8640
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 34560,
+     "chunk_bytes_max": 34560,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "pic",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 1315,
+     "chunk_bytes_max": 10497,
+     "cf": {
+      "scale_factor": 1.9999999949504854e-06,
+      "add_offset": 0.06499999761581421,
+      "_FillValue": -32767,
+      "units": "mol m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "chlor_a",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 3426,
+     "chunk_bytes_max": 37174,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "carbon_phyto",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 3421,
+     "chunk_bytes_max": 37037,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 43,
+    "n_fetches": 43,
+    "leading_fraction": 0.046511627906976744,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0238095238095237
+   },
+   "seconds": 56.1
+  },
+  {
+   "granule_ur": "PACE_OCI.20260321.L3m.DAY.BGC.V3_2.4km.nc",
+   "url": "https://obdaac-tea.earthdatacloud.nasa.gov/ob-cumulus-prod-public/PACE_OCI.20260321.L3m.DAY.BGC.V3_2.4km.nc",
+   "orbit": "",
+   "declared_format": "netCDF-4",
+   "file_bytes": 8838612,
+   "dmrpp": false,
+   "container": "hdf5",
+   "vars": [
+    {
+     "name": "poc",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 10476,
+     "cf": {
+      "scale_factor": 0.20000000298023224,
+      "add_offset": 6400.0,
+      "_FillValue": -32767,
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lat",
+     "shape": [
+      4320
+     ],
+     "chunks": [
+      4320
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lat"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 17280,
+     "chunk_bytes_max": 17280,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_north"
+     },
+     "grid": {}
+    },
+    {
+     "name": "lon",
+     "shape": [
+      8640
+     ],
+     "chunks": [
+      8640
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec"
+     ],
+     "dims": [
+      "lon"
+     ],
+     "n_chunks": 1,
+     "chunk_bytes_median": 34560,
+     "chunk_bytes_max": 34560,
+     "cf": {
+      "_FillValue": "AAAAAAA4j8A=",
+      "units": "degrees_east"
+     },
+     "grid": {}
+    },
+    {
+     "name": "pic",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "int16",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 168,
+     "chunk_bytes_max": 9224,
+     "cf": {
+      "scale_factor": 1.9999999949504854e-06,
+      "add_offset": 0.06499999761581421,
+      "_FillValue": -32767,
+      "units": "mol m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "chlor_a",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 314,
+     "chunk_bytes_max": 29546,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    },
+    {
+     "name": "carbon_phyto",
+     "shape": [
+      4320,
+      8640
+     ],
+     "chunks": [
+      16,
+      1024
+     ],
+     "dtype": "float32",
+     "codecs": [
+      "BytesCodec",
+      "Shuffle",
+      "Zlib"
+     ],
+     "dims": [
+      "lat",
+      "lon"
+     ],
+     "n_chunks": 2430,
+     "chunk_bytes_median": 314,
+     "chunk_bytes_max": 28769,
+     "cf": {
+      "_FillValue": "AAAAAMD/38A=",
+      "units": "mg m^-3"
+     },
+     "grid": {}
+    }
+   ],
+   "root_attrs": {},
+   "ok": true,
+   "locality": {
+    "n_blocks": 9,
+    "n_fetches": 9,
+    "leading_fraction": 0.1111111111111111,
+    "contiguous_runs": 1,
+    "span_fraction": 1.125
+   },
+   "seconds": 13.2
   },
   {
    "granule_ur": "PACE_OCI.20260730.L3m.DAY.BGC.V3_2.4km.nc",
@@ -588,7 +1344,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0256410256410255
    },
-   "seconds": 57.3
+   "seconds": 51.4
   },
   {
    "granule_ur": "PACE_OCI.20260731.L3m.DAY.BGC.V3_2.4km.nc",
@@ -791,7 +1547,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.025
    },
-   "seconds": 63.3
+   "seconds": 58.8
   }
  ]
 }

@@ -10,21 +10,21 @@
  ],
  "probes": [
   {
-   "granule_ur": "ATL15_A1_0331_1mo_10km_006_01.nc_Frw3Qjr1",
-   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/ATLAS/ATL15/006/2019/01/01/ATL15_A1_0331_1mo_10km_006_01.nc",
+   "granule_ur": "ATL15_GL_0331_1mo_20km_006_01.nc_Frw3Qjr1",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/ATLAS/ATL15/006/2019/01/01/ATL15_GL_0331_1mo_20km_006_01.nc",
    "orbit": "",
    "declared_format": "netCDF-4",
-   "file_bytes": 100633215,
+   "file_bytes": 16479669,
    "dmrpp": false,
    "container": "hdf5",
    "vars": [
     {
      "name": "tile_stats/x",
      "shape": [
-      66
+      38
      ],
      "chunks": [
-      66
+      38
      ],
      "dtype": "float64",
      "codecs": [
@@ -36,8 +36,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 170,
-     "chunk_bytes_max": 170,
+     "chunk_bytes_median": 108,
+     "chunk_bytes_max": 108,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -49,10 +49,10 @@
     {
      "name": "tile_stats/y",
      "shape": [
-      56
+      68
      ],
      "chunks": [
-      56
+      68
      ],
      "dtype": "float64",
      "codecs": [
@@ -64,8 +64,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 144,
-     "chunk_bytes_max": 144,
+     "chunk_bytes_median": 172,
+     "chunk_bytes_max": 172,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -77,12 +77,12 @@
     {
      "name": "tile_stats/N_data",
      "shape": [
-      56,
-      66
+      68,
+      38
      ],
      "chunks": [
-      56,
-      66
+      68,
+      38
      ],
      "dtype": "int32",
      "codecs": [
@@ -95,8 +95,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 7379,
-     "chunk_bytes_max": 7379,
+     "chunk_bytes_median": 4501,
+     "chunk_bytes_max": 4501,
      "cf": {
       "_FillValue": 2147483647,
       "units": "counts"
@@ -108,12 +108,12 @@
     {
      "name": "tile_stats/RMS_data",
      "shape": [
-      56,
-      66
+      68,
+      38
      ],
      "chunks": [
-      56,
-      66
+      68,
+      38
      ],
      "dtype": "float32",
      "codecs": [
@@ -126,8 +126,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 9728,
-     "chunk_bytes_max": 9728,
+     "chunk_bytes_median": 5709,
+     "chunk_bytes_max": 5709,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters"
@@ -139,12 +139,12 @@
     {
      "name": "tile_stats/RMS_bias",
      "shape": [
-      56,
-      66
+      68,
+      38
      ],
      "chunks": [
-      56,
-      66
+      68,
+      38
      ],
      "dtype": "float32",
      "codecs": [
@@ -157,8 +157,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 9534,
-     "chunk_bytes_max": 9534,
+     "chunk_bytes_median": 5621,
+     "chunk_bytes_max": 5621,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters"
@@ -170,12 +170,12 @@
     {
      "name": "tile_stats/N_bias",
      "shape": [
-      56,
-      66
+      68,
+      38
      ],
      "chunks": [
-      56,
-      66
+      68,
+      38
      ],
      "dtype": "int32",
      "codecs": [
@@ -188,8 +188,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4413,
-     "chunk_bytes_max": 4413,
+     "chunk_bytes_median": 2791,
+     "chunk_bytes_max": 2791,
      "cf": {
       "_FillValue": 2147483647,
       "units": "counts"
@@ -201,12 +201,12 @@
     {
      "name": "tile_stats/RMS_d2z0dx2",
      "shape": [
-      56,
-      66
+      68,
+      38
      ],
      "chunks": [
-      56,
-      66
+      68,
+      38
      ],
      "dtype": "float32",
      "codecs": [
@@ -219,8 +219,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 10025,
-     "chunk_bytes_max": 10025,
+     "chunk_bytes_median": 5953,
+     "chunk_bytes_max": 5953,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^-1"
@@ -232,12 +232,12 @@
     {
      "name": "tile_stats/RMS_d2zdt2",
      "shape": [
-      56,
-      66
+      68,
+      38
      ],
      "chunks": [
-      56,
-      66
+      68,
+      38
      ],
      "dtype": "float32",
      "codecs": [
@@ -250,8 +250,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 9738,
-     "chunk_bytes_max": 9738,
+     "chunk_bytes_median": 5662,
+     "chunk_bytes_max": 5662,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^2"
@@ -263,12 +263,12 @@
     {
      "name": "tile_stats/RMS_d2zdx2dt",
      "shape": [
-      56,
-      66
+      68,
+      38
      ],
      "chunks": [
-      56,
-      66
+      68,
+      38
      ],
      "dtype": "float32",
      "codecs": [
@@ -281,8 +281,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 9675,
-     "chunk_bytes_max": 9675,
+     "chunk_bytes_median": 5752,
+     "chunk_bytes_max": 5752,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^-1 years^-1"
@@ -294,12 +294,12 @@
     {
      "name": "tile_stats/sigma_xx0",
      "shape": [
-      56,
-      66
+      68,
+      38
      ],
      "chunks": [
-      56,
-      66
+      68,
+      38
      ],
      "dtype": "float32",
      "codecs": [
@@ -312,8 +312,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 592,
-     "chunk_bytes_max": 592,
+     "chunk_bytes_median": 643,
+     "chunk_bytes_max": 643,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^-1"
@@ -325,12 +325,12 @@
     {
      "name": "tile_stats/sigma_tt",
      "shape": [
-      56,
-      66
+      68,
+      38
      ],
      "chunks": [
-      56,
-      66
+      68,
+      38
      ],
      "dtype": "float32",
      "codecs": [
@@ -343,8 +343,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 590,
-     "chunk_bytes_max": 590,
+     "chunk_bytes_median": 641,
+     "chunk_bytes_max": 641,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-2"
@@ -356,12 +356,12 @@
     {
      "name": "tile_stats/sigma_xxt",
      "shape": [
-      56,
-      66
+      68,
+      38
      ],
      "chunks": [
-      56,
-      66
+      68,
+      38
      ],
      "dtype": "float32",
      "codecs": [
@@ -374,8 +374,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 593,
-     "chunk_bytes_max": 593,
+     "chunk_bytes_median": 643,
+     "chunk_bytes_max": 643,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^-1 years^-1"
@@ -398,13 +398,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "0.0 40000.0 0.0 0.0 0.0 40000.0",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "-640000.0 40000.0 0.0 -3320000.0 0.0 40000.0",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -425,13 +425,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -467,10 +467,10 @@
     {
      "name": "delta_h/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -482,8 +482,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -495,10 +495,10 @@
     {
      "name": "delta_h/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -510,8 +510,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -524,13 +524,13 @@
      "name": "delta_h/ice_area",
      "shape": [
       88,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      44,
-      112,
-      132
+      88,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -543,9 +543,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 75836,
-     "chunk_bytes_max": 102987,
+     "n_chunks": 1,
+     "chunk_bytes_median": 77597,
+     "chunk_bytes_max": 77597,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -558,13 +558,13 @@
      "name": "delta_h/delta_h",
      "shape": [
       88,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      44,
-      112,
-      132
+      88,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -577,9 +577,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 963467,
-     "chunk_bytes_max": 996861,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1185538,
+     "chunk_bytes_max": 1185538,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters"
@@ -592,13 +592,13 @@
      "name": "delta_h/delta_h_sigma",
      "shape": [
       88,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      44,
-      112,
-      132
+      88,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -611,9 +611,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 566977,
-     "chunk_bytes_max": 628436,
+     "n_chunks": 1,
+     "chunk_bytes_median": 834674,
+     "chunk_bytes_max": 834674,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters"
@@ -636,13 +636,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -678,10 +678,10 @@
     {
      "name": "dhdt_001mo/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -693,8 +693,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -706,10 +706,10 @@
     {
      "name": "dhdt_001mo/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -721,8 +721,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -735,13 +735,13 @@
      "name": "dhdt_001mo/ice_area",
      "shape": [
       87,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      44,
-      112,
-      132
+      87,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -754,9 +754,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 76800,
-     "chunk_bytes_max": 101644,
+     "n_chunks": 1,
+     "chunk_bytes_median": 82828,
+     "chunk_bytes_max": 82828,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -769,13 +769,13 @@
      "name": "dhdt_001mo/dhdt",
      "shape": [
       87,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      44,
-      112,
-      132
+      87,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -788,9 +788,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 1097997,
-     "chunk_bytes_max": 1289758,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1304196,
+     "chunk_bytes_max": 1304196,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -803,13 +803,13 @@
      "name": "dhdt_001mo/dhdt_sigma",
      "shape": [
       87,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      44,
-      112,
-      132
+      87,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -822,9 +822,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 814186,
-     "chunk_bytes_max": 949704,
+     "n_chunks": 1,
+     "chunk_bytes_median": 996763,
+     "chunk_bytes_max": 996763,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -847,13 +847,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -889,10 +889,10 @@
     {
      "name": "dhdt_003mo/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -904,8 +904,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -917,10 +917,10 @@
     {
      "name": "dhdt_003mo/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -932,8 +932,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -946,13 +946,13 @@
      "name": "dhdt_003mo/ice_area",
      "shape": [
       85,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      43,
-      112,
-      132
+      85,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -965,9 +965,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 75717,
-     "chunk_bytes_max": 125093,
+     "n_chunks": 1,
+     "chunk_bytes_median": 80940,
+     "chunk_bytes_max": 80940,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -980,13 +980,13 @@
      "name": "dhdt_003mo/dhdt",
      "shape": [
       85,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      43,
-      112,
-      132
+      85,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -999,9 +999,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 979161,
-     "chunk_bytes_max": 1134001,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1209375,
+     "chunk_bytes_max": 1209375,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -1014,13 +1014,13 @@
      "name": "dhdt_003mo/dhdt_sigma",
      "shape": [
       85,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      43,
-      112,
-      132
+      85,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1033,9 +1033,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 704788,
-     "chunk_bytes_max": 796220,
+     "n_chunks": 1,
+     "chunk_bytes_median": 932878,
+     "chunk_bytes_max": 932878,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -1058,13 +1058,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -1100,10 +1100,10 @@
     {
      "name": "dhdt_006mo/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -1115,8 +1115,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -1128,10 +1128,10 @@
     {
      "name": "dhdt_006mo/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -1143,8 +1143,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -1157,13 +1157,13 @@
      "name": "dhdt_006mo/ice_area",
      "shape": [
       82,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      41,
-      112,
-      132
+      82,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1176,9 +1176,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 73546,
-     "chunk_bytes_max": 99672,
+     "n_chunks": 1,
+     "chunk_bytes_median": 74922,
+     "chunk_bytes_max": 74922,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -1191,13 +1191,13 @@
      "name": "dhdt_006mo/dhdt",
      "shape": [
       82,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      41,
-      112,
-      132
+      82,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1210,9 +1210,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 934743,
-     "chunk_bytes_max": 1014552,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1129649,
+     "chunk_bytes_max": 1129649,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -1225,13 +1225,13 @@
      "name": "dhdt_006mo/dhdt_sigma",
      "shape": [
       82,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      41,
-      112,
-      132
+      82,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1244,9 +1244,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 647841,
-     "chunk_bytes_max": 710314,
+     "n_chunks": 1,
+     "chunk_bytes_median": 857968,
+     "chunk_bytes_max": 857968,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -1269,13 +1269,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -1311,10 +1311,10 @@
     {
      "name": "dhdt_012mo/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -1326,8 +1326,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -1339,10 +1339,10 @@
     {
      "name": "dhdt_012mo/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -1354,8 +1354,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -1368,13 +1368,13 @@
      "name": "dhdt_012mo/ice_area",
      "shape": [
       76,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      38,
-      112,
-      132
+      76,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1387,9 +1387,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 70128,
-     "chunk_bytes_max": 95932,
+     "n_chunks": 1,
+     "chunk_bytes_median": 76301,
+     "chunk_bytes_max": 76301,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -1402,13 +1402,13 @@
      "name": "dhdt_012mo/dhdt",
      "shape": [
       76,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      38,
-      112,
-      132
+      76,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1421,9 +1421,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 820979,
-     "chunk_bytes_max": 870769,
+     "n_chunks": 1,
+     "chunk_bytes_median": 1006931,
+     "chunk_bytes_max": 1006931,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -1436,13 +1436,13 @@
      "name": "dhdt_012mo/dhdt_sigma",
      "shape": [
       76,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
-      38,
-      112,
-      132
+      76,
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1455,9 +1455,9 @@
       "y",
       "x"
      ],
-     "n_chunks": 8,
-     "chunk_bytes_median": 514309,
-     "chunk_bytes_max": 569854,
+     "n_chunks": 1,
+     "chunk_bytes_median": 730232,
+     "chunk_bytes_max": 730232,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -1480,13 +1480,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -1522,10 +1522,10 @@
     {
      "name": "dhdt_024mo/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -1537,8 +1537,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -1550,10 +1550,10 @@
     {
      "name": "dhdt_024mo/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -1565,8 +1565,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -1579,13 +1579,13 @@
      "name": "dhdt_024mo/ice_area",
      "shape": [
       64,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       64,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1599,8 +1599,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 5130927,
-     "chunk_bytes_max": 5130927,
+     "chunk_bytes_median": 67934,
+     "chunk_bytes_max": 67934,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -1613,13 +1613,13 @@
      "name": "dhdt_024mo/dhdt",
      "shape": [
       64,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       64,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1633,8 +1633,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4641246,
-     "chunk_bytes_max": 4641246,
+     "chunk_bytes_median": 825151,
+     "chunk_bytes_max": 825151,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -1647,13 +1647,13 @@
      "name": "dhdt_024mo/dhdt_sigma",
      "shape": [
       64,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       64,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1667,8 +1667,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 2783818,
-     "chunk_bytes_max": 2783818,
+     "chunk_bytes_median": 563615,
+     "chunk_bytes_max": 563615,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -1691,13 +1691,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -1733,10 +1733,10 @@
     {
      "name": "dhdt_036mo/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -1748,8 +1748,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -1761,10 +1761,10 @@
     {
      "name": "dhdt_036mo/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -1776,8 +1776,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -1790,13 +1790,13 @@
      "name": "dhdt_036mo/ice_area",
      "shape": [
       52,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       52,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1810,8 +1810,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 4144220,
-     "chunk_bytes_max": 4144220,
+     "chunk_bytes_median": 55857,
+     "chunk_bytes_max": 55857,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -1824,13 +1824,13 @@
      "name": "dhdt_036mo/dhdt",
      "shape": [
       52,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       52,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1844,8 +1844,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3629498,
-     "chunk_bytes_max": 3629498,
+     "chunk_bytes_median": 661391,
+     "chunk_bytes_max": 661391,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -1858,13 +1858,13 @@
      "name": "dhdt_036mo/dhdt_sigma",
      "shape": [
       52,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       52,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -1878,8 +1878,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1999680,
-     "chunk_bytes_max": 1999680,
+     "chunk_bytes_median": 435174,
+     "chunk_bytes_max": 435174,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -1902,13 +1902,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -1944,10 +1944,10 @@
     {
      "name": "dhdt_048mo/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -1959,8 +1959,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -1972,10 +1972,10 @@
     {
      "name": "dhdt_048mo/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -1987,8 +1987,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -2001,13 +2001,13 @@
      "name": "dhdt_048mo/ice_area",
      "shape": [
       40,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       40,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2021,8 +2021,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 3157162,
-     "chunk_bytes_max": 3157162,
+     "chunk_bytes_median": 47956,
+     "chunk_bytes_max": 47956,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -2035,13 +2035,13 @@
      "name": "dhdt_048mo/dhdt",
      "shape": [
       40,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       40,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2055,8 +2055,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 2695581,
-     "chunk_bytes_max": 2695581,
+     "chunk_bytes_median": 503387,
+     "chunk_bytes_max": 503387,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -2069,13 +2069,13 @@
      "name": "dhdt_048mo/dhdt_sigma",
      "shape": [
       40,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       40,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2089,8 +2089,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1387438,
-     "chunk_bytes_max": 1387438,
+     "chunk_bytes_median": 318295,
+     "chunk_bytes_max": 318295,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -2113,13 +2113,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -2155,10 +2155,10 @@
     {
      "name": "dhdt_060mo/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -2170,8 +2170,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -2183,10 +2183,10 @@
     {
      "name": "dhdt_060mo/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -2198,8 +2198,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -2212,13 +2212,13 @@
      "name": "dhdt_060mo/ice_area",
      "shape": [
       28,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       28,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2232,8 +2232,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 2170607,
-     "chunk_bytes_max": 2170607,
+     "chunk_bytes_median": 37084,
+     "chunk_bytes_max": 37084,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -2246,13 +2246,13 @@
      "name": "dhdt_060mo/dhdt",
      "shape": [
       28,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       28,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2266,8 +2266,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1818300,
-     "chunk_bytes_max": 1818300,
+     "chunk_bytes_median": 351263,
+     "chunk_bytes_max": 351263,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -2280,13 +2280,13 @@
      "name": "dhdt_060mo/dhdt_sigma",
      "shape": [
       28,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       28,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2300,8 +2300,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 893282,
-     "chunk_bytes_max": 893282,
+     "chunk_bytes_median": 215005,
+     "chunk_bytes_max": 215005,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -2324,13 +2324,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -2366,10 +2366,10 @@
     {
      "name": "dhdt_072mo/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -2381,8 +2381,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -2394,10 +2394,10 @@
     {
      "name": "dhdt_072mo/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -2409,8 +2409,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -2423,13 +2423,13 @@
      "name": "dhdt_072mo/ice_area",
      "shape": [
       16,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       16,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2443,8 +2443,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 1183645,
-     "chunk_bytes_max": 1183645,
+     "chunk_bytes_median": 26861,
+     "chunk_bytes_max": 26861,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -2457,13 +2457,13 @@
      "name": "dhdt_072mo/dhdt",
      "shape": [
       16,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       16,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2477,8 +2477,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 976528,
-     "chunk_bytes_max": 976528,
+     "chunk_bytes_median": 201868,
+     "chunk_bytes_max": 201868,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -2491,13 +2491,13 @@
      "name": "dhdt_072mo/dhdt_sigma",
      "shape": [
       16,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       16,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2511,8 +2511,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 471298,
-     "chunk_bytes_max": 471298,
+     "chunk_bytes_median": 121389,
+     "chunk_bytes_max": 121389,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -2535,13 +2535,13 @@
      "chunk_bytes_max": 4643954612757622152,
      "cf": {},
      "grid": {
-      "crs_wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "spatial_ref": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"3031\"]]",
-      "GeoTransform": "[5000.0, 10000.0, 0.0, 5000.0, 0.0, 10000.0]",
+      "crs_wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "spatial_ref": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"X\",EAST],AXIS[\"Y\",NORTH],AUTHORITY[\"EPSG\",\"3413\"]]",
+      "GeoTransform": "[-650000.0, 20000.0, 0.0, -3330000.0, 0.0, 20000.0]",
       "grid_mapping_name": "polar_stereographic",
-      "latitude_of_projection_origin": -90.0,
-      "straight_vertical_longitude_from_pole": 0.0,
-      "standard_parallel": -71.0,
+      "latitude_of_projection_origin": 90.0,
+      "straight_vertical_longitude_from_pole": -45.0,
+      "standard_parallel": 70.0,
       "false_easting": 0.0,
       "false_northing": 0.0,
       "semi_major_axis": 6378.137,
@@ -2577,10 +2577,10 @@
     {
      "name": "dhdt_084mo/x",
      "shape": [
-      263
+      76
      ],
      "chunks": [
-      263
+      76
      ],
      "dtype": "float64",
      "codecs": [
@@ -2592,8 +2592,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 520,
-     "chunk_bytes_max": 520,
+     "chunk_bytes_median": 206,
+     "chunk_bytes_max": 206,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -2605,10 +2605,10 @@
     {
      "name": "dhdt_084mo/y",
      "shape": [
-      223
+      136
      ],
      "chunks": [
-      223
+      136
      ],
      "dtype": "float64",
      "codecs": [
@@ -2620,8 +2620,8 @@
       "y"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 444,
-     "chunk_bytes_max": 444,
+     "chunk_bytes_median": 288,
+     "chunk_bytes_max": 288,
      "cf": {
       "_FillValue": "////////738=",
       "units": "meters"
@@ -2634,13 +2634,13 @@
      "name": "dhdt_084mo/ice_area",
      "shape": [
       4,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       4,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2654,8 +2654,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 332650,
-     "chunk_bytes_max": 332650,
+     "chunk_bytes_median": 18331,
+     "chunk_bytes_max": 18331,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters^2"
@@ -2668,13 +2668,13 @@
      "name": "dhdt_084mo/dhdt",
      "shape": [
       4,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       4,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2688,8 +2688,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 273174,
-     "chunk_bytes_max": 273174,
+     "chunk_bytes_median": 51718,
+     "chunk_bytes_max": 51718,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -2702,13 +2702,13 @@
      "name": "dhdt_084mo/dhdt_sigma",
      "shape": [
       4,
-      223,
-      263
+      136,
+      76
      ],
      "chunks": [
       4,
-      223,
-      263
+      136,
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2722,8 +2722,8 @@
       "x"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 134556,
-     "chunk_bytes_max": 134556,
+     "chunk_bytes_median": 32704,
+     "chunk_bytes_max": 32704,
      "cf": {
       "_FillValue": "AAAA4P//70c=",
       "units": "meters years^-1"
@@ -2740,7 +2740,7 @@
      "chunks": [
       1
      ],
-     "dtype": "|S10074",
+     "dtype": "|S11085",
      "codecs": [
       "BytesCodec"
      ],
@@ -2748,8 +2748,8 @@
       "phony_dim_0"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 10074,
-     "chunk_bytes_max": 10074,
+     "chunk_bytes_median": 11085,
+     "chunk_bytes_max": 11085,
      "cf": {},
      "grid": {}
     },
@@ -2777,10 +2777,10 @@
     {
      "name": "orbit_info/bounding_polygon_dim1",
      "shape": [
-      23
+      76
      ],
      "chunks": [
-      23
+      76
      ],
      "dtype": "int32",
      "codecs": [
@@ -2790,8 +2790,8 @@
       "bounding_polygon_dim1"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 92,
-     "chunk_bytes_max": 92,
+     "chunk_bytes_median": 304,
+     "chunk_bytes_max": 304,
      "cf": {
       "units": "1"
      },
@@ -2800,10 +2800,10 @@
     {
      "name": "orbit_info/bounding_polygon_lat1",
      "shape": [
-      23
+      76
      ],
      "chunks": [
-      23
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2813,8 +2813,8 @@
       "bounding_polygon_dim1"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 92,
-     "chunk_bytes_max": 92,
+     "chunk_bytes_median": 304,
+     "chunk_bytes_max": 304,
      "cf": {
       "units": "degrees_north"
      },
@@ -2823,10 +2823,10 @@
     {
      "name": "orbit_info/bounding_polygon_lon1",
      "shape": [
-      23
+      76
      ],
      "chunks": [
-      23
+      76
      ],
      "dtype": "float32",
      "codecs": [
@@ -2836,8 +2836,8 @@
       "bounding_polygon_dim1"
      ],
      "n_chunks": 1,
-     "chunk_bytes_median": 92,
-     "chunk_bytes_max": 92,
+     "chunk_bytes_median": 304,
+     "chunk_bytes_max": 304,
      "cf": {
       "units": "degrees_east"
      },
@@ -2893,16 +2893,16 @@
    "root_attrs": {},
    "coords": {
     "tile_stats/x": {
-     "n": 66,
-     "first": 0.0,
+     "n": 38,
+     "first": -640000.0,
      "step": 40000.0,
-     "last": 2600000.0
+     "last": 840000.0
     },
     "tile_stats/y": {
-     "n": 56,
-     "first": 0.0,
+     "n": 68,
+     "first": -3320000.0,
      "step": 40000.0,
-     "last": 2200000.0
+     "last": -640000.0
     },
     "delta_h/time": {
      "n": 88,
@@ -2911,16 +2911,16 @@
      "last": 3013.3125
     },
     "delta_h/x": {
-     "n": 263,
-     "first": 5000.0,
-     "step": 10000.0,
-     "last": 2625000.0
+     "n": 76,
+     "first": -650000.0,
+     "step": 20000.0,
+     "last": 850000.0
     },
     "delta_h/y": {
-     "n": 223,
-     "first": 5000.0,
-     "step": 10000.0,
-     "last": 2225000.0
+     "n": 136,
+     "first": -3330000.0,
+     "step": 20000.0,
+     "last": -630000.0
     },
     "dhdt_001mo/time": {
      "n": 87,
@@ -2931,13 +2931,13 @@
    },
    "ok": true,
    "locality": {
-    "n_blocks": 29,
-    "n_fetches": 29,
-    "leading_fraction": 0.034482758620689655,
-    "contiguous_runs": 21,
-    "span_fraction": 1.0105263157894737
+    "n_blocks": 16,
+    "n_fetches": 16,
+    "leading_fraction": 0.0625,
+    "contiguous_runs": 1,
+    "span_fraction": 1.0666666666666667
    },
-   "seconds": 70.8
+   "seconds": 48.7
   }
  ]
 }

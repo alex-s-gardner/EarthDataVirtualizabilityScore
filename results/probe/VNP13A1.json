@@ -1,0 +1,181 @@
+{
+ "version": "002",
+ "level": "L3",
+ "sensor": "Suomi-NPP/VIIRS",
+ "format": "HDF-EOS5",
+ "daac": "LP DAAC",
+ "short_name": "VNP13A1",
+ "shims": [
+  "hdf5-string-array-attrs"
+ ],
+ "probes": [
+  {
+   "granule_ur": "VNP13A1.A2012017.h08v05.002.2023201191932",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP13A1.002/VNP13A1.A2012017.h08v05.002.2023201191932/VNP13A1.A2012017.h08v05.002.2023201191932.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 91076021,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype int16, got list",
+   "traceback_tail": ">/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype int16, got list\n",
+   "locality": {
+    "n_blocks": 68,
+    "n_fetches": 68,
+    "leading_fraction": 0.058823529411764705,
+    "contiguous_runs": 20,
+    "span_fraction": 1.0116279069767442
+   },
+   "seconds": 115.6
+  },
+  {
+   "granule_ur": "VNP13A1.A2012025.h08v05.002.2023136125117",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP13A1.002/VNP13A1.A2012025.h08v05.002.2023136125117/VNP13A1.A2012025.h08v05.002.2023136125117.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 91384390,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype int16, got list",
+   "traceback_tail": ">/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype int16, got list\n",
+   "locality": {
+    "n_blocks": 61,
+    "n_fetches": 61,
+    "leading_fraction": 0.04918032786885246,
+    "contiguous_runs": 28,
+    "span_fraction": 1.0114942528735633
+   },
+   "seconds": 99.6
+  },
+  {
+   "granule_ur": "VNP13A1.A2014345.h08v05.002.2024063011623",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP13A1.002/VNP13A1.A2014345.h08v05.002.2024063011623/VNP13A1.A2014345.h08v05.002.2024063011623.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 90150881,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype int16, got list",
+   "traceback_tail": ">/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype int16, got list\n",
+   "locality": {
+    "n_blocks": 62,
+    "n_fetches": 62,
+    "leading_fraction": 0.04838709677419355,
+    "contiguous_runs": 25,
+    "span_fraction": 1.011764705882353
+   },
+   "seconds": 95.6
+  },
+  {
+   "granule_ur": "VNP13A1.A2017321.h08v05.002.2024072093734",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP13A1.002/VNP13A1.A2017321.h08v05.002.2024072093734/VNP13A1.A2017321.h08v05.002.2024072093734.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 94522550,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype int16, got list",
+   "traceback_tail": ">/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype int16, got list\n",
+   "locality": {
+    "n_blocks": 61,
+    "n_fetches": 61,
+    "leading_fraction": 0.04918032786885246,
+    "contiguous_runs": 31,
+    "span_fraction": 1.011111111111111
+   },
+   "seconds": 89.4
+  },
+  {
+   "granule_ur": "VNP13A1.A2020297.h08v05.002.2023057225734",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP13A1.002/VNP13A1.A2020297.h08v05.002.2023057225734/VNP13A1.A2020297.h08v05.002.2023057225734.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 94199782,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype int16, got list",
+   "traceback_tail": ">/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype int16, got list\n",
+   "locality": {
+    "n_blocks": 62,
+    "n_fetches": 62,
+    "leading_fraction": 0.04838709677419355,
+    "contiguous_runs": 29,
+    "span_fraction": 1.0112359550561798
+   },
+   "seconds": 108.5
+  },
+  {
+   "granule_ur": "VNP13A1.A2023281.h08v05.002.2023298124532",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP13A1.002/VNP13A1.A2023281.h08v05.002.2023298124532/VNP13A1.A2023281.h08v05.002.2023298124532.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 94866460,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype int16, got list",
+   "traceback_tail": ">/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype int16, got list\n",
+   "locality": {
+    "n_blocks": 59,
+    "n_fetches": 59,
+    "leading_fraction": 0.05084745762711865,
+    "contiguous_runs": 33,
+    "span_fraction": 1.011111111111111
+   },
+   "seconds": 103.9
+  },
+  {
+   "granule_ur": "VNP13A1.A2026241.h08v05.002.2026258004322",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP13A1.002/VNP13A1.A2026241.h08v05.002.2026258004322/VNP13A1.A2026241.h08v05.002.2026258004322.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 95215382,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype int16, got list",
+   "traceback_tail": ">/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype int16, got list\n",
+   "locality": {
+    "n_blocks": 60,
+    "n_fetches": 60,
+    "leading_fraction": 0.05,
+    "contiguous_runs": 32,
+    "span_fraction": 1.011111111111111
+   },
+   "seconds": 91.2
+  },
+  {
+   "granule_ur": "VNP13A1.A2026249.h08v05.002.2026265090406",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP13A1.002/VNP13A1.A2026249.h08v05.002.2026265090406/VNP13A1.A2026249.h08v05.002.2026265090406.h5",
+   "orbit": "",
+   "declared_format": "HDF-EOS5",
+   "file_bytes": 95592216,
+   "dmrpp": true,
+   "container": "hdf5",
+   "ok": false,
+   "error_type": "TypeError",
+   "error": "Failed to encode fill_value: expected int or float for dtype int16, got list",
+   "traceback_tail": ">/lib/python3.14/site-packages/xarray/backends/zarr.py\", line 140, in encode\n    raise TypeError(\n        f\"Failed to encode fill_value: expected int or float for dtype {dtype}, got {type(value).__name__}\"\n    )\nTypeError: Failed to encode fill_value: expected int or float for dtype int16, got list\n",
+   "locality": {
+    "n_blocks": 67,
+    "n_fetches": 69,
+    "leading_fraction": 0.04477611940298507,
+    "contiguous_runs": 26,
+    "span_fraction": 1.010989010989011
+   },
+   "seconds": 134.5
+  }
+ ]
+}

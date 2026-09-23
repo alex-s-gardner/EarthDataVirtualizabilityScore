@@ -1,0 +1,27 @@
+{
+ "short_name": "SRTMGL1",
+ "format": "HGT",
+ "diagnoses": [
+  {
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/SRTMGL1.003/N00E013.SRTMGL1.hgt/N00E013.SRTMGL1.hgt.zip",
+   "error_type": "ValueError",
+   "error": "no VirtualiZarr parser reads HGT",
+   "n_like_this": 1,
+   "container": "zip",
+   "local_bytes": 10144863,
+   "findings": {
+    "members": [
+     {
+      "name": "N00E013.hgt",
+      "compress_type": 8,
+      "stored": false,
+      "compress_size": 10144743,
+      "file_size": 25934402,
+      "header_offset": 0
+     }
+    ],
+    "all_stored": false
+   }
+  }
+ ]
+}
