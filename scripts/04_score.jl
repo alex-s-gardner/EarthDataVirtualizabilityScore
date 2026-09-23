@@ -9,6 +9,7 @@ using JSON3, CSV, DataFrames, Statistics
 
 include(joinpath(@__DIR__, "..", "src", "naming.jl"))
 include(joinpath(@__DIR__, "..", "src", "partitions.jl"))
+include(joinpath(@__DIR__, "..", "src", "structure.jl"))
 include(joinpath(@__DIR__, "..", "src", "criteria.jl"))
 
 const RESULTS = joinpath(@__DIR__, "..", "results")
@@ -122,6 +123,13 @@ function score_all()
         haskey(byname, sn) || error("probe artifact $f has no inventory row for \"$sn\"")
         cat = byname[sn]
         a = assess(rec)
+        # A grade of F or U reports that nothing was read, which leaves open whether the collection
+        # has a cube at all. That question is answered from the catalog record, and it is answered for
+        # every such collection or not at all.
+        a.grade in ("F", "U") && !haskey(CUBE_AXES, sn) &&
+            error("$sn graded $(a.grade) with no CUBE_AXES entry: add one in src/structure.jl " *
+                  "stating what a cube over its record would be indexed by, or the report cannot " *
+                  "say whether the grade is a container choice or an absence of structure")
         shape, chunkmb = headline_chunk(a)
         dmrpp = any(get(p, :dmrpp, false) for p in rec.probes)
 
@@ -158,6 +166,8 @@ function score_all()
             sample_differs = sample_consistency(rec),
             pinned_to = (p = partition_for(sn); isnothing(p) ? "" : p.pins),
             difference_kept_because = get(DIFFERENCES_KEPT, sn, ""),
+            cube_axes = get(CUBE_AXES, sn, ""),
+            record_span = "$(cat.time_begin) to $(coalesce(cat.time_end, "present"))",
             orbit_dirs = join(sort(unique(filter(!isempty,
                                                  [String(get(p, :orbit, "")) for p in rec.probes]))), "/"),
             n_probed = length(opened(rec.probes)),

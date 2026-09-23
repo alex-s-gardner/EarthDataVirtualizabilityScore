@@ -46,6 +46,8 @@ const PARTITIONS = Dict(
     "MOD13Q1" => Partition("*h08v05*", "sinusoidal tile h08v05"),
     "MCD43A3" => Partition("*h08v05*", "sinusoidal tile h08v05"),
     "VNP09GA" => Partition("*h08v05*", "sinusoidal tile h08v05"),
+    "MCD12Q1" => Partition("*h08v05*", "sinusoidal tile h08v05"),
+    "VNP13A1" => Partition("*h08v05*", "sinusoidal tile h08v05"),
 
     # MGRS-tiled optical products: one tile is one grid, so one tile is one cube.
     "HLSL30" => Partition("HLS.L30.T59WNT.*", "MGRS tile T59WNT"),
@@ -55,6 +57,8 @@ const PARTITIONS = Dict(
 
     # A Sentinel-1 burst is the unit that repeats; track and subswath alone still move the footprint.
     "OPERA_L2_RTC-S1_V1" => Partition("*T063-133239-IW1*", "track 063, burst 133239, subswath IW1"),
+    "OPERA_L2_CSLC-S1_V1" =>
+        Partition("*T151-322284-IW1*", "track 151, burst 322284, subswath IW1"),
 
     # Ocean-color L3: the collection holds several grid resolutions and several composite periods.
     "MODISA_L3m_CHL" => Partition("*.L3m.DAY.CHL.chlor_a.4km*", "daily composite at 4 km"),
@@ -91,7 +95,11 @@ const PARTITIONS = Dict(
     "TEMPO_NO2_L2" => Partition("*G01.nc", "mirror step G01 of each scan"),
 
     # One cumulative file per region, period, and resolution: no time series exists within one.
-    "ATL15" => Partition("ATL15_A1_*_1mo_10km_*", "region A1, monthly, 10 km"),
+    "ATL15" => Partition("ATL15_GL_*_1mo_20km_*", "Greenland, monthly, 20 km"),
+    "ATL14" => Partition("ATL14_GL_*100m*", "Greenland, 100 m"),
+
+    # Each hemisphere is its own polar stereographic grid, at one of two grid spacings.
+    "NSIDC-0051" => Partition("*_PS_N25km_*", "the northern hemisphere at 25 km"),
 
     # One file per 1° tile of a single-epoch DEM.
     "SRTMGL1" => Partition("N00E013*", "the 1° tile at 0°N 13°E"),
@@ -147,6 +155,18 @@ const DIFFERENCES_KEPT = Dict(
     "OPERA_L3_DSWX-HLS_V1" =>
         "the product fuses Sentinel-2 and Landsat, so the platform changes within one cube by " *
         "construction",
+    "TEMPO_HCHO_L3" => "the scan number is the time step; every scan is the same CONUS grid",
+    "GEDI_L4A_AGB_Density_V3_2508" =>
+        "the orbit and track numbers index position along the record, not a partition",
+    "SPL4CMDL" =>
+        "the three processing versions are all part of the record, and whether a cube spans a " *
+        "version change is the question rather than a nuisance to remove",
+    "AU_SI12" =>
+        "the collection unifies AMSR-E and AMSR2 on one 12.5 km grid, so the instrument changes " *
+        "within one cube by construction",
+    "AST_L1T" =>
+        "ASTER writes one file per subsystem and not every scene carries both, and the scenes are " *
+        "different places rather than slices of one array, so no narrowing makes them one cube",
 )
 
 # A NISAR granule name ends in flags for acquisition mode and for whether the frame was fully or

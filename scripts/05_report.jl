@@ -266,20 +266,57 @@ function build_report()
     changing a byte of what it already distributes.
     """)
 
+    println(io, "\n## The rows nothing could be read from\n")
+    unread = filter(r -> r.grade in ("F", "U"), df)
+    println(io, """
+    No collection graded `F` or `U` lacks a cube. Each is a series of time-stamped arrays in its own
+    catalog record, and the grade says only that no chunk manifest can be written over the bytes as
+    they are distributed. The axes below come from each collection's CMR record — level, title,
+    granule cadence, temporal extent — rather than from a measurement, because what the grade reports
+    is that nothing could be read. Every collection graded `F` or `U` carries one, and stage 4 fails
+    if a new one arrives without it.
+    """)
+    println(io, md_table(unread, [:grade_shown, :short_name, :format, :cube_axes, :record_span];
+                         headers = ["Grade", "Product", "Format", "Cube its record describes",
+                                    "Record"]))
+    println(io, """
+
+    Seven are HDF4-generation containers — `HDF-EOS`, `HDF-EOS2`, `HDF4` — holding ordinary gridded or
+    swath arrays: six raise inside the HDF4 backend and `MIL2TCST` returns a store with no arrays at
+    all, so in every case what fails is reading the container rather than anything about the data in
+    it. Two are HDF5-family files that one attribute would settle: `VNP09GA` stores a string
+    `_FillValue` on a numeric variable where Zarr's fill value is typed, and `ATL11` attaches several
+    dimension scales to one axis where a Zarr array names each axis once. `SRTMGL1` is a global
+    1 arc-second elevation grid distributed as `.hgt.zip`, and a DEFLATE stream over a whole file
+    offers no chunk boundary for a range request to land on. `GRACEFO_L2_JPL_MONTHLY_0063` is ASCII,
+    which carries no byte offsets to index. The two `U` rows refused nothing: they exhausted the
+    probe's wall-clock budget.
+
+    So these collections stay in the ranking. Their grade is set entirely by a container chosen at
+    write time, which makes them the cheapest rows in the table to move: the same arrays in netCDF-4,
+    Zarr, or COG are readable by a manifest as they stand. A rewrite still has to meet H2 and H3 — one
+    chunk shape per variable, and a granule length that divides by it — and for the swath products
+    here that is an open question rather than a formality, since it is what most of the `D` rows fail
+    on.
+    """)
+
     println(io, "\n## How each column was measured\n")
     println(io, """
     **Sampling.** $(sampling_note(df)) Granules are chosen adversarially rather than at random: the
-    two earliest in the record and the two latest, which is what exposes a producer changing chunk
-    shape or CF attributes mid-mission. $(orbit_note(df))
+    two earliest in the record, the two latest, and four spread evenly through the interior. The ends
+    expose a producer changing chunk shape or CF attributes mid-mission; the interior draws expose a
+    change that was made and later reverted, which the two ends agree across, and a swath length that
+    varies by orbit rather than by era. $(orbit_note(df))
 
-    Four granules can refute stability but cannot establish it, and the two grades are therefore not
+    A sample can refute stability but cannot establish it, and the two grades are therefore not
     equally strong. A `D` or `F` rests on a counterexample: one pair of granules that disagree, or
-    one refusal that names a feature. An `A` or `B` rests on the absence of a counterexample in four
-    granules out of up to tens of millions, so it states that no blocker appeared in the sample, not
-    that none exists. The early-and-late design cuts the other way too: it is the sample most likely
-    to straddle a mid-mission format change, so a collection graded `D` because its 2002 granules
-    differ from its 2026 granules may virtualize cleanly over any recent span. The grade is a property
-    of the whole record, not of an arbitrary subset of it.
+    one refusal that names a feature. An `A` or `B` rests on the absence of a counterexample in at
+    most $(maximum(df.n_sampled)) granules out of up to tens of millions, so it states that no blocker
+    appeared in the sample, not that none exists. The design cuts the other way too: spanning the ends
+    of the record makes this the sample most likely to straddle a mid-mission format change, so a
+    collection graded `D` because its 2002 granules differ from its 2026 granules may virtualize
+    cleanly over any recent span. The grade is a property of the whole record, not of an arbitrary
+    subset of it.
 
     **Access.** NASA's protected buckets reject direct S3 from outside `us-west-2`, confirmed here
     with both `obstore` and `boto3` against valid DAAC credentials. Reads therefore go over
@@ -527,9 +564,12 @@ function build_report()
     is how a single collection is re-measured without repeating the run.
 
     Because `results/probe/` is committed, stages 4 and 5 reproduce this file offline from a clone —
-    no credentials and no network. Adding a collection means adding a `Candidate` to `src/datasets.jl`,
-    and a collection partitioned by anything other than time also needs an entry in
-    `src/partitions.jl`.
+    no credentials and no network. Adding a collection means adding a `Candidate` to `src/datasets.jl`;
+    a collection partitioned by anything other than time also needs an entry in `src/partitions.jl`,
+    and one whose layout could not be read needs a `CUBE_AXES` entry in `src/structure.jl` stating
+    what a cube over its record would be indexed by. Stage 4 errors rather than emit an `F` or `U`
+    row without one, so the question of whether a grade reports a container choice or an absence of
+    structure is asked of every collection.
 
     This file is generated by stage 5 from `results/virtualizability.csv`. Edit the stage, not the
     file.

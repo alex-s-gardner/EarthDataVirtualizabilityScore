@@ -3,7 +3,8 @@ Stage 2: pick the granules that will be opened in stage 3.
 
 Sampling is adversarial rather than random: chunk misalignment shows up when granules that a user
 would want in one datacube differ from each other, so the sample deliberately pairs granules that
-are adjacent in time, on opposite orbit directions, and years apart.
+are adjacent in time, on opposite orbit directions, and years apart, and spreads further draws
+through the interior of the record, where a change that was later reverted lives.
 
 Writes `results/granule_sample.json`.
 """
@@ -143,16 +144,40 @@ gives its `Basic` and `WindWave` files one producer ID, so a pattern naming one 
 Each returned UR is therefore checked against the pattern here, which is the field the sample is
 narrowed on.
 """
-function matching_urs(short_name, version, pattern, sort_key, n)
+function matching_urs(short_name, version, pattern, sort_key, n; temporal = nothing)
     query = ["page_size" => string(OVERSAMPLE * n), "short_name" => short_name,
-             "version" => version, "sort_key" => sort_key,
-             "readable_granule_name" => pattern,
-             "options[readable_granule_name][pattern]" => "true"]
+             "version" => version, "sort_key" => sort_key]
+    isnothing(pattern) || append!(query, ["readable_granule_name" => pattern,
+                                          "options[readable_granule_name][pattern]" => "true"])
+    isnothing(temporal) || push!(query, "temporal" => temporal)
     r = HTTP.get("https://cmr.earthdata.nasa.gov/search/granules.umm_json";
                  query, status_exception = true)
-    re = glob_regex(pattern)
     urs = String[String(it.umm.GranuleUR) for it in JSON3.read(r.body).items]
+    isnothing(pattern) && return first(urs, n)
+    re = glob_regex(pattern)
     return first(filter(u -> occursin(re, u), urs), n)
+end
+
+# Granules drawn from the interior of the record, in addition to the pairs at each end. A producer
+# that changed chunk shape mid-mission and changed it back is invisible to the ends alone, and an
+# interior granule is also where a swath length that varies by orbit shows up as an interior partial
+# chunk rather than a trailing one.
+const N_INTERIOR = 4
+
+"""
+    interior_windows(t0, t1, n) -> Vector{String}
+
+`n` CMR `temporal` ranges covering the interior of a record, each one slice of `(t1 - t0) / (n + 1)`.
+
+A window is a whole slice rather than a single day so that a collection publishing monthly, or
+publishing in campaigns, still has granules inside it. The ends of the record are excluded: the pairs
+drawn there already cover them.
+"""
+function interior_windows(t0::Date, t1::Date, n)
+    days = Dates.value(t1 - t0)
+    days > n + 1 || return String[]
+    edge(i) = t0 + Day(round(Int, days * i / (n + 1)))
+    return ["$(edge(i))T00:00:00Z,$(edge(i + 1))T00:00:00Z" for i in 1:n]
 end
 
 """
@@ -173,32 +198,47 @@ function ends_of_record(short_name, version, part)
 end
 
 """
-    sample_granules(short_name, version) -> Vector
+    sample_granules(short_name, version, t0, t1) -> Vector
 
-Up to six granules for one collection: two adjacent at the start of the record, two from late in the
-record, and two of the opposite orbit direction where the product records one.
+Up to eight granules for one collection: two adjacent at the start of the record, two from late in
+it, four spread through its interior, and two of the opposite orbit direction where the product
+records one.
 
-The early/late split exposes producer changes to chunking or CF attributes; the orbit split exposes
-ascending/descending grids that share a projection but not a chunk origin. Granules are returned in
-record order so that a stage reading only the first few, or only the first and last, gets a defined
-subset rather than whichever ones a dictionary happened to yield first.
+The early/late split exposes producer changes to chunking or CF attributes; the interior draws expose
+a change that was made and later reverted, which the ends agree across; the orbit split exposes
+ascending/descending grids that share a projection but not a chunk origin. `t0` and `t1` bound the
+record the interior is drawn from. Granules are returned in record order so that a stage reading only
+the first few, or only the first and last, gets a defined subset rather than whichever ones a
+dictionary happened to yield first.
 
-A collection listed in `PARTITIONS` is narrowed to one comparable series first, and its sample is
-drawn from the ends of that series, so the granules compared are ones a single cube would hold.
+A collection listed in `PARTITIONS` is narrowed to one comparable series first, and every granule —
+the ends and the interior alike — is drawn from that series, so the granules compared are ones a
+single cube would hold.
 """
-function sample_granules(short_name, version)
+function sample_granules(short_name, version, t0::Date, t1::Date)
     picked = Dict{String,NamedTuple}()
     add!(gs) = for g in gs
         d = describe(g)
         isnothing(d) || (picked[d.granule_ur] = d)
     end
+    resolve!(urs) = isempty(urs) ||
+        add!(granules(; short_name, version, granule_ur = unique(urs), page_size = length(urs)))
 
     part = partition_for(short_name)
+    pattern = isnothing(part) ? nothing : part.pattern
+
+    # Interior of the record, one granule per slice, taken within the partition where there is one.
+    interior = String[]
+    for window in interior_windows(t0, t1, N_INTERIOR)
+        append!(interior, matching_urs(short_name, version, pattern, "start_date", 1;
+                                      temporal = window))
+    end
+
     if !isnothing(part)
         urs = ends_of_record(short_name, version, part)
         isempty(urs) && error("partition pattern \"$(part.pattern)\" matched no granule of " *
                               "$short_name $version; the pattern is stale")
-        add!(granules(; short_name, version, granule_ur = urs, page_size = length(urs)))
+        resolve!(vcat(urs, interior))
         ordered = sort!(collect(values(picked)); by = d -> (d.begin_time, d.granule_ur))
         return pin_asset(ordered)
     end
@@ -212,6 +252,8 @@ function sample_granules(short_name, version)
     # Latest granules: catches reprocessing that changed chunk shape or scale/offset mid-record.
     late = granules(; common..., sort_key="-start_date", page_size=N_PER_PAIR)
     add!(late)
+
+    resolve!(interior)
 
     # Opposite orbit direction, when the product records one.
     dirs = unique(filter(!isempty, [d.orbit for d in values(picked)]))
@@ -248,8 +290,11 @@ function build_sample()
     end
 
     for row in eachrow(inv)
+        # A collection still ingesting carries `present` as its end date; the interior is drawn from
+        # the record as it stands today.
+        t1 = (ismissing(row.time_end) || row.time_end == "present") ? today() : Date(row.time_end)
         gs = try
-            sample_granules(row.short_name, string(row.version))
+            sample_granules(row.short_name, string(row.version), row.time_begin, t1)
         catch e
             @warn "granule search failed" row.short_name exception = e
             NamedTuple[]

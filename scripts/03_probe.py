@@ -367,8 +367,12 @@ def fetch_to_disk(store, path: str, dest: Path) -> None:
 
 # Wall-clock budget for one granule. A product whose chunk index needs thousands of small reads can
 # take longer than this over authenticated HTTPS, where every read pays an Earthdata Login redirect;
-# the budget bounds the run and records how far the reader got instead of stalling on it.
-GRANULE_DEADLINE = 480
+# the budget bounds the run and records how far the reader got instead of stalling on it. It has to
+# cover a metadata walk that spans a whole large granule: MERRA-2 scatters its chunk index across all
+# 419 MB of a single-level daily file and fetches roughly one 1 MiB block every 2.4 s on this path. A
+# collection is abandoned after its first granule exhausts the budget, so the cost of a long budget is
+# paid once per unreadable collection rather than once per granule.
+GRANULE_DEADLINE = 1800
 
 
 #: Path prefixes rewritten out of a recorded traceback, longest first so the more specific wins.

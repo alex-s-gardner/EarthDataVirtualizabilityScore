@@ -42,7 +42,12 @@ const CANDIDATES = [
     Candidate("SMAP/L-band radiometer", "SPL3SMP")
     Candidate("SMAP/L-band radiometer", "SPL4SMGP")
     Candidate("SMAP/L-band radiometer", "SPL2SMP_E")
+    Candidate("SMAP/L-band radiometer", "SPL4CMDL")
     Candidate("multi-sensor (ITS_LIVE)", "NSIDC-0776")
+    Candidate("ICESat-2/ATLAS", "ATL08")
+    Candidate("ICESat-2/ATLAS", "ATL14")
+    Candidate("GCOM-W1/AMSR2", "AU_SI12")
+    Candidate("multi-sensor (passive microwave)", "NSIDC-0051")
 
     # LP DAAC — land
     Candidate("Terra/MODIS", "MOD09GA")
@@ -58,6 +63,9 @@ const CANDIDATES = [
     Candidate("ISS/GEDI", "GEDI02_B")
     Candidate("Shuttle/SRTM", "SRTMGL1")
     Candidate("ISS/ECOSTRESS", "ECO_L2T_LSTE")
+    Candidate("Terra+Aqua/MODIS", "MCD12Q1")
+    Candidate("Suomi-NPP/VIIRS", "VNP13A1")
+    Candidate("Terra/ASTER", nothing, "ASTER L1T radiance at sensor", "AST_L1T")
 
     # GES DISC — atmosphere and reanalysis
     Candidate("GPM/DPR+GMI", "GPM_3IMERGHH")
@@ -69,6 +77,10 @@ const CANDIDATES = [
     Candidate("Aura/OMI", "OMDOAO3")
     Candidate("NLDAS (model)", "NLDAS_FORA0125_H")
     Candidate("GLDAS (model)", "GLDAS_NOAH025_3H")
+    Candidate("OCO-2", "OCO2_L2_Lite_FP")
+    Candidate("Aqua/AIRS", nothing, "AIRS Level 3 daily standard physical retrieval", "AIRS3STD")
+    Candidate("Suomi-NPP/OMPS", nothing, "OMPS Nadir Mapper total column ozone", "NMTO3")
+    Candidate("Aura/MLS", nothing, "MLS Level 2 ozone mixing ratio", "ML2O3")
 
     # PO.DAAC — ocean and hydrology
     Candidate("multi-sensor (MUR SST)", "MUR-JPL-L4-GLOB-v4.1")
@@ -81,6 +93,11 @@ const CANDIDATES = [
     Candidate("GRACE", "TELLUS_GRAC_L3_JPL_RL06_LND_v04")
     Candidate("GRACE-FO", nothing, "GRACE-FO monthly mass", "GRACEFO_L2")
     Candidate("Sentinel-1/C-SAR (OPERA)", "OPERA_L3_DSWX-HLS_V1")
+    Candidate("Sentinel-6/Poseidon-4", nothing,
+              "Sentinel-6A Michael Freilich Level 2 low resolution sea surface height", "S6A")
+    Candidate("CYGNSS", nothing, "CYGNSS Level 3 ocean surface wind speed", "CYGNSS")
+    Candidate("multi-sensor (OSCAR)", nothing, "OSCAR ocean surface current", "OSCAR")
+    Candidate("GRACE-FO", "TELLUS_GRFO_L3_JPL_RL06.3_LND_v04")
 
     # ASDC — aerosol, cloud, radiation, air quality
     Candidate("CERES", "CERES_EBAF")
@@ -89,7 +106,10 @@ const CANDIDATES = [
     Candidate("CALIPSO/CALIOP", "CAL_LID_L1-Standard-V4-51")
     Candidate("TEMPO", "TEMPO_NO2_L2")
     Candidate("TEMPO", "TEMPO_NO2_L3")
+    Candidate("TEMPO", "TEMPO_HCHO_L3")
     Candidate("Terra/MISR", nothing, "MISR level 2 cloud", "MIL2")
+    Candidate("Terra/MOPITT", nothing, "MOPITT derived CO retrievals", "MOP02")
+    Candidate("CERES", "CER_SYN1deg-1Hour_Terra-Aqua-NOAA20")
 
     # OB.DAAC — ocean color
     Candidate("PACE/OCI", "PACE_OCI_L2_AOP")
@@ -102,10 +122,14 @@ const CANDIDATES = [
     Candidate("Suomi-NPP/VIIRS", "VNP02MOD")
     Candidate("Terra/MODIS", "MOD35_L2")
     Candidate("Aqua/MODIS", "MYD04_L2")
+    Candidate("NOAA-20/VIIRS", "VJ102MOD")
 
     # ASF and ORNL
     Candidate("Sentinel-1/C-SAR (OPERA)", "OPERA_L2_RTC-S1_V1")
+    Candidate("Sentinel-1/C-SAR (OPERA)", nothing,
+              "OPERA coregistered single look complex Sentinel-1", "CSLC")
     Candidate("Daymet (model)", "Daymet_Daily_V4R1_2129")
+    Candidate("ISS/GEDI", nothing, "GEDI L4A aboveground biomass density", "GEDI_L4A")
 
     # NISAR — a mission whose products were specified for cloud access from the start, so its
     # layouts are the interesting comparison against archives that predate object storage.

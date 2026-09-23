@@ -222,6 +222,51 @@ An archive that meets these is a datacube over its whole record at the cost of a
 changing a byte of what it already distributes.
 
 
+## The rows nothing could be read from
+
+No collection graded `F` or `U` lacks a cube. Each is a series of time-stamped arrays in its own
+catalog record, and the grade says only that no chunk manifest can be written over the bytes as
+they are distributed. The axes below come from each collection's CMR record — level, title,
+granule cadence, temporal extent — rather than from a measurement, because what the grade reports
+is that nothing could be read. Every collection graded `F` or `U` carries one, and stage 4 fails
+if a new one arrives without it.
+
+| Grade | Product | Format | Cube its record describes | Record |
+|---|---|---|---|---|
+| F | AIRS2RET | HDF-EOS | time × along-track scan × cross-track footprint, one granule per 6-minute retrieval | 2002-08-30 to present |
+| F | MYD04_L2 | HDF-EOS | time × along-track × across-track, one granule per 5-minute swath | 2002-07-04 to present |
+| F | CER_SSF1deg-Day_Aqua-MODIS | HDF4 | time × latitude × longitude on a global 1° grid, daily | 2002-07-01 to present |
+| F | CAL_LID_L1-Standard-V4-51 | HDF4 | time × along-track profile × altitude, one granule per orbit segment | 2006-06-12 to 2023-06-30 |
+| F | GRACEFO_L2_JPL_MONTHLY_0063 | ASCII | time × spherical-harmonic degree × order, monthly — the one record here with no spatial axis | 2018-05-22 to present |
+| F | ATL11 | HDF5 | reference point × cycle, a land-ice height time series per region | 2019-03-29 to present |
+| F | SRTMGL1 | HGT | y × x on a global 1 arc-second lattice tiled at 1°, and no time axis: the record is one 11-day mission | 2000-02-11 to 2000-02-21 |
+| F | VNP09GA | HDF-EOS5 | time × y × x per sinusoidal tile, one granule per tile per day | 2012-01-17 to present |
+| F | MIL2TCST | HDF-EOS2 | time × along-track × across-track per orbital path | 1999-12-18 to present |
+| F | MOD09GA | HDF-EOS2 | time × y × x per sinusoidal tile, one granule per tile per day | 2000-02-24 to present |
+| F | MOD35_L2 | HDF-EOS | time × along-track × across-track, one granule per 5-minute swath | 2000-02-24 to present |
+| U | M2I3NPASM | NetCDF | time × pressure level × latitude × longitude, 3-hourly, one granule per day | 1980-01-01 to present |
+| U | M2T1NXSLV | NetCDF | time × latitude × longitude, hourly single-level fields, one granule per day | 1980-01-01 to present |
+
+
+Seven are HDF4-generation containers — `HDF-EOS`, `HDF-EOS2`, `HDF4` — holding ordinary gridded or
+swath arrays: six raise inside the HDF4 backend and `MIL2TCST` returns a store with no arrays at
+all, so in every case what fails is reading the container rather than anything about the data in
+it. Two are HDF5-family files that one attribute would settle: `VNP09GA` stores a string
+`_FillValue` on a numeric variable where Zarr's fill value is typed, and `ATL11` attaches several
+dimension scales to one axis where a Zarr array names each axis once. `SRTMGL1` is a global
+1 arc-second elevation grid distributed as `.hgt.zip`, and a DEFLATE stream over a whole file
+offers no chunk boundary for a range request to land on. `GRACEFO_L2_JPL_MONTHLY_0063` is ASCII,
+which carries no byte offsets to index. The two `U` rows refused nothing: they exhausted the
+probe's wall-clock budget.
+
+So these collections stay in the ranking. Their grade is set entirely by a container chosen at
+write time, which makes them the cheapest rows in the table to move: the same arrays in netCDF-4,
+Zarr, or COG are readable by a manifest as they stand. A rewrite still has to meet H2 and H3 — one
+chunk shape per variable, and a granule length that divides by it — and for the swath products
+here that is an open question rather than a formality, since it is what most of the `D` rows fail
+on.
+
+
 ## How each column was measured
 
 **Sampling.** 246 granules across 64 collections (2 collections at 1, 2 collections at 2, 60 collections at 4). 8 of those were not opened: a collection is abandoned after its first granule exhausts the probe budget, since granules written by one producer share a chunk index layout. Granules are chosen adversarially rather than at random: the
@@ -534,9 +579,12 @@ of collection short names to redo only those, merging into the existing sample a
 is how a single collection is re-measured without repeating the run.
 
 Because `results/probe/` is committed, stages 4 and 5 reproduce this file offline from a clone —
-no credentials and no network. Adding a collection means adding a `Candidate` to `src/datasets.jl`,
-and a collection partitioned by anything other than time also needs an entry in
-`src/partitions.jl`.
+no credentials and no network. Adding a collection means adding a `Candidate` to `src/datasets.jl`;
+a collection partitioned by anything other than time also needs an entry in `src/partitions.jl`,
+and one whose layout could not be read needs a `CUBE_AXES` entry in `src/structure.jl` stating
+what a cube over its record would be indexed by. Stage 4 errors rather than emit an `F` or `U`
+row without one, so the question of whether a grade reports a container choice or an absence of
+structure is asked of every collection.
 
 This file is generated by stage 5 from `results/virtualizability.csv`. Edit the stage, not the
 file.
