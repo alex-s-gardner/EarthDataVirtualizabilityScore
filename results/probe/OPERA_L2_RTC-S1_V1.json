@@ -5,6 +5,7 @@
  "format": "GeoTIFF+HDF5+XML",
  "daac": "ASF",
  "short_name": "OPERA_L2_RTC-S1_V1",
+ "sample_digest": "3c80a148caffc475",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -160,7 +161,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.16666666666666666
    },
-   "seconds": 5.5
+   "seconds": 5.2
   },
   {
    "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20160601T000514Z_20250928T024515Z_S1A_30_v1.0",
@@ -313,7 +314,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.16666666666666666
    },
-   "seconds": 5.0
+   "seconds": 4.3
   },
   {
    "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20180522T000525Z_20250921T124239Z_S1A_30_v1.0",
@@ -466,7 +467,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.16666666666666666
    },
-   "seconds": 5.0
+   "seconds": 4.2
   },
   {
    "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20200628T000540Z_20250909T014302Z_S1A_30_v1.0",
@@ -619,7 +620,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.16666666666666666
    },
-   "seconds": 6.7
+   "seconds": 4.7
   },
   {
    "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20220724T000554Z_20250108T061209Z_S1A_30_v1.0",
@@ -628,8 +629,8 @@
    "declared_format": "GeoTIFF+HDF5+XML",
    "ok": false,
    "error_type": "PermissionDeniedError",
-   "error": "The operation lacked the necessary privileges to complete for path RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20220724T000554Z_20250108T061209Z_S1A_30_v1.0_VV.tif: Error performing HEAD https://datapool.asf.alaska.edu/RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20220724T000554Z_20250108T061209Z_S1A_30_v1.0_VV.tif in 218.373125ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug sour",
-   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 218.373125ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
+   "error": "The operation lacked the necessary privileges to complete for path RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20220724T000554Z_20250108T061209Z_S1A_30_v1.0_VV.tif: Error performing HEAD https://datapool.asf.alaska.edu/RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20220724T000554Z_20250108T061209Z_S1A_30_v1.0_VV.tif in 211.413959ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug sour",
+   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 211.413959ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
    "seconds": 0.2
   },
   {
@@ -639,8 +640,8 @@
    "declared_format": "GeoTIFF+HDF5+XML",
    "ok": false,
    "error_type": "PermissionDeniedError",
-   "error": "The operation lacked the necessary privileges to complete for path RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20240830T000557Z_20240830T184455Z_S1A_30_v1.0_VV.tif: Error performing HEAD https://datapool.asf.alaska.edu/RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20240830T000557Z_20240830T184455Z_S1A_30_v1.0_VV.tif in 157.746917ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug sour",
-   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 157.746917ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
+   "error": "The operation lacked the necessary privileges to complete for path RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20240830T000557Z_20240830T184455Z_S1A_30_v1.0_VV.tif: Error performing HEAD https://datapool.asf.alaska.edu/RTC/OPERA-S1/OPERA_L2_RTC-S1_T063-133239-IW1_20240830T000557Z_20240830T184455Z_S1A_30_v1.0_VV.tif in 160.3995ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source",
+   "traceback_tail": "f,\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 160.3995ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
    "seconds": 0.2
   },
   {
@@ -794,7 +795,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.16666666666666666
    },
-   "seconds": 5.7
+   "seconds": 4.1
   },
   {
    "granule_ur": "OPERA_L2_RTC-S1_T063-133239-IW1_20260821T000447Z_20260821T210612Z_S1C_30_v1.0",
@@ -947,7 +948,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.16666666666666666
    },
-   "seconds": 5.4
+   "seconds": 4.1
   }
  ]
 }

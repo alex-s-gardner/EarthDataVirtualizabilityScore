@@ -129,6 +129,12 @@ glob_regex(pattern) =
 # returns whose UR does not match.
 const OVERSAMPLE = 4
 
+# Seconds to wait on one CMR granule search. CMR answers a collection search in well under a second
+# and a granule search in anything from under a second to minutes, so a request that stops responding
+# has to fail rather than stall a run of hundreds of them. A search that times out on every retry
+# leaves the collection's sample short, which stage 4 reports, rather than hanging the stage.
+const CMR_TIMEOUT = 180
+
 """
     matching_urs(short_name, version, pattern, sort_key, n) -> Vector{String}
 
@@ -145,14 +151,8 @@ Each returned UR is therefore checked against the pattern here, which is the fie
 narrowed on.
 """
 function matching_urs(short_name, version, pattern, sort_key, n; temporal = nothing)
-    query = ["page_size" => string(OVERSAMPLE * n), "short_name" => short_name,
-             "version" => version, "sort_key" => sort_key]
-    isnothing(pattern) || append!(query, ["readable_granule_name" => pattern,
-                                          "options[readable_granule_name][pattern]" => "true"])
-    isnothing(temporal) || push!(query, "temporal" => temporal)
-    r = HTTP.get("https://cmr.earthdata.nasa.gov/search/granules.umm_json";
-                 query, status_exception = true)
-    urs = String[String(it.umm.GranuleUR) for it in JSON3.read(r.body).items]
+    items = umm_items(short_name, version, OVERSAMPLE * n; pattern, sort_key, temporal)
+    urs = String[String(it.umm.GranuleUR) for it in items]
     isnothing(pattern) && return first(urs, n)
     re = glob_regex(pattern)
     return first(filter(u -> occursin(re, u), urs), n)
@@ -163,6 +163,78 @@ end
 # interior granule is also where a swath length that varies by orbit shows up as an interior partial
 # chunk rather than a trailing one.
 const N_INTERIOR = 4
+
+# Granules drawn from each end of CMR's `revision_date` ordering. Every other draw here is ordered by
+# observation time, which cannot separate one case: a reprocessing campaign rewrites granules at
+# production time, so an archive that carried two layouts until the campaign ran presents one recent
+# layout on every granule whatever its observation date. The oldest and newest revisions are where a
+# layout the campaign replaced, or one it introduced, is still visible.
+const N_REVISION = 1
+
+"""
+    umm_items(short_name, version, n; kwargs...) -> Vector
+
+Granule search results as raw UMM-JSON items, one query.
+
+`EarthData.granules` exposes the `umm` half of a granule record, and CMR keeps the revision date in
+the `meta` half, so the queries that need it are issued directly.
+"""
+function umm_items(short_name, version, n; pattern = nothing, sort_key = nothing, urs = nothing,
+                   temporal = nothing)
+    query = ["page_size" => string(n), "short_name" => short_name, "version" => version]
+    isnothing(sort_key) || push!(query, "sort_key" => sort_key)
+    isnothing(temporal) || push!(query, "temporal" => temporal)
+    isnothing(pattern) || append!(query, ["readable_granule_name" => pattern,
+                                          "options[readable_granule_name][pattern]" => "true"])
+    isnothing(urs) || append!(query, ["granule_ur[]" => u for u in urs])
+    r = HTTP.get("https://cmr.earthdata.nasa.gov/search/granules.umm_json";
+                 query, status_exception = true, readtimeout = CMR_TIMEOUT, retries = 2)
+    return JSON3.read(r.body).items
+end
+
+"""
+    revision_ends(short_name, version, pattern) -> Vector{String}
+
+The URs of the oldest- and newest-revised granules the partition admits.
+
+Ordering by revision date puts a granule still carrying a superseded layout and one carrying the
+current layout in the same sample by construction, which ordering by observation time does not.
+"""
+function revision_ends(short_name, version, pattern)
+    urs = String[]
+    for sort_key in ("revision_date", "-revision_date")
+        append!(urs, matching_urs(short_name, version, pattern, sort_key, N_REVISION))
+    end
+    return unique(urs)
+end
+
+"""
+    revision_dates(short_name, version, urs) -> Dict{String,String}
+
+When CMR last revised each of `urs`, which is when the granule's bytes were last written.
+
+Recorded for every sampled granule so that a criterion comparing two granules can be read against how
+many production epochs the sample actually spans: agreement across granules that share one revision
+epoch is weaker evidence than agreement across granules that do not.
+"""
+function revision_dates(short_name, version, urs)
+    isempty(urs) && return Dict{String,String}()
+    out = Dict{String,String}()
+    for batch in Iterators.partition(collect(urs), 50)
+        items = try
+            umm_items(short_name, version, length(batch); urs = batch)
+        catch e
+            @warn "revision-date lookup failed" short_name exception = e
+            continue
+        end
+        for it in items
+            haskey(it, :meta) || continue
+            d = get(it.meta, Symbol("revision-date"), nothing)
+            isnothing(d) || (out[String(it.umm.GranuleUR)] = String(d))
+        end
+    end
+    return out
+end
 
 """
     interior_windows(t0, t1, n) -> Vector{String}
@@ -234,13 +306,20 @@ function sample_granules(short_name, version, t0::Date, t1::Date)
                                       temporal = window))
     end
 
+    # Ends of the revision ordering, which is where a reprocessing campaign is visible.
+    revisions = try
+        revision_ends(short_name, version, pattern)
+    catch e
+        @warn "revision-date search failed" short_name exception = e
+        String[]
+    end
+
     if !isnothing(part)
         urs = ends_of_record(short_name, version, part)
         isempty(urs) && error("partition pattern \"$(part.pattern)\" matched no granule of " *
                               "$short_name $version; the pattern is stale")
-        resolve!(vcat(urs, interior))
-        ordered = sort!(collect(values(picked)); by = d -> (d.begin_time, d.granule_ur))
-        return pin_asset(ordered)
+        resolve!(vcat(urs, interior, revisions))
+        return finish(picked, short_name, version)
     end
 
     common = (; short_name, version)
@@ -253,7 +332,7 @@ function sample_granules(short_name, version, t0::Date, t1::Date)
     late = granules(; common..., sort_key="-start_date", page_size=N_PER_PAIR)
     add!(late)
 
-    resolve!(interior)
+    resolve!(vcat(interior, revisions))
 
     # Opposite orbit direction, when the product records one.
     dirs = unique(filter(!isempty, [d.orbit for d in values(picked)]))
@@ -263,8 +342,54 @@ function sample_granules(short_name, version, t0::Date, t1::Date)
         add!(first(others, N_PER_PAIR))
     end
 
+    return finish(picked, short_name, version)
+end
+
+"""
+    finish(picked, short_name, version) -> Vector{NamedTuple}
+
+The sampled granules in record order, each carrying its revision date and one pinned asset.
+"""
+function finish(picked, short_name, version)
+    revs = revision_dates(short_name, version, keys(picked))
     ordered = sort!(collect(values(picked)); by = d -> (d.begin_time, d.granule_ur))
+    ordered = [merge(d, (; revision_date = get(revs, d.granule_ur, ""))) for d in ordered]
     return pin_asset(ordered)
+end
+
+"""
+    backfill_revisions()
+
+Add each already-sampled granule's revision date to `results/granule_sample.json`, drawing no new
+granules.
+
+Re-drawing a sample changes which granules the grades rest on and invalidates every probe artifact,
+which is hours of reading. Recording when the granules already sampled were last written costs one CMR
+query per collection and invalidates nothing, so how many production epochs a sample spans can be
+reported against the measurements already taken.
+"""
+function backfill_revisions()
+    path = joinpath(RESULTS, "granule_sample.json")
+    isfile(path) || error("$path missing; run without arguments to build the sample first")
+    out = copy(JSON3.read(read(path, String), Dict{String,Any}))
+    n_dated = 0
+    for name in sort(collect(keys(out)))
+        entry = out[name]
+        grans = entry["granules"]
+        isempty(grans) && continue
+        urs = [String(g["granule_ur"]) for g in grans]
+        revs = revision_dates(name, string(entry["version"]), urs)
+        for g in grans
+            g["revision_date"] = get(revs, String(g["granule_ur"]), "")
+        end
+        got = count(!isempty, [String(g["revision_date"]) for g in grans])
+        n_dated += got
+        println("  $(rpad(name, 34)) $got/$(length(grans)) dated")
+    end
+    open(path, "w") do io
+        JSON3.pretty(io, out)
+    end
+    println("\n$n_dated granules carry a revision date -> results/granule_sample.json")
 end
 
 """
@@ -274,6 +399,7 @@ Write `results/granule_sample.json` for every collection in the inventory.
 
 Command-line arguments restrict the run to the named collections and merge them into the existing
 sample, so one collection can be re-sampled without re-searching, or disturbing, the rest.
+`--revisions-only` instead keeps every sampled granule and records its revision date.
 """
 function build_sample()
     inv = CSV.read(joinpath(RESULTS, "inventory.csv"), DataFrame)
@@ -321,4 +447,8 @@ function build_sample()
     println("\n$total granules across $(length(out)) collections -> results/granule_sample.json")
 end
 
-build_sample()
+if "--revisions-only" in ARGS
+    backfill_revisions()
+else
+    build_sample()
+end

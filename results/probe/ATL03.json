@@ -5,6 +5,7 @@
  "format": "HDF5",
  "daac": "NASA NSIDC DAAC",
  "short_name": "ATL03",
+ "sample_digest": "8b5623cebcb2ed44",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -15001,6 +15002,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 2 on 'min_full_sat' and length 1 on {'phony_dim_0': 'atl03_pad'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -15010,7 +15021,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.9930555555555556
    },
-   "seconds": 9.3
+   "seconds": 19.6
   },
   {
    "granule_ur": "ATL03_20181014001049_02350102_007_01.h5",
@@ -41311,6 +41322,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 2 on 'min_full_sat' and length 1 on {'phony_dim_0': 'atl03_pad'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -41319,7 +41340,7 @@
     "contiguous_runs": 2,
     "span_fraction": 1.0
    },
-   "seconds": 11.7
+   "seconds": 20.3
   },
   {
    "granule_ur": "ATL03_20200514235316_07550707_007_01.h5",
@@ -66132,6 +66153,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 2 on 'min_full_sat' and length 1 on {'phony_dim_0': 'atl03_pad'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -66140,7 +66171,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.9837962962962963
    },
-   "seconds": 10.9
+   "seconds": 20.2
   },
   {
    "granule_ur": "ATL03_20211215235751_12911305_007_01.h5",
@@ -92441,6 +92472,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 2 on 'min_full_sat' and length 1 on {'phony_dim_0': 'atl03_pad'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -92449,7 +92490,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.9967391304347826
    },
-   "seconds": 11.0
+   "seconds": 18.8
   },
   {
    "granule_ur": "ATL03_20230719235510_04552006_007_01.h5",
@@ -118750,6 +118791,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 2 on 'min_full_sat' and length 1 on {'phony_dim_0': 'atl03_pad'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -118758,7 +118809,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.9993351063829787
    },
-   "seconds": 12.3
+   "seconds": 22.6
   },
   {
    "granule_ur": "ATL03_20250218235553_09912603_007_01.h5",
@@ -145059,6 +145110,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 2 on 'min_full_sat' and length 1 on {'phony_dim_0': 'atl03_pad'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -145067,7 +145128,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.9867424242424242
    },
-   "seconds": 10.5
+   "seconds": 21.9
   },
   {
    "granule_ur": "ATL03_20260720234509_05643211_007_01.h5_dpyQXxz6",
@@ -171368,6 +171429,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 2 on 'min_full_sat' and length 1 on {'phony_dim_0': 'atl03_pad'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -171376,7 +171447,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.9956521739130435
    },
-   "seconds": 10.8
+   "seconds": 21.4
   },
   {
    "granule_ur": "ATL03_20260720235052_05643212_007_01.h5_dpyQXxz6",
@@ -197677,6 +197748,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 2 on 'min_full_sat' and length 1 on {'phony_dim_0': 'atl03_pad'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -197686,7 +197767,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.9952830188679245
    },
-   "seconds": 9.9
+   "seconds": 19.9
   }
  ]
 }

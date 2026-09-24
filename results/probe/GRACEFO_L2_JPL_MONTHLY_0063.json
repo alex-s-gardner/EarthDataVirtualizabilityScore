@@ -5,6 +5,7 @@
  "format": "ASCII",
  "daac": "NASA/JPL/PODAAC",
  "short_name": "GRACEFO_L2_JPL_MONTHLY_0063",
+ "sample_digest": "3c176e52715b5677",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -20,8 +21,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "no VirtualiZarr parser reads ASCII",
-   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 440, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
-   "seconds": 3.3
+   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 519, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
+   "seconds": 5.5
   },
   {
    "granule_ur": "GSM-2_2018182-2018199_GRFO_JPLEM_BA01_0603",
@@ -34,8 +35,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "no VirtualiZarr parser reads ASCII",
-   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 440, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
-   "seconds": 2.8
+   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 519, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
+   "seconds": 7.7
   },
   {
    "granule_ur": "GSM-2_2020001-2020031_GRFO_JPLEM_BA01_0603",
@@ -48,8 +49,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "no VirtualiZarr parser reads ASCII",
-   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 440, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
-   "seconds": 3.0
+   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 519, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
+   "seconds": 3.7
   },
   {
    "granule_ur": "GSM-2_2021244-2021273_GRFO_JPLEM_BA01_0603",
@@ -62,8 +63,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "no VirtualiZarr parser reads ASCII",
-   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 440, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
-   "seconds": 3.1
+   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 519, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
+   "seconds": 8.1
   },
   {
    "granule_ur": "GSM-2_2023121-2023151_GRFO_JPLEM_BA01_0603",
@@ -76,8 +77,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "no VirtualiZarr parser reads ASCII",
-   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 440, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
-   "seconds": 3.0
+   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 519, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
+   "seconds": 6.5
   },
   {
    "granule_ur": "GSM-2_2025001-2025031_GRFO_JPLEM_BA01_0603",
@@ -90,8 +91,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "no VirtualiZarr parser reads ASCII",
-   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 440, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
-   "seconds": 2.8
+   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 519, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
+   "seconds": 5.5
   },
   {
    "granule_ur": "GSM-2_2026152-2026181_GRFO_JPLEM_BA01_0603",
@@ -104,8 +105,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "no VirtualiZarr parser reads ASCII",
-   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 440, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
-   "seconds": 3.0
+   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 519, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
+   "seconds": 3.3
   },
   {
    "granule_ur": "GSM-2_2026182-2026212_GRFO_JPLEM_BA01_0603",
@@ -118,8 +119,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "no VirtualiZarr parser reads ASCII",
-   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 440, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
-   "seconds": 3.1
+   "traceback_tail": "ranule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 519, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads ASCII\n",
+   "seconds": 3.0
   }
  ]
 }

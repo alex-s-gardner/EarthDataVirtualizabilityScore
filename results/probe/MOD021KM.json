@@ -5,6 +5,7 @@
  "format": "NetCDF-4",
  "daac": "NASA/GSFC/SED/ESD/HBSL/BISB/LAADS",
  "short_name": "MOD021KM",
+ "sample_digest": "d9753ed1c0944449",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -1095,6 +1096,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -1104,7 +1117,7 @@
     "contiguous_runs": 3,
     "span_fraction": 1.025
    },
-   "seconds": 14.9
+   "seconds": 17.1
   },
   {
    "granule_ur": "LAADS:8749501828",
@@ -2192,6 +2205,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -2200,7 +2225,7 @@
     "contiguous_runs": 4,
     "span_fraction": 1.0232558139534884
    },
-   "seconds": 10.1
+   "seconds": 15.1
   },
   {
    "granule_ur": "LAADS:8774418961",
@@ -3288,6 +3313,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -3296,7 +3333,7 @@
     "contiguous_runs": 4,
     "span_fraction": 1.0149253731343284
    },
-   "seconds": 13.8
+   "seconds": 20.0
   },
   {
    "granule_ur": "LAADS:8814268208",
@@ -4384,6 +4421,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 10,
@@ -4392,7 +4441,7 @@
     "contiguous_runs": 8,
     "span_fraction": 1.0063694267515924
    },
-   "seconds": 17.3
+   "seconds": 31.5
   },
   {
    "granule_ur": "LAADS:8821592459",
@@ -5480,6 +5529,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 11,
@@ -5488,7 +5549,7 @@
     "contiguous_runs": 8,
     "span_fraction": 1.0082644628099173
    },
-   "seconds": 17.3
+   "seconds": 24.1
   },
   {
    "granule_ur": "LAADS:8868491388",
@@ -6576,6 +6637,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 6,
@@ -6584,7 +6657,7 @@
     "contiguous_runs": 4,
     "span_fraction": 1.0161290322580645
    },
-   "seconds": 10.1
+   "seconds": 17.1
   },
   {
    "granule_ur": "LAADS:10045358161",
@@ -7672,6 +7745,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 10,
@@ -7680,7 +7765,7 @@
     "contiguous_runs": 8,
     "span_fraction": 1.00625
    },
-   "seconds": 15.4
+   "seconds": 25.4
   },
   {
    "granule_ur": "LAADS:10045358162",
@@ -8768,6 +8853,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 203 on 'DC Restore Change for Reflective 1km Bands' and length 16 on {'phony_dim_0': 'Change in relative responses of thermal detectors', 'phony_dim_1': 'Change in relative responses of thermal detectors'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -8777,7 +8874,7 @@
     "contiguous_runs": 9,
     "span_fraction": 1.0064935064935066
    },
-   "seconds": 18.9
+   "seconds": 19.8
   }
  ]
 }

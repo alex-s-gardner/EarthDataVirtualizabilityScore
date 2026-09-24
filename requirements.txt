@@ -1,6 +1,10 @@
 # Direct dependencies of the probe and verification stages, at the versions that produced
 # results/. kerchunk and fsspec are pinned because VirtualiZarr's HDF4 and netCDF-3 parsers
 # reach the network through them, and which granules those parsers accept is itself a finding.
+# cftime is required, not optional: xarray decodes a non-standard calendar only when it is
+# installed, and without it a granule stating one is recorded as a granule xarray cannot open —
+# a property of the environment reported as a property of the archive.
+cftime==1.6.5
 earthaccess==0.19.0
 fsspec==2026.9.0
 h5py==3.16.0

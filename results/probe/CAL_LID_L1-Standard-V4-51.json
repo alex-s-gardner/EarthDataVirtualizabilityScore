@@ -5,6 +5,7 @@
  "format": "HDF4",
  "daac": "NASA/LARC/SD/ASDC",
  "short_name": "CAL_LID_L1-Standard-V4-51",
+ "sample_digest": "0bc627c1e5fd496a",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -22,7 +23,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
    "traceback_tail": "f._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
-   "seconds": 23.9
+   "seconds": 25.6
   },
   {
    "granule_ur": "CAL_LID_L1-Standard-V4-51.2006-06-12T01-40-18ZD.hdf",
@@ -37,7 +38,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
    "traceback_tail": "f._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
-   "seconds": 40.2
+   "seconds": 31.2
   },
   {
    "granule_ur": "CAL_LID_L1-Standard-V4-51.2009-11-07T23-22-39ZD.hdf",
@@ -52,7 +53,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
    "traceback_tail": "f._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
-   "seconds": 27.9
+   "seconds": 27.3
   },
   {
    "granule_ur": "CAL_LID_L1-Standard-V4-51.2013-04-06T23-40-34ZD.hdf",
@@ -67,7 +68,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
    "traceback_tail": "f._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
-   "seconds": 26.5
+   "seconds": 32.1
   },
   {
    "granule_ur": "CAL_LID_L1-Standard-V4-51.2016-09-02T23-08-58ZD.hdf",
@@ -82,7 +83,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
    "traceback_tail": "f._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
-   "seconds": 26.5
+   "seconds": 29.3
   },
   {
    "granule_ur": "CAL_LID_L1-Standard-V4-51.2020-01-31T23-51-19ZN.hdf",
@@ -97,7 +98,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
    "traceback_tail": "f._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
-   "seconds": 23.9
+   "seconds": 27.5
   },
   {
    "granule_ur": "CAL_LID_L1-Standard-V4-51.2023-06-30T20-54-18ZN.hdf",
@@ -112,7 +113,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
    "traceback_tail": "f._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
-   "seconds": 24.6
+   "seconds": 24.7
   },
   {
    "granule_ur": "CAL_LID_L1-Standard-V4-51.2023-06-30T21-39-53ZD.hdf",
@@ -127,7 +128,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
    "traceback_tail": "f._descend_vg(t, r)\n  File \"<env>/lib/python3.14/site-packages/kerchunk/hdf4.py\", line 206, in _descend_vg\n    data.split(b\"\\x00\", 1)[0].decode().lstrip('\"').rstrip('\"')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte\n",
-   "seconds": 27.5
+   "seconds": 29.3
   }
  ]
 }

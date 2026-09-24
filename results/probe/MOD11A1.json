@@ -5,6 +5,7 @@
  "format": "HDF-EOS2",
  "daac": "LP DAAC",
  "short_name": "MOD11A1",
+ "sample_digest": "e434cd5090153f24",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -365,6 +366,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -373,7 +386,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 4.6
+   "seconds": 5.4
   },
   {
    "granule_ur": "MOD11A1.A2000056.h08v05.061.2020043120932",
@@ -731,6 +744,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -738,7 +763,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 4.6
+   "seconds": 5.7
   },
   {
    "granule_ur": "MOD11A1.A2005169.h08v05.061.2020245103814",
@@ -1096,6 +1121,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -1103,7 +1140,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.2
+   "seconds": 5.1
   },
   {
    "granule_ur": "MOD11A1.A2010285.h08v05.061.2021181035933",
@@ -1461,6 +1498,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -1468,7 +1517,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 4.9
+   "seconds": 5.8
   },
   {
    "granule_ur": "MOD11A1.A2016035.h08v05.061.2022003164247",
@@ -1826,6 +1875,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -1833,7 +1894,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 4.7
+   "seconds": 5.6
   },
   {
    "granule_ur": "MOD11A1.A2021150.h08v05.061.2021151085828",
@@ -2191,6 +2252,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -2198,7 +2271,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.3
+   "seconds": 5.2
   },
   {
    "granule_ur": "MOD11A1.A2026263.h08v05.061.2026264144455",
@@ -2556,6 +2629,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -2563,7 +2648,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 4.6
+   "seconds": 5.2
   },
   {
    "granule_ur": "MOD11A1.A2026264.h08v05.061.2026265092030",
@@ -2921,6 +3006,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Failed to decode fill_value: expected int or float for dtype uint8, got str"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -2929,7 +3026,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 4.4
+   "seconds": 5.0
   }
  ]
 }

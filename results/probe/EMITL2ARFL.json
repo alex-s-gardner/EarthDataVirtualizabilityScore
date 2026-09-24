@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "LP DAAC",
  "short_name": "EMITL2ARFL",
+ "sample_digest": "0b54f8438835ea84",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -317,6 +318,14 @@
    "root_attrs": {
     "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
    },
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -326,7 +335,7 @@
     "contiguous_runs": 5,
     "span_fraction": 0.9871436556735607
    },
-   "seconds": 11.6
+   "seconds": 11.2
   },
   {
    "granule_ur": "EMIT_L2A_RFL_002_20220810T034115",
@@ -636,6 +645,14 @@
    "root_attrs": {
     "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
    },
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -644,7 +661,7 @@
     "contiguous_runs": 5,
     "span_fraction": 0.9871436556735607
    },
-   "seconds": 11.7
+   "seconds": 11.2
   },
   {
    "granule_ur": "EMIT_L2A_RFL_002_20260826T014632",
@@ -954,6 +971,14 @@
    "root_attrs": {
     "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
    },
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -962,7 +987,7 @@
     "contiguous_runs": 5,
     "span_fraction": 0.9871436556735607
    },
-   "seconds": 11.6
+   "seconds": 11.7
   },
   {
    "granule_ur": "EMIT_L2A_RFL_002_20260921T163721",
@@ -1272,6 +1297,14 @@
    "root_attrs": {
     "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
    },
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -1280,7 +1313,7 @@
     "contiguous_runs": 5,
     "span_fraction": 0.9871436556735607
    },
-   "seconds": 11.9
+   "seconds": 11.0
   },
   {
    "granule_ur": "EMIT_L2A_RFL_002_20260921T163733",
@@ -1590,6 +1623,14 @@
    "root_attrs": {
     "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
    },
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -1599,7 +1640,7 @@
     "contiguous_runs": 5,
     "span_fraction": 0.9868083547086846
    },
-   "seconds": 14.8
+   "seconds": 15.6
   }
  ]
 }

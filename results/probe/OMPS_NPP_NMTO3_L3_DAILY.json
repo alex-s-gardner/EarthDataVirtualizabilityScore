@@ -5,6 +5,7 @@
  "format": "HDF5",
  "daac": "NASA/GSFC/SED/ESD/TISL/GESDISC",
  "short_name": "OMPS_NPP_NMTO3_L3_DAILY",
+ "sample_digest": "40218caff4581d1e",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -5519,6 +5520,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -5528,7 +5537,7 @@
     "contiguous_runs": 2,
     "span_fraction": 1.5
    },
-   "seconds": 9.5
+   "seconds": 18.2
   },
   {
    "granule_ur": "OMPS_NPP_NMTO3_L3_DAILY.2:OMPS-NPP_NMTO3-L3-DAILY_v2.1_2012m0127_2017m0227t060845.h5",
@@ -14340,6 +14349,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 3,
@@ -14348,7 +14365,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.5
    },
-   "seconds": 11.2
+   "seconds": 20.8
   },
   {
    "granule_ur": "OMPS_NPP_NMTO3_L3_DAILY.2:OMPS-NPP_NMTO3-L3-DAILY_v2.1_2014m1230_2017m0227t081017.h5",
@@ -24810,6 +24827,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 3,
@@ -24818,7 +24843,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.5
    },
-   "seconds": 11.5
+   "seconds": 21.0
   },
   {
    "granule_ur": "OMPS_NPP_NMTO3_L3_DAILY.2:OMPS-NPP_NMTO3-L3-DAILY_v2.1_2017m1205_2017m1207t015620.h5",
@@ -35290,6 +35315,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 3,
@@ -35298,7 +35331,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.5
    },
-   "seconds": 12.1
+   "seconds": 20.3
   },
   {
    "granule_ur": "OMPS_NPP_NMTO3_L3_DAILY.2:OMPS-NPP_NMTO3-L3-DAILY_v2.1_2020m1109_2020m1111t022204.h5",
@@ -45995,6 +46028,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 3,
@@ -46003,7 +46044,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.5
    },
-   "seconds": 11.7
+   "seconds": 20.7
   },
   {
    "granule_ur": "OMPS_NPP_NMTO3_L3_DAILY.2:OMPS-NPP_NMTO3-L3-DAILY_v2.1_2023m1016_2023m1018t015659.h5",
@@ -50490,6 +50531,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 3,
@@ -50498,7 +50547,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.5
    },
-   "seconds": 11.7
+   "seconds": 21.4
   },
   {
    "granule_ur": "OMPS_NPP_NMTO3_L3_DAILY.2:OMPS-NPP_NMTO3-L3-DAILY_v2.1_2026m0919_2026m0921t030652.h5",
@@ -54895,6 +54944,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 3,
@@ -54903,7 +54960,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.5
    },
-   "seconds": 10.9
+   "seconds": 20.3
   },
   {
    "granule_ur": "OMPS_NPP_NMTO3_L3_DAILY.2:OMPS-NPP_NMTO3-L3-DAILY_v2.1_2026m0920_2026m0922t024724.h5",
@@ -59210,6 +59267,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -59219,7 +59284,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.5
    },
-   "seconds": 11.1
+   "seconds": 20.5
   }
  ]
 }

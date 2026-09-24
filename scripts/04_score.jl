@@ -56,7 +56,7 @@ end
 """
     headline_chunk(a) -> Tuple{String,Float64}
 
-Chunk shape and median stored chunk size in MB for the largest variable, which is the layout a user
+Chunk shape and median stored chunk size in MB for the principal variable, which is the layout a user
 of the cube actually meets.
 
 The size is the median across granules of the same variable P-sz judges, so the column and the
@@ -64,8 +64,8 @@ deciding criterion report one number rather than two statistics of different var
 where the recorded length could not be a chunk length, which is the same test P-sz applies.
 """
 function headline_chunk(a)
-    isempty(a.main_vars) && return ("—", NaN)
-    vs = get(a.records, first(a.main_vars), [])
+    isnothing(a.principal) && return ("—", NaN)
+    vs = get(a.records, a.principal, [])
     isempty(vs) && return ("—", NaN)
     chunk = chunks_of(first(vs))
     sizes = [b for b in stored_bytes.(vs) if !isnothing(b)]
@@ -165,14 +165,27 @@ function score_all()
             volume_tb = round(volume_tb(rec, cat.granules); digits = 3),
             dmrpp = dmrpp ? "yes" : "no",
             blocker,
+            parses = status_cell(a.parse),
+            xarray_opens = status_cell(a.materialize),
+            xarray_evidence = a.materialize.note,
             chunk_shape_stable = status_cell(a.chunks),
             concat_ok = status_cell(a.concat),
+            chunk_size_ok = status_cell(a.size),
+            dtype_stable = status_cell(a.dtypes),
+            codec_stable = status_cell(a.codecs),
+            vars_shared = status_cell(a.vars),
             cf_stable = status_cell(a.cf),
-            headline_var = isempty(a.main_vars) ? "" : first(a.main_vars),
+            headline_var = something(a.principal, ""),
+            largest_var = isempty(a.main_vars) ? "" : first(a.main_vars),
             n_data_vars = length(a.main_vars),
             n_comparable_vars = a.n_comparable,
+            n_universal_vars = a.n_universal,
             chunk_evidence = a.chunks.note,
             concat_evidence = a.concat.note,
+            dtype_evidence = a.dtypes.note,
+            codec_evidence = a.codecs.note,
+            vars_evidence = a.vars.note,
+            cf_evidence = a.cf.note,
             md_evidence = a.locality.note,
             grid_evidence = a.grid.note,
             size_evidence = a.size.note,

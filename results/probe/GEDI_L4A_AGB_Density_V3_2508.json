@@ -5,6 +5,7 @@
  "format": "HDF5",
  "daac": "ORNL_DAAC",
  "short_name": "GEDI_L4A_AGB_Density_V3_2508",
+ "sample_digest": "2b65f0c3dde40819",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -28,7 +29,19 @@
     "contiguous_runs": 4,
     "span_fraction": 1.125
    },
-   "seconds": 10.5
+   "excluded": {
+    "arrays": [
+     "ANCILLARY/model_data",
+     "ANCILLARY/pft_lut",
+     "ANCILLARY/phenology_lut",
+     "ANCILLARY/region_lut",
+     "ANCILLARY/worldcover_lut"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type"
+   },
+   "seconds": 3.3
   },
   {
    "granule_ur": "GEDI04_A_2019094180555_O01753_02_T01683_02_004_01_V003",
@@ -49,7 +62,19 @@
     "contiguous_runs": 10,
     "span_fraction": 1.00625
    },
-   "seconds": 17.9
+   "excluded": {
+    "arrays": [
+     "ANCILLARY/model_data",
+     "ANCILLARY/pft_lut",
+     "ANCILLARY/phenology_lut",
+     "ANCILLARY/region_lut",
+     "ANCILLARY/worldcover_lut"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type"
+   },
+   "seconds": 2.6
   },
   {
    "granule_ur": "GEDI04_A_2020274234154_O10210_03_T09842_02_004_01_V003",
@@ -70,7 +95,19 @@
     "contiguous_runs": 10,
     "span_fraction": 1.0
    },
-   "seconds": 16.1
+   "excluded": {
+    "arrays": [
+     "ANCILLARY/model_data",
+     "ANCILLARY/pft_lut",
+     "ANCILLARY/phenology_lut",
+     "ANCILLARY/region_lut",
+     "ANCILLARY/worldcover_lut"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type"
+   },
+   "seconds": 2.4
   },
   {
    "granule_ur": "GEDI04_A_2022089133655_O18667_03_T06561_02_004_01_V003",
@@ -91,7 +128,19 @@
     "contiguous_runs": 10,
     "span_fraction": 1.0038610038610039
    },
-   "seconds": 16.9
+   "excluded": {
+    "arrays": [
+     "ANCILLARY/model_data",
+     "ANCILLARY/pft_lut",
+     "ANCILLARY/phenology_lut",
+     "ANCILLARY/region_lut",
+     "ANCILLARY/worldcover_lut"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type"
+   },
+   "seconds": 2.6
   },
   {
    "granule_ur": "GEDI04_A_2024117133926_O30423_04_T00000_02_004_02_V003",
@@ -112,7 +161,19 @@
     "contiguous_runs": 10,
     "span_fraction": 1.0058823529411764
    },
-   "seconds": 19.1
+   "excluded": {
+    "arrays": [
+     "ANCILLARY/model_data",
+     "ANCILLARY/pft_lut",
+     "ANCILLARY/phenology_lut",
+     "ANCILLARY/region_lut",
+     "ANCILLARY/worldcover_lut"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type"
+   },
+   "seconds": 2.6
   },
   {
    "granule_ur": "GEDI04_A_2025083230811_O35579_03_T02099_02_004_02_V003",
@@ -133,7 +194,19 @@
     "contiguous_runs": 10,
     "span_fraction": 1.0
    },
-   "seconds": 16.0
+   "excluded": {
+    "arrays": [
+     "ANCILLARY/model_data",
+     "ANCILLARY/pft_lut",
+     "ANCILLARY/phenology_lut",
+     "ANCILLARY/region_lut",
+     "ANCILLARY/worldcover_lut"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type"
+   },
+   "seconds": 2.5
   },
   {
    "granule_ur": "GEDI04_A_2025190223019_O37238_03_T09057_02_004_02_V003",
@@ -154,7 +227,19 @@
     "contiguous_runs": 10,
     "span_fraction": 1.0
    },
-   "seconds": 16.7
+   "excluded": {
+    "arrays": [
+     "ANCILLARY/model_data",
+     "ANCILLARY/pft_lut",
+     "ANCILLARY/phenology_lut",
+     "ANCILLARY/region_lut",
+     "ANCILLARY/worldcover_lut"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type"
+   },
+   "seconds": 2.6
   },
   {
    "granule_ur": "GEDI04_A_2025190223019_O37238_04_T09057_02_004_02_V003",
@@ -175,7 +260,19 @@
     "contiguous_runs": 9,
     "span_fraction": 1.0113636363636365
    },
-   "seconds": 18.5
+   "excluded": {
+    "arrays": [
+     "ANCILLARY/model_data",
+     "ANCILLARY/pft_lut",
+     "ANCILLARY/phenology_lut",
+     "ANCILLARY/region_lut",
+     "ANCILLARY/worldcover_lut"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Object\" data type. In this case you should construct your array by providing a specific Zarr data type"
+   },
+   "seconds": 2.6
   }
  ]
 }

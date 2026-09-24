@@ -5,6 +5,7 @@
  "format": "CSV+HDF5+KML+PDF+PNG+XML+YAML",
  "daac": "ASF",
  "short_name": "NISAR_L2_GUNW_PROVISIONAL_V1",
+ "sample_digest": "3e9d6d41ce10f18f",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -4330,6 +4331,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 4 on 'quaternions' and length 3 on {'phony_dim_0': 'eulerAngles', 'phony_dim_1': 'eulerAngles'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -4339,7 +4350,7 @@
     "contiguous_runs": 7,
     "span_fraction": 0.8730529595015576
    },
-   "seconds": 11.9
+   "seconds": 16.2
   },
   {
    "granule_ur": "NISAR_L2_PR_GUNW_025_036_A_163_026_2000_SH_20260710T175011_20260710T175030_20260722T175010_20260722T175026_P05023_N_P_J_001",
@@ -8662,6 +8673,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 4 on 'quaternions' and length 3 on {'phony_dim_0': 'eulerAngles', 'phony_dim_1': 'eulerAngles'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 7,
@@ -8670,7 +8691,7 @@
     "contiguous_runs": 7,
     "span_fraction": 0.8765151515151515
    },
-   "seconds": 12.4
+   "seconds": 14.0
   },
   {
    "granule_ur": "NISAR_L2_PR_GUNW_029_036_A_163_030_2000_SH_20260827T175009_20260827T175024_20260908T175009_20260908T175024_P05023_N_P_J_001",
@@ -12993,6 +13014,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 4 on 'quaternions' and length 3 on {'phony_dim_0': 'eulerAngles', 'phony_dim_1': 'eulerAngles'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 7,
@@ -13001,7 +13032,7 @@
     "contiguous_runs": 7,
     "span_fraction": 0.87265625
    },
-   "seconds": 14.7
+   "seconds": 13.8
   },
   {
    "granule_ur": "NISAR_L2_PR_GUNW_030_036_A_163_031_2000_SH_20260908T175009_20260908T175024_20260920T175009_20260920T175028_P05023_N_P_J_001",
@@ -17324,6 +17355,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 4 on 'quaternions' and length 3 on {'phony_dim_0': 'eulerAngles', 'phony_dim_1': 'eulerAngles'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -17333,7 +17374,7 @@
     "contiguous_runs": 7,
     "span_fraction": 0.8734472049689441
    },
-   "seconds": 12.1
+   "seconds": 14.4
   }
  ]
 }

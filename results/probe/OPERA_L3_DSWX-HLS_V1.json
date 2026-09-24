@@ -5,6 +5,7 @@
  "format": "COG",
  "daac": "NASA/JPL/PODAAC",
  "short_name": "OPERA_L3_DSWX-HLS_V1",
+ "sample_digest": "beafa1ea68bd0bbc",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -160,7 +161,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 6.0
+   "seconds": 5.8
   },
   {
    "granule_ur": "OPERA_L3_DSWx-HLS_T56LPN_20160104T000742Z_20260519T214225Z_S2A_30_v1.1",
@@ -313,7 +314,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 5.4
+   "seconds": 6.0
   },
   {
    "granule_ur": "OPERA_L3_DSWx-HLS_T56LPN_20180222T000731Z_20260714T075150Z_S2A_30_v1.1",
@@ -466,7 +467,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 6.1
+   "seconds": 5.8
   },
   {
    "granule_ur": "OPERA_L3_DSWx-HLS_T56LPN_20230108T235739Z_20251114T202706Z_S2B_30_v1.1",
@@ -619,7 +620,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 5.4
+   "seconds": 5.6
   },
   {
    "granule_ur": "OPERA_L3_DSWx-HLS_T56LPN_20240731T235739Z_20240802T203631Z_S2B_30_v1.0",
@@ -772,7 +773,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 6.1
+   "seconds": 5.5
   },
   {
    "granule_ur": "OPERA_L3_DSWx-HLS_T56LPN_20260913T000729Z_20260918T210539Z_S2B_30_v1.1",
@@ -925,7 +926,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 5.8
+   "seconds": 5.3
   },
   {
    "granule_ur": "OPERA_L3_DSWx-HLS_T56LPN_20260919T235739Z_20260921T032524Z_S2B_30_v1.1",
@@ -1078,7 +1079,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 5.5
+   "seconds": 5.2
   }
  ]
 }

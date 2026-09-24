@@ -5,6 +5,7 @@
  "format": "HDF5",
  "daac": "LP DAAC",
  "short_name": "GEDI02_B",
+ "sample_digest": "4cb47a206bf3c0a9",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -20636,6 +20637,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 101 on 'rch' and length 30 on {'phony_dim_0': 'beam', 'phony_dim_1': 'cover_z'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -20645,7 +20656,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0666666666666667
    },
-   "seconds": 29.0
+   "seconds": 60.9
   },
   {
    "granule_ur": "GEDI02_B_2019094180555_O01753_04_T01683_02_004_01_V003",
@@ -61890,6 +61901,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 101 on 'rch' and length 30 on {'phony_dim_0': 'beam', 'phony_dim_1': 'cover_z'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 53,
@@ -61898,7 +61919,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0192307692307692
    },
-   "seconds": 84.9
+   "seconds": 83.1
   },
   {
    "granule_ur": "GEDI02_B_2020274234154_O10210_02_T09842_02_004_01_V003",
@@ -103143,6 +103164,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 101 on 'rch' and length 30 on {'phony_dim_0': 'beam', 'phony_dim_1': 'cover_z'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 485,
@@ -103151,7 +103182,7 @@
     "contiguous_runs": 3,
     "span_fraction": 1.0020576131687242
    },
-   "seconds": 775.1
+   "seconds": 762.7
   },
   {
    "granule_ur": "GEDI02_B_2022089133655_O18667_02_T06561_02_004_01_V003",
@@ -144396,6 +144427,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 101 on 'rch' and length 30 on {'phony_dim_0': 'beam', 'phony_dim_1': 'cover_z'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 752,
@@ -144404,7 +144445,7 @@
     "contiguous_runs": 8,
     "span_fraction": 1.0013192612137203
    },
-   "seconds": 1419.3
+   "seconds": 1165.8
   },
   {
    "granule_ur": "GEDI02_B_2024117133926_O30423_02_T00000_02_004_01_V003",
@@ -185649,6 +185690,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 101 on 'rch' and length 30 on {'phony_dim_0': 'beam', 'phony_dim_1': 'cover_z'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 188,
@@ -185657,7 +185708,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0053475935828877
    },
-   "seconds": 303.5
+   "seconds": 313.2
   },
   {
    "granule_ur": "GEDI02_B_2025083230811_O35579_01_T02099_02_004_01_V003",
@@ -226902,6 +226953,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 101 on 'rch' and length 30 on {'phony_dim_0': 'beam', 'phony_dim_1': 'cover_z'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 228,
@@ -226910,7 +226971,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0044052863436124
    },
-   "seconds": 375.0
+   "seconds": 403.7
   },
   {
    "granule_ur": "GEDI02_B_2025190223019_O37238_01_T09057_02_004_01_V003",
@@ -268155,6 +268216,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 101 on 'rch' and length 30 on {'phony_dim_0': 'beam', 'phony_dim_1': 'cover_z'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 248,
@@ -268163,7 +268234,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0040485829959513
    },
-   "seconds": 398.6
+   "seconds": 422.0
   },
   {
    "granule_ur": "GEDI02_B_2025190223019_O37238_04_T09057_02_004_01_V003",
@@ -309408,6 +309479,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_1': length 101 on 'rch' and length 30 on {'phony_dim_0': 'beam', 'phony_dim_1': 'cover_z'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -309417,7 +309498,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0028985507246377
    },
-   "seconds": 599.5
+   "seconds": 534.3
   }
  ]
 }

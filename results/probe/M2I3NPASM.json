@@ -5,6 +5,7 @@
  "format": "NetCDF",
  "daac": "NASA/GSFC/SED/ESD/TISL/GESDISC",
  "short_name": "M2I3NPASM",
+ "sample_digest": "71a83c0cc88a0abc",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -20,15 +21,15 @@
    "ok": false,
    "error_type": "ProbeTimeout",
    "error": "exceeded the 1800 s probe budget for one granule",
-   "traceback_tail": ".<4 lines>...\n        coalesce=coalesce,\n        ^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"<repo>/scripts/03_probe.py\", line 412, in fire\n    raise ProbeTimeout(\n        f\"exceeded the {seconds} s probe budget for one granule\")\n__mp_main__.ProbeTimeout: exceeded the 1800 s probe budget for one granule\n",
+   "traceback_tail": ".14/site-packages/h5py/_hl/files.py\", line 635, in __exit__\n    @with_phil\n    \n  File \"<repo>/scripts/03_probe.py\", line 473, in fire\n    raise ProbeTimeout(\n        f\"exceeded the {seconds} s probe budget for one granule\")\n__mp_main__.ProbeTimeout: exceeded the 1800 s probe budget for one granule\n",
    "locality": {
-    "n_blocks": 721,
-    "n_fetches": 724,
-    "leading_fraction": 0.07073509015256588,
-    "contiguous_runs": 46,
+    "n_blocks": 959,
+    "n_fetches": 965,
+    "leading_fraction": 0.053180396246089674,
+    "contiguous_runs": 66,
     "span_fraction": 1.0
    },
-   "seconds": 1801.7
+   "seconds": 2378.6
   },
   {
    "granule_ur": "M2I3NPASM.5.12.4:MERRA2_100.inst3_3d_asm_Np.19800102.nc4",

@@ -5,6 +5,7 @@
  "format": "COG",
  "daac": "LP DAAC",
  "short_name": "AST_L1T",
+ "sample_digest": "789cb266cc579c9e",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -165,7 +166,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 4.8
+   "seconds": 5.4
   },
   {
    "granule_ur": "AST_L1T_00403042000203413_20250124090841",
@@ -323,7 +324,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 5.1
+   "seconds": 5.5
   },
   {
    "granule_ur": "AST_L1T_00406262005034238_20250518101324",
@@ -481,7 +482,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 4.4
+   "seconds": 5.6
   },
   {
    "granule_ur": "AST_L1T_00410172010001720_20250706173520",
@@ -639,7 +640,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 4.9
+   "seconds": 5.1
   },
   {
    "granule_ur": "AST_L1T_00402082016012305_20250810221117",
@@ -955,7 +956,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 4.9
+   "seconds": 5.2
   },
   {
    "granule_ur": "AST_L1T_00408012026234011_20260831060027",
@@ -1113,7 +1114,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.043478260869565216
    },
-   "seconds": 4.8
+   "seconds": 4.9
   },
   {
    "granule_ur": "AST_L1T_00408012026234020_20260831060050",
@@ -1271,7 +1272,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.045454545454545456
    },
-   "seconds": 5.1
+   "seconds": 5.8
   }
  ]
 }

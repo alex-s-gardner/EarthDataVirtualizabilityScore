@@ -5,6 +5,7 @@
  "format": "CSV+HDF5+KML+PDF+PNG+XML+YAML",
  "daac": "ASF",
  "short_name": "NISAR_L1_RSLC_PROVISIONAL_V1",
+ "sample_digest": "60595fca88c88636",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -4239,6 +4240,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 101 on 'hitCount' and length 1024 on {'phony_dim_0': 'frequency'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -4248,7 +4259,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.00047996160307175426
    },
-   "seconds": 9.6
+   "seconds": 8.1
   },
   {
    "granule_ur": "NISAR_L1_PR_RSLC_006_004_A_018_4005_DHDH_A_20251122T111119_20251122T111153_P05023_N_F_J_001",
@@ -9632,6 +9643,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 40 on 'hitCount' and length 1024 on {'phony_dim_0': 'frequency'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -9640,7 +9661,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.0015109441359032996
    },
-   "seconds": 9.0
+   "seconds": 8.9
   },
   {
    "granule_ur": "NISAR_L1_PR_RSLC_010_004_A_018_4005_DHDH_A_20260109T111121_20260109T111156_P05023_N_F_J_001",
@@ -15024,6 +15045,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 41 on 'hitCount' and length 1024 on {'phony_dim_0': 'frequency'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -15032,7 +15063,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.0014689534699063047
    },
-   "seconds": 9.0
+   "seconds": 7.9
   },
   {
    "granule_ur": "NISAR_L1_PR_RSLC_015_004_A_018_4005_DHDH_A_20260310T111123_20260310T111158_P05023_N_F_J_001",
@@ -20416,6 +20447,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 43 on 'hitCount' and length 1024 on {'phony_dim_0': 'frequency'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -20424,7 +20465,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.001468720228644014
    },
-   "seconds": 9.9
+   "seconds": 9.1
   },
   {
    "granule_ur": "NISAR_L1_PR_RSLC_021_004_A_018_4005_DHDH_A_20260521T111122_20260521T111157_P05023_N_F_J_001",
@@ -25808,6 +25849,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 40 on 'hitCount' and length 1024 on {'phony_dim_0': 'frequency'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -25816,7 +25867,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.001468720228644014
    },
-   "seconds": 9.1
+   "seconds": 7.9
   },
   {
    "granule_ur": "NISAR_L1_PR_RSLC_026_004_A_018_4005_DHDH_A_20260720T111118_20260720T111153_P05023_N_F_J_001",
@@ -31200,6 +31251,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 41 on 'hitCount' and length 1024 on {'phony_dim_0': 'frequency'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -31208,7 +31269,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.0014689534699063047
    },
-   "seconds": 8.7
+   "seconds": 7.3
   },
   {
    "granule_ur": "NISAR_L1_PR_RSLC_030_004_A_018_4005_DHDH_A_20260906T111117_20260906T111152_P05023_N_F_J_001",
@@ -36592,6 +36653,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 40 on 'hitCount' and length 1024 on {'phony_dim_0': 'frequency'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -36600,7 +36671,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.0014689534699063047
    },
-   "seconds": 9.8
+   "seconds": 7.5
   },
   {
    "granule_ur": "NISAR_L1_PR_RSLC_031_004_A_018_4005_DHDH_A_20260918T111117_20260918T111152_P05023_F_F_J_001",
@@ -41984,6 +42055,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 40 on 'hitCount' and length 1024 on {'phony_dim_0': 'frequency'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -41993,7 +42074,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.0014689534699063047
    },
-   "seconds": 10.0
+   "seconds": 8.8
   }
  ]
 }

@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA/LARC/SD/ASDC",
  "short_name": "CERES_EBAF",
+ "sample_digest": "4ba06a332e54d810",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -7024,6 +7025,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "lon": {
      "n": 360,
@@ -7052,7 +7061,7 @@
     "contiguous_runs": 42,
     "span_fraction": 0.9293394777265745
    },
-   "seconds": 67.9
+   "seconds": 82.8
   },
   {
    "granule_ur": "CERES_EBAF_Edition4.2.1_200003-202603.nc",
@@ -14069,6 +14078,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "lon": {
      "n": 360,
@@ -14097,7 +14114,7 @@
     "contiguous_runs": 42,
     "span_fraction": 0.9299847792998478
    },
-   "seconds": 73.7
+   "seconds": 83.4
   }
  ]
 }

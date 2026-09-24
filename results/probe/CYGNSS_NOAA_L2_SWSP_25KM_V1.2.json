@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA/JPL/PODAAC",
  "short_name": "CYGNSS_NOAA_L2_SWSP_25KM_V1.2",
+ "sample_digest": "c130250a495bcb31",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -743,6 +744,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "lat": {
      "n": 192773,
@@ -765,7 +774,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 39.4
+   "seconds": 48.9
   },
   {
    "granule_ur": "cyg.ddmi.s20170502-000002-e20170502-235959.l2.wind_trackgridsize25km_NOAAv1.2_L1a21.d21",
@@ -1501,6 +1510,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 9,
@@ -1509,7 +1526,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 21.3
+   "seconds": 32.2
   },
   {
    "granule_ur": "cyg.ddmi.s20190318-000001-e20190318-235959.l2.wind_trackgridsize25km_NOAAv1.2_L1a21.d21",
@@ -2245,6 +2262,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 18,
@@ -2253,7 +2278,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0588235294117647
    },
-   "seconds": 37.6
+   "seconds": 52.7
   },
   {
    "granule_ur": "cyg.ddmi.s20210201-000001-e20210201-235959.l2.wind_trackgridsize25km_NOAAv1.2_L1a21.d21",
@@ -2989,6 +3014,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 17,
@@ -2997,7 +3030,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 37.8
+   "seconds": 48.0
   },
   {
    "granule_ur": "cyg.ddmi.s20221220-000002-e20221220-235959.l2.wind_trackgridsize25km_NOAAv1.2_L1a21.d21",
@@ -3733,6 +3766,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 14,
@@ -3741,7 +3782,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0769230769230769
    },
-   "seconds": 32.1
+   "seconds": 41.8
   },
   {
    "granule_ur": "cyg.ddmi.s20241105-000001-e20241105-235959.l2.wind_trackgridsize25km_NOAAv1.2_L1a21.d21",
@@ -4477,6 +4518,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 11,
@@ -4485,7 +4534,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.1
    },
-   "seconds": 27.3
+   "seconds": 35.2
   },
   {
    "granule_ur": "cyg.ddmi.s20260917-000001-e20260917-235959.l2.wind_trackgridsize25km_NOAAv1.2_L1a21.d21",
@@ -5221,6 +5270,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 10,
@@ -5229,7 +5286,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 26.7
+   "seconds": 37.0
   },
   {
    "granule_ur": "cyg.ddmi.s20260918-000001-e20260918-235959.l2.wind_trackgridsize25km_NOAAv1.2_L1a21.d21",
@@ -5965,6 +6022,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "lat": {
      "n": 172047,
@@ -5987,7 +6052,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 45.4
+   "seconds": 49.0
   }
  ]
 }

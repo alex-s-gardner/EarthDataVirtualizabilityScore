@@ -5,6 +5,7 @@
  "format": "COG",
  "daac": "LP DAAC",
  "short_name": "ECO_L2T_LSTE",
+ "sample_digest": "a2346b56d933e91c",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -221,7 +222,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 6.0
+   "seconds": 5.4
   },
   {
    "granule_ur": "ECOv003_L2T_LSTE_46271_008_41SPS_20260902T173410_02",
@@ -328,7 +329,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.5
    },
-   "seconds": 7.1
+   "seconds": 6.0
   },
   {
    "granule_ur": "ECOv003_L2T_LSTE_46531_004_41SPS_20260919T103330_01",
@@ -435,7 +436,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.2
    },
-   "seconds": 4.8
+   "seconds": 5.3
   }
  ]
 }

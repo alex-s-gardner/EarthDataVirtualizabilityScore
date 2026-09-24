@@ -5,6 +5,7 @@
  "format": "HDF-EOS5",
  "daac": "LP DAAC",
  "short_name": "VNP13A1",
+ "sample_digest": "c2364300a9a9ca13",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -28,7 +29,18 @@
     "contiguous_runs": 20,
     "span_fraction": 1.0116279069767442
    },
-   "seconds": 115.6
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI2",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days NDVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days pixel reliability"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype int16, got list"
+   },
+   "seconds": 1.5
   },
   {
    "granule_ur": "VNP13A1.A2012025.h08v05.002.2023136125117",
@@ -49,7 +61,18 @@
     "contiguous_runs": 28,
     "span_fraction": 1.0114942528735633
    },
-   "seconds": 99.6
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI2",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days NDVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days pixel reliability"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype int16, got list"
+   },
+   "seconds": 1.8
   },
   {
    "granule_ur": "VNP13A1.A2014345.h08v05.002.2024063011623",
@@ -70,7 +93,18 @@
     "contiguous_runs": 25,
     "span_fraction": 1.011764705882353
    },
-   "seconds": 95.6
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI2",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days NDVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days pixel reliability"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype int16, got list"
+   },
+   "seconds": 1.7
   },
   {
    "granule_ur": "VNP13A1.A2017321.h08v05.002.2024072093734",
@@ -91,7 +125,18 @@
     "contiguous_runs": 31,
     "span_fraction": 1.011111111111111
    },
-   "seconds": 89.4
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI2",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days NDVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days pixel reliability"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype int16, got list"
+   },
+   "seconds": 1.7
   },
   {
    "granule_ur": "VNP13A1.A2020297.h08v05.002.2023057225734",
@@ -112,7 +157,18 @@
     "contiguous_runs": 29,
     "span_fraction": 1.0112359550561798
    },
-   "seconds": 108.5
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI2",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days NDVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days pixel reliability"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype int16, got list"
+   },
+   "seconds": 1.8
   },
   {
    "granule_ur": "VNP13A1.A2023281.h08v05.002.2023298124532",
@@ -133,7 +189,18 @@
     "contiguous_runs": 33,
     "span_fraction": 1.011111111111111
    },
-   "seconds": 103.9
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI2",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days NDVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days pixel reliability"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype int16, got list"
+   },
+   "seconds": 1.6
   },
   {
    "granule_ur": "VNP13A1.A2026241.h08v05.002.2026258004322",
@@ -154,7 +221,18 @@
     "contiguous_runs": 32,
     "span_fraction": 1.011111111111111
    },
-   "seconds": 91.2
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI2",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days NDVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days pixel reliability"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype int16, got list"
+   },
+   "seconds": 1.6
   },
   {
    "granule_ur": "VNP13A1.A2026249.h08v05.002.2026265090406",
@@ -175,7 +253,18 @@
     "contiguous_runs": 26,
     "span_fraction": 1.010989010989011
    },
-   "seconds": 134.5
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days EVI2",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days NDVI",
+     "HDFEOS/GRIDS/VIIRS_Grid_16Day_VI_500m/Data Fields/500 m 16 days pixel reliability"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype int16, got list"
+   },
+   "seconds": 1.6
   }
  ]
 }

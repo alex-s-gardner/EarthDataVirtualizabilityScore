@@ -12,3 +12,6 @@ results/_backup_*/
 *.docx
 
 .DS_Store
+
+# Stage 3 range cache: the byte ranges the probe read, rebuilt on demand from NASA.
+.probe_cache/

@@ -5,6 +5,7 @@
  "format": "HDF5",
  "daac": "NASA NSIDC DAAC",
  "short_name": "ATL08",
+ "sample_digest": "0fb9cbda05c6413a",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -18321,6 +18322,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -18330,7 +18339,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.8125
    },
-   "seconds": 9.0
+   "seconds": 104.3
   },
   {
    "granule_ur": "ATL08_20181014001920_02350103_007_01.h5",
@@ -36644,6 +36653,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -36652,7 +36669,7 @@
     "contiguous_runs": 2,
     "span_fraction": 1.0
    },
-   "seconds": 9.6
+   "seconds": 107.7
   },
   {
    "granule_ur": "ATL08_20200515235524_07700711_007_01.h5",
@@ -54966,6 +54983,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 1 on 'bin_size_h' and length 2 on {'phony_dim_0': 'atl08_region'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -54974,7 +55001,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.9545454545454546
    },
-   "seconds": 9.3
+   "seconds": 21.4
   },
   {
    "granule_ur": "ATL08_20211216235309_13061308_007_01.h5",
@@ -73288,6 +73315,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -73296,7 +73331,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.9375
    },
-   "seconds": 9.8
+   "seconds": 110.7
   },
   {
    "granule_ur": "ATL08_20230719235510_04552006_007_01.h5",
@@ -91610,6 +91645,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -91618,7 +91661,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.9411764705882353
    },
-   "seconds": 9.0
+   "seconds": 109.0
   },
   {
    "granule_ur": "ATL08_20250218235553_09912603_007_01.h5",
@@ -109932,6 +109975,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -109940,7 +109991,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.5625
    },
-   "seconds": 9.5
+   "seconds": 88.4
   },
   {
    "granule_ur": "ATL08_20260720222416_05633213_007_01.h5_KOiFgTqo",
@@ -128254,6 +128305,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -128262,7 +128321,7 @@
     "contiguous_runs": 2,
     "span_fraction": 1.0
    },
-   "seconds": 9.9
+   "seconds": 95.9
   },
   {
    "granule_ur": "ATL08_20260720223018_05633214_007_01.h5_KOiFgTqo",
@@ -146576,6 +146635,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "GenericError",
+     "error": "Generic HTTP error: Error performing GET https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/ATLAS/ATL08/007/2026/07/20/ATL08_20260720223018_05633214_007_01.h5 in 49.402975375s, after 1 retries, max_retries: 10, retry_timeout: 180s  - HTTP error: error sending request\n\nDebug sour"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -146585,7 +146654,7 @@
     "contiguous_runs": 2,
     "span_fraction": 1.0
    },
-   "seconds": 9.4
+   "seconds": 268.4
   }
  ]
 }

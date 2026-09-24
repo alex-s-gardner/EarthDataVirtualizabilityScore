@@ -5,6 +5,7 @@
  "format": "HDF5",
  "daac": "NASA NSIDC DAAC",
  "short_name": "SPL4SMGP",
+ "sample_digest": "6e4a4bc763325131",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -1639,6 +1640,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "x": {
      "n": 3856,
@@ -1661,7 +1670,7 @@
     "contiguous_runs": 28,
     "span_fraction": 1.0072463768115942
    },
-   "seconds": 55.6
+   "seconds": 62.5
   },
   {
    "granule_ur": "SMAP_L4_SM_gph_20150331T043000_Vv8010_001.h5",
@@ -3293,6 +3302,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 32,
@@ -3301,7 +3318,7 @@
     "contiguous_runs": 29,
     "span_fraction": 1.0071428571428571
    },
-   "seconds": 52.0
+   "seconds": 58.4
   },
   {
    "granule_ur": "SMAP_L4_SM_gph_20170716T223000_Vv8010_001.h5",
@@ -4933,6 +4950,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 33,
@@ -4941,7 +4966,7 @@
     "contiguous_runs": 26,
     "span_fraction": 1.006993006993007
    },
-   "seconds": 55.2
+   "seconds": 58.6
   },
   {
    "granule_ur": "SMAP_L4_SM_gph_20191101T223000_Vv8010_001.h5",
@@ -6573,6 +6598,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 33,
@@ -6581,7 +6614,7 @@
     "contiguous_runs": 28,
     "span_fraction": 1.0070921985815602
    },
-   "seconds": 50.5
+   "seconds": 60.2
   },
   {
    "granule_ur": "SMAP_L4_SM_gph_20220217T223000_Vv8010_001.h5",
@@ -8213,6 +8246,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 33,
@@ -8221,7 +8262,7 @@
     "contiguous_runs": 28,
     "span_fraction": 1.0071942446043165
    },
-   "seconds": 52.0
+   "seconds": 57.6
   },
   {
    "granule_ur": "SMAP_L4_SM_gph_20240604T223000_Vv8010_001.h5",
@@ -9853,6 +9894,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 33,
@@ -9861,7 +9910,7 @@
     "contiguous_runs": 28,
     "span_fraction": 1.006993006993007
    },
-   "seconds": 50.9
+   "seconds": 76.3
   },
   {
    "granule_ur": "SMAP_L4_SM_gph_20260920T193000_Vv8011_001.h5_u9loH5HD",
@@ -11493,6 +11542,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 32,
@@ -11501,7 +11558,7 @@
     "contiguous_runs": 27,
     "span_fraction": 1.006993006993007
    },
-   "seconds": 55.2
+   "seconds": 53.6
   },
   {
    "granule_ur": "SMAP_L4_SM_gph_20260920T223000_Vv8011_001.h5_u9loH5HD",
@@ -11557,7 +11614,7 @@
      ],
      "dims": [
       "y",
-      "x"
+      "None"
      ],
      "n_chunks": 1,
      "chunk_bytes_median": 1529932,
@@ -13133,6 +13190,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "x": {
      "n": 3856,
@@ -13150,12 +13215,12 @@
    "ok": true,
    "locality": {
     "n_blocks": 32,
-    "n_fetches": 32,
+    "n_fetches": 33,
     "leading_fraction": 0.09375,
     "contiguous_runs": 26,
     "span_fraction": 1.0069444444444444
    },
-   "seconds": 54.1
+   "seconds": 79.3
   }
  ]
 }

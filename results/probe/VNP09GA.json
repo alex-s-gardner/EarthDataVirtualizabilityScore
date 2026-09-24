@@ -5,6 +5,7 @@
  "format": "HDF-EOS5",
  "daac": "LP DAAC",
  "short_name": "VNP09GA",
+ "sample_digest": "631338978c488521",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -28,7 +29,28 @@
     "contiguous_runs": 4,
     "span_fraction": 1.010989010989011
    },
-   "seconds": 11.5
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF1_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF2_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF3_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF4_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF5_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF6_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF7_1",
+     "SurfReflect_QF1_c",
+     "SurfReflect_QF2_c",
+     "SurfReflect_QF3_c",
+     "SurfReflect_QF4_c",
+     "SurfReflect_QF5_c",
+     "SurfReflect_QF6_c",
+     "SurfReflect_QF7_c"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str"
+   },
+   "seconds": 12.8
   },
   {
    "granule_ur": "VNP09GA.A2012020.h08v05.002.2023122194534",
@@ -49,7 +71,28 @@
     "contiguous_runs": 3,
     "span_fraction": 1.0136986301369864
    },
-   "seconds": 8.8
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF1_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF2_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF3_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF4_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF5_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF6_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF7_1",
+     "SurfReflect_QF1_c",
+     "SurfReflect_QF2_c",
+     "SurfReflect_QF3_c",
+     "SurfReflect_QF4_c",
+     "SurfReflect_QF5_c",
+     "SurfReflect_QF6_c",
+     "SurfReflect_QF7_c"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str"
+   },
+   "seconds": 13.8
   },
   {
    "granule_ur": "VNP09GA.A2014358.h08v05.002.2024062222949",
@@ -70,7 +113,28 @@
     "contiguous_runs": 3,
     "span_fraction": 1.0125
    },
-   "seconds": 9.0
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF1_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF2_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF3_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF4_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF5_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF6_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF7_1",
+     "SurfReflect_QF1_c",
+     "SurfReflect_QF2_c",
+     "SurfReflect_QF3_c",
+     "SurfReflect_QF4_c",
+     "SurfReflect_QF5_c",
+     "SurfReflect_QF6_c",
+     "SurfReflect_QF7_c"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str"
+   },
+   "seconds": 10.7
   },
   {
    "granule_ur": "VNP09GA.A2017335.h08v05.002.2024072073830",
@@ -91,7 +155,28 @@
     "contiguous_runs": 4,
     "span_fraction": 1.010989010989011
    },
-   "seconds": 13.2
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF1_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF2_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF3_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF4_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF5_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF6_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF7_1",
+     "SurfReflect_QF1_c",
+     "SurfReflect_QF2_c",
+     "SurfReflect_QF3_c",
+     "SurfReflect_QF4_c",
+     "SurfReflect_QF5_c",
+     "SurfReflect_QF6_c",
+     "SurfReflect_QF7_c"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str"
+   },
+   "seconds": 14.3
   },
   {
    "granule_ur": "VNP09GA.A2020312.h08v05.002.2023057225717",
@@ -112,7 +197,28 @@
     "contiguous_runs": 4,
     "span_fraction": 1.010204081632653
    },
-   "seconds": 10.1
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF1_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF2_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF3_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF4_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF5_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF6_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF7_1",
+     "SurfReflect_QF1_c",
+     "SurfReflect_QF2_c",
+     "SurfReflect_QF3_c",
+     "SurfReflect_QF4_c",
+     "SurfReflect_QF5_c",
+     "SurfReflect_QF6_c",
+     "SurfReflect_QF7_c"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str"
+   },
+   "seconds": 9.3
   },
   {
    "granule_ur": "VNP09GA.A2023289.h08v05.002.2023290175240",
@@ -133,7 +239,28 @@
     "contiguous_runs": 4,
     "span_fraction": 1.010989010989011
    },
-   "seconds": 10.4
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF1_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF2_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF3_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF4_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF5_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF6_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF7_1",
+     "SurfReflect_QF1_c",
+     "SurfReflect_QF2_c",
+     "SurfReflect_QF3_c",
+     "SurfReflect_QF4_c",
+     "SurfReflect_QF5_c",
+     "SurfReflect_QF6_c",
+     "SurfReflect_QF7_c"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str"
+   },
+   "seconds": 11.2
   },
   {
    "granule_ur": "VNP09GA.A2026263.h08v05.002.2026264092203",
@@ -154,7 +281,28 @@
     "contiguous_runs": 3,
     "span_fraction": 1.0125
    },
-   "seconds": 10.7
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF1_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF2_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF3_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF4_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF5_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF6_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF7_1",
+     "SurfReflect_QF1_c",
+     "SurfReflect_QF2_c",
+     "SurfReflect_QF3_c",
+     "SurfReflect_QF4_c",
+     "SurfReflect_QF5_c",
+     "SurfReflect_QF6_c",
+     "SurfReflect_QF7_c"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str"
+   },
+   "seconds": 8.9
   },
   {
    "granule_ur": "VNP09GA.A2026264.h08v05.002.2026265085724",
@@ -175,7 +323,28 @@
     "contiguous_runs": 4,
     "span_fraction": 1.0104166666666667
    },
-   "seconds": 10.5
+   "excluded": {
+    "arrays": [
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF1_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF2_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF3_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF4_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF5_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF6_1",
+     "HDFEOS/GRIDS/VIIRS_Grid_1km_2D/Data Fields/SurfReflect_QF7_1",
+     "SurfReflect_QF1_c",
+     "SurfReflect_QF2_c",
+     "SurfReflect_QF3_c",
+     "SurfReflect_QF4_c",
+     "SurfReflect_QF5_c",
+     "SurfReflect_QF6_c",
+     "SurfReflect_QF7_c"
+    ],
+    "ok": false,
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str"
+   },
+   "seconds": 10.1
   }
  ]
 }

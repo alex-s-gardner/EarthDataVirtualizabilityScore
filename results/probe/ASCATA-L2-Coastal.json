@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA/JPL/PODAAC",
  "short_name": "ASCATA-L2-Coastal",
+ "sample_digest": "c650a5843b1adf70",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -376,6 +377,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -385,7 +394,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 9.2
+   "seconds": 13.4
   },
   {
    "granule_ur": "ascat_20100818_020300_metopa_19867_eps_o_coa_1100_ovw.l2",
@@ -754,6 +763,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 2,
@@ -762,7 +779,7 @@
     "contiguous_runs": 1,
     "span_fraction": 2.0
    },
-   "seconds": 7.3
+   "seconds": 13.3
   },
   {
    "granule_ur": "ascat_20121115_225700_metopa_31529_eps_o_coa_2101_ovw.l2",
@@ -1134,6 +1151,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 3,
@@ -1142,7 +1167,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 9.5
+   "seconds": 14.9
   },
   {
    "granule_ur": "ascat_20150215_224800_metopa_43207_eps_o_coa_2300_ovw.l2",
@@ -1514,6 +1539,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -1522,7 +1555,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.3333333333333333
    },
-   "seconds": 11.7
+   "seconds": 16.6
   },
   {
    "granule_ur": "ascat_20170516_230300_metopa_54871_eps_o_coa_2401_ovw.l2",
@@ -1894,6 +1927,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 3,
@@ -1902,7 +1943,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 10.4
+   "seconds": 14.7
   },
   {
    "granule_ur": "ascat_20190816_223300_metopa_66549_eps_o_coa_3201_ovw.l2",
@@ -2274,6 +2315,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 4,
@@ -2282,7 +2331,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.3333333333333333
    },
-   "seconds": 11.2
+   "seconds": 17.3
   },
   {
    "granule_ur": "ascat_20211115_053000_metopa_78217_eps_o_coa_3202_ovw.l2",
@@ -2654,6 +2703,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 3,
@@ -2662,7 +2719,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 10.0
+   "seconds": 15.4
   },
   {
    "granule_ur": "ascat_20211115_071200_metopa_78218_eps_o_coa_3202_ovw.l2",
@@ -3034,6 +3091,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -3043,7 +3108,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.3333333333333333
    },
-   "seconds": 11.7
+   "seconds": 17.0
   }
  ]
 }

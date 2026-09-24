@@ -5,6 +5,7 @@
  "format": "COG",
  "daac": "LP DAAC",
  "short_name": "HLSS30",
+ "sample_digest": "f38aecdf0819124b",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -160,7 +161,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 5.4
+   "seconds": 5.7
   },
   {
    "granule_ur": "HLS.S30.T55JFH.2015362T001732.v2.0",
@@ -313,7 +314,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 5.4
+   "seconds": 4.8
   },
   {
    "granule_ur": "HLS.S30.T55JFH.2018028T001059.v2.0",
@@ -466,7 +467,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.07692307692307693
    },
-   "seconds": 7.5
+   "seconds": 7.1
   },
   {
    "granule_ur": "HLS.S30.T55JFH.2020086T002051.v2.0",
@@ -619,7 +620,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 4.7
+   "seconds": 8.5
   },
   {
    "granule_ur": "HLS.S30.T55JFH.2022147T001109.v2.0",
@@ -772,7 +773,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.09090909090909091
    },
-   "seconds": 4.9
+   "seconds": 6.8
   },
   {
    "granule_ur": "HLS.S30.T55JFH.2024207T001119.v2.0",
@@ -925,7 +926,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.08333333333333333
    },
-   "seconds": 5.1
+   "seconds": 6.2
   },
   {
    "granule_ur": "HLS.S30.T55JFH.2026261T001111.v2.0",
@@ -1078,7 +1079,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.1
    },
-   "seconds": 5.0
+   "seconds": 9.0
   },
   {
    "granule_ur": "HLS.S30.T55JFH.2026264T002051.v2.0",
@@ -1231,7 +1232,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0
    },
-   "seconds": 4.9
+   "seconds": 7.4
   }
  ]
 }

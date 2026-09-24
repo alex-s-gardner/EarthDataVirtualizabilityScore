@@ -1,0 +1,225 @@
+{
+ "source": "NASA-IMPACT/virtual-zarr-coverage@65c8cec src/vzc/core/taxonomy.py",
+ "note": "Refusals bounded by this probe rather than by a reader meeting the file are excluded; they are limits of this measurement, not classes of failure.",
+ "collections": {
+  "AIRS2RET": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "KeyError",
+    "error": "'data'",
+    "bucket": "OTHER"
+   }
+  },
+  "AIRS3STD": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "KeyError",
+    "error": "'data'",
+    "bucket": "OTHER"
+   }
+  },
+  "ATL11": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 4,
+   "example": {
+    "error_type": "ValueError",
+    "error": "/pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1",
+    "bucket": "OTHER"
+   }
+  },
+  "CAL_LID_L1-Standard-V4-51": {
+   "buckets": [
+    "DECODE_ERROR"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "UnicodeDecodeError",
+    "error": "'utf-8' codec can't decode byte 0xb7 in position 6: invalid start byte",
+    "bucket": "DECODE_ERROR"
+   }
+  },
+  "CER_SSF1deg-Day_Aqua-MODIS": {
+   "buckets": [
+    "DECODE_ERROR"
+   ],
+   "n_refused": 3,
+   "example": {
+    "error_type": "UnicodeDecodeError",
+    "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
+    "bucket": "DECODE_ERROR"
+   }
+  },
+  "CER_SYN1deg-1Hour_Terra-Aqua-NOAA20": {
+   "buckets": [
+    "DECODE_ERROR"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "UnicodeDecodeError",
+    "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
+    "bucket": "DECODE_ERROR"
+   }
+  },
+  "GEDI_L4A_AGB_Density_V3_2508": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "ValueError",
+    "error": "Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Object\" data type, which is ambiguous, as multiple zarr data types can be represented by the numpy \"Ob",
+    "bucket": "OTHER"
+   }
+  },
+  "GRACEFO_L2_JPL_MONTHLY_0063": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "ValueError",
+    "error": "no VirtualiZarr parser reads ASCII",
+    "bucket": "OTHER"
+   }
+  },
+  "MOD09GA": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "KeyError",
+    "error": "'data'",
+    "bucket": "OTHER"
+   }
+  },
+  "MOD35_L2": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "ValueError",
+    "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
+    "bucket": "OTHER"
+   }
+  },
+  "MYD04_L2": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "ValueError",
+    "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
+    "bucket": "OTHER"
+   }
+  },
+  "SRTMGL1": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 1,
+   "example": {
+    "error_type": "ValueError",
+    "error": "no VirtualiZarr parser reads HGT",
+    "bucket": "OTHER"
+   }
+  },
+  "VNP09GA": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype uint8, got str",
+    "bucket": "OTHER"
+   }
+  },
+  "VNP13A1": {
+   "buckets": [
+    "OTHER"
+   ],
+   "n_refused": 8,
+   "example": {
+    "error_type": "TypeError",
+    "error": "Failed to encode fill_value: expected int or float for dtype int16, got list",
+    "bucket": "OTHER"
+   }
+  }
+ },
+ "collections_per_bucket": {
+  "OTHER": 11,
+  "DECODE_ERROR": 3
+ },
+ "unnamed": [
+  {
+   "error": "KeyError: 'data'",
+   "n_granules": 24,
+   "collections": [
+    "AIRS2RET",
+    "AIRS3STD",
+    "MOD09GA"
+   ]
+  },
+  {
+   "error": "ValueError: `dimension_names` and `shape` need to have the same number of dimensions.",
+   "n_granules": 16,
+   "collections": [
+    "MOD35_L2",
+    "MYD04_L2"
+   ]
+  },
+  {
+   "error": "ValueError: Zarr data type resolution from object failed. Attempted to resolve a zarr data type from a numpy \"Ob",
+   "n_granules": 8,
+   "collections": [
+    "GEDI_L4A_AGB_Density_V3_2508"
+   ]
+  },
+  {
+   "error": "ValueError: no VirtualiZarr parser reads ASCII",
+   "n_granules": 8,
+   "collections": [
+    "GRACEFO_L2_JPL_MONTHLY_0063"
+   ]
+  },
+  {
+   "error": "TypeError: Failed to encode fill_value: expected int or float for dtype uintN, got str",
+   "n_granules": 8,
+   "collections": [
+    "VNP09GA"
+   ]
+  },
+  {
+   "error": "TypeError: Failed to encode fill_value: expected int or float for dtype intN, got list",
+   "n_granules": 8,
+   "collections": [
+    "VNP13A1"
+   ]
+  },
+  {
+   "error": "ValueError: /ptN/ref_surf/poly_coeffs has N dimension scales attached to dimension #N; require exactly N",
+   "n_granules": 4,
+   "collections": [
+    "ATL11"
+   ]
+  },
+  {
+   "error": "ValueError: no VirtualiZarr parser reads HGT",
+   "n_granules": 1,
+   "collections": [
+    "SRTMGL1"
+   ]
+  }
+ ]
+}

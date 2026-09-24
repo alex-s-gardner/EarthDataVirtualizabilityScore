@@ -5,6 +5,7 @@
  "format": "HDF-EOS2",
  "daac": "LP DAAC",
  "short_name": "MCD12Q1",
+ "sample_digest": "b9d6052b5037695b",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -372,6 +373,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -380,7 +389,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.5
+   "seconds": 0.0
   },
   {
    "granule_ur": "MCD12Q1.A2002001.h08v05.061.2022147203929",
@@ -745,6 +754,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -752,7 +769,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 6.4
+   "seconds": 6.9
   },
   {
    "granule_ur": "MCD12Q1.A2006001.h08v05.061.2022202150408",
@@ -1117,6 +1134,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -1124,7 +1149,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.2
+   "seconds": 0.0
   },
   {
    "granule_ur": "MCD12Q1.A2011001.h08v05.061.2022161130812",
@@ -1489,6 +1514,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -1496,7 +1529,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.4
+   "seconds": 9.1
   },
   {
    "granule_ur": "MCD12Q1.A2016001.h08v05.061.2022166151313",
@@ -1861,6 +1894,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -1868,7 +1909,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.2
+   "seconds": 0.0
   },
   {
    "granule_ur": "MCD12Q1.A2021001.h08v05.061.2022216030750",
@@ -2233,6 +2274,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -2240,7 +2289,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.4
+   "seconds": 15.1
   },
   {
    "granule_ur": "MCD12Q1.A2023001.h08v05.061.2024252121335",
@@ -2605,6 +2654,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -2612,7 +2669,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.4
+   "seconds": 0.0
   },
   {
    "granule_ur": "MCD12Q1.A2024001.h08v05.061.2025205073841",
@@ -2977,6 +3034,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -2985,7 +3050,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 5.8
+   "seconds": 0.0
   }
  ]
 }

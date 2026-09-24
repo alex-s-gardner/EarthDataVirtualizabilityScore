@@ -5,6 +5,7 @@
  "format": "ASCII+HDF-EOS5",
  "daac": "NASA NSIDC DAAC",
  "short_name": "AU_SI12",
+ "sample_digest": "6b4845eb3ba776ca",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -237,9 +238,9 @@
      "dims": [
       "XDim"
      ],
-     "n_chunks": 94,
-     "chunk_bytes_median": 4524477248,
-     "chunk_bytes_max": 18446744073709551615,
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
      "cf": {},
      "grid": {}
     },
@@ -1209,9 +1210,9 @@
      "dims": [
       "XDim"
      ],
-     "n_chunks": 401,
-     "chunk_bytes_median": 69,
-     "chunk_bytes_max": 18446744073709551615,
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
      "cf": {},
      "grid": {}
     },
@@ -2198,6 +2199,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "group '/HDFEOS/GRIDS/SpPolarGrid12km' is not aligned with its parents:\nGroup:\n    Dimensions:  (YDim: 664, XDim: 632)\n    Coordinates:\n        YDim     (YDim) float32 3kB ...\n        XDim     (XDim) float32 3kB ...\n    Data variables:\n        lat      (YDim, XDim) float32 2MB ...\n        lon      (Y"
+    }
+   },
    "coords": {
     "XDim": {
      "n": 608,
@@ -2220,7 +2231,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.008
    },
-   "seconds": 11.3
+   "seconds": 9.7
   },
   {
    "granule_ur": "AMSR_UE_L3_SeaIce12km_B04_20020602.he5",
@@ -4426,6 +4437,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "group '/HDFEOS/GRIDS/SpPolarGrid12km' is not aligned with its parents:\nGroup:\n    Dimensions:  (YDim: 664, XDim: 632)\n    Coordinates:\n        YDim     (YDim) float32 3kB ...\n        XDim     (XDim) float32 3kB ...\n    Data variables:\n        lat      (YDim, XDim) float32 2MB ...\n        lon      (Y"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -4434,7 +4455,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.008
    },
-   "seconds": 10.8
+   "seconds": 10.1
   },
   {
    "granule_ur": "AMSR_UE_L3_SeaIce12km_B04_20040412.he5",
@@ -4679,9 +4700,9 @@
      "dims": [
       "XDim"
      ],
-     "n_chunks": 0,
-     "chunk_bytes_median": null,
-     "chunk_bytes_max": null,
+     "n_chunks": 32,
+     "chunk_bytes_median": 1948,
+     "chunk_bytes_max": 18446744073709551615,
      "cf": {},
      "grid": {}
     },
@@ -5651,9 +5672,9 @@
      "dims": [
       "XDim"
      ],
-     "n_chunks": 0,
-     "chunk_bytes_median": null,
-     "chunk_bytes_max": null,
+     "n_chunks": 401,
+     "chunk_bytes_median": 69,
+     "chunk_bytes_max": 18446744073709551615,
      "cf": {},
      "grid": {}
     },
@@ -6640,6 +6661,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "group '/HDFEOS/GRIDS/SpPolarGrid12km' is not aligned with its parents:\nGroup:\n    Dimensions:  (YDim: 664, XDim: 632)\n    Coordinates:\n        YDim     (YDim) float32 3kB ...\n        XDim     (XDim) float32 3kB ...\n    Data variables:\n        lat      (YDim, XDim) float32 2MB ...\n        lon      (Y"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -6648,7 +6679,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.008
    },
-   "seconds": 11.5
+   "seconds": 10.2
   },
   {
    "granule_ur": "AMSR_UE_L3_SeaIce12km_B04_20060224.he5",
@@ -6893,9 +6924,9 @@
      "dims": [
       "XDim"
      ],
-     "n_chunks": 34,
-     "chunk_bytes_median": 3992,
-     "chunk_bytes_max": 18446744073709551615,
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
      "cf": {},
      "grid": {}
     },
@@ -7865,9 +7896,9 @@
      "dims": [
       "XDim"
      ],
-     "n_chunks": 490,
-     "chunk_bytes_median": 112,
-     "chunk_bytes_max": 18446744073709551615,
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
      "cf": {},
      "grid": {}
     },
@@ -8854,6 +8885,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "group '/HDFEOS/GRIDS/SpPolarGrid12km' is not aligned with its parents:\nGroup:\n    Dimensions:  (YDim: 664, XDim: 632)\n    Coordinates:\n        YDim     (YDim) float32 3kB ...\n        XDim     (XDim) float32 3kB ...\n    Data variables:\n        lat      (YDim, XDim) float32 2MB ...\n        lon      (Y"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -8862,7 +8903,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.008
    },
-   "seconds": 9.4
+   "seconds": 10.8
   },
   {
    "granule_ur": "AMSR_UE_L3_SeaIce12km_B04_20080107.he5",
@@ -11068,6 +11109,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "group '/HDFEOS/GRIDS/SpPolarGrid12km' is not aligned with its parents:\nGroup:\n    Dimensions:  (YDim: 664, XDim: 632)\n    Coordinates:\n        YDim     (YDim) float32 3kB ...\n        XDim     (XDim) float32 3kB ...\n    Data variables:\n        lat      (YDim, XDim) float32 2MB ...\n        lon      (Y"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -11076,7 +11127,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.008
    },
-   "seconds": 10.7
+   "seconds": 10.4
   },
   {
    "granule_ur": "AMSR_UE_L3_SeaIce12km_B04_20091120.he5",
@@ -13282,6 +13333,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "group '/HDFEOS/GRIDS/SpPolarGrid12km' is not aligned with its parents:\nGroup:\n    Dimensions:  (YDim: 664, XDim: 632)\n    Coordinates:\n        YDim     (YDim) float32 3kB ...\n        XDim     (XDim) float32 3kB ...\n    Data variables:\n        lat      (YDim, XDim) float32 2MB ...\n        lon      (Y"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -13290,7 +13351,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.008
    },
-   "seconds": 9.0
+   "seconds": 10.4
   },
   {
    "granule_ur": "AMSR_U2_L3_SeaIce12km_B04_20250830.he5",
@@ -14507,9 +14568,9 @@
      "dims": [
       "XDim"
      ],
-     "n_chunks": 401,
-     "chunk_bytes_median": 69,
-     "chunk_bytes_max": 18446744073709551615,
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
      "cf": {},
      "grid": {}
     },
@@ -15496,6 +15557,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "group '/HDFEOS/GRIDS/SpPolarGrid12km' is not aligned with its parents:\nGroup:\n    Dimensions:  (YDim: 664, XDim: 632)\n    Coordinates:\n        YDim     (YDim) float32 3kB ...\n        XDim     (XDim) float32 3kB ...\n    Data variables:\n        lat      (YDim, XDim) float32 2MB ...\n        lon      (Y"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -15504,7 +15575,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.008
    },
-   "seconds": 9.8
+   "seconds": 9.3
   },
   {
    "granule_ur": "AMSR_U2_L3_SeaIce12km_B04_20250831.he5",
@@ -17695,6 +17766,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "group '/HDFEOS/GRIDS/SpPolarGrid12km' is not aligned with its parents:\nGroup:\n    Dimensions:  (YDim: 664, XDim: 632)\n    Coordinates:\n        YDim     (YDim) float32 3kB ...\n        XDim     (XDim) float32 3kB ...\n    Data variables:\n        lat      (YDim, XDim) float32 2MB ...\n        lon      (Y"
+    }
+   },
    "coords": {
     "XDim": {
      "n": 608,
@@ -17717,7 +17798,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.008
    },
-   "seconds": 10.2
+   "seconds": 9.5
   }
  ]
 }

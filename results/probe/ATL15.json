@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA NSIDC DAAC",
  "short_name": "ATL15",
+ "sample_digest": "37baba170bd66a30",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -2891,6 +2892,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "tile_stats/x": {
      "n": 38,
@@ -2937,7 +2946,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0666666666666667
    },
-   "seconds": 48.7
+   "seconds": 113.2
   }
  ]
 }

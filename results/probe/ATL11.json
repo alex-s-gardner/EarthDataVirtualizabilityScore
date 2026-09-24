@@ -5,6 +5,7 @@
  "format": "HDF5",
  "daac": "NASA NSIDC DAAC",
  "short_name": "ATL11",
+ "sample_digest": "f2996527511e7b9f",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -28,7 +29,20 @@
     "contiguous_runs": 1,
     "span_fraction": 1.25
    },
-   "seconds": 9.6
+   "excluded": {
+    "arrays": [
+     "pt1/ref_surf/poly_coeffs",
+     "pt1/ref_surf/poly_coeffs_sigma",
+     "pt2/ref_surf/poly_coeffs",
+     "pt2/ref_surf/poly_coeffs_sigma",
+     "pt3/ref_surf/poly_coeffs",
+     "pt3/ref_surf/poly_coeffs_sigma"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "/pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1"
+   },
+   "seconds": 2.8
   },
   {
    "granule_ur": "ATL11_000104_0332_007_05.h5_8ouogReK",
@@ -49,7 +63,20 @@
     "contiguous_runs": 3,
     "span_fraction": 1.05
    },
-   "seconds": 15.6
+   "excluded": {
+    "arrays": [
+     "pt1/ref_surf/poly_coeffs",
+     "pt1/ref_surf/poly_coeffs_sigma",
+     "pt2/ref_surf/poly_coeffs",
+     "pt2/ref_surf/poly_coeffs_sigma",
+     "pt3/ref_surf/poly_coeffs",
+     "pt3/ref_surf/poly_coeffs_sigma"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "/pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1"
+   },
+   "seconds": 7.5
   },
   {
    "granule_ur": "ATL11_138711_0332_007_05.h5_8ouogReK",
@@ -70,7 +97,20 @@
     "contiguous_runs": 8,
     "span_fraction": 1.0072463768115942
    },
-   "seconds": 64.6
+   "excluded": {
+    "arrays": [
+     "pt1/ref_surf/poly_coeffs",
+     "pt1/ref_surf/poly_coeffs_sigma",
+     "pt2/ref_surf/poly_coeffs",
+     "pt2/ref_surf/poly_coeffs_sigma",
+     "pt3/ref_surf/poly_coeffs",
+     "pt3/ref_surf/poly_coeffs_sigma"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "/pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1"
+   },
+   "seconds": 11.4
   },
   {
    "granule_ur": "ATL11_138712_0332_007_05.h5_8ouogReK",
@@ -91,7 +131,20 @@
     "contiguous_runs": 3,
     "span_fraction": 1.0158730158730158
    },
-   "seconds": 36.5
+   "excluded": {
+    "arrays": [
+     "pt1/ref_surf/poly_coeffs",
+     "pt1/ref_surf/poly_coeffs_sigma",
+     "pt2/ref_surf/poly_coeffs",
+     "pt2/ref_surf/poly_coeffs_sigma",
+     "pt3/ref_surf/poly_coeffs",
+     "pt3/ref_surf/poly_coeffs_sigma"
+    ],
+    "ok": false,
+    "error_type": "ValueError",
+    "error": "/pt1/ref_surf/poly_coeffs has 2 dimension scales attached to dimension #1; require exactly 1"
+   },
+   "seconds": 2.5
   }
  ]
 }

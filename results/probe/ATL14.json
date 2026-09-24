@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA NSIDC DAAC",
  "short_name": "ATL14",
+ "sample_digest": "c5019ac896f14ae6",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -835,6 +836,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "group '/tile_stats' is not aligned with its parents:\nGroup:\n    Dimensions:              (y: 68, x: 38)\n    Coordinates:\n        y                    (y) float64 544B ...\n        x                    (x) float64 304B ...\n    Data variables:\n        N_data               (y, x) float64 21kB ...\n      "
+    }
+   },
    "coords": {
     "x": {
      "n": 15401,
@@ -869,7 +880,7 @@
     "contiguous_runs": 13,
     "span_fraction": 1.0007137758743754
    },
-   "seconds": 37.3
+   "seconds": 41.8
   }
  ]
 }

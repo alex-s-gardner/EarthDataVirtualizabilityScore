@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "LP DAAC",
  "short_name": "EMITL1BRAD",
+ "sample_digest": "cfedd5b62673bbe2",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -213,6 +214,16 @@
    "root_attrs": {
     "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
    },
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype StringDType()"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -222,7 +233,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.0097087378640777
    },
-   "seconds": 11.9
+   "seconds": 11.5
   },
   {
    "granule_ur": "EMIT_L1B_RAD_002_20220810T034115",
@@ -428,6 +439,16 @@
    "root_attrs": {
     "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
    },
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype StringDType()"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -436,7 +457,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.0097087378640777
    },
-   "seconds": 12.2
+   "seconds": 11.8
   },
   {
    "granule_ur": "EMIT_L1B_RAD_002_20260826T014632",
@@ -642,6 +663,16 @@
    "root_attrs": {
     "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
    },
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype StringDType()"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -650,7 +681,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.0097087378640777
    },
-   "seconds": 12.4
+   "seconds": 14.4
   },
   {
    "granule_ur": "EMIT_L1B_RAD_002_20260921T163721",
@@ -856,6 +887,16 @@
    "root_attrs": {
     "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
    },
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype StringDType()"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -864,7 +905,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.0097087378640777
    },
-   "seconds": 11.1
+   "seconds": 11.3
   },
   {
    "granule_ur": "EMIT_L1B_RAD_002_20260921T163733",
@@ -1070,6 +1111,16 @@
    "root_attrs": {
     "spatial_ref": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
    },
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype StringDType()"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -1079,7 +1130,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.0
    },
-   "seconds": 12.8
+   "seconds": 11.5
   }
  ]
 }

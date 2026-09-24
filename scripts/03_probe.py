@@ -38,9 +38,11 @@ from virtualizarr.registry import ObjectStoreRegistry
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import vz_shims
+from probe_cache import CachingStore, MetaCache, file_cache_path, room_for
 
 RESULTS = Path(__file__).resolve().parent.parent / "results"
 PROBE_DIR = RESULTS / "probe"
+DIAGNOSE_DIR = RESULTS / "diagnose"
 
 # Formats outside every VirtualiZarr parser. Recorded as a hard blocker rather than skipped, because
 # "no parser reads this" is a virtualizability finding.
@@ -84,13 +86,18 @@ class LoggingReader(BlockStoreReader):
         return super()._get_blocks(block_indices)
 
 
-def logging_factory(log: list[int]):
+def logging_factory(log: list[int], url: str):
     """
-    Reader factory for a VirtualiZarr parser that appends fetched block indices to `log`.
+    Reader factory for a VirtualiZarr parser that appends fetched block indices to `log` and reads
+    through the on-disk range cache.
+
+    The cache wraps the store beneath the reader, so the reader's own accounting is unchanged: a block
+    it had to go outside its in-memory cache for is logged whether the bytes came from the network or
+    from disk, which keeps the locality measurement a property of the granule.
     """
 
     def factory(store, path, **kwargs):
-        r = LoggingReader(store, path, **kwargs)
+        r = LoggingReader(CachingStore(store, url), path, **kwargs)
         r.fetched = log
         return r
 
@@ -206,7 +213,7 @@ def tiff_crs(page) -> str:
     return str(gt.get("GTCitationGeoKey") or gt.get("GeogCitationGeoKey") or "")
 
 
-def arrays_from_tiff(store, path: str, log: list[int]) -> tuple[list[dict], dict]:
+def arrays_from_tiff(store, path: str, log: list[int], url: str) -> tuple[list[dict], dict]:
     """
     Per-array layout for a (Cloud-Optimized) GeoTIFF, read from its TIFF tags.
 
@@ -217,7 +224,7 @@ def arrays_from_tiff(store, path: str, log: list[int]) -> tuple[list[dict], dict
     """
     import tifffile
 
-    reader = LoggingReader(store, path)
+    reader = LoggingReader(CachingStore(store, url), path)
     reader.fetched = log
     out, grid = [], {}
     with tifffile.TiffFile(reader) as tf:
@@ -314,7 +321,7 @@ def sniff(store, path: str) -> str:
     return "unknown"
 
 
-def parser_for(kind: str, log: list[int], token: str):
+def parser_for(kind: str, log: list[int], token: str, url: str, drop: list[str] | None = None):
     """
     The VirtualiZarr parser for a sniffed container format, or `None` for TIFF, which is read from
     its tags instead.
@@ -325,6 +332,11 @@ def parser_for(kind: str, log: list[int], token: str):
     `trust_env` must be off: fsspec otherwise picks up `~/.netrc` and sends basic auth alongside the
     bearer token, and Earthdata Login rejects the request.
 
+    `drop` names arrays to leave out of the store. The parsers spell that argument differently —
+    `drop_variables` on HDF5, `skip_variables` on the kerchunk-backed pair — and a store built with it
+    describes less of the granule than the granule holds, so a result from one is recorded separately
+    from the archive's own verdict rather than in place of it.
+
     Raises `ValueError` for a container no parser reads.
     """
     fsspec_opts = {"storage_options": {"client_kwargs": {
@@ -333,12 +345,61 @@ def parser_for(kind: str, log: list[int], token: str):
     if kind == "tiff":
         return None
     if kind == "hdf4":
-        return HDF4Parser(reader_options=fsspec_opts)
+        return HDF4Parser(reader_options=fsspec_opts, skip_variables=drop)
     if kind == "netcdf3":
-        return NetCDF3Parser(reader_options=fsspec_opts)
+        return NetCDF3Parser(reader_options=fsspec_opts, skip_variables=drop)
     if kind == "hdf5":
-        return HDFParser(reader_factory=logging_factory(log))
+        return HDFParser(reader_factory=logging_factory(log, url), drop_variables=drop)
     raise ValueError(f"unrecognized container format (first bytes match no known signature)")
+
+
+#: Keys of `results/diagnose/*.json` findings whose entries name an array that blocks the parse.
+_BLOCKING_FINDINGS = ("unencodable_fill_values", "multi_scale_axes", "unfixed_dtypes")
+
+
+def blocking_arrays(short_name: str) -> list[str]:
+    """
+    The arrays stage 6 found the parser refusing a collection over.
+
+    Stage 6 already opens every refused granule with `h5py` and names the datasets carrying the
+    feature Zarr cannot express, so the exclusion list is read from that census rather than written by
+    hand. An empty list means either that the collection parses or that its refusal was not traced to
+    particular arrays.
+    """
+    path = DIAGNOSE_DIR / f"{short_name}.json"
+    try:
+        doc = json.loads(path.read_text())
+    except (OSError, ValueError):
+        return []
+    names: list[str] = []
+    for d in doc.get("diagnoses", []):
+        for key in _BLOCKING_FINDINGS:
+            for entry in d.get("findings", {}).get(key, []) or []:
+                name = entry.get("dataset")
+                if name and name not in names:
+                    names.append(name)
+    return names
+
+
+def materialize(ms) -> dict:
+    """
+    Whether a `ManifestStore` becomes an `xarray.Dataset`, an `xarray.DataTree`, or neither.
+
+    Building the store and materializing it are separate steps, and a hierarchical granule can pass
+    the first and fail the second: `xarray` refuses to flatten groups whose dimensions disagree, while
+    the same store opens as a tree. Recording the two apart separates a granule nothing reads from one
+    only a flat reader cannot read.
+
+    `loadable_variables=[]` keeps both calls metadata-only, so neither fetches a chunk.
+    """
+    out = {}
+    for name, call in (("dataset", ms.to_virtual_dataset), ("datatree", ms.to_virtual_datatree)):
+        try:
+            call(loadable_variables=[])
+            out[name] = {"ok": True}
+        except Exception as exc:  # noqa: BLE001 - which call fails is the finding
+            out[name] = {"ok": False, "error_type": type(exc).__name__, "error": str(exc)[:300]}
+    return out
 
 
 # Formats whose parser reaches the network through kerchunk's fsspec backend. Those readers issue
@@ -423,25 +484,43 @@ def _deadline(seconds: int):
     return cm()
 
 
-def _read_layout(rec: dict, url: str, token: str, log: list[int], read_coords: bool) -> None:
+def _read_layout(rec: dict, url: str, token: str, log: list[int], read_coords: bool,
+                 drop: list[str] | None = None) -> None:
     """
     Fill `rec` with one granule's container format, array layout, and grid attributes.
+
+    Object size, DMR++ availability, and the container signature are memoized per granule: none
+    changes for a given URL, and each otherwise costs its own Earthdata Login redirect on every run.
     """
     root, path, st = _store(url, token)
-    rec["file_bytes"] = int(st.head(path)["size"])
-    rec["dmrpp"] = _has_dmrpp(st, path)
+    meta = MetaCache(url)
 
-    kind = sniff(st, path)
+    size = meta.get("file_bytes")
+    if size is None:
+        size = int(st.head(path)["size"])
+        meta.put("file_bytes", size)
+    rec["file_bytes"] = size
+
+    dmrpp = meta.get("dmrpp")
+    if dmrpp is None:
+        dmrpp = _has_dmrpp(st, path)
+        meta.put("dmrpp", dmrpp)
+    rec["dmrpp"] = dmrpp
+
+    kind = meta.get("container")
+    if kind is None:
+        kind = sniff(st, path)
+        meta.put("container", kind)
     rec["container"] = kind
     # The container is read from the object's own first bytes before a format is ruled out, so a
     # collection graded on "no parser reads this" is graded on what the file is rather than on what
     # CMR's format field says it is.
     if kind == "unknown" and rec["declared_format"].split("+")[0].upper() in NO_PARSER:
         raise ValueError(f"no VirtualiZarr parser reads {rec['declared_format']}")
-    parser = parser_for(kind, log, token)
+    parser = parser_for(kind, log, token, url, drop)
 
     if parser is None:
-        rec["vars"], rec["tiff_grid"] = arrays_from_tiff(st, path, log)
+        rec["vars"], rec["tiff_grid"] = arrays_from_tiff(st, path, log, url)
         return
 
     if kind in DOWNLOAD_FIRST:
@@ -450,10 +529,26 @@ def _read_layout(rec: dict, url: str, token: str, log: list[int], read_coords: b
                 f"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the "
                 f"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers")
         rec["parsed_locally"] = True
-        with tempfile.TemporaryDirectory() as tmp:
-            local = Path(tmp) / Path(path).name
-            fetch_to_disk(st, path, local)
+        local = file_cache_path(url)
+        if local.exists() and local.stat().st_size == rec["file_bytes"]:
             ms = parser(local.as_uri(), ObjectStoreRegistry({"file://": LocalStore()}))
+            _record_store(rec, ms, read_coords)
+            return
+        # Keeping the granule makes a later re-probe of this collection free, but only while the volume
+        # has room to spare: the copy is a convenience and the run is not.
+        if room_for(rec["file_bytes"]):
+            local.parent.mkdir(parents=True, exist_ok=True)
+            partial = local.with_suffix(".part")
+            fetch_to_disk(st, path, partial)
+            partial.replace(local)
+            ms = parser(local.as_uri(), ObjectStoreRegistry({"file://": LocalStore()}))
+            _record_store(rec, ms, read_coords)
+            return
+        rec["cached_locally"] = False
+        with tempfile.TemporaryDirectory() as tmp:
+            scratch = Path(tmp) / Path(path).name
+            fetch_to_disk(st, path, scratch)
+            ms = parser(scratch.as_uri(), ObjectStoreRegistry({"file://": LocalStore()}))
             _record_store(rec, ms, read_coords)
         return
 
@@ -467,11 +562,34 @@ def _record_store(rec: dict, ms, read_coords: bool) -> None:
     """
     rec["vars"] = arrays_from_store(ms)
     rec["root_attrs"] = _subset(dict(ms._group.metadata.attributes), GRID_ATTRS)
+    rec["materialize"] = materialize(ms)
     if read_coords:
         rec["coords"] = coordinates(ms, rec["vars"])
 
 
-def probe_granule(gran: dict, fmt: str, token: str, read_coords: bool = False) -> dict:
+def _retry_without(gran: dict, fmt: str, token: str, drop: list[str]) -> dict:
+    """
+    Whether one granule parses once the arrays stage 6 named are left out of the store.
+
+    A store built this way describes less of the granule than the granule holds, so the result is
+    recorded beside the refusal rather than in place of it. It answers a question the refusal does not:
+    whether the feature Zarr cannot express is confined to a few arrays a user could exclude today, or
+    reaches the measurement the product exists to distribute.
+    """
+    scratch = {"declared_format": fmt}
+    log: list[int] = []
+    try:
+        with _deadline(GRANULE_DEADLINE):
+            _read_layout(scratch, gran["url"], token, log, False, drop=drop)
+    except Exception as exc:  # noqa: BLE001 - a failed exclusion is itself the finding
+        return {"arrays": drop, "ok": False, "error_type": type(exc).__name__,
+                "error": str(exc)[:300]}
+    return {"arrays": drop, "ok": True, "n_vars": len(scratch.get("vars", [])),
+            "materialize": scratch.get("materialize")}
+
+
+def probe_granule(gran: dict, fmt: str, token: str, read_coords: bool = False,
+                  drop: list[str] | None = None) -> dict:
     """
     Record one granule's layout, or the reason it cannot be virtualized.
 
@@ -500,6 +618,8 @@ def probe_granule(gran: dict, fmt: str, token: str, read_coords: bool = False) -
                    traceback_tail=relative_paths(traceback.format_exc())[-300:])
         if log and rec.get("file_bytes"):
             rec["locality"] = locality(log, rec["file_bytes"])
+        if drop:
+            rec["excluded"] = _retry_without(gran, fmt, token, drop)
     rec["seconds"] = round(time.time() - t0, 1)
     return rec
 
@@ -508,15 +628,17 @@ def probe_granule(gran: dict, fmt: str, token: str, read_coords: bool = False) -
 KILL_GRACE = 90
 
 
-def _probe_child(out_path: str, gran: dict, fmt: str, token: str, read_coords: bool) -> None:
+def _probe_child(out_path: str, gran: dict, fmt: str, token: str, read_coords: bool,
+                 drop: list[str] | None) -> None:
     """
     Probe one granule in a child process and write the record to `out_path` as JSON.
     """
     vz_shims.install()
-    Path(out_path).write_text(json.dumps(probe_granule(gran, fmt, token, read_coords)))
+    Path(out_path).write_text(json.dumps(probe_granule(gran, fmt, token, read_coords, drop)))
 
 
-def probe_granule_bounded(gran: dict, fmt: str, token: str, read_coords: bool) -> dict:
+def probe_granule_bounded(gran: dict, fmt: str, token: str, read_coords: bool,
+                          drop: list[str] | None = None) -> dict:
     """
     Probe one granule under a wall-clock bound the parent can always enforce.
 
@@ -531,7 +653,7 @@ def probe_granule_bounded(gran: dict, fmt: str, token: str, read_coords: bool) -
     with tempfile.TemporaryDirectory() as tmp:
         path = Path(tmp) / "rec.json"
         proc = mp.Process(target=_probe_child,
-                          args=(str(path), gran, fmt, token, read_coords), daemon=True)
+                          args=(str(path), gran, fmt, token, read_coords, drop), daemon=True)
         proc.start()
         proc.join(GRANULE_DEADLINE + KILL_GRACE)
         if proc.is_alive():
@@ -548,7 +670,7 @@ def probe_granule_bounded(gran: dict, fmt: str, token: str, read_coords: bool) -
     return rec
 
 
-def probe_collection(entry: dict, token: str) -> list[dict]:
+def probe_collection(entry: dict, token: str, drop: list[str] | None = None) -> list[dict]:
     """
     Probe a collection's sampled granules, abandoning the collection after the first timeout.
 
@@ -571,7 +693,8 @@ def probe_collection(entry: dict, token: str) -> list[dict]:
                          f"{GRANULE_DEADLINE} s probe budget",
             })
             continue
-        probes.append(probe_granule_bounded(g, fmt, token, read_coords=(j in coord_at)))
+        probes.append(probe_granule_bounded(g, fmt, token, read_coords=(j in coord_at),
+                                            drop=drop))
     return probes
 
 
@@ -588,6 +711,35 @@ def _has_dmrpp(store, path: str) -> bool:
         return False
 
 
+# Seconds before an Earthdata Login bearer token is fetched again. A full run takes many hours and
+# outlives one token, and a request made with an expired token fails in a way that says nothing about
+# the granule — so without this every granule after the expiry records a refusal the archive did not
+# make. Re-logging in is cheap next to a granule read.
+TOKEN_TTL = 1800
+
+
+def fresh_token(earthaccess_mod) -> str:
+    """
+    A current Earthdata Login bearer token.
+    """
+    earthaccess_mod.login(strategy="netrc")
+    return earthaccess_mod.__auth__.token["access_token"]
+
+
+def sample_digest(entry: dict) -> str:
+    """
+    A digest of the granules one collection was sampled at.
+
+    A probe artifact describes the granules it opened, so reusing it across a change of sample would
+    score one sample's measurements against another's granules. Recording the digest lets a resumed run
+    tell a finished collection from a stale one instead of assuming the sample never moved.
+    """
+    from hashlib import sha256
+
+    urls = sorted(str(g.get("url", "")) for g in entry.get("granules", []))
+    return sha256("\n".join(urls).encode()).hexdigest()[:16]
+
+
 def main() -> int:
     sample = json.loads((RESULTS / "granule_sample.json").read_text())
     PROBE_DIR.mkdir(parents=True, exist_ok=True)
@@ -595,8 +747,8 @@ def main() -> int:
     shims = vz_shims.install()
     print(f"shims: {shims}", flush=True)
 
-    earthaccess.login(strategy="netrc")
-    token = earthaccess.__auth__.token["access_token"]
+    token = fresh_token(earthaccess)
+    token_at = time.time()
 
     only = sys.argv[1:]
     unknown = sorted(set(only) - set(sample))
@@ -606,16 +758,32 @@ def main() -> int:
 
     for i, short_name in enumerate(names, 1):
         out_path = PROBE_DIR / f"{short_name}.json"
-        # An existing artifact is kept only when resuming the whole run; naming a collection on the
-        # command line means re-probing it, so a stale artifact must not silently satisfy the request.
-        if out_path.exists() and not only:
-            continue
         entry = sample[short_name]
+        digest = sample_digest(entry)
+        # An existing artifact is kept only when resuming the whole run and only when it describes the
+        # granules now sampled; naming a collection on the command line means re-probing it, so a stale
+        # artifact must not silently satisfy the request either way.
+        if out_path.exists() and not only:
+            try:
+                prior = json.loads(out_path.read_text()).get("sample_digest")
+            except (OSError, ValueError):
+                prior = None
+            if prior == digest:
+                continue
+            why = ("it records no sample digest" if prior is None
+                   else "the sample changed since it was probed")
+            print(f"[{i}/{len(names)}] {short_name}: re-probing because {why}", flush=True)
+        # A token minted at the start of a many-hour run expires partway through it, and every read
+        # after that fails for a reason that has nothing to do with the granule.
+        if time.time() - token_at > TOKEN_TTL:
+            token = fresh_token(earthaccess)
+            token_at = time.time()
         print(f"[{i}/{len(names)}] {short_name} ({entry['format']})", flush=True)
-        probes = probe_collection(entry, token)
+        probes = probe_collection(entry, token, drop=blocking_arrays(short_name))
         out_path.write_text(json.dumps(
             {**{k: v for k, v in entry.items() if k != "granules"},
-             "short_name": short_name, "shims": shims, "probes": probes}, indent=1))
+             "short_name": short_name, "sample_digest": digest,
+             "shims": shims, "probes": probes}, indent=1))
         errs = sorted({p["error_type"] for p in probes if not p["ok"]})
         n_ok = sum(p["ok"] for p in probes)
         shapes = {tuple(v["chunks"] or []) for p in probes if p["ok"] for v in p["vars"]}
