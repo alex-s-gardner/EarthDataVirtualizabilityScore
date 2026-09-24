@@ -5,6 +5,7 @@
  "format": "CSV+HDF5+KML+PDF+PNG+XML+YAML",
  "daac": "ASF",
  "short_name": "NISAR_L2_GSLC_PROVISIONAL_V1",
+ "sample_digest": "905d4ae57f62ff00",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -38,9 +39,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 7367,
-     "chunk_bytes_median": 1001696,
-     "chunk_bytes_max": 1010600,
+     "n_chunks": 16395,
+     "chunk_bytes_median": 5433381557,
+     "chunk_bytes_max": 18446744073709551615,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -69,9 +70,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 7367,
-     "chunk_bytes_median": 1000095,
-     "chunk_bytes_max": 1007397,
+     "n_chunks": 18224,
+     "chunk_bytes_median": 3485576513761325056,
+     "chunk_bytes_max": 8534153267791487342,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -5498,6 +5499,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -5507,7 +5518,7 @@
     "contiguous_runs": 3,
     "span_fraction": 0.9995119910764082
    },
-   "seconds": 12.6
+   "seconds": 11.5
   },
   {
    "granule_ur": "NISAR_L2_PR_GSLC_006_004_A_018_4005_DHDH_A_20251122T111119_20251122T111153_P05023_N_F_J_001",
@@ -5538,9 +5549,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 18219,
-     "chunk_bytes_median": 1005026,
-     "chunk_bytes_max": 4491610752,
+     "n_chunks": 10433,
+     "chunk_bytes_median": 1002167,
+     "chunk_bytes_max": 1017115,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -5569,9 +5580,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 10433,
-     "chunk_bytes_median": 1000493,
-     "chunk_bytes_max": 1017525,
+     "n_chunks": 18224,
+     "chunk_bytes_median": 1003636,
+     "chunk_bytes_max": 8534153267791487342,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -5884,9 +5895,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1738,
-     "chunk_bytes_median": 1000423,
-     "chunk_bytes_max": 1016041,
+     "n_chunks": 2068,
+     "chunk_bytes_median": 1000936,
+     "chunk_bytes_max": 18446744069414584413,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -10998,6 +11009,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 9,
@@ -11006,7 +11027,7 @@
     "contiguous_runs": 4,
     "span_fraction": 0.9997131382673551
    },
-   "seconds": 15.5
+   "seconds": 16.8
   },
   {
    "granule_ur": "NISAR_L2_PR_GSLC_010_004_A_018_4005_DHDH_A_20260109T111121_20260109T111156_P05023_N_F_J_001",
@@ -11069,7 +11090,7 @@
       "xCoordinates"
      ],
      "n_chunks": 18224,
-     "chunk_bytes_median": 1003429,
+     "chunk_bytes_median": 1003433,
      "chunk_bytes_max": 8534153267791487342,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
@@ -11383,8 +11404,8 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1830,
-     "chunk_bytes_median": 1000645,
+     "n_chunks": 1786,
+     "chunk_bytes_median": 1000752,
      "chunk_bytes_max": 1016762,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
@@ -11414,8 +11435,8 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1826,
-     "chunk_bytes_median": 998044,
+     "n_chunks": 1786,
+     "chunk_bytes_median": 998100,
      "chunk_bytes_max": 1013764,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
@@ -11527,7 +11548,7 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1830,
+     "n_chunks": 1786,
      "chunk_bytes_median": 1167,
      "chunk_bytes_max": 5276,
      "cf": {
@@ -16497,6 +16518,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 9,
@@ -16505,7 +16536,7 @@
     "contiguous_runs": 4,
     "span_fraction": 0.9999070459193159
    },
-   "seconds": 14.8
+   "seconds": 17.5
   },
   {
    "granule_ur": "NISAR_L2_PR_GSLC_015_004_A_018_4005_DHDH_A_20260310T111123_20260310T111158_P05023_N_F_J_001",
@@ -16882,9 +16913,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1992,
-     "chunk_bytes_median": 1000645,
-     "chunk_bytes_max": 18446744069414584400,
+     "n_chunks": 2076,
+     "chunk_bytes_median": 1000782,
+     "chunk_bytes_max": 18446744069414584394,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -21996,6 +22027,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 9,
@@ -22004,7 +22045,7 @@
     "contiguous_runs": 4,
     "span_fraction": 0.9997210340338478
    },
-   "seconds": 15.1
+   "seconds": 15.7
   },
   {
    "granule_ur": "NISAR_L2_PR_GSLC_021_004_A_018_4005_DHDH_A_20260521T111122_20260521T111157_P05023_N_F_J_001",
@@ -22381,9 +22422,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1991,
-     "chunk_bytes_median": 1000786,
-     "chunk_bytes_max": 18446744069414584400,
+     "n_chunks": 1841,
+     "chunk_bytes_median": 1000322,
+     "chunk_bytes_max": 1013938,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -22412,8 +22453,8 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1782,
-     "chunk_bytes_median": 998183,
+     "n_chunks": 1820,
+     "chunk_bytes_median": 998107,
      "chunk_bytes_max": 1010624,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
@@ -22525,7 +22566,7 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1782,
+     "n_chunks": 1829,
      "chunk_bytes_median": 1167,
      "chunk_bytes_max": 5211,
      "cf": {
@@ -27495,6 +27536,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 9,
@@ -27503,7 +27554,7 @@
     "contiguous_runs": 4,
     "span_fraction": 0.9997209821428571
    },
-   "seconds": 14.6
+   "seconds": 17.0
   },
   {
    "granule_ur": "NISAR_L2_PR_GSLC_026_004_A_018_4005_DHDH_A_20260720T111118_20260720T111153_P05023_N_F_J_001",
@@ -27565,9 +27616,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 10705,
-     "chunk_bytes_median": 1000008,
-     "chunk_bytes_max": 1017985,
+     "n_chunks": 18224,
+     "chunk_bytes_median": 1002556,
+     "chunk_bytes_max": 8534153267791487342,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -27678,9 +27729,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 10705,
+     "n_chunks": 18224,
      "chunk_bytes_median": 1167,
-     "chunk_bytes_max": 5999,
+     "chunk_bytes_max": 8534153267791487342,
      "cf": {
       "_FillValue": 255
      },
@@ -27880,8 +27931,8 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1818,
-     "chunk_bytes_median": 1000625,
+     "n_chunks": 1774,
+     "chunk_bytes_median": 1000760,
      "chunk_bytes_max": 1013764,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
@@ -27911,8 +27962,8 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1814,
-     "chunk_bytes_median": 997601,
+     "n_chunks": 1774,
+     "chunk_bytes_median": 997665,
      "chunk_bytes_max": 1009248,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
@@ -28024,7 +28075,7 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1814,
+     "n_chunks": 1774,
      "chunk_bytes_median": 1167,
      "chunk_bytes_max": 5408,
      "cf": {
@@ -32994,6 +33045,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 9,
@@ -33002,7 +33063,7 @@
     "contiguous_runs": 4,
     "span_fraction": 0.9997207743857036
    },
-   "seconds": 14.3
+   "seconds": 17.8
   },
   {
    "granule_ur": "NISAR_L2_PR_GSLC_030_004_A_018_4005_DHDH_A_20260906T111117_20260906T111152_P05023_N_F_J_001",
@@ -33033,9 +33094,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 13857,
-     "chunk_bytes_median": 1003341,
-     "chunk_bytes_max": 4179341851227214848,
+     "n_chunks": 10725,
+     "chunk_bytes_median": 1002790,
+     "chunk_bytes_max": 1017020,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -33379,9 +33440,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1782,
-     "chunk_bytes_median": 1000986,
-     "chunk_bytes_max": 1016943,
+     "n_chunks": 2265,
+     "chunk_bytes_median": 1002024,
+     "chunk_bytes_max": 18446744073709551615,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -38493,6 +38554,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 9,
@@ -38501,7 +38572,7 @@
     "contiguous_runs": 4,
     "span_fraction": 0.9997209302325581
    },
-   "seconds": 14.6
+   "seconds": 17.9
   },
   {
    "granule_ur": "NISAR_L2_PR_GSLC_031_004_A_018_4005_DHDH_A_20260918T111117_20260918T111152_P05023_F_F_J_001",
@@ -38532,9 +38603,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 10725,
-     "chunk_bytes_median": 1002924,
-     "chunk_bytes_max": 1012982,
+     "n_chunks": 18224,
+     "chunk_bytes_median": 1005860,
+     "chunk_bytes_max": 13840687554816376832,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -38564,7 +38635,7 @@
       "xCoordinates"
      ],
      "n_chunks": 18224,
-     "chunk_bytes_median": 1003096,
+     "chunk_bytes_median": 1003100,
      "chunk_bytes_max": 8534153267791487342,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
@@ -38676,9 +38747,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 10725,
+     "n_chunks": 18224,
      "chunk_bytes_median": 1167,
-     "chunk_bytes_max": 5993,
+     "chunk_bytes_max": 8534153267791487342,
      "cf": {
       "_FillValue": 255
      },
@@ -38878,9 +38949,9 @@
       "yCoordinates",
       "xCoordinates"
      ],
-     "n_chunks": 1782,
-     "chunk_bytes_median": 1001120,
-     "chunk_bytes_max": 1016015,
+     "n_chunks": 2265,
+     "chunk_bytes_median": 1002096,
+     "chunk_bytes_max": 18446744073709551615,
      "cf": {
       "_FillValue": "['AAAAAAAA+H8=', 'AAAAAAAA+H8=']",
       "units": "1"
@@ -43992,6 +44063,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -44001,7 +44082,7 @@
     "contiguous_runs": 4,
     "span_fraction": 0.9997210340338478
    },
-   "seconds": 14.5
+   "seconds": 17.2
   }
  ]
 }

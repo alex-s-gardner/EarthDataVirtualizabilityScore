@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA/GSFC/SED/ESD/GCDC/OB.DAAC",
  "short_name": "MODISA_L3m_CHL",
+ "sample_digest": "786eb49be791cd31",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -121,6 +122,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "lat": {
      "n": 4320,
@@ -143,7 +152,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0833333333333333
    },
-   "seconds": 30.7
+   "seconds": 35.1
   },
   {
    "granule_ur": "MODISA_L3m_CHL_AQUA_MODIS.20020705.L3m.DAY.CHL.chlor_a.4km.nc_2022.0",
@@ -257,6 +266,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 13,
@@ -265,7 +282,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0833333333333333
    },
-   "seconds": 18.5
+   "seconds": 23.9
   },
   {
    "granule_ur": "MODISA_L3m_CHL_AQUA_MODIS.20070508.L3m.DAY.CHL.chlor_a.4km.nc_2022.0",
@@ -379,6 +396,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 13,
@@ -387,7 +412,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0833333333333333
    },
-   "seconds": 18.6
+   "seconds": 25.8
   },
   {
    "granule_ur": "MODISA_L3m_CHL_AQUA_MODIS.20120311.L3m.DAY.CHL.chlor_a.4km.nc_2022.0",
@@ -501,6 +526,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 14,
@@ -509,7 +542,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0769230769230769
    },
-   "seconds": 20.6
+   "seconds": 28.6
   },
   {
    "granule_ur": "MODISA_L3m_CHL_AQUA_MODIS.20170114.L3m.DAY.CHL.chlor_a.4km.nc_2022.0",
@@ -623,6 +656,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 14,
@@ -631,7 +672,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0769230769230769
    },
-   "seconds": 22.6
+   "seconds": 28.3
   },
   {
    "granule_ur": "MODISA_L3m_CHL_AQUA_MODIS.20211118.L3m.DAY.CHL.chlor_a.4km.nc_2022.0",
@@ -745,6 +786,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 13,
@@ -753,7 +802,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0833333333333333
    },
-   "seconds": 21.7
+   "seconds": 26.7
   },
   {
    "granule_ur": "AQUA_MODIS.20260529.L3m.DAY.CHL.chlor_a.4km.nc",
@@ -867,6 +916,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 8,
@@ -875,7 +932,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.1428571428571428
    },
-   "seconds": 14.8
+   "seconds": 19.0
   },
   {
    "granule_ur": "AQUA_MODIS.20260530.L3m.DAY.CHL.chlor_a.4km.nc",
@@ -989,6 +1046,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "lat": {
      "n": 4320,
@@ -1011,7 +1076,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.125
    },
-   "seconds": 23.9
+   "seconds": 29.0
   }
  ]
 }

@@ -5,6 +5,7 @@
  "format": "HDF-EOS2",
  "daac": "NASA/LARC/SD/ASDC",
  "short_name": "MIL2TCST",
+ "sample_digest": "8a4e9d8826af4d10",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -20,6 +21,14 @@
    "parsed_locally": true,
    "vars": [],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -28,7 +37,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 7.8
+   "seconds": 8.5
   },
   {
    "granule_ur": "MISR_AM1_TC_STEREO_P020_O000995_F07_0012.hdf",
@@ -41,6 +50,14 @@
    "parsed_locally": true,
    "vars": [],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -48,7 +65,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 7.9
+   "seconds": 10.8
   },
   {
    "granule_ur": "MISR_AM1_TC_STEREO_P020_O028489_F07_0012.hdf",
@@ -61,6 +78,14 @@
    "parsed_locally": true,
    "vars": [],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -68,7 +93,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 8.5
+   "seconds": 8.4
   },
   {
    "granule_ur": "MISR_AM1_TC_STEREO_P020_O057148_F08_0017.hdf",
@@ -81,6 +106,14 @@
    "parsed_locally": true,
    "vars": [],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -88,7 +121,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 8.4
+   "seconds": 8.2
   },
   {
    "granule_ur": "MISR_AM1_TC_STEREO_P020_O085574_F08_0017.hdf",
@@ -101,6 +134,14 @@
    "parsed_locally": true,
    "vars": [],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -108,7 +149,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 7.7
+   "seconds": 7.6
   },
   {
    "granule_ur": "MISR_AM1_TC_STEREO_P020_O114000_F08_0017.hdf",
@@ -121,6 +162,14 @@
    "parsed_locally": true,
    "vars": [],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -128,7 +177,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 8.4
+   "seconds": 8.8
   },
   {
    "granule_ur": "MISR_AM1_TC_STEREO_P020_O120990_F08_0017.hdf",
@@ -141,6 +190,14 @@
    "parsed_locally": true,
    "vars": [],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 0,
@@ -148,7 +205,7 @@
     "contiguous_runs": 0,
     "span_fraction": null
    },
-   "seconds": 8.7
+   "seconds": 8.9
   },
   {
    "granule_ur": "MISR_AM1_TC_STEREO_P020_O121223_F08_0017.hdf",
@@ -161,6 +218,14 @@
    "parsed_locally": true,
    "vars": [],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {

@@ -5,6 +5,7 @@
  "format": "NetCDF",
  "daac": "NASA/GSFC/SED/ESD/TISL/GESDISC",
  "short_name": "GPM_2ADPR",
+ "sample_digest": "ecfbb308032061b3",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -8073,6 +8074,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -8082,7 +8091,7 @@
     "contiguous_runs": 27,
     "span_fraction": 1.002824858757062
    },
-   "seconds": 76.0
+   "seconds": 77.2
   },
   {
    "granule_ur": "GPM_2ADPR.08:2A.GPM.DPR.V10-20260310.20140308-S234218-E011444.000145.V08A.nc",
@@ -16148,6 +16157,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 30,
@@ -16156,7 +16173,7 @@
     "contiguous_runs": 27,
     "span_fraction": 1.0027777777777778
    },
-   "seconds": 79.5
+   "seconds": 78.0
   },
   {
    "granule_ur": "GPM_2ADPR.08:2A.GPM.DPR.V10-20260310.20160908-S233458-E010730.014381.V08A.nc",
@@ -24222,6 +24239,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 28,
@@ -24230,7 +24255,7 @@
     "contiguous_runs": 27,
     "span_fraction": 1.002717391304348
    },
-   "seconds": 71.7
+   "seconds": 74.9
   },
   {
    "granule_ur": "GPM_2ADPR.08:2A.GPM.DPR.V10-20260310.20190313-S224208-E001442.028629.V08A.nc",
@@ -32296,6 +32321,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 30,
@@ -32304,7 +32337,7 @@
     "contiguous_runs": 24,
     "span_fraction": 1.002659574468085
    },
-   "seconds": 74.6
+   "seconds": 80.2
   },
   {
    "granule_ur": "GPM_2ADPR.08:2A.GPM.DPR.V10-20260310.20210915-S231913-E005147.042894.V08A.nc",
@@ -40370,6 +40403,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 25,
@@ -40378,7 +40419,7 @@
     "contiguous_runs": 24,
     "span_fraction": 1.0027777777777778
    },
-   "seconds": 64.4
+   "seconds": 67.4
   },
   {
    "granule_ur": "GPM_2ADPR.08:2A.GPM.DPR.V10-20260310.20240319-S225723-E003037.057131.V08A.nc",
@@ -48444,6 +48485,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 27,
@@ -48452,7 +48501,7 @@
     "contiguous_runs": 24,
     "span_fraction": 1.0027624309392265
    },
-   "seconds": 74.3
+   "seconds": 71.2
   },
   {
    "granule_ur": "GPM_2ADPR.08:2A.GPM.DPR.V10-20260310.20260921-S135709-E153021.071274.V08A.nc",
@@ -56518,6 +56567,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 26,
@@ -56526,7 +56583,7 @@
     "contiguous_runs": 24,
     "span_fraction": 1.0026385224274406
    },
-   "seconds": 67.6
+   "seconds": 69.4
   },
   {
    "granule_ur": "GPM_2ADPR.08:2A.GPM.DPR.V10-20260310.20260921-S153022-E170333.071275.V08A.nc",
@@ -64592,6 +64649,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -64601,7 +64666,7 @@
     "contiguous_runs": 24,
     "span_fraction": 1.002754820936639
    },
-   "seconds": 71.6
+   "seconds": 65.3
   }
  ]
 }

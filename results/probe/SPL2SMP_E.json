@@ -5,6 +5,7 @@
  "format": "HDF5",
  "daac": "NASA NSIDC DAAC",
  "short_name": "SPL2SMP_E",
+ "sample_digest": "7a89a5a16d60496e",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -2402,6 +2403,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "Soil_Moisture_Retrieval_Data/latitude": {
      "n": 269166,
@@ -2436,7 +2445,7 @@
     "contiguous_runs": 2,
     "span_fraction": 1.0384615384615385
    },
-   "seconds": 54.7
+   "seconds": 56.6
   },
   {
    "granule_ur": "SMAP_L2_SM_P_E_00866_A_20150331T180814_R19240_001.h5",
@@ -4831,6 +4840,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 19,
@@ -4839,7 +4856,7 @@
     "contiguous_runs": 2,
     "span_fraction": 1.0526315789473684
    },
-   "seconds": 27.6
+   "seconds": 26.2
   },
   {
    "granule_ur": "SMAP_L2_SM_P_E_13125_A_20170716T232636_R19240_001.h5",
@@ -7234,6 +7251,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 27,
@@ -7242,7 +7267,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0384615384615385
    },
-   "seconds": 41.3
+   "seconds": 39.8
   },
   {
    "granule_ur": "SMAP_L2_SM_P_E_25381_A_20191101T234942_R19240_001.h5",
@@ -9637,6 +9662,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 25,
@@ -9645,7 +9678,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0416666666666667
    },
-   "seconds": 40.5
+   "seconds": 34.8
   },
   {
    "granule_ur": "SMAP_L2_SM_P_E_37651_A_20220217T231147_R19240_001.h5",
@@ -12040,6 +12073,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 25,
@@ -12048,7 +12089,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0416666666666667
    },
-   "seconds": 37.1
+   "seconds": 34.6
   },
   {
    "granule_ur": "SMAP_L2_SM_P_E_49907_A_20240604T232411_R19240_001.h5",
@@ -14443,6 +14484,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 26,
@@ -14451,7 +14500,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.04
    },
-   "seconds": 37.3
+   "seconds": 35.8
   },
   {
    "granule_ur": "SMAP_L2_SM_P_E_62185_A_20260922T115621_R19240_001.h5_pDJvhVoW",
@@ -16846,6 +16895,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 25,
@@ -16854,7 +16911,7 @@
     "contiguous_runs": 2,
     "span_fraction": 1.04
    },
-   "seconds": 35.8
+   "seconds": 35.1
   },
   {
    "granule_ur": "SMAP_L2_SM_P_E_62186_A_20260922T133447_R19240_001.h5_pDJvhVoW",
@@ -19249,6 +19306,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "Soil_Moisture_Retrieval_Data/latitude": {
      "n": 254897,
@@ -19283,7 +19348,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0476190476190477
    },
-   "seconds": 46.7
+   "seconds": 45.2
   }
  ]
 }

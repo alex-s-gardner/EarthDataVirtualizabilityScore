@@ -5,6 +5,7 @@
  "format": "COG",
  "daac": "LP DAAC",
  "short_name": "HLSL30",
+ "sample_digest": "ad840c7452c6b39d",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -160,7 +161,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.04
    },
-   "seconds": 7.2
+   "seconds": 5.9
   },
   {
    "granule_ur": "HLS.L30.T59WNT.2013117T001223.v2.0",
@@ -313,7 +314,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.045454545454545456
    },
-   "seconds": 5.9
+   "seconds": 6.1
   },
   {
    "granule_ur": "HLS.L30.T59WNT.2016076T002250.v2.0",
@@ -466,7 +467,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.07142857142857142
    },
-   "seconds": 6.7
+   "seconds": 7.6
   },
   {
    "granule_ur": "HLS.L30.T59WNT.2018241T002232.v2.0",
@@ -619,7 +620,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.0625
    },
-   "seconds": 5.5
+   "seconds": 6.1
   },
   {
    "granule_ur": "HLS.L30.T59WNT.2021130T001621.v2.0",
@@ -772,7 +773,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.04
    },
-   "seconds": 5.5
+   "seconds": 8.3
   },
   {
    "granule_ur": "HLS.L30.T59WNT.2024065T002922.v2.0",
@@ -925,7 +926,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.5
    },
-   "seconds": 5.5
+   "seconds": 5.8
   },
   {
    "granule_ur": "HLS.L30.T59WNT.2026258T235815.v2.0",
@@ -1231,7 +1232,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.5
    },
-   "seconds": 5.8
+   "seconds": 6.0
   }
  ]
 }

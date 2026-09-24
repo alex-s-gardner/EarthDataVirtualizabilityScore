@@ -5,6 +5,7 @@
  "format": "HDF5",
  "daac": "NASA/GSFC/SED/ESD/TISL/GESDISC",
  "short_name": "GPM_3IMERGHH",
+ "sample_digest": "05db947fb0bd2c49",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -35,8 +36,8 @@
       "nv"
      ],
      "n_chunks": 2,
-     "chunk_bytes_median": 11086489861441914880,
-     "chunk_bytes_max": 14101381767044578243,
+     "chunk_bytes_median": 2356956355243951616,
+     "chunk_bytes_max": 3627084875459401989,
      "cf": {},
      "grid": {}
     },
@@ -547,6 +548,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "unable to decode time units 'seconds since 1980-01-06 00:00:00 UTC' with \"calendar 'julian'\". Try opening your dataset with decode_times=False or installing cftime if it is not installed."
+    }
+   },
    "coords": {
     "Grid/lon": {
      "n": 3600,
@@ -569,7 +580,7 @@
     "contiguous_runs": 3,
     "span_fraction": 1.1428571428571428
    },
-   "seconds": 31.1
+   "seconds": 40.8
   },
   {
    "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.19980101-S003000-E005959.0030.V07B.HDF5",
@@ -597,8 +608,8 @@
       "nv"
      ],
      "n_chunks": 2,
-     "chunk_bytes_median": 8944936106249430016,
-     "chunk_bytes_max": 12258790341653281861,
+     "chunk_bytes_median": 13873080085037672448,
+     "chunk_bytes_max": 14184920030685257522,
      "cf": {},
      "grid": {}
     },
@@ -1109,6 +1120,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "unable to decode time units 'seconds since 1980-01-06 00:00:00 UTC' with \"calendar 'julian'\". Try opening your dataset with decode_times=False or installing cftime if it is not installed."
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 6,
@@ -1117,7 +1138,7 @@
     "contiguous_runs": 3,
     "span_fraction": 1.1428571428571428
    },
-   "seconds": 18.3
+   "seconds": 23.3
   },
   {
    "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.20030721-S000000-E002959.0000.V07B.HDF5",
@@ -1145,8 +1166,8 @@
       "nv"
      ],
      "n_chunks": 2,
-     "chunk_bytes_median": 12700609257986603008,
-     "chunk_bytes_max": 12945289468635331944,
+     "chunk_bytes_median": 12432590335456610304,
+     "chunk_bytes_max": 17724505664914944847,
      "cf": {},
      "grid": {}
     },
@@ -1657,6 +1678,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "unable to decode time units 'seconds since 1980-01-06 00:00:00 UTC' with \"calendar 'julian'\". Try opening your dataset with decode_times=False or installing cftime if it is not installed."
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 6,
@@ -1665,7 +1696,7 @@
     "contiguous_runs": 3,
     "span_fraction": 1.1428571428571428
    },
-   "seconds": 17.6
+   "seconds": 26.1
   },
   {
    "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.20090206-S000000-E002959.0000.V07B.HDF5",
@@ -1693,8 +1724,8 @@
       "nv"
      ],
      "n_chunks": 2,
-     "chunk_bytes_median": 11100981724553193472,
-     "chunk_bytes_max": 13738083627039440549,
+     "chunk_bytes_median": 6007272997596423168,
+     "chunk_bytes_max": 6697085844030443737,
      "cf": {},
      "grid": {}
     },
@@ -2205,6 +2236,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "unable to decode time units 'seconds since 1980-01-06 00:00:00 UTC' with \"calendar 'julian'\". Try opening your dataset with decode_times=False or installing cftime if it is not installed."
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 7,
@@ -2213,7 +2254,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.1666666666666667
    },
-   "seconds": 19.7
+   "seconds": 45.1
   },
   {
    "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.20140825-S000000-E002959.0000.V07B.HDF5",
@@ -2241,8 +2282,8 @@
       "nv"
      ],
      "n_chunks": 2,
-     "chunk_bytes_median": 1221332980039996672,
-     "chunk_bytes_max": 1860647176364129501,
+     "chunk_bytes_median": 13899388995850743808,
+     "chunk_bytes_max": 14831694236400926128,
      "cf": {},
      "grid": {}
     },
@@ -2753,6 +2794,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "unable to decode time units 'seconds since 1980-01-06 00:00:00 UTC' with \"calendar 'julian'\". Try opening your dataset with decode_times=False or installing cftime if it is not installed."
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 6,
@@ -2761,7 +2812,7 @@
     "contiguous_runs": 3,
     "span_fraction": 1.1428571428571428
    },
-   "seconds": 17.6
+   "seconds": 55.9
   },
   {
    "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.20200313-S000000-E002959.0000.V07B.HDF5",
@@ -2789,8 +2840,8 @@
       "nv"
      ],
      "n_chunks": 2,
-     "chunk_bytes_median": 6995556365765691392,
-     "chunk_bytes_max": 10724215733761870828,
+     "chunk_bytes_median": 5565711359189789696,
+     "chunk_bytes_max": 7532253469726063940,
      "cf": {},
      "grid": {}
     },
@@ -3301,6 +3352,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "unable to decode time units 'seconds since 1980-01-06 00:00:00 UTC' with \"calendar 'julian'\". Try opening your dataset with decode_times=False or installing cftime if it is not installed."
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 8,
@@ -3309,7 +3370,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.1428571428571428
    },
-   "seconds": 22.3
+   "seconds": 35.6
   },
   {
    "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.20250930-S230000-E232959.1380.V07B.HDF5",
@@ -3337,8 +3398,8 @@
       "nv"
      ],
      "n_chunks": 2,
-     "chunk_bytes_median": 4786271346324510720,
-     "chunk_bytes_max": 5125828774639380362,
+     "chunk_bytes_median": 7811961092100954112,
+     "chunk_bytes_max": 12069528726304616386,
      "cf": {},
      "grid": {}
     },
@@ -3849,6 +3910,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "unable to decode time units 'seconds since 1980-01-06 00:00:00 UTC' with \"calendar 'julian'\". Try opening your dataset with decode_times=False or installing cftime if it is not installed."
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 6,
@@ -3857,7 +3928,7 @@
     "contiguous_runs": 3,
     "span_fraction": 1.1428571428571428
    },
-   "seconds": 18.2
+   "seconds": 26.1
   },
   {
    "granule_ur": "GPM_3IMERGHH.07:3B-HHR.MS.MRG.3IMERG.20250930-S233000-E235959.1410.V07B.HDF5",
@@ -3885,8 +3956,8 @@
       "nv"
      ],
      "n_chunks": 2,
-     "chunk_bytes_median": 5755443817622175744,
-     "chunk_bytes_max": 5811692405107123324,
+     "chunk_bytes_median": 11995298194985863168,
+     "chunk_bytes_max": 12784540784697296867,
      "cf": {},
      "grid": {}
     },
@@ -4397,6 +4468,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "unable to decode time units 'seconds since 1980-01-06 00:00:00 UTC' with \"calendar 'julian'\". Try opening your dataset with decode_times=False or installing cftime if it is not installed."
+    }
+   },
    "coords": {
     "Grid/lon": {
      "n": 3600,
@@ -4419,7 +4500,7 @@
     "contiguous_runs": 3,
     "span_fraction": 1.1428571428571428
    },
-   "seconds": 32.7
+   "seconds": 67.0
   }
  ]
 }

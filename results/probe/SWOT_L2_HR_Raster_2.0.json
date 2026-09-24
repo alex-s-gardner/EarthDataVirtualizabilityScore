@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA/JPL/PODAAC",
  "short_name": "SWOT_L2_HR_Raster_2.0",
+ "sample_digest": "d2095df92bd6a5f1",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -1267,6 +1268,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype |S1"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype |S1"
+    }
+   },
    "coords": {
     "x": {
      "n": 1554,
@@ -1289,7 +1302,7 @@
     "contiguous_runs": 22,
     "span_fraction": 1.0169491525423728
    },
-   "seconds": 76.9
+   "seconds": 76.8
   },
   {
    "granule_ur": "SWOT_L2_HR_Raster_100m_UTM10T_N_x_x_x_478_013_114F_20230402T081513_20230402T081534_PGC0_01",
@@ -2549,6 +2562,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype |S1"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype |S1"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 31,
@@ -2557,7 +2582,7 @@
     "contiguous_runs": 20,
     "span_fraction": 1.0185185185185186
    },
-   "seconds": 61.8
+   "seconds": 60.4
   },
   {
    "granule_ur": "SWOT_L2_HR_Raster_100m_UTM10T_N_x_x_x_577_013_114F_20230709T164742_20230709T164803_PGC0_01",
@@ -3817,6 +3842,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype |S1"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype |S1"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 32,
@@ -3825,7 +3862,7 @@
     "contiguous_runs": 11,
     "span_fraction": 1.024390243902439
    },
-   "seconds": 62.2
+   "seconds": 61.2
   },
   {
    "granule_ur": "SWOT_L2_HR_Raster_100m_UTM10T_N_x_x_x_578_013_114F_20230710T163820_20230710T163841_PGC0_01",
@@ -5085,6 +5122,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype |S1"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "Failed to decode fill_value. Unsupported dtype |S1"
+    }
+   },
    "coords": {
     "x": {
      "n": 1554,
@@ -5107,7 +5156,7 @@
     "contiguous_runs": 13,
     "span_fraction": 1.025
    },
-   "seconds": 68.5
+   "seconds": 67.4
   }
  ]
 }

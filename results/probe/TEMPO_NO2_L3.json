@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA/LARC/SD/ASDC",
  "short_name": "TEMPO_NO2_L3",
+ "sample_digest": "2c509c776f8bffb1",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -1227,6 +1228,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "longitude": {
      "n": 7750,
@@ -1249,7 +1258,7 @@
     "contiguous_runs": 46,
     "span_fraction": 1.0011494252873563
    },
-   "seconds": 75.1
+   "seconds": 82.5
   },
   {
    "granule_ur": "TEMPO_NO2_L3_V04_20230802T161520Z_S002.nc",
@@ -2469,6 +2478,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 51,
@@ -2477,7 +2494,7 @@
     "contiguous_runs": 46,
     "span_fraction": 1.0011481056257177
    },
-   "seconds": 74.5
+   "seconds": 75.7
   },
   {
    "granule_ur": "TEMPO_NO2_L3_V04_20240317T232717Z_S015.nc",
@@ -3697,6 +3714,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 53,
@@ -3705,7 +3730,7 @@
     "contiguous_runs": 45,
     "span_fraction": 1.001908396946565
    },
-   "seconds": 72.7
+   "seconds": 80.1
   },
   {
    "granule_ur": "TEMPO_NO2_L3_V04_20241103T122146Z_S002.nc",
@@ -4925,6 +4950,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 48,
@@ -4933,7 +4966,7 @@
     "contiguous_runs": 47,
     "span_fraction": 1.0022522522522523
    },
-   "seconds": 69.3
+   "seconds": 71.0
   },
   {
    "granule_ur": "TEMPO_NO2_L3_V04_20250619T234651Z_S030.nc",
@@ -6153,6 +6186,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 53,
@@ -6161,7 +6202,7 @@
     "contiguous_runs": 43,
     "span_fraction": 1.0017301038062283
    },
-   "seconds": 74.1
+   "seconds": 77.9
   },
   {
    "granule_ur": "TEMPO_NO2_L3_V04_20260205T130231Z_S002.nc",
@@ -7381,6 +7422,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 50,
@@ -7389,7 +7438,7 @@
     "contiguous_runs": 47,
     "span_fraction": 1.0022075055187638
    },
-   "seconds": 72.1
+   "seconds": 75.5
   },
   {
    "granule_ur": "TEMPO_NO2_L3_V04_20260922T193226Z_S011.nc",
@@ -8609,6 +8658,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 51,
@@ -9837,6 +9894,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "longitude": {
      "n": 7750,
@@ -9859,7 +9924,7 @@
     "contiguous_runs": 44,
     "span_fraction": 1.0012738853503185
    },
-   "seconds": 80.8
+   "seconds": 84.0
   }
  ]
 }

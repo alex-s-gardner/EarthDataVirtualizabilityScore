@@ -5,6 +5,7 @@
  "format": "NetCDF-4",
  "daac": "NASA/GSFC/SED/ESD/HBSL/BISB/LAADS",
  "short_name": "VJ102MOD",
+ "sample_digest": "181bc7bb49e6b534",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -33,9 +34,9 @@
      "dims": [
       "number_of_scans"
      ],
-     "n_chunks": 198,
-     "chunk_bytes_median": 4554371440,
-     "chunk_bytes_max": 4554478512,
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
      "cf": {},
      "grid": {}
     },
@@ -1174,6 +1175,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -1183,7 +1192,7 @@
     "contiguous_runs": 17,
     "span_fraction": 1.015625
    },
-   "seconds": 55.1
+   "seconds": 46.5
   },
   {
    "granule_ur": "LAADS:5856675290",
@@ -2350,6 +2359,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 36,
@@ -2358,7 +2375,7 @@
     "contiguous_runs": 17,
     "span_fraction": 1.0163934426229508
    },
-   "seconds": 48.8
+   "seconds": 45.4
   },
   {
    "granule_ur": "LAADS:5899460910",
@@ -2405,9 +2422,9 @@
      "dims": [
       "number_of_lines"
      ],
-     "n_chunks": 3214,
-     "chunk_bytes_median": 442381631598,
-     "chunk_bytes_max": 35291746271349,
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
      "cf": {},
      "grid": {}
     },
@@ -2426,9 +2443,9 @@
      "dims": [
       "number_of_pixels"
      ],
-     "n_chunks": 2342,
-     "chunk_bytes_median": 4456131600,
-     "chunk_bytes_max": 18446744073709551615,
+     "n_chunks": 0,
+     "chunk_bytes_median": null,
+     "chunk_bytes_max": null,
      "cf": {},
      "grid": {}
     },
@@ -3525,6 +3542,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 36,
@@ -3533,7 +3558,7 @@
     "contiguous_runs": 18,
     "span_fraction": 1.015625
    },
-   "seconds": 48.1
+   "seconds": 45.1
   },
   {
    "granule_ur": "LAADS:6221496608",
@@ -3560,8 +3585,8 @@
       "number_of_scans"
      ],
      "n_chunks": 198,
-     "chunk_bytes_median": 4558352752,
-     "chunk_bytes_max": 4558460656,
+     "chunk_bytes_median": 4525208304,
+     "chunk_bytes_max": 4525314480,
      "cf": {},
      "grid": {}
     },
@@ -5302,6 +5327,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 77,
@@ -6974,6 +7007,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 79,
@@ -6982,7 +7023,7 @@
     "contiguous_runs": 47,
     "span_fraction": 1.006060606060606
    },
-   "seconds": 108.8
+   "seconds": 94.6
   },
   {
    "granule_ur": "LAADS:8637751515",
@@ -8646,6 +8687,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 81,
@@ -8654,7 +8703,7 @@
     "contiguous_runs": 58,
     "span_fraction": 1.0046728971962617
    },
-   "seconds": 123.3
+   "seconds": 103.1
   },
   {
    "granule_ur": "LAADS:10045355432",
@@ -9716,6 +9765,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 32,
@@ -9724,7 +9781,7 @@
     "contiguous_runs": 16,
     "span_fraction": 1.0166666666666666
    },
-   "seconds": 49.3
+   "seconds": 43.8
   },
   {
    "granule_ur": "LAADS:10045355586",
@@ -10786,6 +10843,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -10795,7 +10860,7 @@
     "contiguous_runs": 11,
     "span_fraction": 1.0212765957446808
    },
-   "seconds": 44.8
+   "seconds": 40.1
   }
  ]
 }

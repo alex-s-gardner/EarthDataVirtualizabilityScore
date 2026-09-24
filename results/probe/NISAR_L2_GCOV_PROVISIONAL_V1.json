@@ -5,6 +5,7 @@
  "format": "CSV+HDF5+KML+PDF+PNG+XML+YAML",
  "daac": "ASF",
  "short_name": "NISAR_L2_GCOV_PROVISIONAL_V1",
+ "sample_digest": "fdd639e406b95be4",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -5713,6 +5714,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -5722,7 +5733,7 @@
     "contiguous_runs": 6,
     "span_fraction": 0.9986690328305236
    },
-   "seconds": 12.2
+   "seconds": 11.3
   },
   {
    "granule_ur": "NISAR_L2_PR_GCOV_006_004_A_018_4005_DHDH_A_20251122T111119_20251122T111153_P05023_N_F_J_001",
@@ -11428,6 +11439,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 7,
@@ -11436,7 +11457,7 @@
     "contiguous_runs": 6,
     "span_fraction": 0.9984966927239928
    },
-   "seconds": 13.9
+   "seconds": 12.3
   },
   {
    "granule_ur": "NISAR_L2_PR_GCOV_010_004_A_018_4005_DHDH_A_20260109T111121_20260109T111156_P05023_N_F_J_001",
@@ -17142,6 +17163,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 7,
@@ -17150,7 +17181,7 @@
     "contiguous_runs": 6,
     "span_fraction": 0.9985388661601403
    },
-   "seconds": 13.1
+   "seconds": 11.8
   },
   {
    "granule_ur": "NISAR_L2_PR_GCOV_015_004_A_018_4005_DHDH_A_20260310T111123_20260310T111158_P05023_N_F_J_001",
@@ -22856,6 +22887,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 7,
@@ -22864,7 +22905,7 @@
     "contiguous_runs": 6,
     "span_fraction": 0.9985380116959064
    },
-   "seconds": 11.0
+   "seconds": 10.7
   },
   {
    "granule_ur": "NISAR_L2_PR_GCOV_021_004_A_018_4005_DHDH_A_20260521T111122_20260521T111157_P05023_N_F_J_001",
@@ -28570,6 +28611,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 7,
@@ -28578,7 +28629,7 @@
     "contiguous_runs": 6,
     "span_fraction": 0.9985362997658079
    },
-   "seconds": 11.4
+   "seconds": 11.7
   },
   {
    "granule_ur": "NISAR_L2_PR_GCOV_026_004_A_018_4005_DHDH_A_20260720T111118_20260720T111153_P05023_N_F_J_001",
@@ -34284,6 +34335,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 7,
@@ -34292,7 +34353,7 @@
     "contiguous_runs": 6,
     "span_fraction": 0.9985362997658079
    },
-   "seconds": 11.8
+   "seconds": 12.2
   },
   {
    "granule_ur": "NISAR_L2_PR_GCOV_030_004_A_018_4005_DHDH_A_20260906T111117_20260906T111152_P05023_N_F_J_001",
@@ -39998,6 +40059,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 7,
@@ -40006,7 +40077,7 @@
     "contiguous_runs": 6,
     "span_fraction": 0.9985371562317145
    },
-   "seconds": 12.1
+   "seconds": 12.5
   },
   {
    "granule_ur": "NISAR_L2_PR_GCOV_031_004_A_018_4005_DHDH_A_20260918T111117_20260918T111152_P05023_F_F_J_001",
@@ -45712,6 +45783,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "TypeError",
+     "error": "Object of type complex is not JSON serializable"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -45721,7 +45802,7 @@
     "contiguous_runs": 6,
     "span_fraction": 0.9985354422964264
    },
-   "seconds": 12.7
+   "seconds": 11.7
   }
  ]
 }

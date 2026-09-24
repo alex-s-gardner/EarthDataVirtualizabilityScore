@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA/GSFC/SED/ESD/GCDC/OB.DAAC",
  "short_name": "PACE_OCI_L3M_BGC",
+ "sample_digest": "18ad64434378765e",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -188,6 +189,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "lat": {
      "n": 4320,
@@ -210,7 +219,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0263157894736843
    },
-   "seconds": 57.5
+   "seconds": 63.0
   },
   {
    "granule_ur": "PACE_OCI.20240306.L3m.DAY.BGC.V3_2.4km.nc",
@@ -391,6 +400,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 39,
@@ -399,7 +416,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0263157894736843
    },
-   "seconds": 51.6
+   "seconds": 57.8
   },
   {
    "granule_ur": "PACE_OCI.20240907.L3m.DAY.BGC.V3_2.4km.nc",
@@ -580,6 +597,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 42,
@@ -588,7 +613,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.024390243902439
    },
-   "seconds": 53.8
+   "seconds": 65.2
   },
   {
    "granule_ur": "PACE_OCI.20250312.L3m.DAY.BGC.V3_2.4km.nc",
@@ -769,6 +794,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 43,
@@ -777,7 +810,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0238095238095237
    },
-   "seconds": 52.6
+   "seconds": 59.8
   },
   {
    "granule_ur": "PACE_OCI.20250915.L3m.DAY.BGC.V3_2.4km.nc",
@@ -958,6 +991,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 43,
@@ -966,7 +1007,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0238095238095237
    },
-   "seconds": 56.1
+   "seconds": 59.6
   },
   {
    "granule_ur": "PACE_OCI.20260321.L3m.DAY.BGC.V3_2.4km.nc",
@@ -1147,6 +1188,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 9,
@@ -1155,7 +1204,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.125
    },
-   "seconds": 13.2
+   "seconds": 20.7
   },
   {
    "granule_ur": "PACE_OCI.20260730.L3m.DAY.BGC.V3_2.4km.nc",
@@ -1336,6 +1385,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 40,
@@ -1344,7 +1401,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0256410256410255
    },
-   "seconds": 51.4
+   "seconds": 57.7
   },
   {
    "granule_ur": "PACE_OCI.20260731.L3m.DAY.BGC.V3_2.4km.nc",
@@ -1525,6 +1582,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "lat": {
      "n": 4320,
@@ -1547,7 +1612,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.025
    },
-   "seconds": 58.8
+   "seconds": 65.0
   }
  ]
 }

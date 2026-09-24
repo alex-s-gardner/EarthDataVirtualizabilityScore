@@ -5,6 +5,7 @@
  "format": "HDF5+XML",
  "daac": "ASF",
  "short_name": "OPERA_L2_CSLC-S1_V1",
+ "sample_digest": "e5b7314f8d2d5017",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -16,9 +17,9 @@
    "declared_format": "HDF5+XML",
    "ok": false,
    "error_type": "PermissionDeniedError",
-   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20160701T005554Z_20240611T005333Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20160701T005554Z_20240611T005333Z_S1A_VV_v1.1.h5 in 293.791917ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\n",
-   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 293.791917ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
-   "seconds": 0.3
+   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20160701T005554Z_20240611T005333Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20160701T005554Z_20240611T005333Z_S1A_VV_v1.1.h5 in 414.703334ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\n",
+   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 414.703334ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
+   "seconds": 0.4
   },
   {
    "granule_ur": "OPERA_L2_CSLC-S1_T151-322284-IW1_20160725T005555Z_20240614T044759Z_S1A_VV_v1.1",
@@ -27,8 +28,8 @@
    "declared_format": "HDF5+XML",
    "ok": false,
    "error_type": "PermissionDeniedError",
-   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20160725T005555Z_20240614T044759Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20160725T005555Z_20240614T044759Z_S1A_VV_v1.1.h5 in 160.589625ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\n",
-   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 160.589625ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
+   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20160725T005555Z_20240614T044759Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20160725T005555Z_20240614T044759Z_S1A_VV_v1.1.h5 in 172.704041ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\n",
+   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 172.704041ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
    "seconds": 0.2
   },
   {
@@ -38,8 +39,8 @@
    "declared_format": "HDF5+XML",
    "ok": false,
    "error_type": "PermissionDeniedError",
-   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20180727T005607Z_20240704T024136Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20180727T005607Z_20240704T024136Z_S1A_VV_v1.1.h5 in 161.150166ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\n",
-   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 161.150166ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
+   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20180727T005607Z_20240704T024136Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20180727T005607Z_20240704T024136Z_S1A_VV_v1.1.h5 in 159.467167ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\n",
+   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 159.467167ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
    "seconds": 0.2
   },
   {
@@ -49,8 +50,8 @@
    "declared_format": "HDF5+XML",
    "ok": false,
    "error_type": "PermissionDeniedError",
-   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20200809T005621Z_20240718T210455Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20200809T005621Z_20240718T210455Z_S1A_VV_v1.1.h5 in 159.7655ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\nPe",
-   "traceback_tail": "5,\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 159.7655ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
+   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20200809T005621Z_20240718T210455Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20200809T005621Z_20240718T210455Z_S1A_VV_v1.1.h5 in 162.0175ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\nPe",
+   "traceback_tail": "5,\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 162.0175ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
    "seconds": 0.2
   },
   {
@@ -60,8 +61,8 @@
    "declared_format": "HDF5+XML",
    "ok": false,
    "error_type": "PermissionDeniedError",
-   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20220823T005633Z_20240731T195732Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20220823T005633Z_20240731T195732Z_S1A_VV_v1.1.h5 in 162.77525ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\nP",
-   "traceback_tail": ",\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 162.77525ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
+   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20220823T005633Z_20240731T195732Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20220823T005633Z_20240731T195732Z_S1A_VV_v1.1.h5 in 188.188375ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\n",
+   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 188.188375ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
    "seconds": 0.2
   },
   {
@@ -71,8 +72,8 @@
    "declared_format": "HDF5+XML",
    "ok": false,
    "error_type": "PermissionDeniedError",
-   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20240905T005635Z_20240906T073229Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20240905T005635Z_20240906T073229Z_S1A_VV_v1.1.h5 in 162.972917ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\n",
-   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 162.972917ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
+   "error": "The operation lacked the necessary privileges to complete for path CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20240905T005635Z_20240906T073229Z_S1A_VV_v1.1.h5: Error performing HEAD https://datapool.asf.alaska.edu/CSLC/OPERA-S1/OPERA_L2_CSLC-S1_T151-322284-IW1_20240905T005635Z_20240906T073229Z_S1A_VV_v1.1.h5 in 161.127209ms - Server returned non-2xx status code: 403 Forbidden: \n\nDebug source:\n",
+   "traceback_tail": "\n            ),\n            retries: 0,\n            max_retries: 10,\n            elapsed: 161.127209ms,\n            retry_timeout: 180s,\n            inner: Status {\n                status: 403,\n                body: Some(\n                    \"\",\n                ),\n            },\n        },\n    ),\n}\n",
    "seconds": 0.2
   },
   {
@@ -3052,6 +3053,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 403 on 'slant_range' and length 109 on {'phony_dim_0': 'azimuth_fm_rate_mismatch', 'phony_dim_1': 'azimuth_fm_rate_mismatch'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 144,
@@ -3060,7 +3071,7 @@
     "contiguous_runs": 56,
     "span_fraction": 1.0
    },
-   "seconds": 208.3
+   "seconds": 191.8
   },
   {
    "granule_ur": "OPERA_L2_CSLC-S1_T151-322284-IW1_20260615T005616Z_20260811T182842Z_S1A_VV_v1.1",
@@ -6039,6 +6050,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 403 on 'slant_range' and length 109 on {'phony_dim_0': 'azimuth_fm_rate_mismatch', 'phony_dim_1': 'azimuth_fm_rate_mismatch'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -6048,7 +6069,7 @@
     "contiguous_runs": 55,
     "span_fraction": 1.0
    },
-   "seconds": 182.2
+   "seconds": 182.6
   }
  ]
 }

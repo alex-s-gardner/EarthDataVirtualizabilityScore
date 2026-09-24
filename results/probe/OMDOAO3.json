@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA/GSFC/SED/ESD/TISL/GESDISC",
  "short_name": "OMDOAO3",
+ "sample_digest": "086e958d737833e4",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -33,9 +34,9 @@
      "dims": [
       "scanline"
      ],
-     "n_chunks": 0,
-     "chunk_bytes_median": null,
-     "chunk_bytes_max": null,
+     "n_chunks": 1575,
+     "chunk_bytes_median": 433791697005,
+     "chunk_bytes_max": 523986010233,
      "cf": {},
      "grid": {}
     },
@@ -2049,6 +2050,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -2058,7 +2067,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.1111111111111111
    },
-   "seconds": 6.7
+   "seconds": 16.9
   },
   {
    "granule_ur": "OMDOAO3.004:OMI-Aura_L2-OMDOAO3_2004m1001t020406-o001133_v004-2024m1126t005537.nc",
@@ -4100,6 +4109,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 1,
@@ -4108,7 +4125,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.1111111111111111
    },
-   "seconds": 6.8
+   "seconds": 17.3
   },
   {
    "granule_ur": "OMDOAO3.004:OMI-Aura_L2-OMDOAO3_2009m0222t004029-o024505_v004-2024m1127t171433.nc",
@@ -6150,6 +6167,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 1,
@@ -6158,7 +6183,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.1111111111111111
    },
-   "seconds": 6.8
+   "seconds": 15.5
   },
   {
    "granule_ur": "OMDOAO3.004:OMI-Aura_L2-OMDOAO3_2013m0715t232507-o047877_v004-2024m1128t193228.nc",
@@ -8200,6 +8225,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 1,
@@ -8208,7 +8241,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.1111111111111111
    },
-   "seconds": 6.9
+   "seconds": 15.6
   },
   {
    "granule_ur": "OMDOAO3.004:OMI-Aura_L2-OMDOAO3_2017m1208t150326-o071274_v004-2026m0423t144813.nc",
@@ -8234,9 +8267,9 @@
      "dims": [
       "scanline"
      ],
-     "n_chunks": 0,
-     "chunk_bytes_median": null,
-     "chunk_bytes_max": null,
+     "n_chunks": 1575,
+     "chunk_bytes_median": 433791697005,
+     "chunk_bytes_max": 523986010233,
      "cf": {},
      "grid": {}
     },
@@ -10250,6 +10283,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 1,
@@ -10258,7 +10299,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.1111111111111111
    },
-   "seconds": 6.6
+   "seconds": 16.1
   },
   {
    "granule_ur": "OMDOAO3.004:OMI-Aura_L2-OMDOAO3_2022m0501t004350-o094638_v004-2024m1201t010516.nc",
@@ -12300,6 +12341,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 1,
@@ -12308,7 +12357,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.1111111111111111
    },
-   "seconds": 6.8
+   "seconds": 16.3
   },
   {
    "granule_ur": "OMDOAO3.004:OMI-Aura_L2-OMDOAO3_2026m0922t093448-o118047_v004-2026m0922t203524.nc",
@@ -14350,6 +14399,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 1,
@@ -14358,7 +14415,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.1111111111111111
    },
-   "seconds": 6.9
+   "seconds": 15.6
   },
   {
    "granule_ur": "OMDOAO3.004:OMI-Aura_L2-OMDOAO3_2026m0922t111323-o118048_v004-2026m0922t203526.nc",
@@ -16400,6 +16457,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -16409,7 +16474,7 @@
     "contiguous_runs": 1,
     "span_fraction": 0.1111111111111111
    },
-   "seconds": 6.8
+   "seconds": 16.4
   }
  ]
 }

@@ -5,6 +5,7 @@
  "format": "HDF-EOS",
  "daac": "NASA/GSFC/SED/ESD/HBSL/BISB/LAADS",
  "short_name": "MYD04_L2",
+ "sample_digest": "2ec50a8473f3e267",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -18,11 +19,12 @@
    "dmrpp": false,
    "container": "hdf4",
    "parsed_locally": true,
+   "cached_locally": false,
    "ok": false,
    "error_type": "ValueError",
    "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
    "traceback_tail": "  File \"<env>/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
-   "seconds": 4.4
+   "seconds": 5.2
   },
   {
    "granule_ur": "LAADS:2949179258",
@@ -33,11 +35,12 @@
    "dmrpp": false,
    "container": "hdf4",
    "parsed_locally": true,
+   "cached_locally": false,
    "ok": false,
    "error_type": "ValueError",
    "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
    "traceback_tail": "  File \"<env>/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
-   "seconds": 4.5
+   "seconds": 5.1
   },
   {
    "granule_ur": "LAADS:3041045009",
@@ -48,11 +51,12 @@
    "dmrpp": false,
    "container": "hdf4",
    "parsed_locally": true,
+   "cached_locally": false,
    "ok": false,
    "error_type": "ValueError",
    "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
    "traceback_tail": "  File \"<env>/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
-   "seconds": 3.8
+   "seconds": 5.0
   },
   {
    "granule_ur": "LAADS:3038685828",
@@ -63,11 +67,12 @@
    "dmrpp": false,
    "container": "hdf4",
    "parsed_locally": true,
+   "cached_locally": false,
    "ok": false,
    "error_type": "ValueError",
    "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
    "traceback_tail": "  File \"<env>/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
-   "seconds": 6.1
+   "seconds": 4.3
   },
   {
    "granule_ur": "LAADS:3022483917",
@@ -78,11 +83,12 @@
    "dmrpp": false,
    "container": "hdf4",
    "parsed_locally": true,
+   "cached_locally": false,
    "ok": false,
    "error_type": "ValueError",
    "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
    "traceback_tail": "  File \"<env>/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
-   "seconds": 8.9
+   "seconds": 3.9
   },
   {
    "granule_ur": "LAADS:6650603218",
@@ -93,11 +99,12 @@
    "dmrpp": false,
    "container": "hdf4",
    "parsed_locally": true,
+   "cached_locally": false,
    "ok": false,
    "error_type": "ValueError",
    "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
    "traceback_tail": "  File \"<env>/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
-   "seconds": 3.9
+   "seconds": 5.0
   },
   {
    "granule_ur": "LAADS:10045318415",
@@ -108,11 +115,12 @@
    "dmrpp": false,
    "container": "hdf4",
    "parsed_locally": true,
+   "cached_locally": false,
    "ok": false,
    "error_type": "ValueError",
    "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
    "traceback_tail": "  File \"<env>/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
-   "seconds": 3.7
+   "seconds": 4.1
   },
   {
    "granule_ur": "LAADS:10045317242",
@@ -123,11 +131,12 @@
    "dmrpp": false,
    "container": "hdf4",
    "parsed_locally": true,
+   "cached_locally": false,
    "ok": false,
    "error_type": "ValueError",
    "error": "`dimension_names` and `shape` need to have the same number of dimensions.",
    "traceback_tail": "  File \"<env>/lib/python3.14/site-packages/zarr/core/metadata/v3.py\", line 565, in _validate_metadata\n    raise ValueError(\n        \"`dimension_names` and `shape` need to have the same number of dimensions.\"\n    )\nValueError: `dimension_names` and `shape` need to have the same number of dimensions.\n",
-   "seconds": 3.6
+   "seconds": 4.2
   }
  ]
 }

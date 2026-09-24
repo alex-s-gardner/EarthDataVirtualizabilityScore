@@ -5,6 +5,7 @@
  "format": "NetCDF",
  "daac": "NASA/GSFC/SED/ESD/TISL/GESDISC",
  "short_name": "OCO2_L2_Lite_FP",
+ "sample_digest": "7e478129b29e9385",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -3484,6 +3485,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "corrupt buffer, data seem truncated"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "corrupt buffer, data seem truncated"
+    }
+   },
    "coords": {
     "latitude": {
      "n": 146539,
@@ -3518,7 +3531,7 @@
     "contiguous_runs": 7,
     "span_fraction": 1.0175438596491229
    },
-   "seconds": 152.6
+   "seconds": 176.6
   },
   {
    "granule_ur": "OCO2_L2_Lite_FP.11.3r:oco2_LtCO2_240102_B11300Ar_260528180339s.nc4",
@@ -6995,6 +7008,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "corrupt buffer, data seem truncated"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "corrupt buffer, data seem truncated"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 43,
@@ -7003,7 +7028,7 @@
     "contiguous_runs": 7,
     "span_fraction": 1.0178571428571428
    },
-   "seconds": 105.5
+   "seconds": 141.3
   },
   {
    "granule_ur": "OCO2_L2_Lite_FP.11.3r:oco2_LtCO2_240405_B11300Ar_260528210135s.nc4",
@@ -10480,6 +10505,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "corrupt buffer, data seem truncated"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "corrupt buffer, data seem truncated"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 47,
@@ -10488,7 +10525,7 @@
     "contiguous_runs": 8,
     "span_fraction": 1.0158730158730158
    },
-   "seconds": 121.6
+   "seconds": 144.2
   },
   {
    "granule_ur": "OCO2_L2_Lite_FP.11.3r:oco2_LtCO2_260727_B11300Ar_260824193619s.nc4",
@@ -13965,6 +14002,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "corrupt buffer, data seem truncated"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "corrupt buffer, data seem truncated"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 42,
@@ -13973,7 +14022,7 @@
     "contiguous_runs": 6,
     "span_fraction": 1.0185185185185186
    },
-   "seconds": 106.4
+   "seconds": 145.6
   },
   {
    "granule_ur": "OCO2_L2_Lite_FP.11.3r:oco2_LtCO2_260728_B11300Ar_260824193629s.nc4",
@@ -17450,6 +17499,18 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "corrupt buffer, data seem truncated"
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "corrupt buffer, data seem truncated"
+    }
+   },
    "coords": {
     "latitude": {
      "n": 37333,
@@ -17484,7 +17545,7 @@
     "contiguous_runs": 1,
     "span_fraction": 1.0666666666666667
    },
-   "seconds": 68.0
+   "seconds": 111.1
   }
  ]
 }

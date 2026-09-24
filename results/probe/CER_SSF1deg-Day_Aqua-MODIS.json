@@ -5,6 +5,7 @@
  "format": "HDF4",
  "daac": "NASA/LARC/SD/ASDC",
  "short_name": "CER_SSF1deg-Day_Aqua-MODIS",
+ "sample_digest": "8e44a267b7b08f03",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -22,7 +23,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
    "traceback_tail": "n3.14/site-packages/kerchunk/hdf4.py\", line 371, in _dec_version\n    \"string:\": _null_str(self.f.read(info[\"length\"] - 10).decode()),\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte\n",
-   "seconds": 51.7
+   "seconds": 36.6
   },
   {
    "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.200208",
@@ -37,7 +38,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
    "traceback_tail": "n3.14/site-packages/kerchunk/hdf4.py\", line 371, in _dec_version\n    \"string:\": _null_str(self.f.read(info[\"length\"] - 10).decode()),\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte\n",
-   "seconds": 43.0
+   "seconds": 46.8
   },
   {
    "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_400405.200705",
@@ -50,7 +51,7 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "granule is 927 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
-   "traceback_tail": "\", line 449, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 927 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "traceback_tail": "\", line 528, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 927 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
    "seconds": 2.4
   },
   {
@@ -64,8 +65,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "granule is 914 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
-   "traceback_tail": "\", line 449, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 914 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
-   "seconds": 2.4
+   "traceback_tail": "\", line 528, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 914 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "seconds": 2.2
   },
   {
    "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_403405.201701",
@@ -78,8 +79,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "granule is 898 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
-   "traceback_tail": "\", line 449, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 898 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
-   "seconds": 3.1
+   "traceback_tail": "\", line 528, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 898 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "seconds": 2.4
   },
   {
    "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_406406.202111",
@@ -92,8 +93,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "granule is 884 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
-   "traceback_tail": "\", line 449, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 884 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
-   "seconds": 2.5
+   "traceback_tail": "\", line 528, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 884 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "seconds": 2.6
   },
   {
    "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_407407.202301",
@@ -106,8 +107,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "granule is 897 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers",
-   "traceback_tail": "\", line 449, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 897 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
-   "seconds": 2.5
+   "traceback_tail": "\", line 528, in _read_layout\n    raise ValueError(\n        f\"granule is {rec['file_bytes'] / 1e6:.0f} MB; above the \"\n        f\"{DOWNLOAD_CAP / 1e6:.0f} MB copy-to-disk limit for kerchunk-backed parsers\")\nValueError: granule is 897 MB; above the 839 MB copy-to-disk limit for kerchunk-backed parsers\n",
+   "seconds": 2.2
   },
   {
    "granule_ur": "CER_SSF1deg-Day_Aqua-MODIS_Edition4A_407407.202302",
@@ -122,7 +123,7 @@
    "error_type": "UnicodeDecodeError",
    "error": "'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte",
    "traceback_tail": "n3.14/site-packages/kerchunk/hdf4.py\", line 371, in _dec_version\n    \"string:\": _null_str(self.f.read(info[\"length\"] - 10).decode()),\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xc3 in position 80: invalid continuation byte\n",
-   "seconds": 41.9
+   "seconds": 40.5
   }
  ]
 }

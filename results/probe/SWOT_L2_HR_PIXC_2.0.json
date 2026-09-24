@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA/JPL/PODAAC",
  "short_name": "SWOT_L2_HR_PIXC_2.0",
+ "sample_digest": "ea4ec7ac78b64320",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -2357,6 +2358,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "pixel_cloud/latitude": {
      "n": 402169,
@@ -2403,7 +2412,7 @@
     "contiguous_runs": 7,
     "span_fraction": 1.0294117647058822
    },
-   "seconds": 102.7
+   "seconds": 106.8
   },
   {
    "granule_ur": "SWOT_L2_HR_PIXC_027_166_299L_20250119T152422_20250119T152423_PIC2_01",
@@ -4753,6 +4762,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 30,
@@ -4761,7 +4778,7 @@
     "contiguous_runs": 7,
     "span_fraction": 1.0285714285714285
    },
-   "seconds": 59.2
+   "seconds": 72.5
   },
   {
    "granule_ur": "SWOT_L2_HR_PIXC_030_166_299L_20250323T053936_20250323T053937_PIC2_01",
@@ -7111,6 +7128,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 31,
@@ -7119,7 +7144,7 @@
     "contiguous_runs": 6,
     "span_fraction": 1.0285714285714285
    },
-   "seconds": 63.3
+   "seconds": 74.3
   },
   {
    "granule_ur": "SWOT_L2_HR_PIXC_031_166_299L_20250413T022441_20250413T022442_PIC2_01",
@@ -9469,6 +9494,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 28,
@@ -9477,7 +9510,7 @@
     "contiguous_runs": 6,
     "span_fraction": 1.03125
    },
-   "seconds": 55.9
+   "seconds": 68.4
   },
   {
    "granule_ur": "SWOT_L2_HR_PIXC_032_166_299L_20250503T230945_20250503T230946_PIC2_01",
@@ -11827,6 +11860,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "pixel_cloud/latitude": {
      "n": 386222,
@@ -11873,7 +11914,7 @@
     "contiguous_runs": 6,
     "span_fraction": 1.0303030303030303
    },
-   "seconds": 90.5
+   "seconds": 130.2
   }
  ]
 }

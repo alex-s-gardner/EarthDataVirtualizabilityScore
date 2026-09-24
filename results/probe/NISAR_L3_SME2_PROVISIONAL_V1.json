@@ -5,6 +5,7 @@
  "format": "HDF5+XML+YAML",
  "daac": "ASF",
  "short_name": "NISAR_L3_SME2_PROVISIONAL_V1",
+ "sample_digest": "12d2b850dc1bd286",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -2294,6 +2295,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 1755 on 'EASEGridRowIndex' and length 1845 on {'phony_dim_0': 'EASEGridColumnIndex'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -2303,7 +2314,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.045454545454545456
    },
-   "seconds": 5.9
+   "seconds": 5.1
   },
   {
    "granule_ur": "NISAR_L3_PR_SME2_006_004_A_018_4005_DHDH_A_20251122T111119_20251122T111153_P05023_N_F_J_001",
@@ -4590,6 +4601,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 1755 on 'EASEGridRowIndex' and length 1845 on {'phony_dim_0': 'EASEGridColumnIndex'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 2,
@@ -4598,7 +4619,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.03488372093023256
    },
-   "seconds": 5.3
+   "seconds": 4.8
   },
   {
    "granule_ur": "NISAR_L3_PR_SME2_010_004_A_018_4005_DHDH_A_20260109T111121_20260109T111156_P05023_N_F_J_001",
@@ -7575,6 +7596,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 1755 on 'EASEGridRowIndex' and length 1845 on {'phony_dim_0': 'EASEGridColumnIndex'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 2,
@@ -7583,7 +7614,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.02459016393442623
    },
-   "seconds": 5.8
+   "seconds": 5.3
   },
   {
    "granule_ur": "NISAR_L3_PR_SME2_015_004_A_018_4005_DHDH_A_20260310T111123_20260310T111158_P05023_N_F_J_001",
@@ -10560,6 +10591,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 1755 on 'EASEGridRowIndex' and length 1845 on {'phony_dim_0': 'EASEGridColumnIndex'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 2,
@@ -10568,7 +10609,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.024193548387096774
    },
-   "seconds": 5.2
+   "seconds": 6.0
   },
   {
    "granule_ur": "NISAR_L3_PR_SME2_021_004_A_018_4005_DHDH_A_20260521T111122_20260521T111157_P05023_N_F_J_001",
@@ -13545,6 +13586,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 1755 on 'EASEGridRowIndex' and length 1845 on {'phony_dim_0': 'EASEGridColumnIndex'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 2,
@@ -13553,7 +13604,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.024193548387096774
    },
-   "seconds": 5.7
+   "seconds": 6.0
   },
   {
    "granule_ur": "NISAR_L3_PR_SME2_026_004_A_018_4005_DHDH_A_20260720T111118_20260720T111153_P05023_N_F_J_001",
@@ -16155,6 +16206,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 1755 on 'EASEGridRowIndex' and length 1845 on {'phony_dim_0': 'EASEGridColumnIndex'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 2,
@@ -16163,7 +16224,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.027777777777777776
    },
-   "seconds": 5.2
+   "seconds": 5.9
   },
   {
    "granule_ur": "NISAR_L3_PR_SME2_030_004_A_018_4005_DHDH_A_20260906T111117_20260906T111152_P05023_N_F_J_001",
@@ -19140,6 +19201,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 1755 on 'EASEGridRowIndex' and length 1845 on {'phony_dim_0': 'EASEGridColumnIndex'}"
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 2,
@@ -19148,7 +19219,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.024193548387096774
    },
-   "seconds": 5.5
+   "seconds": 6.3
   },
   {
    "granule_ur": "NISAR_L3_PR_SME2_031_004_A_018_4005_DHDH_A_20260918T111117_20260918T111152_P05023_F_F_J_001",
@@ -22125,6 +22196,16 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": false,
+     "error_type": "ValueError",
+     "error": "conflicting sizes for dimension 'phony_dim_0': length 1755 on 'EASEGridRowIndex' and length 1845 on {'phony_dim_0': 'EASEGridColumnIndex'}"
+    }
+   },
    "coords": {},
    "ok": true,
    "locality": {
@@ -22134,7 +22215,7 @@
     "contiguous_runs": 2,
     "span_fraction": 0.024193548387096774
    },
-   "seconds": 7.1
+   "seconds": 6.7
   }
  ]
 }

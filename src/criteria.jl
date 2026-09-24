@@ -123,8 +123,6 @@ struct Verdict
     note::String
 end
 
-ok(v::Verdict) = v.status === :yes
-
 """
     opened(probes) -> Vector
 
@@ -208,6 +206,37 @@ be evaluated on.
 comparable(ranked, recs) = [n for n in ranked if length(get(recs, n, [])) >= 2]
 
 """
+    universal(probes, ranked, recs) -> Vector{String}
+
+The arrays every opened granule carries, largest first.
+
+An array missing from some granules is missing from part of the cube: a Zarr array serves the fill
+value where no chunk is mapped, so the combination holds the array over the granules that have it and
+nothing over the rest.
+"""
+function universal(probes, ranked, recs)
+    n_opened = length(opened(probes))
+    return [n for n in ranked if length(get(recs, n, [])) == n_opened]
+end
+
+"""
+    principal(probes, ranked, recs) -> Union{String,Nothing}
+
+The array the cross-granule criteria turn on and the table reports: the largest that appears in at
+least two opened granules.
+
+This is the array a user of the cube meets, and it is the one every verdict has to be read against.
+Falling back to the largest array overall covers a collection whose granules share none, where there
+is no cross-granule measurement to report but the layout of one granule is still worth stating.
+"""
+function principal(probes, ranked, recs)
+    cmp = comparable(ranked, recs)
+    isempty(cmp) || return first(cmp)
+    isempty(ranked) && return nothing
+    return first(ranked)
+end
+
+"""
     chunks_of(v) -> Vector{Int}
 
 An array's internal chunk shape, or its full shape where the array is stored contiguously.
@@ -226,16 +255,20 @@ end
 
 Whether a granule failed in the network rather than in the file.
 
-A dropped connection, a refused request, a bucket that denies the credential, and a host that will
-not serve a range request all say nothing about how the granule was written, so they are excluded from
-the parse verdict instead of being graded as blocking features.
+A dropped connection, a refused request, a bucket that denies the credential, a credential that has
+expired, and a host that will not serve a range request all say nothing about how the granule was
+written, so they are excluded from the parse verdict instead of being graded as blocking features. An
+expired credential is the one to watch: a run long enough to outlive its Earthdata Login token would
+otherwise record every granule after that moment as a file the reader refused.
 """
 function transport_failure(probe)
     get(probe, :ok, false) && return false
     et = String(get(probe, :error_type, ""))
     m = String(get(probe, :error, ""))
-    return et in ("GenericError", "ConnectionError", "TimeoutError", "PermissionDeniedError") ||
+    return et in ("GenericError", "ConnectionError", "TimeoutError", "PermissionDeniedError",
+                  "UnauthenticatedError") ||
            occursin("Generic HTTP error", m) || occursin("error sending request", m) ||
+           occursin("lacked valid authentication credentials", m) ||
            occursin("Range request not supported", m)
 end
 
@@ -384,6 +417,36 @@ function unopened_reason(probes)
 end
 
 """
+    disagreement(id, vars, recs, value, render, what) -> Union{Verdict,Nothing}
+
+The verdict for a property that must be identical across granules, or `nothing` when it is.
+
+A Zarr array declares one chunk shape, one data type, and one codec chain and applies each to every
+chunk, so H2, H4, and H5 all ask the same question of a different property and answer it the same way.
+All three turn on the principal variable: where it agrees a cube over it is available whatever the
+smaller variables do, and the offender count says how much of the rest needs rewriting. `value` reads
+the property from one granule's record, `render` puts one of its values into the evidence, and `what`
+names it. Each value is read once per granule rather than once per comparison that needs it.
+"""
+function disagreement(id, vars, recs, value, render, what)
+    offenders = String[]
+    distinct = Dict{String,Any}()
+    for n in vars
+        vals = unique(value(v) for v in recs[n])
+        length(vals) > 1 || continue
+        push!(offenders, n)
+        distinct[n] = vals
+    end
+    isempty(offenders) && return nothing
+    worst = first(offenders)
+    ev = "$(length(offenders)) of $(length(vars)) variables — $worst: " *
+         join((render(x) for x in distinct[worst]), " vs ")
+    first(vars) in offenders && return Verdict(id, :no, "$what differs across granules ($ev)")
+    return Verdict(id, :partial, "$what differs for smaller variables ($ev); " *
+                                 "$(first(vars)) is stable, so a cube over it is available")
+end
+
+"""
     chunk_stability(probes, ranked, recs) -> Verdict
 
 Criterion H2: whether every opened granule uses the same internal chunk shape for each variable.
@@ -398,9 +461,8 @@ function chunk_stability(probes, ranked, recs, grid)
     cmp = comparable(ranked, recs)
     isempty(cmp) && return Verdict("H2", :unmeasured,
                                    "no data array appears in two opened granules")
-    shapes_of(n) = unique([chunks_of(v) for v in recs[n]])
-    offenders = [n for n in cmp if length(shapes_of(n)) > 1]
-    if isempty(offenders)
+    differs = disagreement("H2", cmp, recs, chunks_of, string, "chunk shape")
+    if isnothing(differs)
         ev = "one chunk shape per variable across $(length(cmp)) variables in " *
              "$(length(opened(probes))) granules"
         # A granule stored as a single chunk spanning its whole array pins the cube's chunk shape to
@@ -420,12 +482,138 @@ function chunk_stability(probes, ranked, recs, grid)
         end
         return Verdict("H2", :yes, ev)
     end
-    worst = first(offenders)
-    ev = "$(length(offenders)) of $(length(cmp)) variables — $worst: " *
-         join(string.(shapes_of(worst)), " vs ")
-    first(cmp) in offenders && return Verdict("H2", :no, "chunk shape differs across granules ($ev)")
-    return Verdict("H2", :partial, "chunk shape differs for smaller variables ($ev); " *
-                                   "$(first(cmp)) is stable, so a cube over it is available")
+    return differs
+end
+
+"""
+    dtype_stability(probes, ranked, recs) -> Verdict
+
+Criterion H4: whether every opened granule stores each variable in the same data type.
+
+A Zarr array declares one data type for the whole array, so a variable written as packed integers in
+one granule and as floats in another cannot be one array however its chunks are shaped. The verdict
+turns on the principal variable, as H2's does: when it is stable a cube over it is available, and the
+offender count says how much of the rest needs rewriting.
+"""
+function dtype_stability(probes, ranked, recs)
+    isempty(opened(probes)) && return Verdict("H4", :unmeasured, "no granule opened")
+    cmp = comparable(ranked, recs)
+    isempty(cmp) && return Verdict("H4", :unmeasured,
+                                   "no data array appears in two opened granules")
+    differs = disagreement("H4", cmp, recs, v -> String(v.dtype), identity, "dtype")
+    isnothing(differs) || return differs
+    return Verdict("H4", :yes, "one dtype per variable across $(length(cmp)) variables")
+end
+
+"""
+    codecs_of(v) -> Vector{String}
+
+The codec chain one array's chunks are stored under, outermost first.
+"""
+function codecs_of(v)
+    cs = get(v, :codecs, nothing)
+    isnothing(cs) && return String[]
+    return String[String(c) for c in cs]
+end
+
+"""
+    codec_stability(probes, ranked, recs) -> Verdict
+
+Criterion H5: whether every opened granule stores each variable under the same codec chain.
+
+A Zarr array declares one codec chain and every chunk is decoded with it, so chunks compressed
+differently cannot belong to one array. A producer who adds a shuffle filter or turns compression on
+mid-record splits the archive into two cubes at that point, and the change is invisible in the
+catalog.
+"""
+function codec_stability(probes, ranked, recs)
+    isempty(opened(probes)) && return Verdict("H5", :unmeasured, "no granule opened")
+    cmp = comparable(ranked, recs)
+    isempty(cmp) && return Verdict("H5", :unmeasured,
+                                   "no data array appears in two opened granules")
+    # An array whose codec chain was not recorded says nothing about the archive, so a variable needs
+    # two recorded chains before its stability is a measurement rather than an absence.
+    recorded = Dict(n => [c for c in (codecs_of(v) for v in recs[n]) if !isempty(c)] for n in cmp)
+    measurable = [n for n in cmp if length(recorded[n]) >= 2]
+    isempty(measurable) && return Verdict("H5", :unmeasured,
+                                          "no codec chain recorded for two granules of one variable")
+    differs = disagreement("H5", measurable, recorded, identity, c -> join(c, "+"), "codec chain")
+    isnothing(differs) || return differs
+    return Verdict("H5", :yes, "one codec chain per variable across $(length(measurable)) variables")
+end
+
+"""
+    variable_coverage(probes, ranked, recs) -> Verdict
+
+Criterion V: whether every opened granule carries the same set of data arrays.
+
+A Zarr array serves its fill value wherever no chunk is mapped, so a variable some granules omit does
+not stop a store being built — it makes the cube hold that variable over part of its record and
+nothing over the rest. Where the omission is the product renaming its measurement per platform, no
+single array spans the record at all, and a user assembling the full series has to combine several.
+"""
+function variable_coverage(probes, ranked, recs)
+    good = opened(probes)
+    length(good) < 2 && return Verdict("V", :unmeasured, "fewer than two granules opened")
+    isempty(ranked) && return Verdict("V", :unmeasured, "no data array recorded")
+    uni = universal(probes, ranked, recs)
+    n = length(ranked)
+    length(uni) == n &&
+        return Verdict("V", :yes, "all $n data arrays appear in every one of the " *
+                                  "$(length(good)) granules opened")
+    shared = Set(uni)
+    absent = [x for x in ranked if !(x in shared)]
+    worst = first(absent)
+    ev = "$(length(absent)) of $n data arrays are absent from at least one of the " *
+         "$(length(good)) granules opened — $worst appears in $(length(recs[worst]))"
+    isempty(uni) &&
+        return Verdict("V", :no, "no data array appears in every granule, so no single array spans " *
+                                 "the sampled record — " * ev)
+    return Verdict("V", :partial, ev * ", while $(first(uni)) spans the sample, so a cube over it " *
+                                       "is available")
+end
+
+"""
+    materializes(probes) -> Verdict
+
+Criterion M: whether a store the parser built becomes an `xarray` object.
+
+Building a `ManifestStore` and materializing it are separate steps, and a hierarchical granule can pass
+the first and fail the second: `xarray` refuses to flatten groups whose dimensions disagree, while the
+same store opens as a `DataTree`. Recording the two apart separates a granule nothing reads from one
+only a flat reader cannot read.
+
+This is a property of the readers, not of the archive, so it is reported beside the grade rather than
+folded into it — the same line the `F`/`F*` split draws. A store that holds a chunk manifest can be
+committed to a virtual store whatever `xarray` does with it today.
+"""
+function materializes(probes)
+    good = opened(probes)
+    isempty(good) && return Verdict("M", :unmeasured, "no granule opened")
+    recorded = [p.materialize for p in good if haskey(p, :materialize) && !isnothing(p.materialize)]
+    isempty(recorded) && return Verdict("M", :unmeasured, "not recorded for this collection")
+    ok(m, key) = haskey(m, key) && get(m[key], :ok, false)
+    n = length(recorded)
+    n_ds = count(m -> ok(m, :dataset), recorded)
+    n_dt = count(m -> ok(m, :datatree), recorded)
+    n_ds == n && return Verdict("M", :yes, "every one of $n stores opened as an xarray Dataset")
+    why = ""
+    for m in recorded
+        if !ok(m, :dataset) && haskey(m, :dataset)
+            why = " — " * first(String(get(m[:dataset], :error, "")), 120)
+            break
+        end
+    end
+    n_dt == n && return Verdict("M", :partial,
+                                "$(n - n_ds) of $n stores will not flatten into one Dataset but " *
+                                "every one opens as a DataTree, so the granule is readable as a " *
+                                "tree rather than as a flat cube" * why)
+    n_ds == 0 && n_dt == 0 &&
+        return Verdict("M", :no, (n == 1 ? "the store opens as neither an xarray Dataset nor a " *
+                                           "DataTree" :
+                                  "none of the $n stores opens as either an xarray Dataset or a " *
+                                  "DataTree") * why)
+    return Verdict("M", :partial, "$n_ds of $n stores open as a Dataset and $n_dt as a DataTree" * why)
 end
 
 """
@@ -827,6 +1015,29 @@ function cf_value(v, key)
 end
 
 """
+    time_epochs(probes) -> Dict{String,Vector{String}}
+
+The `units` attribute of each time array, one entry per opened granule that declares it.
+
+A CF time axis states its epoch and its step inside `units`, so this attribute is what turns the
+stored numbers into dates. Arrays in a group the producer set aside for metadata are excluded: an
+orbit-attitude timestamp is not the axis a cube is ordered by.
+"""
+function time_epochs(probes)
+    per = Dict{String,Vector{String}}()
+    for p in opened(probes), v in p.vars
+        is_metadata(v.name) && continue
+        time_named(rsplit_leaf(v.name)) || continue
+        cf = get(v, :cf, nothing)
+        isnothing(cf) && continue
+        u = get(cf, :units, nothing)
+        isnothing(u) && continue
+        push!(get!(per, String(v.name), String[]), string(u))
+    end
+    return per
+end
+
+"""
     cf_stability(probes, ranked, recs) -> Verdict
 
 Criterion S1: whether CF decoding attributes agree across granules.
@@ -835,6 +1046,10 @@ A mismatch is the quiet failure: VirtualiZarr drops the conflicting attribute an
 granule's encoding to every chunk, so the cube reads without error and returns wrong values. Only a
 difference in what a decoder would compute counts, so an absent `scale_factor` compares equal to a
 stated 1.
+
+On a data variable `units` names what the numbers measure and a difference mislabels the cube without
+moving a value. On a time axis it carries the epoch the numbers count from, so a difference there
+changes every date the combined axis decodes to and is graded with the attributes that do.
 """
 function cf_stability(probes, ranked, recs)
     isempty(opened(probes)) && return Verdict("S1", :unmeasured, "no granule opened")
@@ -847,8 +1062,21 @@ function cf_stability(probes, ranked, recs)
         length(vals) > 1 || continue
         push!(key === :units ? labelling : decoding, "$name.$key: " * join(vals, " vs "))
     end
+    # A per-granule epoch produces one distinct value per granule, so the count is the finding and the
+    # extremes are enough to show what it costs; listing all of them would fill the column.
+    epochs = String[]
+    for (name, u) in sort(collect(time_epochs(probes)))
+        vals = sort(unique(u))
+        length(vals) > 1 || continue
+        push!(epochs, "$name.units: $(length(vals)) distinct epochs, " *
+                      first(vals) * " through " * last(vals))
+    end
     isempty(decoding) ||
         return Verdict("S1", :no, "attributes that change decoded values differ — " * first(decoding))
+    isempty(epochs) ||
+        return Verdict("S1", :no, "the time axis counts from a different epoch in different " *
+                                  "granules, so the combined axis decodes every granule against the " *
+                                  "first one's — " * first(epochs))
     isempty(labelling) ||
         return Verdict("S1", :partial, "units differ but no attribute that changes a decoded value " *
                                        "does, so the cube is mislabelled rather than wrong — " *
@@ -885,15 +1113,14 @@ function stored_bytes(v)
     isnothing(w) && return b
     chunk = chunks_of(v)
     isempty(chunk) && return b
-    codecs = String.(something(get(v, :codecs, nothing), String[]))
-    any(c -> occursin("Zlib", c) || occursin("Deflate", c), codecs) || return b
+    any(c -> occursin("Zlib", c) || occursin("Deflate", c), codecs_of(v)) || return b
     return b * DEFLATE_MAX_RATIO < prod(chunk) * w ? nothing : b
 end
 
 """
     chunk_size_verdict(probes, ranked, recs) -> Verdict
 
-Criterion P-sz: whether reading the cube's largest variable costs one get-request per useful amount
+Criterion P-sz: whether reading the cube's principal variable costs one get-request per useful amount
 of data.
 
 Two things set that cost and they are measured separately: how many chunks the array is divided
@@ -904,8 +1131,8 @@ the array is also divided into many of them.
 """
 function chunk_size_verdict(probes, ranked, recs)
     isempty(opened(probes)) && return Verdict("P-sz", :unmeasured, "no granule opened")
-    isempty(ranked) && return Verdict("P-sz", :unmeasured, "no data array recorded")
-    name = first(ranked)
+    name = principal(probes, ranked, recs)
+    isnothing(name) && return Verdict("P-sz", :unmeasured, "no data array recorded")
     vs = get(recs, name, [])
     sizes = [b for b in stored_bytes.(vs) if !isnothing(b)]
     isempty(sizes) && return Verdict("P-sz", :unmeasured,
@@ -928,22 +1155,30 @@ An A–F grade for one collection, or `U` where the probe could not measure it, 
 decided it.
 
 The ordering is by what a user hits first: a parser refusal or a format with no parser makes
-virtualization impossible; inconsistent chunk shapes or an interior partial chunk make it impossible
-without rewriting bytes; silently inconsistent CF attributes make it dangerous; scattered metadata
-and tiny chunks make it merely slow. `A` claims measured properties, so a criterion the probe could
-not evaluate keeps a collection out of it rather than passing by default.
+virtualization impossible; a chunk shape, dtype, or codec chain that changes between granules, or an
+interior partial chunk, makes it impossible without rewriting bytes; silently inconsistent CF
+attributes make it dangerous; scattered metadata and tiny chunks make it merely slow. `A` claims
+measured properties, so a criterion the probe could not evaluate keeps a collection out of it rather
+than passing by default.
 """
 function grade(vs)
     vs.parse.status === :unmeasured && return ("U", "$(vs.parse.id): $(vs.parse.note)")
     vs.parse.status === :no && return ("F", "$(vs.parse.id): $(vs.parse.note)")
     vs.chunks.status === :no && return ("D", "$(vs.chunks.id): $(vs.chunks.note)")
+    vs.dtypes.status === :no && return ("D", "$(vs.dtypes.id): $(vs.dtypes.note)")
+    vs.codecs.status === :no && return ("D", "$(vs.codecs.id): $(vs.codecs.note)")
     vs.concat.status === :no && return ("D", "$(vs.concat.id): $(vs.concat.note)")
     vs.cf.status === :no && return ("C", "$(vs.cf.id): $(vs.cf.note)")
     vs.concat.status === :partial && return ("C", "$(vs.concat.id): $(vs.concat.note)")
     vs.parse.status === :partial && return ("C", "$(vs.parse.id): $(vs.parse.note)")
 
+    # Metadata locality and chunk size are costs, so `partial` on either is an adequate measurement.
+    # Every other criterion states a property the cube either has or does not, and `A` claims it was
+    # measured and held.
     measured = vs.locality.status in (:yes, :partial) && vs.size.status in (:yes, :partial)
-    if vs.grid.status === :yes && measured && vs.time.status === :yes && vs.chunks.status === :yes
+    if vs.grid.status === :yes && measured && vs.time.status === :yes &&
+       vs.chunks.status === :yes && vs.dtypes.status === :yes && vs.codecs.status === :yes &&
+       vs.vars.status === :yes && vs.cf.status === :yes
         return ("A", "no blocker")
     end
 
@@ -953,8 +1188,14 @@ function grade(vs)
     reasons = String[]
     say(v) = push!(reasons, "$(v.id): $(v.note)")
     vs.chunks.status === :partial && say(vs.chunks)
+    vs.dtypes.status === :partial && say(vs.dtypes)
+    vs.codecs.status === :partial && say(vs.codecs)
+    vs.vars.status in (:no, :partial) && say(vs.vars)
     vs.chunks.status === :unmeasured && say(vs.chunks)
     vs.concat.status === :unmeasured && say(vs.concat)
+    vs.dtypes.status === :unmeasured && say(vs.dtypes)
+    vs.codecs.status === :unmeasured && say(vs.codecs)
+    vs.vars.status === :unmeasured && say(vs.vars)
     vs.size.status === :unmeasured && say(vs.size)
     vs.locality.status === :unmeasured && say(vs.locality)
     vs.grid.status in (:partial, :unknown, :unmeasured) && say(vs.grid)
@@ -981,13 +1222,21 @@ function assess(rec)
         parse = parse_verdict(probes),
         chunks = chunk_stability(probes, ranked, recs, grid),
         concat = concat_alignment(probes, ranked, recs),
+        dtypes = dtype_stability(probes, ranked, recs),
+        codecs = codec_stability(probes, ranked, recs),
+        vars = variable_coverage(probes, ranked, recs),
         locality = metadata_locality(probes),
         time = time_dimension(probes),
         grid = grid,
         cf = cf_stability(probes, ranked, recs),
         size = chunk_size_verdict(probes, ranked, recs),
+        # Reported beside the grade rather than consulted by it: M measures what the readers do with a
+        # store, where every other criterion measures how the archive was written.
+        materialize = materializes(probes),
     )
     g, blocker = grade(vs)
     return (; vs..., grade = g, blocker, main_vars = ranked,
-            n_comparable = length(comparable(ranked, recs)), records = recs)
+            principal = principal(probes, ranked, recs),
+            n_comparable = length(comparable(ranked, recs)),
+            n_universal = length(universal(probes, ranked, recs)), records = recs)
 end

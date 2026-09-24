@@ -5,6 +5,7 @@
  "format": "HGT",
  "daac": "LP DAAC",
  "short_name": "SRTMGL1",
+ "sample_digest": "6840861108702da7",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -20,8 +21,8 @@
    "ok": false,
    "error_type": "ValueError",
    "error": "no VirtualiZarr parser reads HGT",
-   "traceback_tail": "_granule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 440, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads HGT\n",
-   "seconds": 2.8
+   "traceback_tail": "_granule\n    _read_layout(rec, url, token, log, read_coords)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repo>/scripts/03_probe.py\", line 519, in _read_layout\n    raise ValueError(f\"no VirtualiZarr parser reads {rec['declared_format']}\")\nValueError: no VirtualiZarr parser reads HGT\n",
+   "seconds": 2.6
   }
  ]
 }

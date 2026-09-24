@@ -5,6 +5,7 @@
  "format": "netCDF-4",
  "daac": "NASA/JPL/PODAAC",
  "short_name": "OSCAR_L4_OC_NRT_V2.0",
+ "sample_digest": "ee72170b2e10472a",
  "shims": [
   "hdf5-string-array-attrs"
  ],
@@ -210,6 +211,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "lat": {
      "n": 719,
@@ -232,7 +241,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.032258064516129
    },
-   "seconds": 24.6
+   "seconds": 368.9
   },
   {
    "granule_ur": "oscar_currents_nrt_20210102",
@@ -435,6 +444,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -443,7 +460,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.032258064516129
    },
-   "seconds": 14.1
+   "seconds": 86.9
   },
   {
    "granule_ur": "oscar_currents_nrt_20220223",
@@ -646,6 +663,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -654,7 +679,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.032258064516129
    },
-   "seconds": 14.3
+   "seconds": 76.5
   },
   {
    "granule_ur": "oscar_currents_nrt_20230417",
@@ -857,6 +882,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -865,7 +898,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.032258064516129
    },
-   "seconds": 13.4
+   "seconds": 117.7
   },
   {
    "granule_ur": "oscar_currents_nrt_20240608",
@@ -1068,6 +1101,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -1076,7 +1117,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.032258064516129
    },
-   "seconds": 13.6
+   "seconds": 43.4
   },
   {
    "granule_ur": "oscar_currents_nrt_20250731",
@@ -1279,6 +1320,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -1287,7 +1336,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.032258064516129
    },
-   "seconds": 13.1
+   "seconds": 53.8
   },
   {
    "granule_ur": "oscar_currents_nrt_20260902",
@@ -1490,6 +1539,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "ok": true,
    "locality": {
     "n_blocks": 5,
@@ -1498,7 +1555,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.032258064516129
    },
-   "seconds": 13.7
+   "seconds": 34.8
   },
   {
    "granule_ur": "oscar_currents_nrt_20260903",
@@ -1701,6 +1758,14 @@
     }
    ],
    "root_attrs": {},
+   "materialize": {
+    "dataset": {
+     "ok": true
+    },
+    "datatree": {
+     "ok": true
+    }
+   },
    "coords": {
     "lat": {
      "n": 719,
@@ -1723,7 +1788,7 @@
     "contiguous_runs": 5,
     "span_fraction": 1.032258064516129
    },
-   "seconds": 23.2
+   "seconds": 84.2
   }
  ]
 }
